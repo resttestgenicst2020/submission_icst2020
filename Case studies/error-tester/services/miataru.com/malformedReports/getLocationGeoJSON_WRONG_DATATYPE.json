@@ -1,0 +1,80 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://service.miataru.com/v1/GetLocationGeoJSON/12",
+              "responseBody": "{}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:37:42 GMT"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "X-Powered-By": [
+                  "Express"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "Origin, X-Requested-With, Content-Type, Accept"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491452540"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491452599"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getLocationGeoJSON",
+            "originalParameter": {
+              "parameterName": "deviceID",
+              "sanitizedName": "deviceID",
+              "value": "7b8e6e0ee5296db345162dc2ef652c1350761823"
+            },
+            "parameters": [
+              {
+                "parameterName": "deviceID",
+                "sanitizedName": "deviceID",
+                "value": "12"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getLocationGeoJSON"
+  }
+}

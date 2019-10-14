@@ -1,0 +1,88 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json, text/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://demo.uat.naviplancentral.com/factfinder/api/LifestyleAssetTypes?country\u003d80",
+              "responseBody": "{\"lifestyleAssetTypes\":[]}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "X-AspNet-Version": [
+                  "4.0.30319"
+                ],
+                "X-Powered-By": [
+                  "ASP.NET",
+                  "ARR/3.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:51 GMT"
+                ],
+                "Content-Length": [
+                  "26"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491521052"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491521335"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "lifestyleAssetTypesGetByCountry",
+            "originalParameter": {
+              "parameterName": "country",
+              "sanitizedName": "country",
+              "value": [
+                "UnitedStates"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "country",
+                "sanitizedName": "country",
+                "value": [
+                  "80"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "lifestyleAssetTypesGetByCountry"
+  }
+}

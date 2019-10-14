@@ -1,0 +1,90 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.digitalmedia.hhs.gov/api/v2/resources.json?q\u003d39",
+              "responseBody": "{\"callback\":null,\"meta\":{\"messages\":[],\"pagination\":{\"count\":20,\"currentUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources.json?offset\u003d0\u0026max\u003d20\u0026q\u003d39\u0026format\u003djson\u0026countOverRide\u003d20\u0026totalPageOverride\u003d81\",\"max\":20,\"nextUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources.json?offset\u003d20\u0026max\u003d20\u0026q\u003d39\u0026format\u003djson\u0026countOverRide\u003d20\u0026totalPageOverride\u003d81\",\"offset\":0,\"pageNum\":1,\"previousUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources.json?offset\u003d0\u0026max\u003d20\u0026q\u003d39\u0026format\u003djson\u0026countOverRide\u003d20\u0026totalPageOverride\u003d81\",\"sort\":null,\"total\":1601,\"totalPages\":81},\"status\":200},\"results\":[{\"htmls\":{\"items\":[{\"id\":6636,\"name\":\"Chemical Class - Organophosphates and carbamates\"},{\"id\":14132,\"name\":\"Valentine\u0026#39;s Day Health | CDC Features\"},{\"id\":14180,\"name\":\"Zika Travel Information | Travelers\u0026#39; Health\"},{\"id\":14077,\"name\":\"Smokers\u0026#39; Stories: Five Reasons to Quit | CDC Features\"},{\"id\":4322,\"name\":\"Deje que el bebé determine la fecha de parto: Espere 39 semanas si puede\"},{\"id\":781,\"name\":\"CDC\u0026#39;s Youth Risk Surveys | CDC Features\"},{\"id\":11640,\"name\":\"Prevalence of Chlamydia trachomatis Genital Infection AmongPersons Aged 14-39 Years - United States, 2007-2012\"},{\"id\":6407,\"name\":\"Errata: Vol. 60, No. 39 - November 25, 2011 / 60(46);1588\"},{\"id\":11100,\"name\":\"2008 National Report on Biochemical Indicators of Diet and Nutrition - Table 1.2\"},{\"id\":11101,\"name\":\"2008 National Report on Biochemical Indicators of Diet and Nutrition - Table 3.4\"},{\"id\":11107,\"name\":\"2008 National Report on Biochemical Indicators of Diet and Nutrition - Table 3.5\"},{\"id\":11112,\"name\":\"2008 National Report on Biochemical Indicators of Diet and Nutrition - Table 1.4\"},{\"id\":14133,\"name\":\"14 Tips for a Healthy Valentine\u0026#39;s Dinner | CDC Features\"},{\"id\":11113,\"name\":\"2008 National Report on Biochemical Indicators of Diet and Nutrition - Table 4.1\"},{\"id\":11102,\"name\":\"2008 National Report on Biochemical Indicators of Diet and Nutrition - Table 2.9\"},{\"id\":11109,\"name\":\"2008 National Report on Biochemical Indicators of Diet and Nutrition - Table 1.1\"},{\"id\":11139,\"name\":\"2008 National Report on Biochemical Indicators of Diet and Nutrition - Table 2.8\"},{\"id\":11122,\"name\":\"2008 National Report on Biochemical Indicators of Diet and Nutrition - Table 5.6\"}],\"mediaType\":\"Html\"},\"images\":{\"items\":[{\"id\":14173,\"name\":\"Today\u0026#39;s Heroin Epidemic Infographics\"}],\"mediaType\":\"Image\"},\"videos\":{\"items\":[{\"id\":13297,\"name\":\"Lisa: Empower Yourself by Learning Your Family\u0026#39;s Cancer History\"}],\"mediaType\":\"Video\"}}]}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "X-Frame-Options": [
+                  "DENY"
+                ],
+                "X-Application-Context": [
+                  "application:production:8000"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Length": [
+                  "2526"
+                ],
+                "Cache-Control": [
+                  "max-age\u003d3572"
+                ],
+                "Expires": [
+                  "Tue, 08 Oct 2019 00:18:38 GMT"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:19:06 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubdomains; preload"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490335528"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490336749"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getResources",
+            "originalParameter": {
+              "parameterName": "q",
+              "sanitizedName": "q",
+              "value": [
+                "lcAUaNnuJznRAneT"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "q",
+                "sanitizedName": "q",
+                "value": [
+                  "39"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getResources"
+  }
+}

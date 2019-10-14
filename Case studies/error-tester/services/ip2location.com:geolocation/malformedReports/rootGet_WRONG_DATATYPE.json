@@ -1,0 +1,178 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.ip2location.com/?ip\u003d-45\u0026key\u003dOl",
+              "responseBody": "INVALID IP ADDRESS",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/plain;charset\u003dUTF-8"
+                ],
+                "Content-Length": [
+                  "18"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:20:37 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 44b1d22f682d32d0090eb52e3626b174.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "j_bQR6yZmdvKptrgTGZQ48AxlAmHyqXU4if01REyZpdwsUokzdqeeQ\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490427403"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490427539"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "rootGet",
+            "originalParameter": {
+              "parameterName": "ip",
+              "sanitizedName": "ip",
+              "value": [
+                "gzBDrV"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "-45"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "Ol"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.ip2location.com/?ip\u003dgzBDrV\u0026key\u003d-43",
+              "responseBody": "INVALID IP ADDRESS",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/plain;charset\u003dUTF-8"
+                ],
+                "Content-Length": [
+                  "18"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:20:37 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 44b1d22f682d32d0090eb52e3626b174.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "sztiqEW8EXN4w2pN7stFCSj7_2igWeXHsrOpLVug5Y4mDoblTOkEQQ\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490427545"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490427682"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "rootGet",
+            "originalParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "Ol"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "gzBDrV"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "-43"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "rootGet"
+  }
+}

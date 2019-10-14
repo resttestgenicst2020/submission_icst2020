@@ -1,0 +1,73 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/featureCategories",
+              "responseBody": "\u003cfeatureCategories\u003e\n  \u003clegal\u003e\n    \u003cprivacyURI\u003ehttp://www.gov.bc.ca/com/privacy.html\u003c/privacyURI\u003e\n    \u003cdisclaimerURI\u003ehttp://www.gov.bc.ca/com/disclaimer.html\u003c/disclaimerURI\u003e\n    \u003ccopyrightLicenseURI\u003ehttp://www.gov.bc.ca/com/copyright.html\u003c/copyrightLicenseURI\u003e\n    \u003ccopyrightNotice\u003eCopyright (c) 2019, Province of British Columbia\u003c/copyrightNotice\u003e\n  \u003c/legal\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e1\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e1\u003c/featureClassCode\u003e\n    \u003cdescription\u003eIncorporated\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e2\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e1\u003c/featureClassCode\u003e\n    \u003cdescription\u003eUnincorporated Rural\u003c/description\u003e\n    \u003cchangeDate\u003e2005-02-28\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e3\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e1\u003c/featureClassCode\u003e\n    \u003cdescription\u003eUnincorporated Urban\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e4\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e2\u003c/featureClassCode\u003e\n    \u003cdescription\u003eParks, Protected Reserves, etc.\u003c/description\u003e\n    \u003cchangeDate\u003e2008-06-17\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e5\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e2\u003c/featureClassCode\u003e\n    \u003cdescription\u003eMunicipal\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e6\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e2\u003c/featureClassCode\u003e\n    \u003cdescription\u003eGeographic\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e7\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e3\u003c/featureClassCode\u003e\n    \u003cdescription\u003eWater Sources\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e8\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e3\u003c/featureClassCode\u003e\n    \u003cdescription\u003eFlowing Freshwater\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e9\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e3\u003c/featureClassCode\u003e\n    \u003cdescription\u003eFeatures on Flowing Water\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e10\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e3\u003c/featureClassCode\u003e\n    \u003cdescription\u003eStanding Water Surrounded by Land\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e11\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e3\u003c/featureClassCode\u003e\n    \u003cdescription\u003eStanding Water Connecting Two or More Bodies of Water\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e12\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e3\u003c/featureClassCode\u003e\n    \u003cdescription\u003eTidal Water Features\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e13\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e3\u003c/featureClassCode\u003e\n    \u003cdescription\u003eShoreline Water Features\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e14\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eTerrain Surrounded by Water\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e15\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eElevated\u003c/description\u003e\n    \u003cchangeDate\u003e2015-02-16\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e16\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eElevated Shoreline Features\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e17\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eLow Lying Shoreline Features\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e18\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eUnderwater Features\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e19\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eDepressed\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e20\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eFlat\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e21\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e8\u003c/featureClassCode\u003e\n    \u003cdescription\u003eIce and Snow Features\u003c/description\u003e\n    \u003cchangeDate\u003e2015-02-19\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e22\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e5\u003c/featureClassCode\u003e\n    \u003cdescription\u003eForested Areas\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e23\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e5\u003c/featureClassCode\u003e\n    \u003cdescription\u003eOpen Areas with Low Vegetation\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e24\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eUnderground Features\u003c/description\u003e\n    \u003cchangeDate\u003e2015-02-19\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e25\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eVolcanic Features\u003c/description\u003e\n    \u003cchangeDate\u003e2015-02-19\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e26\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e6\u003c/featureClassCode\u003e\n    \u003cdescription\u003eResource Related\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e27\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e6\u003c/featureClassCode\u003e\n    \u003cdescription\u003eTransportation Related\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e28\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e6\u003c/featureClassCode\u003e\n    \u003cdescription\u003eOther Constructed Features\u003c/description\u003e\n    \u003cchangeDate\u003e2005-03-30\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n  \u003cfeatureCategory\u003e\n    \u003cfeatureCategoryCode\u003e29\u003c/featureCategoryCode\u003e\n    \u003cfeatureClassCode\u003e7\u003c/featureClassCode\u003e\n    \u003cdescription\u003eUnclassified\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureCategory\u003e\n\u003c/featureCategories\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:09:01 GMT"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d100"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489730834"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489731244"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "outputFormat",
+              "sanitizedName": "outputFormat",
+              "value": [
+                "json"
+              ]
+            },
+            "operationId": "featureCategoriesGet",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "featureCategoriesGet"
+  }
+}

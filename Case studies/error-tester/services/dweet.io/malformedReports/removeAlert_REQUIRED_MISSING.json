@@ -1,0 +1,130 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//remove/alert/for/%7Bthing%7D?key\u003dQaXyIT",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:26:28 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487177645"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487178983"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "thing",
+              "sanitizedName": "thing",
+              "value": "nWnCBa"
+            },
+            "operationId": "removeAlert",
+            "parameters": [
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "QaXyIT"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//remove/alert/for/nWnCBa",
+              "responseBody": "{\"this\":\"succeeded\",\"by\":\"removing\",\"the\":\"alert\",\"with\":{\"thing\":\"nWnCBa\"}}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:26:34 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487182665"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487185428"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "QaXyIT"
+              ]
+            },
+            "operationId": "removeAlert",
+            "parameters": [
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "nWnCBa"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "removeAlert"
+  }
+}

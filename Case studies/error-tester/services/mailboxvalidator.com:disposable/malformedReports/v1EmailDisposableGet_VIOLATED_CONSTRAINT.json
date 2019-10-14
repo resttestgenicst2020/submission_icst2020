@@ -1,0 +1,95 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://virtserver.swaggerhub.com/mailboxvalidator/MailboxValidator-Disposable-Email-Checker/1.0.0/v1/email/disposable?format\u003dXsI\u0026email\u003dhQSuXeJpmzWpRNyMCgb\u0026key\u003dGtLt",
+              "responseBody": "{\"email_address\":\"\",\"is_disposable\":\"\",\"credits_available\":\"\",\"error_code\":\"\",\"error_message\":\"\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Credentials": [
+                  "true"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "X-Requested-With,Content-Type,Accept,Origin"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "*"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json;charset\u003dutf-8"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:37:35 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491444765"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491444944"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "v1EmailDisposableGet",
+            "originalParameter": {
+              "parameterName": "format",
+              "sanitizedName": "format",
+              "value": [
+                "json"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "XsI"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "hQSuXeJpmzWpRNyMCgb"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "GtLt"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "v1EmailDisposableGet"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.digitalmedia.hhs.gov/api/v2/resources/userMediaLists/1.json?displayMethod\u003d-9",
+              "responseBody": "{\"meta\":{\"status\":200,\"messages\":[],\"pagination\":{\"max\":1,\"offset\":0,\"count\":0,\"total\":1,\"pageNum\":1,\"totalPages\":1,\"sort\":null,\"currentUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources/userMediaLists.json?offset\u003d0\u0026max\u003d1\u0026displayMethod\u003d-9\u0026format\u003djson\u0026id\u003d1\",\"nextUrl\":null,\"previousUrl\":null}},\"results\":[]}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "X-Frame-Options": [
+                  "DENY"
+                ],
+                "X-Application-Context": [
+                  "application:production:8000"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Length": [
+                  "311"
+                ],
+                "Cache-Control": [
+                  "max-age\u003d3551"
+                ],
+                "Expires": [
+                  "Tue, 08 Oct 2019 00:18:39 GMT"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:19:28 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubdomains; preload"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490358357"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490358563"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getUserMediaList",
+            "originalParameter": {
+              "parameterName": "displayMethod",
+              "sanitizedName": "displayMethod",
+              "value": [
+                "LIHNw"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "1"
+              },
+              {
+                "parameterName": "displayMethod",
+                "sanitizedName": "displayMethod",
+                "value": [
+                  "-9"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getUserMediaList"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/names?query\u003d-86\u0026allowAliases\u003dfalse\u0026maxResults\u003d44",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:41 GMT"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492291706"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492291855"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetNames",
+            "originalParameter": {
+              "parameterName": "query",
+              "sanitizedName": "query",
+              "value": [
+                "OosheMduIjRDd"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "-86"
+                ]
+              },
+              {
+                "parameterName": "allowAliases",
+                "sanitizedName": "allowAliases",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "44"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/names?query\u003dOosheMduIjRDd\u0026allowAliases\u003d-93\u0026maxResults\u003d44",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:41 GMT"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492291858"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492291926"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetNames",
+            "originalParameter": {
+              "parameterName": "allowAliases",
+              "sanitizedName": "allowAliases",
+              "value": [
+                "false"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "OosheMduIjRDd"
+                ]
+              },
+              {
+                "parameterName": "allowAliases",
+                "sanitizedName": "allowAliases",
+                "value": [
+                  "-93"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "44"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/names?query\u003dOosheMduIjRDd\u0026allowAliases\u003dfalse\u0026maxResults\u003dPQObt",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:41 GMT"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492291929"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492292005"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetNames",
+            "originalParameter": {
+              "parameterName": "maxResults",
+              "sanitizedName": "maxResults",
+              "value": [
+                "44"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "OosheMduIjRDd"
+                ]
+              },
+              {
+                "parameterName": "allowAliases",
+                "sanitizedName": "allowAliases",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "PQObt"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "tagApiGetNames"
+  }
+}

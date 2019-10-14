@@ -1,0 +1,230 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//get/stored/alerts/for/-78?key\u003dNvgFISuvVGAOkzBwfp\u0026date\u003dpZq",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:31:09 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487457618"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487459767"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getStoredAlerts",
+            "originalParameter": {
+              "parameterName": "thing",
+              "sanitizedName": "thing",
+              "value": "IKsDqmLq"
+            },
+            "parameters": [
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "-78"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "NvgFISuvVGAOkzBwfp"
+                ]
+              },
+              {
+                "parameterName": "date",
+                "sanitizedName": "date",
+                "value": [
+                  "pZq"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//get/stored/alerts/for/IKsDqmLq?key\u003d-84\u0026date\u003dpZq",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:31:12 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487460380"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487462527"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getStoredAlerts",
+            "originalParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "NvgFISuvVGAOkzBwfp"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "IKsDqmLq"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "-84"
+                ]
+              },
+              {
+                "parameterName": "date",
+                "sanitizedName": "date",
+                "value": [
+                  "pZq"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//get/stored/alerts/for/IKsDqmLq?key\u003dNvgFISuvVGAOkzBwfp\u0026date\u003d-54",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:31:14 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487463089"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487464678"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getStoredAlerts",
+            "originalParameter": {
+              "parameterName": "date",
+              "sanitizedName": "date",
+              "value": [
+                "pZq"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "IKsDqmLq"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "NvgFISuvVGAOkzBwfp"
+                ]
+              },
+              {
+                "parameterName": "date",
+                "sanitizedName": "date",
+                "value": [
+                  "-54"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getStoredAlerts"
+  }
+}

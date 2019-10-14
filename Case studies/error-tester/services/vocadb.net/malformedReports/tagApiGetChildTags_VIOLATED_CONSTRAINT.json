@@ -1,0 +1,176 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/108/children?fields\u003dBp9AS\u0026lang\u003dEnglish",
+              "responseBody": "[{\"categoryName\":\"Genres\",\"createDate\":\"2016-03-04T20:49:57\",\"defaultNameLanguage\":\"English\",\"id\":109,\"name\":\"drumstep\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"drumstep\",\"usageCount\":161,\"version\":7},{\"categoryName\":\"Genres\",\"createDate\":\"2017-11-05T17:36:09\",\"defaultNameLanguage\":\"English\",\"id\":6493,\"name\":\"liquid funk\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"liquid-funk\",\"usageCount\":8,\"version\":3},{\"categoryName\":\"Genres\",\"createDate\":\"2016-03-04T20:49:57\",\"defaultNameLanguage\":\"English\",\"id\":106,\"name\":\"drill \u0027n\u0027 bass\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"drill-n-bass\",\"usageCount\":37,\"version\":4},{\"categoryName\":\"Genres\",\"createDate\":\"2018-10-21T08:25:39.013\",\"defaultNameLanguage\":\"English\",\"id\":6882,\"name\":\"artcore\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"artcore\",\"usageCount\":19,\"version\":16}]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:01 GMT"
+                ],
+                "Content-Length": [
+                  "862"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492851951"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492852009"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetChildTags",
+            "originalParameter": {
+              "parameterName": "fields",
+              "sanitizedName": "fields",
+              "value": [
+                "WebLinks"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": "108"
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "Bp9AS"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "English"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/108/children?fields\u003dWebLinks\u0026lang\u003dST03R",
+              "responseBody": "[{\"categoryName\":\"Genres\",\"createDate\":\"2016-03-04T20:49:57\",\"defaultNameLanguage\":\"English\",\"id\":109,\"name\":\"drumstep\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"drumstep\",\"usageCount\":161,\"version\":7,\"webLinks\":[{\"category\":\"Official\",\"description\":\"Wikipedia (EN): Drum and bass (subgenres)\",\"id\":3020,\"url\":\"https://en.wikipedia.org/wiki/Drum_and_bass#Subgenres\"},{\"category\":\"Official\",\"description\":\"UtaiteDB\",\"id\":3021,\"url\":\"http://utaitedb.net/T/2282/drumstep\"},{\"category\":\"Official\",\"description\":\"TouhouDB\",\"id\":3795,\"url\":\"https://touhoudb.com/T/167/drumstep\"}]},{\"categoryName\":\"Genres\",\"createDate\":\"2017-11-05T17:36:09\",\"defaultNameLanguage\":\"English\",\"id\":6493,\"name\":\"liquid funk\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"liquid-funk\",\"usageCount\":8,\"version\":3,\"webLinks\":[{\"category\":\"Official\",\"description\":\"Wikipedia (EN)\",\"id\":3486,\"url\":\"https://en.wikipedia.org/wiki/Liquid_funk\"}]},{\"categoryName\":\"Genres\",\"createDate\":\"2016-03-04T20:49:57\",\"defaultNameLanguage\":\"English\",\"id\":106,\"name\":\"drill \u0027n\u0027 bass\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"drill-n-bass\",\"usageCount\":37,\"version\":4,\"webLinks\":[{\"category\":\"Official\",\"description\":\"Wikipedia (EN)\",\"id\":3034,\"url\":\"https://en.wikipedia.org/wiki/Drill_%27n%27_bass\"},{\"category\":\"Official\",\"description\":\"Wikipedia (JP)\",\"id\":3035,\"url\":\"https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AA%E3%83%AB%E3%83%B3%E3%83%99%E3%83%BC%E3%82%B9\"}]},{\"categoryName\":\"Genres\",\"createDate\":\"2018-10-21T08:25:39.013\",\"defaultNameLanguage\":\"English\",\"id\":6882,\"name\":\"artcore\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"artcore\",\"usageCount\":19,\"version\":16,\"webLinks\":[{\"category\":\"Official\",\"description\":\"urbandictionary\",\"id\":4294,\"url\":\"https://www.urbandictionary.com/define.php?term\u003dArtcore\"},{\"category\":\"Official\",\"description\":\"Wikipedia (JP)\",\"id\":4297,\"url\":\"https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%83%88%E3%82%B3%E3%82%A2\"}]}]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:02 GMT"
+                ],
+                "Content-Length": [
+                  "1957"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492852012"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492852077"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetChildTags",
+            "originalParameter": {
+              "parameterName": "lang",
+              "sanitizedName": "lang",
+              "value": [
+                "English"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": "108"
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "WebLinks"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "ST03R"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "tagApiGetChildTags"
+  }
+}

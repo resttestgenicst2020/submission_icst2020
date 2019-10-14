@@ -1,0 +1,95 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.digitalmedia.hhs.gov/api/v2/resources/sources/1/syndicate.json?displayMethod\u003d41",
+              "responseBody": "{\"meta\":{\"status\":200,\"messages\":[],\"pagination\":{\"max\":1,\"offset\":0,\"count\":1,\"total\":1,\"pageNum\":1,\"totalPages\":1,\"sort\":\"name\",\"currentUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources/sources.json?offset\u003d0\u0026max\u003d1\u0026sort\u003dname\u0026displayMethod\u003d41\u0026format\u003djson\u0026id\u003d1\u0026controllerContext\u003d\",\"nextUrl\":null,\"previousUrl\":null}},\"results\":[{\"content\":\"\u003cdiv class\u003d\u0027syndicate\u0027\u003e\u003cul\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/what-is-bullying/other-types-of-aggressive-behavior/index.html#early\u0027\u003eYoung Adults\u003c/a\u003e [16790]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/kids/webisodes/yes-thats-bullying/index.html\u0027\u003eYes...That\u0026#39;s Bullying\u003c/a\u003e [283]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.vaccines.gov/diseases/yellow_fever/index.html\u0027\u003eYellow Fever\u003c/a\u003e [2754]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/laws/wyoming/index.html\u0027\u003eWyoming Anti-Bullying Laws \u0026amp; Policies\u003c/a\u003e [272]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://grants.nih.gov/grants/writing_application.htm\u0027\u003eWriting Your Application\u003c/a\u003e [3347]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/prevention/in-the-community/index.html\u0027\u003eWorking in the Community\u003c/a\u003e [188]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.hhs.gov/web/section-508/making-files-accessible/checklist/word/index.html\u0027\u003eWord Document 508 Checklist\u003c/a\u003e [4293]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/laws/wisconsin/index.html\u0027\u003eWisconsin Anti-Bullying Laws \u0026amp; Policies\u003c/a\u003e [273]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/stay-connected/index.html\u0027\u003eWidgets\u003c/a\u003e [271]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.mentalhealth.gov/widgets-badges/index.html\u0027\u003eWidget and Badges\u003c/a\u003e [396]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/at-risk/index.html\u0027\u003eWho\u0026#39;s at Risk of Being Bullied\u003c/a\u003e [201]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/at-risk/index.html\u0027\u003eWho is at Risk\u003c/a\u003e [204]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.vaccines.gov/who_and_when/index.html\u0027\u003eWho and When\u003c/a\u003e [2732]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.vaccines.gov/getting/where/index.html\u0027\u003eWhere to Get Vaccinated\u003c/a\u003e [2735]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.mentalhealth.gov/what-to-look-for/index.html\u0027\u003eWhat To Look For\u003c/a\u003e [392]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.vaccines.gov/getting/expect/for_adults/index.html\u0027\u003eWhat to Expect For Adults\u003c/a\u003e [2755]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.vaccines.gov/getting/for_parents/index.html\u0027\u003eWhat to Expect\u003c/a\u003e [2730]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/media/avoid/index.html\u0027\u003eWhat to Avoid\u003c/a\u003e [321]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/media/avoid/index.html\u0027\u003eWhat to Avoid\u003c/a\u003e [16590]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/what-is-bullying/roles-kids-play/index.html\u0027\u003eWhat Roles do Kids Play in Bullying\u003c/a\u003e [306]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/kids/what-you-can-do/index.html\u0027\u003eWhat Kids Can Do\u003c/a\u003e [215]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.hhs.gov/web/section-508/what-is-section-504/index.html\u0027\u003eWhat is section 504 and how does it relate to Section 508?\u003c/a\u003e [4290]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.mentalhealth.gov/basics/what-is-mental-health/index.html\u0027\u003eWhat Is Mental Health?\u003c/a\u003e [405]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.aids.gov/hiv-aids-basics/hiv-aids-101/what-is-hiv-aids/index.html\u0027\u003eWhat Is HIV/AIDS?\u003c/a\u003e [26]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/cyberbullying/what-is-it/index.html\u0027\u003eWhat is Cyberbullying\u003c/a\u003e [523]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.foodsafety.gov/about?t\u003d8\u0027\u003eWhat Government Does\u003c/a\u003e [33]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/laws/west-virginia/index.html\u0027\u003eWest Virginia Anti-Bullying Laws \u0026amp; Policies\u003c/a\u003e [268]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/laws/district-columbia/index.html\u0027\u003eWashington D.C. Anti-Bullying Laws \u0026amp; Policies\u003c/a\u003e [242]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/laws/washington/index.html\u0027\u003eWashington Anti-Bullying Laws \u0026amp; Policies\u003c/a\u003e [267]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.stopmedicarefraud.gov/newsroom/your-state/washington/index.html\u0027\u003eWashington\u003c/a\u003e [380]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/at-risk/warning-signs/index.html\u0027\u003eWarning Signs for Bullying\u003c/a\u003e [203]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/laws/virginia/index.html\u0027\u003eVirginia Anti-Bullying Laws \u0026amp; Policies\u003c/a\u003e [266]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.vaccines.gov/resources/videos_and_tools/index.html\u0027\u003eVideos and Tools\u003c/a\u003e [2736]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.foodsafety.gov/food-poisoning/bacteria-and-viruses#vibrio-infections\u0027\u003eVibrio Infections\u003c/a\u003e [91]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/laws/vermont/index.html\u0027\u003eVermont Anti-Bullying Laws \u0026amp; Policies\u003c/a\u003e [264]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.vaccines.gov/basics/work/index.html\u0027\u003eVaccines Work\u003c/a\u003e [2677]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.vaccines.gov/basics/work/protection/index.html\u0027\u003eVaccines Protect Your Community\u003c/a\u003e [2727]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.vaccines.gov/basics/work/prevention/index.html\u0027\u003eVaccines Protect You\u003c/a\u003e [423]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.vaccines.gov/who_and_when/child/index.html\u0027\u003eVaccines for Infants and Children Birth Through Age 6\u003c/a\u003e [2763]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.vaccines.gov/who_and_when/adults/seniors/index.html\u0027\u003eVaccines for Adults Age 65 and Older\u003c/a\u003e [2757]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.vaccines.gov/who_and_when/adults/index.html\u0027\u003eVaccines for Adults\u003c/a\u003e [2762]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.vaccines.gov/basics/safety/index.html\u0027\u003eVaccine Safety\u003c/a\u003e [474]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.vaccines.gov/resources/index.html\u0027\u003eVaccine Resources\u003c/a\u003e [2729]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.vaccines.gov/basics/index.html\u0027\u003eVaccine Basics\u003c/a\u003e [2725]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/laws/utah/index.html\u0027\u003eUtah Anti-Bullying Laws \u0026amp; Policies\u003c/a\u003e [265]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.stopmedicarefraud.gov/newsroom/your-state/utah/index.html\u0027\u003eUtah\u003c/a\u003e [345]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.hhs.gov/about/agencies/iea/partnerships/webinars/index.html\u0027\u003eUpcoming Webinars\u003c/a\u003e [16349]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027https://www.stopbullying.gov/laws/virgin-islands/index.html\u0027\u003eUnited States Virgin Islands Anti-Bullying Laws \u0026amp; Policies\u003c/a\u003e [307]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.hhs.gov/programs/social-services/unaccompanied-alien-children/index.html\u0027\u003eUnaccompanied Alien Children Information\u003c/a\u003e [18299]\u003c/li\u003e\\n\\n    \u003cli\u003e\u003ca href\u003d\u0027http://www.aids.gov/hiv-aids-basics/hiv-aids-101/statistics/index.html\u0027\u003eU.S. Statistics\u003c/a\u003e [28]\u003c/li\u003e\\n\\n\u003c/ul\u003e\u003c/div\u003e\u003cdiv class\u003d\u0027syndicate\u0027\u003e\u003cspan\u003e\u003cStrong\u003eSyndicated Content Details:\u003c/strong\u003e\u003c/span\u003e\u003cbr/\u003e\u003cspan\u003eSource URL: \u003ca href\u003d\u0027http://www.cdc.gov/flu/pandemic-resources/basics/index.html\u0027\u003ehttp://www.cdc.gov/flu/pandemic-resources/basics/index.html\u003c/a\u003e\u003c/span\u003e\u003cbr/\u003e\u003cspan\u003eSource Agency: \u003ca href\u003d\u0027http://www.hhs.gov\u0027\u003eHealth and Human Services (HHS)\u003c/a\u003e\u003c/span\u003e\u003cbr/\u003e\u003cspan\u003eCaptured Date: 2015-04-07 00:03:00.0\u003c/span\u003e\u003cbr/\u003e\u003c/div\u003e\",\"description\":\"Media belonging to \u0027Health and Human Services\u0027\",\"id\":1,\"mediaType\":null,\"name\":\"Health and Human Services\",\"sourceUrl\":null}]}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "X-Frame-Options": [
+                  "DENY"
+                ],
+                "X-Application-Context": [
+                  "application:production:8000"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Length": [
+                  "7092"
+                ],
+                "Cache-Control": [
+                  "max-age\u003d3542"
+                ],
+                "Expires": [
+                  "Tue, 08 Oct 2019 00:18:46 GMT"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:19:44 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubdomains; preload"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490373703"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490374226"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "resourcesSourcesIdSyndicateJsonGet",
+            "originalParameter": {
+              "parameterName": "displayMethod",
+              "sanitizedName": "displayMethod",
+              "value": [
+                "HmPhguJ"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "1"
+              },
+              {
+                "parameterName": "displayMethod",
+                "sanitizedName": "displayMethod",
+                "value": [
+                  "41"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "resourcesSourcesIdSyndicateJsonGet"
+  }
+}

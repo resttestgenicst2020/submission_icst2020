@@ -1,0 +1,86 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://ntp1node.nebl.io//ins/block-index/%7Bblockindex%7D",
+              "responseBody": "{\"blockHash\":\"7286972be4dbc1463d256049b7471c252e6557e222cab9be73181d359cd28bcc\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:42:44 GMT"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "80"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "X-Powered-By": [
+                  "Express"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "Origin, X-Requested-With, Content-Type, Accept"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "ETag": [
+                  "W/\"50-c7Mmx7OTX9mSiEtdMraHkN8S754\""
+                ],
+                "Last-Modified": [
+                  "Monday, 07-Oct-2019 23:42:44 GMT"
+                ],
+                "Cache-Control": [
+                  "no-store, no-cache, must-revalidate, proxy-revalidate, max-age\u003d0"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491754645"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491754701"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "blockindex",
+              "sanitizedName": "blockindex",
+              "value": "47.27151391685139"
+            },
+            "operationId": "getBlockIndex",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getBlockIndex"
+  }
+}

@@ -1,0 +1,1930 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003d81\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:51 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "gutCt71qNb6UJ5YAjaokzHhV_z1jk5cl3k92NYtwcuaK4A3wvKRSHA\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489540643"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489540803"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "text",
+              "sanitizedName": "text",
+              "value": [
+                "CkZTeAlEibMWBE"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "81"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003d46\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:51 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "DmKPfK_bW7f2H9-JeC9rWwtZATVRyBMwuL_LEuhMKnBVXhc-JiqfMQ\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489540808"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489541390"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "tags",
+              "sanitizedName": "tags",
+              "value": [
+                "yrZXsLubynQVBGXdv"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "46"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003d40\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:51 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "e5FTlb9kbPTp4NoclAAu8f5w52698P2L_1gTjh1NDIpXOvZPAKaSJQ\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489541397"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489542006"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "license",
+              "sanitizedName": "license",
+              "value": [
+                "bAi"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "40"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003d29\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:52 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "J-QCgJcTdmTFYkYeOm03sixIWGMfvGf2R4fixYDM2VxIWNbkzPYHgw\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489542012"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489542210"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "sort",
+              "sanitizedName": "sort",
+              "value": [
+                "SgmpFTzpBOS"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "29"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003d16\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:52 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "r1Gvz8s_DLof15jbN_cwIVu6H-KKsYfuVpMqFRFurNWjKu6BQuzlRQ\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489542218"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489542415"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "bbox",
+              "sanitizedName": "bbox",
+              "value": [
+                "OnPmsVDryfKlSJBfXEH"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "16"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003d22\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:52 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "xzHRLDEHekx_z38jQyodQK-b5o0HeN84lPxLp-1sahpgJX6cBPTvzQ\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489542423"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489542619"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "accuracy",
+              "sanitizedName": "accuracy",
+              "value": [
+                "oKvSPmzESDPplnVPv"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "22"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003d23\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:53 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "QLLzEpdEdzuNSxISW3xGsmIV8GGW8xaPqOpMcRZ-oZFD07PzLZ42rw\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489542623"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489542971"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "contacts",
+              "sanitizedName": "contacts",
+              "value": [
+                "cPJEDpxq"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "23"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003d85\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:53 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "Ri9SBSNXZuZ0snUSW1Gea_iX9JHoJBxKjqxrtPGsWBBP259TSGZQpQ\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489542978"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489543234"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "media",
+              "sanitizedName": "media",
+              "value": [
+                "dUrGtunBUY"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "85"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003d71\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:53 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "w9WJwEJZWf3vKvL08KAz-EXpCeNp63ip3qYlHGVAq0JYETfH55x8vg\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489543239"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489543848"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "lat",
+              "sanitizedName": "lat",
+              "value": [
+                "Br"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "71"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003d65\u0026radius\u003d1920763553.8047452\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:54 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "uU4Hhc52hJ50_QXCjQvbDBF6EXx4YSEgr68HwTFxOINXsJA52SEm1g\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489543855"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489544053"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "lon",
+              "sanitizedName": "lon",
+              "value": [
+                "rhoefvPUpOkeGiVSqVt"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "65"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003dAwzHypSLX\u0026page\u003d680917487.7400026",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:54 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "DrITxEfDlP8-X5Lf3lKCEkFGmOFDuXo53UY2Z3boQDRNA6HkLtyPAg\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489544061"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489544258"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "radius",
+              "sanitizedName": "radius",
+              "value": [
+                "1920763553.8047452"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "AwzHypSLX"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "680917487.7400026"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.photos.search\u0026text\u003dCkZTeAlEibMWBE\u0026tags\u003dyrZXsLubynQVBGXdv\u0026license\u003dbAi\u0026sort\u003dSgmpFTzpBOS\u0026bbox\u003dOnPmsVDryfKlSJBfXEH\u0026accuracy\u003doKvSPmzESDPplnVPv\u0026contacts\u003dcPJEDpxq\u0026media\u003ddUrGtunBUY\u0026lat\u003dBr\u0026lon\u003drhoefvPUpOkeGiVSqVt\u0026radius\u003d1920763553.8047452\u0026page\u003dSOvsSrCG",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:54 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 9462251ec1005d8753d5e222d6623243.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "MPV5qfkt223CjLqraf_tSTENU4Dn2W7wiNZexG6IKrXqHZ0mur9poQ\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489544262"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489544462"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaBySearch",
+            "originalParameter": {
+              "parameterName": "page",
+              "sanitizedName": "page",
+              "value": [
+                "680917487.7400026"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "text",
+                "sanitizedName": "text",
+                "value": [
+                  "CkZTeAlEibMWBE"
+                ]
+              },
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "yrZXsLubynQVBGXdv"
+                ]
+              },
+              {
+                "parameterName": "license",
+                "sanitizedName": "license",
+                "value": [
+                  "bAi"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SgmpFTzpBOS"
+                ]
+              },
+              {
+                "parameterName": "bbox",
+                "sanitizedName": "bbox",
+                "value": [
+                  "OnPmsVDryfKlSJBfXEH"
+                ]
+              },
+              {
+                "parameterName": "accuracy",
+                "sanitizedName": "accuracy",
+                "value": [
+                  "oKvSPmzESDPplnVPv"
+                ]
+              },
+              {
+                "parameterName": "contacts",
+                "sanitizedName": "contacts",
+                "value": [
+                  "cPJEDpxq"
+                ]
+              },
+              {
+                "parameterName": "media",
+                "sanitizedName": "media",
+                "value": [
+                  "dUrGtunBUY"
+                ]
+              },
+              {
+                "parameterName": "lat",
+                "sanitizedName": "lat",
+                "value": [
+                  "Br"
+                ]
+              },
+              {
+                "parameterName": "lon",
+                "sanitizedName": "lon",
+                "value": [
+                  "rhoefvPUpOkeGiVSqVt"
+                ]
+              },
+              {
+                "parameterName": "radius",
+                "sanitizedName": "radius",
+                "value": [
+                  "1920763553.8047452"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "SOvsSrCG"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getMediaBySearch"
+  }
+}

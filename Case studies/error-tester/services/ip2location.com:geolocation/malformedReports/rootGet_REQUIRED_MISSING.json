@@ -1,0 +1,164 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.ip2location.com/?key\u003dOl",
+              "responseBody": "INVALID ACCOUNT",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/plain;charset\u003dUTF-8"
+                ],
+                "Content-Length": [
+                  "15"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:20:36 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 44b1d22f682d32d0090eb52e3626b174.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "LCt-52T2F4LkdE4M5XeFSAKRm9hHBFdwqWY-S3_ds2tT1ydGFGthyQ\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490426491"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490427071"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "ip",
+              "sanitizedName": "ip",
+              "value": [
+                "gzBDrV"
+              ]
+            },
+            "operationId": "rootGet",
+            "parameters": [
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "Ol"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.ip2location.com/?ip\u003dgzBDrV",
+              "responseBody": "Permission denied. Please visit https://www.ip2location.com/web-service for more information.",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/plain;charset\u003dUTF-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:20:37 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 44b1d22f682d32d0090eb52e3626b174.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C2"
+                ],
+                "X-Amz-Cf-Id": [
+                  "Wslh8gkFYG-2oaFKcW2ItZyYnr8cGyjqPkTmWRSisbc4EgqwlrwkDA\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490427077"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490427375"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "Ol"
+              ]
+            },
+            "operationId": "rootGet",
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "gzBDrV"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "rootGet"
+  }
+}

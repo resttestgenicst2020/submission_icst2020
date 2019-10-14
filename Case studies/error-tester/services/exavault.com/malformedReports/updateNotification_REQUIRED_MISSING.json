@@ -1,0 +1,127 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateNotification?path\u003dDxXRNwEabduSFT\u0026action\u003dlLLToNwGqSF\u0026usernames\u003dBPXAL\u0026emails\u003ddAQcQzzarxgjhKMLJf\u0026emails\u003dySulZeIylQWQZTP\u0026emails\u003dHBvv\u0026emails\u003dxPlIsihUeOgNggOHLzF\u0026emails\u003dCRecikrkPmL\u0026emails\u003dQeoTUyvTu\u0026emails\u003dQaKRaTXwkHVd\u0026sendEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003dec888d1ec5ea5fb9"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:53:32 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488801844"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488802253"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "id",
+              "sanitizedName": "id",
+              "value": [
+                "57"
+              ]
+            },
+            "operationId": "updateNotification",
+            "parameters": [
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "DxXRNwEabduSFT"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "lLLToNwGqSF"
+                ]
+              },
+              {
+                "parameterName": "usernames",
+                "sanitizedName": "usernames",
+                "value": [
+                  "BPXAL"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "dAQcQzzarxgjhKMLJf",
+                  "ySulZeIylQWQZTP",
+                  "HBvv",
+                  "xPlIsihUeOgNggOHLzF",
+                  "CRecikrkPmL",
+                  "QeoTUyvTu",
+                  "QaKRaTXwkHVd"
+                ]
+              },
+              {
+                "parameterName": "sendEmail",
+                "sanitizedName": "sendEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "updateNotification"
+  }
+}

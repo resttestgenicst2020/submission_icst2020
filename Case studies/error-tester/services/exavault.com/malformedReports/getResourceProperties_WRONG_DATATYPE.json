@@ -1,0 +1,99 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/getResourceProperties?filePaths\u003d-59\u0026filePaths\u003d-5\u0026filePaths\u003d87\u0026filePaths\u003d-17",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d8cab001ce4afd58a"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:57:55 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489065226"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489065529"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getResourceProperties",
+            "originalParameter": {
+              "parameterName": "filePaths",
+              "sanitizedName": "filePaths",
+              "value": [
+                "qkrXIoRo",
+                "rbZLJzhiTpZgCpaydq",
+                "UjG",
+                "lBtuggnnOPQAs"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "-59",
+                  "-5",
+                  "87",
+                  "-17"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getResourceProperties"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "testedRequiredMissingMutations": 6,
+  "successfulRequiredMissingMutations": 6,
+  "requiredMissingViolationsStatusCodes": {
+    "200": 6
+  },
+  "testedWrongDataTypeMutations": 6,
+  "successfulWrongDataTypeMutations": 6,
+  "wrongDataTypeViolationsStatusCodes": {
+    "200": 6
+  },
+  "testedConstraintViolationMutations": 0,
+  "successfulConstraintViolationMutations": 0,
+  "constraintViolationsStatusCodes": {},
+  "totalSuccessfulTestCases": 6,
+  "testedSuccessfulTestCases": 6
+}

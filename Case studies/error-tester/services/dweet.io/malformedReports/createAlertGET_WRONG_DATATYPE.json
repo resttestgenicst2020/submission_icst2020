@@ -1,0 +1,312 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//alert/32/when/UobFKGXFX/pFjE?key\u003dZEwkPiknDqx",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:28:11 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487280666"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487282504"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createAlertGET",
+            "originalParameter": {
+              "parameterName": "who",
+              "sanitizedName": "who",
+              "value": "nuYfpDheTIevbsS"
+            },
+            "parameters": [
+              {
+                "parameterName": "who",
+                "sanitizedName": "who",
+                "value": "32"
+              },
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "UobFKGXFX"
+              },
+              {
+                "parameterName": "condition",
+                "sanitizedName": "condition",
+                "value": "pFjE"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "ZEwkPiknDqx"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//alert/nuYfpDheTIevbsS/when/60/pFjE?key\u003dZEwkPiknDqx",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:28:15 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487283430"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487285884"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createAlertGET",
+            "originalParameter": {
+              "parameterName": "thing",
+              "sanitizedName": "thing",
+              "value": "UobFKGXFX"
+            },
+            "parameters": [
+              {
+                "parameterName": "who",
+                "sanitizedName": "who",
+                "value": "nuYfpDheTIevbsS"
+              },
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "60"
+              },
+              {
+                "parameterName": "condition",
+                "sanitizedName": "condition",
+                "value": "pFjE"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "ZEwkPiknDqx"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//alert/nuYfpDheTIevbsS/when/UobFKGXFX/-57?key\u003dZEwkPiknDqx",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:28:18 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487286809"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487289263"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createAlertGET",
+            "originalParameter": {
+              "parameterName": "condition",
+              "sanitizedName": "condition",
+              "value": "pFjE"
+            },
+            "parameters": [
+              {
+                "parameterName": "who",
+                "sanitizedName": "who",
+                "value": "nuYfpDheTIevbsS"
+              },
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "UobFKGXFX"
+              },
+              {
+                "parameterName": "condition",
+                "sanitizedName": "condition",
+                "value": "-57"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "ZEwkPiknDqx"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//alert/nuYfpDheTIevbsS/when/UobFKGXFX/pFjE?key\u003d-56",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:28:22 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487290188"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487292642"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createAlertGET",
+            "originalParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "ZEwkPiknDqx"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "who",
+                "sanitizedName": "who",
+                "value": "nuYfpDheTIevbsS"
+              },
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "UobFKGXFX"
+              },
+              {
+                "parameterName": "condition",
+                "sanitizedName": "condition",
+                "value": "pFjE"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "-56"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "createAlertGET"
+  }
+}

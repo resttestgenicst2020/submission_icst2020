@@ -1,0 +1,176 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/108/children?fields\u003d-6\u0026lang\u003dEnglish",
+              "responseBody": "[{\"categoryName\":\"Genres\",\"createDate\":\"2016-03-04T20:49:57\",\"defaultNameLanguage\":\"English\",\"id\":109,\"name\":\"drumstep\",\"names\":[{\"id\":279,\"language\":\"English\",\"value\":\"drumstep\"},{\"id\":1509,\"language\":\"Japanese\",\"value\":\"ドラムステップ\"}],\"parent\":{\"id\":108,\"name\":\"drum and bass\",\"urlSlug\":\"drum-and-bass\"},\"relatedTags\":[{\"id\":112,\"name\":\"dubstep\",\"urlSlug\":\"dubstep\"}],\"status\":\"Finished\",\"targets\":1073741823,\"translatedDescription\":{\"english\":\"\",\"original\":\"\u003eDrumstep is a combination of drum and bass and dubstep where the beat structure is half time, the remaining elements still adhere to the usual tempo and melody pattern style from drum and bass.\\n\u003e--- from Wikipedia\"},\"urlSlug\":\"drumstep\",\"usageCount\":161,\"version\":7,\"webLinks\":[{\"category\":\"Official\",\"description\":\"Wikipedia (EN): Drum and bass (subgenres)\",\"id\":3020,\"url\":\"https://en.wikipedia.org/wiki/Drum_and_bass#Subgenres\"},{\"category\":\"Official\",\"description\":\"UtaiteDB\",\"id\":3021,\"url\":\"http://utaitedb.net/T/2282/drumstep\"},{\"category\":\"Official\",\"description\":\"TouhouDB\",\"id\":3795,\"url\":\"https://touhoudb.com/T/167/drumstep\"}]},{\"categoryName\":\"Genres\",\"createDate\":\"2017-11-05T17:36:09\",\"defaultNameLanguage\":\"English\",\"id\":6493,\"name\":\"liquid funk\",\"names\":[{\"id\":7076,\"language\":\"English\",\"value\":\"liquid funk\"}],\"parent\":{\"id\":108,\"name\":\"drum and bass\",\"urlSlug\":\"drum-and-bass\"},\"relatedTags\":[],\"status\":\"Finished\",\"targets\":1073741823,\"translatedDescription\":{\"english\":\"\",\"original\":\"\u003eLiquid funk, liquid drum \u0026 bass, liquid DnB or liquid is a subgenre of drum and bass. While it uses similar basslines and bar layouts to other styles, it contains fewer bar-oriented samples and more instrumental layers (both synthesized and natural), harmonies, melodies and ambiance, producing a sentimental atmosphere directed at home listeners as well as nightclub and rave audiences. Music genres such as jazz, soul and sometimes blues have a pivotal influence on liquid funk.\\n--- from Wikipedia\"},\"urlSlug\":\"liquid-funk\",\"usageCount\":8,\"version\":3,\"webLinks\":[{\"category\":\"Official\",\"description\":\"Wikipedia (EN)\",\"id\":3486,\"url\":\"https://en.wikipedia.org/wiki/Liquid_funk\"}]},{\"categoryName\":\"Genres\",\"createDate\":\"2016-03-04T20:49:57\",\"defaultNameLanguage\":\"English\",\"id\":106,\"name\":\"drill \u0027n\u0027 bass\",\"names\":[{\"id\":1507,\"language\":\"Japanese\",\"value\":\"ドリルンベース\"},{\"id\":6436,\"language\":\"English\",\"value\":\"drill \u0027n\u0027 bass\"},{\"id\":6437,\"language\":\"Unspecified\",\"value\":\"drillnbass\"}],\"parent\":{\"id\":108,\"name\":\"drum and bass\",\"urlSlug\":\"drum-and-bass\"},\"relatedTags\":[],\"status\":\"Finished\",\"targets\":1073741823,\"translatedDescription\":{\"english\":\"\",\"original\":\"\u003eDrill \u0027n\u0027 bass is a style of electronic music which developed in the mid-1990s as IDM artists began experimenting with elements of drum and bass, breakbeat, and jungle music. Artists utilized powerful audio software programs and deployed frenzied, irregular tempos that often discouraged dancing. (from Wikipedia)\"},\"urlSlug\":\"drill-n-bass\",\"usageCount\":37,\"version\":4,\"webLinks\":[{\"category\":\"Official\",\"description\":\"Wikipedia (EN)\",\"id\":3034,\"url\":\"https://en.wikipedia.org/wiki/Drill_%27n%27_bass\"},{\"category\":\"Official\",\"description\":\"Wikipedia (JP)\",\"id\":3035,\"url\":\"https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AA%E3%83%AB%E3%83%B3%E3%83%99%E3%83%BC%E3%82%B9\"}]},{\"categoryName\":\"Genres\",\"createDate\":\"2018-10-21T08:25:39.013\",\"defaultNameLanguage\":\"English\",\"id\":6882,\"name\":\"artcore\",\"names\":[{\"id\":8473,\"language\":\"Japanese\",\"value\":\"アートコア\"},{\"id\":8476,\"language\":\"English\",\"value\":\"artcore\"},{\"id\":8484,\"language\":\"Unspecified\",\"value\":\"art-core\"}],\"parent\":{\"id\":108,\"name\":\"drum and bass\",\"urlSlug\":\"drum-and-bass\"},\"relatedTags\":[],\"status\":\"Finished\",\"targets\":1073741823,\"translatedDescription\":{\"english\":\"\",\"original\":\"\u003eExperimental electronic music with acoustic instrumental leads. Not an officially defined genre, but commonly used as a blanket term for unique fusion music of electronic and classical elements.\\n...its fast beats and complicated melodies have made it very popular in rhythm games such as Osu. Made by xi, ICE, Sakuzyo, occasionally by Yooh, and a few other, mostly Japanese composers. A pretty good pick for anyone who likes classical music but thinks it lacks power, or people who like DnB but think it lacks melodic variety. Sometimes combined with speedcore or trance.\\n\\n-- urbandictionary\"},\"urlSlug\":\"artcore\",\"usageCount\":19,\"version\":16,\"webLinks\":[{\"category\":\"Official\",\"description\":\"urbandictionary\",\"id\":4294,\"url\":\"https://www.urbandictionary.com/define.php?term\u003dArtcore\"},{\"category\":\"Official\",\"description\":\"Wikipedia (JP)\",\"id\":4297,\"url\":\"https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%83%88%E3%82%B3%E3%82%A2\"}]}]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:01 GMT"
+                ],
+                "Content-Length": [
+                  "4746"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492851745"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492851879"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetChildTags",
+            "originalParameter": {
+              "parameterName": "fields",
+              "sanitizedName": "fields",
+              "value": [
+                "WebLinks"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": "108"
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "-6"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "English"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/108/children?fields\u003dWebLinks\u0026lang\u003d-3",
+              "responseBody": "[{\"categoryName\":\"Genres\",\"createDate\":\"2016-03-04T20:49:57\",\"defaultNameLanguage\":\"English\",\"id\":109,\"name\":\"drumstep\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"drumstep\",\"usageCount\":161,\"version\":7,\"webLinks\":[{\"category\":\"Official\",\"description\":\"Wikipedia (EN): Drum and bass (subgenres)\",\"id\":3020,\"url\":\"https://en.wikipedia.org/wiki/Drum_and_bass#Subgenres\"},{\"category\":\"Official\",\"description\":\"UtaiteDB\",\"id\":3021,\"url\":\"http://utaitedb.net/T/2282/drumstep\"},{\"category\":\"Official\",\"description\":\"TouhouDB\",\"id\":3795,\"url\":\"https://touhoudb.com/T/167/drumstep\"}]},{\"categoryName\":\"Genres\",\"createDate\":\"2017-11-05T17:36:09\",\"defaultNameLanguage\":\"English\",\"id\":6493,\"name\":\"liquid funk\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"liquid-funk\",\"usageCount\":8,\"version\":3,\"webLinks\":[{\"category\":\"Official\",\"description\":\"Wikipedia (EN)\",\"id\":3486,\"url\":\"https://en.wikipedia.org/wiki/Liquid_funk\"}]},{\"categoryName\":\"Genres\",\"createDate\":\"2016-03-04T20:49:57\",\"defaultNameLanguage\":\"English\",\"id\":106,\"name\":\"drill \u0027n\u0027 bass\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"drill-n-bass\",\"usageCount\":37,\"version\":4,\"webLinks\":[{\"category\":\"Official\",\"description\":\"Wikipedia (EN)\",\"id\":3034,\"url\":\"https://en.wikipedia.org/wiki/Drill_%27n%27_bass\"},{\"category\":\"Official\",\"description\":\"Wikipedia (JP)\",\"id\":3035,\"url\":\"https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%AA%E3%83%AB%E3%83%B3%E3%83%99%E3%83%BC%E3%82%B9\"}]},{\"categoryName\":\"Genres\",\"createDate\":\"2018-10-21T08:25:39.013\",\"defaultNameLanguage\":\"English\",\"id\":6882,\"name\":\"artcore\",\"status\":\"Finished\",\"targets\":1073741823,\"urlSlug\":\"artcore\",\"usageCount\":19,\"version\":16,\"webLinks\":[{\"category\":\"Official\",\"description\":\"urbandictionary\",\"id\":4294,\"url\":\"https://www.urbandictionary.com/define.php?term\u003dArtcore\"},{\"category\":\"Official\",\"description\":\"Wikipedia (JP)\",\"id\":4297,\"url\":\"https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%83%88%E3%82%B3%E3%82%A2\"}]}]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:01 GMT"
+                ],
+                "Content-Length": [
+                  "1957"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492851882"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492851946"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetChildTags",
+            "originalParameter": {
+              "parameterName": "lang",
+              "sanitizedName": "lang",
+              "value": [
+                "English"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": "108"
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "WebLinks"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "-3"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "tagApiGetChildTags"
+  }
+}

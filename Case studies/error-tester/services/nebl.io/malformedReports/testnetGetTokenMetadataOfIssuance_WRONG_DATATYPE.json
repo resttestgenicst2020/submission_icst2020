@@ -1,0 +1,86 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://ntp1node.nebl.io//testnet/ntp1/tokenmetadata/35",
+              "responseBody": "{\"tokenId\":\"35\",\"numOfHolders\":0,\"totalSupply\":0,\"numOfTransfers\":0,\"numOfIssuance\":0,\"numOfBurns\":0,\"firstBlock\":-1}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:43:21 GMT"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "117"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "X-Powered-By": [
+                  "Express"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "Content-Type, api_key"
+                ],
+                "ETag": [
+                  "W/\"75-c9cdc198\""
+                ],
+                "Last-Modified": [
+                  "Monday, 07-Oct-2019 23:43:21 GMT"
+                ],
+                "Cache-Control": [
+                  "no-store, no-cache, must-revalidate, proxy-revalidate, max-age\u003d0"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491791437"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491791676"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "testnetGetTokenMetadataOfIssuance",
+            "originalParameter": {
+              "parameterName": "tokenid",
+              "sanitizedName": "tokenid",
+              "value": "mJwOTihtiAWKZNONLh"
+            },
+            "parameters": [
+              {
+                "parameterName": "tokenid",
+                "sanitizedName": "tokenid",
+                "value": "35"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "testnetGetTokenMetadataOfIssuance"
+  }
+}

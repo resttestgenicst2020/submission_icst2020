@@ -1,0 +1,160 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums/top?languagePreference\u003d3ObhVkd\u0026fields\u003dReleaseEvent",
+              "responseBody": "[{\"artistString\":\"鬱P, MY SONG IS SHIT feat. various\",\"createDate\":\"2012-04-09T17:11:21\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":1274,\"name\":\"MOKSHA\",\"ratingAverage\":4.87,\"ratingCount\":49,\"releaseDate\":{\"day\":28,\"formatted\":\"2012-04-28\",\"isEmpty\":false,\"month\":4,\"year\":2012},\"releaseEvent\":{\"category\":\"Unspecified\",\"date\":\"2012-04-28T00:00:00Z\",\"endDate\":\"2012-04-29T00:00:00Z\",\"id\":1,\"name\":\"The Voc@loid M@ster 20\",\"seriesId\":1,\"seriesNumber\":20,\"seriesSuffix\":\"\",\"status\":\"Finished\",\"urlSlug\":\"the-vocloid-mster-20\",\"version\":3},\"status\":\"Approved\",\"version\":22},{\"artistString\":\"wowaka feat. various\",\"createDate\":\"2011-10-12T00:00:00\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":79,\"name\":\"アンハッピーリフレイン\",\"ratingAverage\":4.78,\"ratingCount\":100,\"releaseDate\":{\"day\":18,\"formatted\":\"2011-05-18\",\"isEmpty\":false,\"month\":5,\"year\":2011},\"status\":\"Finished\",\"version\":21},{\"artistString\":\"Orangestar feat. IA, 初音ミク\",\"createDate\":\"2016-12-03T17:48:45\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":20109,\"name\":\"SEASIDE SOLILOQUIES\",\"ratingAverage\":4.76,\"ratingCount\":13,\"releaseDate\":{\"day\":18,\"formatted\":\"2017-01-18\",\"isEmpty\":false,\"month\":1,\"year\":2017},\"status\":\"Finished\",\"version\":18},{\"artistString\":\"ヘブンズP feat. 初音ミク, 初音ミク Append (Solid), 初音ミク Append (Dark)\",\"createDate\":\"2012-08-09T16:11:48\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":1692,\"name\":\"Humanoid Being\",\"ratingAverage\":4.7,\"ratingCount\":17,\"releaseDate\":{\"day\":11,\"formatted\":\"2012-08-11\",\"isEmpty\":false,\"month\":8,\"year\":2012},\"releaseEvent\":{\"category\":\"Unspecified\",\"date\":\"2012-08-11T00:00:00Z\",\"id\":27,\"name\":\"Comiket 82\",\"seriesId\":3,\"seriesNumber\":82,\"seriesSuffix\":\"\",\"status\":\"Finished\",\"urlSlug\":\"comiket-82\",\"version\":0},\"status\":\"Approved\",\"version\":13},{\"artistString\":\"Various artists\",\"createDate\":\"2011-11-06T21:04:18\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":401,\"name\":\"初音ミク -Project DIVA- Original Song Collection\",\"ratingAverage\":4.56,\"ratingCount\":16,\"releaseDate\":{\"day\":22,\"formatted\":\"2009-07-22\",\"isEmpty\":false,\"month\":7,\"year\":2009},\"status\":\"Finished\",\"version\":11},{\"artistString\":\"emon feat. various\",\"createDate\":\"2012-05-10T07:02:33\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":1377,\"name\":\"emonloid4\",\"ratingAverage\":4.53,\"ratingCount\":15,\"releaseDate\":{\"day\":28,\"formatted\":\"2012-04-28\",\"isEmpty\":false,\"month\":4,\"year\":2012},\"releaseEvent\":{\"category\":\"Unspecified\",\"date\":\"2012-04-28T00:00:00Z\",\"endDate\":\"2012-04-29T00:00:00Z\",\"id\":1,\"name\":\"The Voc@loid M@ster 20\",\"seriesId\":1,\"seriesNumber\":20,\"seriesSuffix\":\"\",\"status\":\"Finished\",\"urlSlug\":\"the-vocloid-mster-20\",\"version\":3},\"status\":\"Finished\",\"version\":11},{\"artistString\":\"Various artists\",\"createDate\":\"2011-11-07T11:46:10\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Compilation\",\"id\":407,\"name\":\"初音ミク: Project DIVA 2nd - NONSTOP MIX COLLECTION \",\"ratingAverage\":4.5,\"ratingCount\":18,\"releaseDate\":{\"day\":28,\"formatted\":\"2010-07-28\",\"isEmpty\":false,\"month\":7,\"year\":2010},\"status\":\"Finished\",\"version\":8}]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "max-age\u003d3600"
+                ],
+                "Content-Length": [
+                  "3159"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "ETag": [
+                  "\"dd802688-e78c-4f54-915b-fc74331ad2d8\""
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:43 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492294149"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492294208"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetTopAlbums",
+            "originalParameter": {
+              "parameterName": "languagePreference",
+              "sanitizedName": "languagePreference",
+              "value": [
+                "English"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "languagePreference",
+                "sanitizedName": "languagePreference",
+                "value": [
+                  "3ObhVkd"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums/top?languagePreference\u003dEnglish\u0026fields\u003dQAFDUUM",
+              "responseBody": "[{\"artistString\":\"ピノキオピー, ガスコンロ feat. various\",\"createDate\":\"2013-11-03T12:54:24\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":6480,\"name\":\"遊星まっしらけ\",\"ratingAverage\":4.83,\"ratingCount\":12,\"releaseDate\":{\"day\":17,\"formatted\":\"17/11/2013\",\"isEmpty\":false,\"month\":11,\"year\":2013},\"status\":\"Approved\",\"version\":19},{\"artistString\":\"きくお, Kikuo Sound Works feat. various\",\"createDate\":\"2012-08-08T13:18:21\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":1677,\"name\":\"きくおミク2\",\"ratingAverage\":4.78,\"ratingCount\":23,\"releaseDate\":{\"day\":11,\"formatted\":\"11/08/2012\",\"isEmpty\":false,\"month\":8,\"year\":2012},\"status\":\"Finished\",\"version\":18},{\"artistString\":\"CircusP feat. 初音ミク英語版\",\"createDate\":\"2014-02-08T16:29:23\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"EP\",\"id\":6848,\"name\":\"Five\",\"ratingAverage\":4.72,\"ratingCount\":25,\"releaseDate\":{\"day\":11,\"formatted\":\"11/04/2014\",\"isEmpty\":false,\"month\":4,\"year\":2014},\"status\":\"Finished\",\"version\":11},{\"artistString\":\"kemu feat. 鏡音リン, GUMI, IA\",\"createDate\":\"2012-05-09T11:53:23\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":1375,\"name\":\"PANDORA VOXX\",\"ratingAverage\":4.68,\"ratingCount\":19,\"releaseDate\":{\"day\":28,\"formatted\":\"28/04/2012\",\"isEmpty\":false,\"month\":4,\"year\":2012},\"status\":\"Finished\",\"version\":13},{\"artistString\":\"Mitchie M feat. various\",\"createDate\":\"2013-01-08T18:09:21\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":2083,\"name\":\"REALISTIC VIRTUAL SINGING\",\"ratingAverage\":4.61,\"ratingCount\":21,\"releaseDate\":{\"day\":31,\"formatted\":\"31/12/2012\",\"isEmpty\":false,\"month\":12,\"year\":2012},\"status\":\"Finished\",\"version\":6},{\"artistString\":\"きくお, Kikuo Sound Works feat. 初音ミク\",\"createDate\":\"2012-01-09T22:31:37\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Album\",\"id\":984,\"name\":\"きくおミク\",\"ratingAverage\":4.57,\"ratingCount\":21,\"releaseDate\":{\"day\":13,\"formatted\":\"13/08/2011\",\"isEmpty\":false,\"month\":8,\"year\":2011},\"status\":\"Finished\",\"version\":11},{\"artistString\":\"Various artists\",\"createDate\":\"2011-10-10T00:00:00\",\"defaultNameLanguage\":\"Unspecified\",\"discType\":\"Compilation\",\"id\":50,\"name\":\"EXIT TUNES PRESENTS GUMism from Megpoid\",\"ratingAverage\":4.45,\"ratingCount\":24,\"releaseDate\":{\"day\":16,\"formatted\":\"16/03/2011\",\"isEmpty\":false,\"month\":3,\"year\":2011},\"status\":\"Approved\",\"version\":14}]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "max-age\u003d3600"
+                ],
+                "Content-Length": [
+                  "2401"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "ETag": [
+                  "\"6434d531-a13e-45cb-b4b5-e3d154506ef6\""
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:43 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492294210"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492294269"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetTopAlbums",
+            "originalParameter": {
+              "parameterName": "fields",
+              "sanitizedName": "fields",
+              "value": [
+                "ReleaseEvent"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "languagePreference",
+                "sanitizedName": "languagePreference",
+                "value": [
+                  "English"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "QAFDUUM"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "albumApiGetTopAlbums"
+  }
+}

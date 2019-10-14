@@ -1,0 +1,192 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/moveResources?destinationPath\u003daEpwGiry",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d5967313d877ea472"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:01:32 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489282314"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489282724"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "filePaths",
+              "sanitizedName": "filePaths",
+              "value": [
+                "BTO",
+                "iIFylw",
+                "YnDqdaESEuy",
+                "eowAOzGQWVFfpiw",
+                "tSnCxStgrEOpLe",
+                "fQwCdbBKWewXHXvrWT",
+                "XZJYzNs",
+                "Pf",
+                "iyCTm"
+              ]
+            },
+            "operationId": "moveResources",
+            "parameters": [
+              {
+                "parameterName": "destinationPath",
+                "sanitizedName": "destinationPath",
+                "value": [
+                  "aEpwGiry"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/moveResources?filePaths\u003dBTO\u0026filePaths\u003diIFylw\u0026filePaths\u003dYnDqdaESEuy\u0026filePaths\u003deowAOzGQWVFfpiw\u0026filePaths\u003dtSnCxStgrEOpLe\u0026filePaths\u003dfQwCdbBKWewXHXvrWT\u0026filePaths\u003dXZJYzNs\u0026filePaths\u003dPf\u0026filePaths\u003diyCTm",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d08eb94a0c54d7e28"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:01:33 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489282726"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489282929"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "destinationPath",
+              "sanitizedName": "destinationPath",
+              "value": [
+                "aEpwGiry"
+              ]
+            },
+            "operationId": "moveResources",
+            "parameters": [
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "BTO",
+                  "iIFylw",
+                  "YnDqdaESEuy",
+                  "eowAOzGQWVFfpiw",
+                  "tSnCxStgrEOpLe",
+                  "fQwCdbBKWewXHXvrWT",
+                  "XZJYzNs",
+                  "Pf",
+                  "iyCTm"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "moveResources"
+  }
+}

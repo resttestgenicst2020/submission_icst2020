@@ -1,0 +1,190 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createFolder?folderName\u003d46\u0026path\u003dUMizmUdaWsAbhPTTQbF",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d3a056349aab005aa"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:59:26 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489156049"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489156256"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createFolder",
+            "originalParameter": {
+              "parameterName": "folderName",
+              "sanitizedName": "folderName",
+              "value": [
+                "fB"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "folderName",
+                "sanitizedName": "folderName",
+                "value": [
+                  "46"
+                ]
+              },
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "UMizmUdaWsAbhPTTQbF"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createFolder?folderName\u003dfB\u0026path\u003d32",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d87ee2c56685fb67a"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:59:26 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489156259"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489156462"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createFolder",
+            "originalParameter": {
+              "parameterName": "path",
+              "sanitizedName": "path",
+              "value": [
+                "UMizmUdaWsAbhPTTQbF"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "folderName",
+                "sanitizedName": "folderName",
+                "value": [
+                  "fB"
+                ]
+              },
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "32"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "createFolder"
+  }
+}

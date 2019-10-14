@@ -1,0 +1,80 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://api.opentargets.io/v3/platform/private/disease/5",
+              "responseBody": "null\n",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:44:36 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Content-Length": [
+                  "5"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "Content-Type,Auth-Token"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "GET,PUT,POST,DELETE,OPTIONS"
+                ],
+                "Cache-Control": [
+                  "public, no-transform, max-age\u003d2592000"
+                ],
+                "Via": [
+                  "1.1 google"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491866375"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491866442"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getDiseaseById",
+            "originalParameter": {
+              "parameterName": "disease",
+              "sanitizedName": "disease",
+              "value": "oLCTUDUAHVaDWcxS"
+            },
+            "parameters": [
+              {
+                "parameterName": "disease",
+                "sanitizedName": "disease",
+                "value": "5"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getDiseaseById"
+  }
+}

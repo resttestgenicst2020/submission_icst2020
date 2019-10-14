@@ -1,0 +1,750 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags?query\u003dClmgIXMgfBny\u0026allowChildren\u003dfalse\u0026categoryName\u003dGenres\u0026start\u003d910214411\u0026maxResults\u003d6\u0026getTotalCount\u003dtrue\u0026nameMatchMode\u003dBSCzKuBr\u0026sort\u003dAdditionDate\u0026preferAccurateMatches\u003dtrue\u0026fields\u003dMainPicture\u0026lang\u003dRomaji\u0026target\u003dAlbumArtist",
+              "responseBody": "{\"items\":[],\"term\":\"ClmgIXMgfBny\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:54:40 GMT"
+                ],
+                "Content-Length": [
+                  "49"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492470319"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492470396"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetList",
+            "originalParameter": {
+              "parameterName": "nameMatchMode",
+              "sanitizedName": "nameMatchMode",
+              "value": [
+                "StartsWith"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ClmgIXMgfBny"
+                ]
+              },
+              {
+                "parameterName": "allowChildren",
+                "sanitizedName": "allowChildren",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "categoryName",
+                "sanitizedName": "categoryName",
+                "value": [
+                  "Genres"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "910214411"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "6"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "BSCzKuBr"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "AdditionDate"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              },
+              {
+                "parameterName": "target",
+                "sanitizedName": "target",
+                "value": [
+                  "AlbumArtist"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags?query\u003dClmgIXMgfBny\u0026allowChildren\u003dfalse\u0026categoryName\u003dGenres\u0026start\u003d910214411\u0026maxResults\u003d6\u0026getTotalCount\u003dtrue\u0026nameMatchMode\u003dStartsWith\u0026sort\u003d9ahHGCf1\u0026preferAccurateMatches\u003dtrue\u0026fields\u003dMainPicture\u0026lang\u003dRomaji\u0026target\u003dAlbumArtist",
+              "responseBody": "{\"items\":[],\"term\":\"ClmgIXMgfBny\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:54:40 GMT"
+                ],
+                "Content-Length": [
+                  "49"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492470398"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492470473"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetList",
+            "originalParameter": {
+              "parameterName": "sort",
+              "sanitizedName": "sort",
+              "value": [
+                "AdditionDate"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ClmgIXMgfBny"
+                ]
+              },
+              {
+                "parameterName": "allowChildren",
+                "sanitizedName": "allowChildren",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "categoryName",
+                "sanitizedName": "categoryName",
+                "value": [
+                  "Genres"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "910214411"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "6"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "9ahHGCf1"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              },
+              {
+                "parameterName": "target",
+                "sanitizedName": "target",
+                "value": [
+                  "AlbumArtist"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags?query\u003dClmgIXMgfBny\u0026allowChildren\u003dfalse\u0026categoryName\u003dGenres\u0026start\u003d910214411\u0026maxResults\u003d6\u0026getTotalCount\u003dtrue\u0026nameMatchMode\u003dStartsWith\u0026sort\u003dAdditionDate\u0026preferAccurateMatches\u003dtrue\u0026fields\u003dDNVWTz9PV\u0026lang\u003dRomaji\u0026target\u003dAlbumArtist",
+              "responseBody": "{\"items\":[],\"term\":\"ClmgIXMgfBny\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:54:40 GMT"
+                ],
+                "Content-Length": [
+                  "49"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492470476"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492470543"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetList",
+            "originalParameter": {
+              "parameterName": "fields",
+              "sanitizedName": "fields",
+              "value": [
+                "MainPicture"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ClmgIXMgfBny"
+                ]
+              },
+              {
+                "parameterName": "allowChildren",
+                "sanitizedName": "allowChildren",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "categoryName",
+                "sanitizedName": "categoryName",
+                "value": [
+                  "Genres"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "910214411"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "6"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "AdditionDate"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "DNVWTz9PV"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              },
+              {
+                "parameterName": "target",
+                "sanitizedName": "target",
+                "value": [
+                  "AlbumArtist"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags?query\u003dClmgIXMgfBny\u0026allowChildren\u003dfalse\u0026categoryName\u003dGenres\u0026start\u003d910214411\u0026maxResults\u003d6\u0026getTotalCount\u003dtrue\u0026nameMatchMode\u003dStartsWith\u0026sort\u003dAdditionDate\u0026preferAccurateMatches\u003dtrue\u0026fields\u003dMainPicture\u0026lang\u003d3VuF6GNdX\u0026target\u003dAlbumArtist",
+              "responseBody": "{\"items\":[],\"term\":\"ClmgIXMgfBny\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:54:40 GMT"
+                ],
+                "Content-Length": [
+                  "49"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492470546"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492470618"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetList",
+            "originalParameter": {
+              "parameterName": "lang",
+              "sanitizedName": "lang",
+              "value": [
+                "Romaji"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ClmgIXMgfBny"
+                ]
+              },
+              {
+                "parameterName": "allowChildren",
+                "sanitizedName": "allowChildren",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "categoryName",
+                "sanitizedName": "categoryName",
+                "value": [
+                  "Genres"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "910214411"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "6"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "AdditionDate"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "3VuF6GNdX"
+                ]
+              },
+              {
+                "parameterName": "target",
+                "sanitizedName": "target",
+                "value": [
+                  "AlbumArtist"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags?query\u003dClmgIXMgfBny\u0026allowChildren\u003dfalse\u0026categoryName\u003dGenres\u0026start\u003d910214411\u0026maxResults\u003d6\u0026getTotalCount\u003dtrue\u0026nameMatchMode\u003dStartsWith\u0026sort\u003dAdditionDate\u0026preferAccurateMatches\u003dtrue\u0026fields\u003dMainPicture\u0026lang\u003dRomaji\u0026target\u003d00DwcL7xN",
+              "responseBody": "{\"items\":[],\"term\":\"ClmgIXMgfBny\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:54:40 GMT"
+                ],
+                "Content-Length": [
+                  "49"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492470620"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492470685"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "tagApiGetList",
+            "originalParameter": {
+              "parameterName": "target",
+              "sanitizedName": "target",
+              "value": [
+                "AlbumArtist"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ClmgIXMgfBny"
+                ]
+              },
+              {
+                "parameterName": "allowChildren",
+                "sanitizedName": "allowChildren",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "categoryName",
+                "sanitizedName": "categoryName",
+                "value": [
+                  "Genres"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "910214411"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "6"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "AdditionDate"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              },
+              {
+                "parameterName": "target",
+                "sanitizedName": "target",
+                "value": [
+                  "00DwcL7xN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "tagApiGetList"
+  }
+}

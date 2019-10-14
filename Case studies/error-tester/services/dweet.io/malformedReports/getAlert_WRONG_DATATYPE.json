@@ -1,0 +1,142 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//get/alert/for/-82?key\u003dsFkoBBwG",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:25:21 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487109871"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487112620"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getAlert",
+            "originalParameter": {
+              "parameterName": "thing",
+              "sanitizedName": "thing",
+              "value": "QliFDGOqlsy"
+            },
+            "parameters": [
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "-82"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "sFkoBBwG"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//get/alert/for/QliFDGOqlsy?key\u003d-72",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:25:24 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487113240"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487115077"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getAlert",
+            "originalParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "sFkoBBwG"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "QliFDGOqlsy"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "-72"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getAlert"
+  }
+}

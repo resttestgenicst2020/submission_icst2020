@@ -1,0 +1,71 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://api.citysdk.waag.org//ngsi10/contextEntityTypes/%7Bcetype%7D",
+              "responseBody": "{\"errorCode\":{\"code\":\"404\",\"reasonPhrase\":\"No context elements found\"}}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "71"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Status": [
+                  "200 OK"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "X-Powered-By": [
+                  "Phusion Passenger"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:04:10 GMT"
+                ],
+                "Server": [
+                  "nginx + Phusion Passenger"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570493037225"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570493040162"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "cetype",
+              "sanitizedName": "cetype",
+              "value": "vHXcMxRKlCElCnhpiZi"
+            },
+            "operationId": "gETNgsi10ContextEntityTypesCetypeFormat",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "gETNgsi10ContextEntityTypesCetypeFormat"
+  }
+}

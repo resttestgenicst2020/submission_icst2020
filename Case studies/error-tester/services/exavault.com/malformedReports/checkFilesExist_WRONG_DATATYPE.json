@@ -1,0 +1,109 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/checkFilesExist?filePaths\u003d37\u0026filePaths\u003d67\u0026filePaths\u003d-18\u0026filePaths\u003d36\u0026filePaths\u003d-28\u0026filePaths\u003d-11\u0026filePaths\u003d-28\u0026filePaths\u003d-20\u0026filePaths\u003d72",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d6c739efd97cccf2d"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:51:47 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488697206"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488697496"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "checkFilesExist",
+            "originalParameter": {
+              "parameterName": "filePaths",
+              "sanitizedName": "filePaths",
+              "value": [
+                "dVNB",
+                "zDxeVh",
+                "moNTlPSWuONkcdGq",
+                "DAtlzCdMRjjCK",
+                "RiLuRUg",
+                "eIifygomphBEQdmMDb",
+                "txfwPznrvt",
+                "pdBoclcCufX",
+                "ISgmpSUpfvs"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "37",
+                  "67",
+                  "-18",
+                  "36",
+                  "-28",
+                  "-11",
+                  "-28",
+                  "-20",
+                  "72"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "checkFilesExist"
+  }
+}

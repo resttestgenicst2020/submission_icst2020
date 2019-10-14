@@ -1,0 +1,99 @@
+{
+  "responseCoverage": {
+    "500": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://ofmpub.epa.gov/echo/dfr_rest_services.get_demographics_by_id?output\u003d-41",
+              "responseBody": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003cstyle type\u003d\"text/css\" media\u003d\"screen\"\u003e\nhtml{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}header{display:block}a{background:0 0}a:active,a:hover{outline:0}img{border:0}pre{overflow:auto}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}@media print{*{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:\" (\" attr(href) \")\"}pre{border:1px solid #999;page-break-inside:avoid}img{page-break-inside:avoid;max-width:100%!important}h2,p{orphans:3;widows:3}h2{page-break-after:avoid}.navbar{display:none}}@font-face{font-family:\u0027Glyphicons Halflings\u0027;src:url(../fonts/glyphicons-halflings-regular.eot);src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format(\u0027embedded-opentype\u0027),url(../fonts/glyphicons-halflings-regular.woff) format(\u0027woff\u0027),url(../fonts/glyphicons-halflings-regular.ttf) format(\u0027truetype\u0027),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format(\u0027svg\u0027)}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:transparent}body{font-family:\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-size:12px;line-height:1.42857143;color:#333;background-color:#fff}a{color:#428bca;text-decoration:none}a:focus,a:hover{color:#2a6496;text-decoration:underline}a:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}img{vertical-align:middle}h2{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h2 small{font-weight:400;line-height:1;color:#777}h2{margin-top:17px;margin-bottom:8.5px}h2 small{font-size:65%}h2{font-size:25px}p{margin:0 0 8.5px}small{font-size:91%}ul{margin-top:0;margin-bottom:8.5px}pre{font-family:Menlo,Monaco,Consolas,\"Courier New\",monospace;display:block;padding:8px;margin:0 0 8.5px;font-size:11px;line-height:1.42857143;color:#333;word-break:break-all;word-wrap:break-word;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.form-control::-moz-placeholder{color:#777;opacity:1}.form-control:-ms-input-placeholder{color:#777}.navbar{position:relative;min-height:50px;margin-bottom:17px;border:1px solid transparent}@media (min-width:768px){.navbar{border-radius:4px}}@media (min-width:768px){.navbar-header{float:left}}.container\u003e.navbar-header{margin-right:-15px;margin-left:-15px}@media (min-width:768px){.container\u003e.navbar-header{margin-right:0;margin-left:0}}.navbar-static-top{z-index:1000;border-width:0 0 1px}@media (min-width:768px){.navbar-static-top{border-radius:0}}.navbar-brand{float:left;height:50px;padding:16.5px 15px;font-size:15px;line-height:17px}.navbar-brand:focus,.navbar-brand:hover{text-decoration:none}@media (min-width:768px){.navbar\u003e.container .navbar-brand{margin-left:-15px}}.navbar-default{background-color:#f0f0f0;border-color:#dfdfdf}.navbar-default .navbar-brand{color:#707070}.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{color:#222;background-color:transparent}.alert{padding:15px;margin-bottom:17px;border:1px solid transparent;border-radius:4px}.alert-danger{color:#a94442;background-color:#f2dede;border-color:#ebccd1}.container:after,.container:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before{display:table;content:\" \"}.container:after,.navbar-header:after,.navbar:after{clear:both}@-ms-viewport{width:device-width};  transform:translate3d(0,0,0)}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none!important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none!important}@media (max-width:767px){.visible-xs{display:block!important}table.visible-xs{display:table}tr.visible-xs{display:table-row!important}th.visible-xs,td.visible-xs{display:table-cell!important}}@media (max-width:767px){.visible-xs-block{display:block!important}}@media (max-width:767px){.visible-xs-inline{display:inline!important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block!important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block!important}table.visible-sm{display:table}tr.visible-sm{display:table-row!important}th.visible-sm,td.visible-sm{display:table-cell!important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block!important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline!important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block!important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block!important}table.visible-md{display:table}tr.visible-md{display:table-row!important}th.visible-md,td.visible-md{display:table-cell!important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block!important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline!important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block!important}}@media (min-width:1200px){.visible-lg{display:block!important}table.visible-lg{display:table}tr.visible-lg{display:table-row!important}th.visible-lg,td.visible-lg{display:table-cell!important}}@media (min-width:1200px){.visible-lg-block{display:block!important}}@media (min-width:1200px){.visible-lg-inline{display:inline!important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block!important}}@media (max-width:767px){.hidden-xs{display:none!important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none!important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none!important}}@media (min-width:1200px){.hidden-lg{display:none!important}}.visible-print{display:none!important}@media print{.visible-print{display:block!important}table.visible-print{display:table}tr.visible-print{display:table-row!important}th.visible-print,td.visible-print{display:table-cell!important}}.visible-print-block{display:none!important}@media print{.visible-print-block{display:block!important}}.visible-print-inline{display:none!important}@media print{.visible-print-inline{display:inline!important}}.visible-print-inline-block{display:none!important}@media print{.visible-print-inline-block{display:inline-block!important}}@media print{.hidden-print{display:none!important}}  \n\u003c/style\u003e\n\u003chead\u003e\n\u003ctitle\u003eInternal Server Error\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\t\u003cheader  class\u003d\"navbar navbar-default navbar-static-top\" id\u003d\"top\" role\u003d\"banner\"\u003e\n\t    \u003cdiv class\u003d\"container\"\u003e\n\t    \t\u003cdiv class\u003d\"navbar-header\"\u003e\n\t\t      \u003ca class\u003d\"navbar-brand\" style\u003d\"padding:5.5px 24px;\" href\u003d\"../../../\"\u003e\u003cimg style\u003d\"height:40px;margin-right:5px;\" src\u003d\"data:image/png;base64,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\u003d\" /\u003e\u003c/a\u003e\n\t\t      \u003ca class\u003d\"navbar-brand hidden-xs\" style\u003d\"margin-left:-39px; margin-top:-1px\" href\u003d\"../../../\"\u003eORACLE REST DATA SERVICES\u003c/a\u003e\n\t\t      \u003ca class\u003d\"navbar-brand visible-xs-block\" style\u003d\"margin-left:-40px\" href\u003d\"../../../\"\u003eORDS\u003c/a\u003e\n\t\t    \u003c/div\u003e\n\t    \u003c/div\u003e\n    \u003c/header\u003e\n\t\u003cdiv class\u003d\"container\"\u003e\n\t\t\u003ch2 class\u003d\"alert alert-danger\"\u003e\n\t\t\t\u003cspan\u003e500\u003c/span\u003e  \u003csmall\u003eInternal Server Error\u003c/small\u003e\n\t\t\u003c/h2\u003e\n\t\u003c/div\u003e\n\t\u003cdiv class\u003d\"container\"\u003e\n\t\t\u003cul class\u003d\"reasons\"\u003e\n\t\t\u003c/ul\u003e\n\t\t\u003cp\u003e\n\t\t\n\t\t\u003c/p\u003e\n\t\t\n\t\u003c/div\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 22:50:50 GMT"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d63072000; includeSubdomains; preload"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "Content-Type, api_key, authorization"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "GET, POST, OPTIONS"
+                ],
+                "Access-Control-Request-Headers": [
+                  "Content-Type, api_key, authorization"
+                ],
+                "Access-Control-Request-Methods": [
+                  "GET, POST, OPTIONS"
+                ],
+                "Content-Length": [
+                  "11408"
+                ],
+                "Content-Type": [
+                  "text/html"
+                ],
+                "Content-Language": [
+                  "en"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d999"
+                ],
+                "Server": [
+                  "Oracle-Application-Server-11g Oracle-Web-Cache-11g/11.1.1.6.0 (N;ecid\u003d581098052856303,0:1)"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488640150"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488640661"
+                ]
+              },
+              "statusCode": 500
+            },
+            "httpMethod": "GET",
+            "operationId": "dfrRestServicesGetDemographicsByIdGet",
+            "originalParameter": {
+              "parameterName": "output",
+              "sanitizedName": "output",
+              "value": [
+                "JSON"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "output",
+                "sanitizedName": "output",
+                "value": [
+                  "-41"
+                ]
+              }
+            ],
+            "statusCode": 500,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "dfrRestServicesGetDemographicsByIdGet"
+  }
+}

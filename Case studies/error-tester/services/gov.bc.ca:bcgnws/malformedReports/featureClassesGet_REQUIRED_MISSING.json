@@ -1,0 +1,73 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/featureClasses",
+              "responseBody": "\u003cfeatureClasses\u003e\n  \u003clegal\u003e\n    \u003cprivacyURI\u003ehttp://www.gov.bc.ca/com/privacy.html\u003c/privacyURI\u003e\n    \u003cdisclaimerURI\u003ehttp://www.gov.bc.ca/com/disclaimer.html\u003c/disclaimerURI\u003e\n    \u003ccopyrightLicenseURI\u003ehttp://www.gov.bc.ca/com/copyright.html\u003c/copyrightLicenseURI\u003e\n    \u003ccopyrightNotice\u003eCopyright (c) 2019, Province of British Columbia\u003c/copyrightNotice\u003e\n  \u003c/legal\u003e\n  \u003cfeatureClass\u003e\n    \u003cfeatureClassCode\u003e1\u003c/featureClassCode\u003e\n    \u003cdescription\u003ePopulated\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureClass\u003e\n  \u003cfeatureClass\u003e\n    \u003cfeatureClassCode\u003e2\u003c/featureClassCode\u003e\n    \u003cdescription\u003eAdministrative Areas\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureClass\u003e\n  \u003cfeatureClass\u003e\n    \u003cfeatureClassCode\u003e3\u003c/featureClassCode\u003e\n    \u003cdescription\u003eWater Features\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureClass\u003e\n  \u003cfeatureClass\u003e\n    \u003cfeatureClassCode\u003e4\u003c/featureClassCode\u003e\n    \u003cdescription\u003eTerrain Features\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureClass\u003e\n  \u003cfeatureClass\u003e\n    \u003cfeatureClassCode\u003e5\u003c/featureClassCode\u003e\n    \u003cdescription\u003eFeatures Associated with Vegetation\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureClass\u003e\n  \u003cfeatureClass\u003e\n    \u003cfeatureClassCode\u003e6\u003c/featureClassCode\u003e\n    \u003cdescription\u003eConstructed Features and Cultural Sites\u003c/description\u003e\n    \u003cchangeDate\u003e2014-04-09\u003c/changeDate\u003e\n  \u003c/featureClass\u003e\n  \u003cfeatureClass\u003e\n    \u003cfeatureClassCode\u003e7\u003c/featureClassCode\u003e\n    \u003cdescription\u003eUnclassified\u003c/description\u003e\n    \u003cchangeDate\u003e1996-07-12\u003c/changeDate\u003e\n  \u003c/featureClass\u003e\n  \u003cfeatureClass\u003e\n    \u003cfeatureClassCode\u003e8\u003c/featureClassCode\u003e\n    \u003cdescription\u003eIce \u0026amp; Snow Features\u003c/description\u003e\n    \u003cchangeDate\u003e2015-02-19\u003c/changeDate\u003e\n  \u003c/featureClass\u003e\n\u003c/featureClasses\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:08:47 GMT"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d100"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489716705"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489717112"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "outputFormat",
+              "sanitizedName": "outputFormat",
+              "value": [
+                "json"
+              ]
+            },
+            "operationId": "featureClassesGet",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "featureClassesGet"
+  }
+}

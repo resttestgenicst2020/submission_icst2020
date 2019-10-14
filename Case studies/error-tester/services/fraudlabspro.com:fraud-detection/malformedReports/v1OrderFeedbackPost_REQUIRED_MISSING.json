@@ -1,0 +1,244 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/feedback?key\u003dJEHCIQFcG\u0026action\u003dREJECT",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:10 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d89"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489619772"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489619934"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "missingParameter": {
+              "parameterName": "id",
+              "sanitizedName": "id",
+              "value": [
+                "aDvEjljpHCXycU"
+              ]
+            },
+            "operationId": "v1OrderFeedbackPost",
+            "parameters": [
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "JEHCIQFcG"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "REJECT"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/feedback?id\u003daDvEjljpHCXycU\u0026action\u003dREJECT",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:10 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d88"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489619939"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489620138"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "missingParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "JEHCIQFcG"
+              ]
+            },
+            "operationId": "v1OrderFeedbackPost",
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "aDvEjljpHCXycU"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "REJECT"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/feedback?id\u003daDvEjljpHCXycU\u0026key\u003dJEHCIQFcG",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:10 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d87"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489620143"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489620344"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "missingParameter": {
+              "parameterName": "action",
+              "sanitizedName": "action",
+              "value": [
+                "REJECT"
+              ]
+            },
+            "operationId": "v1OrderFeedbackPost",
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "aDvEjljpHCXycU"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "JEHCIQFcG"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "POST",
+    "operationId": "v1OrderFeedbackPost"
+  }
+}

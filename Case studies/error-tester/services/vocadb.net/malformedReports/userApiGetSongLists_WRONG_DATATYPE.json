@@ -1,0 +1,836 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/9468/songLists?query\u003d0\u0026nameMatchMode\u003dStartsWith\u0026start\u003d8\u0026maxResults\u003d9\u0026getTotalCount\u003dfalse\u0026sort\u003dDate\u0026fields\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:05 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492255885"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492255945"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetSongLists",
+            "originalParameter": {
+              "parameterName": "query",
+              "sanitizedName": "query",
+              "value": [
+                "NrSWHXMHyKPFG"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "9468"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "8"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "9"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "Date"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/9468/songLists?query\u003dNrSWHXMHyKPFG\u0026nameMatchMode\u003d-1\u0026start\u003d8\u0026maxResults\u003d9\u0026getTotalCount\u003dfalse\u0026sort\u003dDate\u0026fields\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:05 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492255948"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492256006"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetSongLists",
+            "originalParameter": {
+              "parameterName": "nameMatchMode",
+              "sanitizedName": "nameMatchMode",
+              "value": [
+                "StartsWith"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "9468"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "NrSWHXMHyKPFG"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "-1"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "8"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "9"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "Date"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/9468/songLists?query\u003dNrSWHXMHyKPFG\u0026nameMatchMode\u003dStartsWith\u0026start\u003dLeDWwTd\u0026maxResults\u003d9\u0026getTotalCount\u003dfalse\u0026sort\u003dDate\u0026fields\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:06 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492256009"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492256068"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetSongLists",
+            "originalParameter": {
+              "parameterName": "start",
+              "sanitizedName": "start",
+              "value": [
+                "8"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "9468"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "NrSWHXMHyKPFG"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "LeDWwTd"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "9"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "Date"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/9468/songLists?query\u003dNrSWHXMHyKPFG\u0026nameMatchMode\u003dStartsWith\u0026start\u003d8\u0026maxResults\u003dYKLoakd\u0026getTotalCount\u003dfalse\u0026sort\u003dDate\u0026fields\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:06 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492256072"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492256130"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetSongLists",
+            "originalParameter": {
+              "parameterName": "maxResults",
+              "sanitizedName": "maxResults",
+              "value": [
+                "9"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "9468"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "NrSWHXMHyKPFG"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "8"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "YKLoakd"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "Date"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/9468/songLists?query\u003dNrSWHXMHyKPFG\u0026nameMatchMode\u003dStartsWith\u0026start\u003d8\u0026maxResults\u003d9\u0026getTotalCount\u003d3\u0026sort\u003dDate\u0026fields\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:06 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492256133"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492256191"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetSongLists",
+            "originalParameter": {
+              "parameterName": "getTotalCount",
+              "sanitizedName": "getTotalCount",
+              "value": [
+                "false"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "9468"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "NrSWHXMHyKPFG"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "8"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "9"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "3"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "Date"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/9468/songLists?query\u003dNrSWHXMHyKPFG\u0026nameMatchMode\u003dStartsWith\u0026start\u003d8\u0026maxResults\u003d9\u0026getTotalCount\u003dfalse\u0026sort\u003d2\u0026fields\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:06 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492256194"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492256253"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetSongLists",
+            "originalParameter": {
+              "parameterName": "sort",
+              "sanitizedName": "sort",
+              "value": [
+                "Date"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "9468"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "NrSWHXMHyKPFG"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "8"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "9"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/9468/songLists?query\u003dNrSWHXMHyKPFG\u0026nameMatchMode\u003dStartsWith\u0026start\u003d8\u0026maxResults\u003d9\u0026getTotalCount\u003dfalse\u0026sort\u003dDate\u0026fields\u003d2",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:51:06 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492256256"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492256314"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetSongLists",
+            "originalParameter": {
+              "parameterName": "fields",
+              "sanitizedName": "fields",
+              "value": [
+                "None"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "9468"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "NrSWHXMHyKPFG"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "8"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "9"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "Date"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "2"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "userApiGetSongLists"
+  }
+}

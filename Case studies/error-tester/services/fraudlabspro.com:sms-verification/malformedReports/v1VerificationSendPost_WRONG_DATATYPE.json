@@ -1,0 +1,166 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/verification/send?tel\u003d-97\u0026key\u003dugUwGtqjFOzStda",
+              "responseBody": "{\"tran_id\":\"\",\"credits_remaining\":0,\"error\":\"Message cannot be blank.\"}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:14 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Content-Length": [
+                  "71"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d98"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489624360"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489624541"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1VerificationSendPost",
+            "originalParameter": {
+              "parameterName": "tel",
+              "sanitizedName": "tel",
+              "value": [
+                "IbCYXx"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tel",
+                "sanitizedName": "tel",
+                "value": [
+                  "-97"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "ugUwGtqjFOzStda"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/verification/send?tel\u003dIbCYXx\u0026key\u003d-96",
+              "responseBody": "{\"tran_id\":\"\",\"credits_remaining\":0,\"error\":\"Message cannot be blank.\"}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:14 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Content-Length": [
+                  "71"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d97"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489624548"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489624747"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1VerificationSendPost",
+            "originalParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "ugUwGtqjFOzStda"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tel",
+                "sanitizedName": "tel",
+                "value": [
+                  "IbCYXx"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "-96"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "POST",
+    "operationId": "v1VerificationSendPost"
+  }
+}

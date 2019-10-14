@@ -1,0 +1,86 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/songs/748/ratings?userFields\u003d97",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:04:00 GMT"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570493030643"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570493030697"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "songApiGetRatings",
+            "originalParameter": {
+              "parameterName": "userFields",
+              "sanitizedName": "userFields",
+              "value": [
+                "MainPicture"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "748"
+              },
+              {
+                "parameterName": "userFields",
+                "sanitizedName": "userFields",
+                "value": [
+                  "97"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "songApiGetRatings"
+  }
+}

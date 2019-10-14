@@ -1,0 +1,172 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/names/decisions/year?outputFormat\u003d-53\u0026year\u003d94",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresults\u003e\n  \u003clegal\u003e\n    \u003cprivacyURI\u003ehttp://www.gov.bc.ca/com/privacy.html\u003c/privacyURI\u003e\n    \u003cdisclaimerURI\u003ehttp://www.gov.bc.ca/com/disclaimer.html\u003c/disclaimerURI\u003e\n    \u003ccopyrightLicenseURI\u003ehttp://www.gov.bc.ca/com/copyright.html\u003c/copyrightLicenseURI\u003e\n    \u003ccopyrightNotice\u003eCopyright (c) 2019, Province of British Columbia\u003c/copyrightNotice\u003e\n  \u003c/legal\u003e\n  \u003cservice\u003eapps.gov.bc.ca/pub/bcgnws/names/decisions/year\u003c/service\u003e\n  \u003ctotalResults\u003e0\u003c/totalResults\u003e\n  \u003cstartIndex\u003e1\u003c/startIndex\u003e\n  \u003citemsPerPage\u003e10\u003c/itemsPerPage\u003e\n  \u003cnames\u003e\n  \u003c/names\u003e\n\u003c/results\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:10:03 GMT"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "Content-Disposition": [
+                  "inline; filename\u003d\"results.xml\""
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d98"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489793396"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489793812"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "namesDecisionsYearGet",
+            "originalParameter": {
+              "parameterName": "outputFormat",
+              "sanitizedName": "outputFormat",
+              "value": [
+                "xml"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "outputFormat",
+                "sanitizedName": "outputFormat",
+                "value": [
+                  "-53"
+                ]
+              },
+              {
+                "parameterName": "year",
+                "sanitizedName": "year",
+                "value": [
+                  "94"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/names/decisions/year?outputFormat\u003dxml\u0026year\u003dSLDAB",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresults\u003e\n  \u003clegal\u003e\n    \u003cprivacyURI\u003ehttp://www.gov.bc.ca/com/privacy.html\u003c/privacyURI\u003e\n    \u003cdisclaimerURI\u003ehttp://www.gov.bc.ca/com/disclaimer.html\u003c/disclaimerURI\u003e\n    \u003ccopyrightLicenseURI\u003ehttp://www.gov.bc.ca/com/copyright.html\u003c/copyrightLicenseURI\u003e\n    \u003ccopyrightNotice\u003eCopyright (c) 2019, Province of British Columbia\u003c/copyrightNotice\u003e\n  \u003c/legal\u003e\n  \u003cservice\u003eapps.gov.bc.ca/pub/bcgnws/names/decisions/year\u003c/service\u003e\n  \u003ctotalResults\u003e184\u003c/totalResults\u003e\n  \u003cstartIndex\u003e1\u003c/startIndex\u003e\n  \u003citemsPerPage\u003e10\u003c/itemsPerPage\u003e\n  \u003cnames\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/756\u003c/resourceUrl\u003e\n    \u003cname\u003eAlexis Creek\u003c/name\u003e\n    \u003clanguage\u003enot defined\u003c/language\u003e\n    \u003cstatus\u003erescinded\u003c/status\u003e\n    \u003cisOfficial\u003e0\u003c/isOfficial\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/9354\u003c/resourceUrl\u003e\n      \u003cid\u003e9354\u003c/id\u003e\n      \u003cuuid\u003e0cfa1623849c20c3b3ac449b77ec1232\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-03-11\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e8\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eFlowing Freshwater\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/8\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eCreek (1)\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e1184316.7417432913\u003c/easting\u003e\n      \u003cnorthing\u003e788995.2175587298\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1231820\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e520450\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eMOUTH\u003c/position\u003e\n    \u003cntsMap\u003e93B/3\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/758\u003c/resourceUrl\u003e\n    \u003cname\u003eAlexis Lake\u003c/name\u003e\n    \u003clanguage\u003eEnglish\u003c/language\u003e\n    \u003cstatus\u003erescinded\u003c/status\u003e\n    \u003cisOfficial\u003e0\u003c/isOfficial\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/9356\u003c/resourceUrl\u003e\n      \u003cid\u003e9356\u003c/id\u003e\n      \u003cuuid\u003e0c8ae00c849c20c30b71360de5b8042a\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-03-11\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e10\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eStanding Water Surrounded by Land\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/10\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eLake\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e1168300.0577356303\u003c/easting\u003e\n      \u003cnorthing\u003e809794.1519591821\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1233144\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e521620\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eCENTRE\u003c/position\u003e\n    \u003cntsMap\u003e93B/5\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/73241\u003c/resourceUrl\u003e\n    \u003cname\u003eAlty Conservancy\u003c/name\u003e\n    \u003clanguage\u003eEnglish\u003c/language\u003e\n    \u003cstatus\u003eadopted\u003c/status\u003e\n    \u003cisOfficial\u003e1\u003c/isOfficial\u003e\n    \u003cnameAuthority\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/1\u003c/resourceUrl\u003e\n      \u003cid\u003e1\u003c/id\u003e\n      \u003cnameAuthority\u003eBC Geographical Names Office\u003c/nameAuthority\u003e\n      \u003cwebSiteUrl\u003ehttp://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names\u003c/webSiteUrl\u003e\n    \u003c/nameAuthority\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/57022\u003c/resourceUrl\u003e\n      \u003cid\u003e57022\u003c/id\u003e\n      \u003cuuid\u003e6d2eb253eac74d3bb9cadeecf2ff8fa0\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-02-28\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e4\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eParks, Protected Reserves, etc.\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/4\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eConservation Area\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e774569.5395793676\u003c/easting\u003e\n      \u003cnorthing\u003e964723.5958903538\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1292507\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e533819\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eCENTRE\u003c/position\u003e\n    \u003cntsMap\u003e103H/11\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/39966\u003c/resourceUrl\u003e\n    \u003cname\u003eAnah Lake\u003c/name\u003e\n    \u003clanguage\u003enot defined\u003c/language\u003e\n    \u003cstatus\u003erescinded\u003c/status\u003e\n    \u003cisOfficial\u003e0\u003c/isOfficial\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/2121\u003c/resourceUrl\u003e\n      \u003cid\u003e2121\u003c/id\u003e\n      \u003cuuid\u003edaac4bfcd05211d892e2080020a0f4c9\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-03-11\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e10\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eStanding Water Surrounded by Land\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/10\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eLake\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e1187536.5672910977\u003c/easting\u003e\n      \u003cnorthing\u003e793271.7432957133\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1231522\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e520704\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eCENTRE\u003c/position\u003e\n    \u003cntsMap\u003e93B/3\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/73242\u003c/resourceUrl\u003e\n    \u003cname\u003eBanks Nii Łuutiksm Conservancy\u003c/name\u003e\n    \u003clanguage\u003enot defined\u003c/language\u003e\n    \u003cstatus\u003eadopted\u003c/status\u003e\n    \u003cisOfficial\u003e1\u003c/isOfficial\u003e\n    \u003cnameAuthority\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/1\u003c/resourceUrl\u003e\n      \u003cid\u003e1\u003c/id\u003e\n      \u003cnameAuthority\u003eBC Geographical Names Office\u003c/nameAuthority\u003e\n      \u003cwebSiteUrl\u003ehttp://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names\u003c/webSiteUrl\u003e\n    \u003c/nameAuthority\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/57023\u003c/resourceUrl\u003e\n      \u003cid\u003e57023\u003c/id\u003e\n      \u003cuuid\u003e14de5c8006104bd2b3cc61711a46f7a3\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-02-28\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e4\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eParks, Protected Reserves, etc.\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/4\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eConservation Area\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e703871.3147298652\u003c/easting\u003e\n      \u003cnorthing\u003e960509.0196891308\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1302903\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e533356\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eCENTRE\u003c/position\u003e\n    \u003cntsMap\u003e103G/9\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/73243\u003c/resourceUrl\u003e\n    \u003cname\u003eBear Island Conservancy\u003c/name\u003e\n    \u003clanguage\u003eEnglish\u003c/language\u003e\n    \u003cstatus\u003eadopted\u003c/status\u003e\n    \u003cisOfficial\u003e1\u003c/isOfficial\u003e\n    \u003cnameAuthority\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/1\u003c/resourceUrl\u003e\n      \u003cid\u003e1\u003c/id\u003e\n      \u003cnameAuthority\u003eBC Geographical Names Office\u003c/nameAuthority\u003e\n      \u003cwebSiteUrl\u003ehttp://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names\u003c/webSiteUrl\u003e\n    \u003c/nameAuthority\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/57024\u003c/resourceUrl\u003e\n      \u003cid\u003e57024\u003c/id\u003e\n      \u003cuuid\u003e887b7cbe78b6426c80314c9c44d6cbbf\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-02-28\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e4\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eParks, Protected Reserves, etc.\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/4\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eConservation Area\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e983429.1433418769\u003c/easting\u003e\n      \u003cnorthing\u003e1102919.1642742330\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1261533\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e545531\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eCENTRE\u003c/position\u003e\n    \u003cntsMap\u003e93L/16\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/73244\u003c/resourceUrl\u003e\n    \u003cname\u003eBella Coola Estuary Conservancy\u003c/name\u003e\n    \u003clanguage\u003eEnglish\u003c/language\u003e\n    \u003cstatus\u003eadopted\u003c/status\u003e\n    \u003cisOfficial\u003e1\u003c/isOfficial\u003e\n    \u003cnameAuthority\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/1\u003c/resourceUrl\u003e\n      \u003cid\u003e1\u003c/id\u003e\n      \u003cnameAuthority\u003eBC Geographical Names Office\u003c/nameAuthority\u003e\n      \u003cwebSiteUrl\u003ehttp://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names\u003c/webSiteUrl\u003e\n    \u003c/nameAuthority\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/57025\u003c/resourceUrl\u003e\n      \u003cid\u003e57025\u003c/id\u003e\n      \u003cuuid\u003ebc29e2b6dc334752b55046c6daa96a25\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-02-28\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e4\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eParks, Protected Reserves, etc.\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/4\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eConservation Area\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e946853.3486673228\u003c/easting\u003e\n      \u003cnorthing\u003e819632.5240815740\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1264656\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e522303\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eCENTRE\u003c/position\u003e\n    \u003cntsMap\u003e93D/7\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/70684\u003c/resourceUrl\u003e\n    \u003cname\u003eBenchuny\u003c/name\u003e\n    \u003clanguage\u003eTsilhqot\u0027in\u003c/language\u003e\n    \u003cstatus\u003eadopted\u003c/status\u003e\n    \u003cisOfficial\u003e1\u003c/isOfficial\u003e\n    \u003cnameAuthority\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/1\u003c/resourceUrl\u003e\n      \u003cid\u003e1\u003c/id\u003e\n      \u003cnameAuthority\u003eBC Geographical Names Office\u003c/nameAuthority\u003e\n      \u003cwebSiteUrl\u003ehttp://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names\u003c/webSiteUrl\u003e\n    \u003c/nameAuthority\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/2121\u003c/resourceUrl\u003e\n      \u003cid\u003e2121\u003c/id\u003e\n      \u003cuuid\u003edaac4bfcd05211d892e2080020a0f4c9\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-03-11\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e10\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eStanding Water Surrounded by Land\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/10\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eLake\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e1187536.5672910977\u003c/easting\u003e\n      \u003cnorthing\u003e793271.7432957133\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1231522\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e520704\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eCENTRE\u003c/position\u003e\n    \u003cntsMap\u003e93B/3\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/70702\u003c/resourceUrl\u003e\n    \u003cname\u003eBendziny\u003c/name\u003e\n    \u003clanguage\u003eTsilhqot\u0027in\u003c/language\u003e\n    \u003cstatus\u003eadopted\u003c/status\u003e\n    \u003cisOfficial\u003e1\u003c/isOfficial\u003e\n    \u003cnameAuthority\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/1\u003c/resourceUrl\u003e\n      \u003cid\u003e1\u003c/id\u003e\n      \u003cnameAuthority\u003eBC Geographical Names Office\u003c/nameAuthority\u003e\n      \u003cwebSiteUrl\u003ehttp://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names\u003c/webSiteUrl\u003e\n    \u003c/nameAuthority\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/27061\u003c/resourceUrl\u003e\n      \u003cid\u003e27061\u003c/id\u003e\n      \u003cuuid\u003e0c9e2621849c20c355340931692df7a1\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-03-11\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e10\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eStanding Water Surrounded by Land\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/10\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eLake\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e1135387.4780330110\u003c/easting\u003e\n      \u003cnorthing\u003e800794.4785758475\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1240056\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e521203\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eCENTRE\u003c/position\u003e\n    \u003cntsMap\u003e93C/1\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003cname\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/names/73245\u003c/resourceUrl\u003e\n    \u003cname\u003eBishop Bay-Monkey Beach Conservancy\u003c/name\u003e\n    \u003clanguage\u003eEnglish\u003c/language\u003e\n    \u003cstatus\u003eadopted\u003c/status\u003e\n    \u003cisOfficial\u003e1\u003c/isOfficial\u003e\n    \u003cnameAuthority\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/1\u003c/resourceUrl\u003e\n      \u003cid\u003e1\u003c/id\u003e\n      \u003cnameAuthority\u003eBC Geographical Names Office\u003c/nameAuthority\u003e\n      \u003cwebSiteUrl\u003ehttp://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names\u003c/webSiteUrl\u003e\n    \u003c/nameAuthority\u003e\n    \u003ctags\u003e\n    \u003c/tags\u003e\n    \u003cfeature\u003e\n      \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/features/57026\u003c/resourceUrl\u003e\n      \u003cid\u003e57026\u003c/id\u003e\n      \u003cuuid\u003ed68f2f58daa446cd93572ff9d920bdec\u003c/uuid\u003e\n    \u003c/feature\u003e\n    \u003cdecisionDate\u003e2019-02-28\u003c/decisionDate\u003e\n    \u003cfeatureCategory\u003e4\u003c/featureCategory\u003e\n    \u003cfeatureCategoryDescription\u003eParks, Protected Reserves, etc.\u003c/featureCategoryDescription\u003e\n    \u003cfeatureCategoryURI\u003eapps.gov.bc.ca/pub/bcgnws/featureCategories/4\u003c/featureCategoryURI\u003e\n    \u003cfeatureType\u003eConservation Area\u003c/featureType\u003e\n    \u003cfeaturePoint\u003e\n      \u003coutputSRS\u003e3005\u003c/outputSRS\u003e\n      \u003ceasting\u003e806382.7555139213\u003c/easting\u003e\n      \u003cnorthing\u003e944153.3353382037\u003c/northing\u003e\n    \u003c/featurePoint\u003e\n    \u003clonAsRecorded\u003e1285526\u003c/lonAsRecorded\u003e\n    \u003clatAsRecorded\u003e532802\u003c/latAsRecorded\u003e\n    \u003cdatumAsRecorded\u003eNAD83\u003c/datumAsRecorded\u003e\n    \u003cposition\u003eCENTRE\u003c/position\u003e\n    \u003cntsMap\u003e103H/7\u003c/ntsMap\u003e\n  \u003c/name\u003e\n  \u003c/names\u003e\n\u003c/results\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:10:05 GMT"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "Content-Disposition": [
+                  "inline; filename\u003d\"results.xml\""
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d97"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489793816"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489794872"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "namesDecisionsYearGet",
+            "originalParameter": {
+              "parameterName": "year",
+              "sanitizedName": "year",
+              "value": [
+                "94"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "outputFormat",
+                "sanitizedName": "outputFormat",
+                "value": [
+                  "xml"
+                ]
+              },
+              {
+                "parameterName": "year",
+                "sanitizedName": "year",
+                "value": [
+                  "SLDAB"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "namesDecisionsYearGet"
+  }
+}

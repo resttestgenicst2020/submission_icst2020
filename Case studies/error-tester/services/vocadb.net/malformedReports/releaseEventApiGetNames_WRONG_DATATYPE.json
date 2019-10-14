@@ -1,0 +1,166 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents/names?query\u003d59\u0026maxResults\u003d21",
+              "responseBody": "[\"VOCALOID FREAK 59\",\"ボーカロイドフリーク 59\",\"ボカフリ！ 59\"]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:02:03 GMT"
+                ],
+                "Content-Length": [
+                  "78"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492913828"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492913981"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetNames",
+            "originalParameter": {
+              "parameterName": "query",
+              "sanitizedName": "query",
+              "value": [
+                "vjDMJhohKncKVyU"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "59"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "21"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents/names?query\u003dvjDMJhohKncKVyU\u0026maxResults\u003dUKqqSOroc",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:02:04 GMT"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492913983"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492914063"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetNames",
+            "originalParameter": {
+              "parameterName": "maxResults",
+              "sanitizedName": "maxResults",
+              "value": [
+                "21"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "vjDMJhohKncKVyU"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "UKqqSOroc"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "releaseEventApiGetNames"
+  }
+}

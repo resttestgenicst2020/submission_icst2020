@@ -1,0 +1,92 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/verification/result?key\u003ddTz\u0026format\u003dq9E\u0026otp\u003dujBt",
+              "responseBody": "{\"result\":\"N\",\"error\":\"Invalid transaction ID.\"}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:16 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Content-Length": [
+                  "48"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d91"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489625781"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489625975"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "v1VerificationResultGet",
+            "originalParameter": {
+              "parameterName": "format",
+              "sanitizedName": "format",
+              "value": [
+                "xml"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "dTz"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "q9E"
+                ]
+              },
+              {
+                "parameterName": "otp",
+                "sanitizedName": "otp",
+                "value": [
+                  "ujBt"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "v1VerificationResultGet"
+  }
+}

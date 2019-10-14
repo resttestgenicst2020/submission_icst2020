@@ -1,0 +1,74 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://t213.vg/rest/default/V1/carts/KsKuoZzPp/items",
+              "responseBody": "\u003cscript\u003e\n    function get_top_domain(){\n  var i,h,\n    weird_cookie\u003d\"weird_get_top_level_domain\u003dcookie\",\n    hostname \u003d document.location.hostname.split(\".\");\n  for(i\u003dhostname.length-1; i\u003e\u003d0; i--) {\n    h \u003d hostname.slice(i).join(\".\");\n    document.cookie \u003d weird_cookie + \";domain\u003d.\" + h + \";\";\n    if(document.cookie.indexOf(weird_cookie)\u003e-1){\n      document.cookie \u003d weird_cookie.split(\"\u003d\")[0] + \"\u003d;domain\u003d.\" + h + \";expires\u003dThu, 01 Jan 1970 00:00:01 GMT;\";\n      return h;\n    }\n  }\n}\n\tvar domain \u003d get_top_domain();\n\ttop.location.href \u003d \"http://startpage.vg/?var2\u003d\"+domain;\n\t\u003c/script\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:32:04 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d99"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Content-Type": [
+                  "text/html; charset\u003dutf8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491113720"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491113774"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "v1CartsCartIdItemsGet",
+            "originalParameter": {
+              "parameterName": "cartId",
+              "sanitizedName": "cartId",
+              "value": "7"
+            },
+            "parameters": [
+              {
+                "parameterName": "cartId",
+                "sanitizedName": "cartId",
+                "value": "KsKuoZzPp"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "v1CartsCartIdItemsGet"
+  }
+}

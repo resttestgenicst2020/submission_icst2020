@@ -1,0 +1,2 @@
+2019-10-14 16:45:44.469 [main] INFO  reportexecutor.cli.App - cli-param1: swagger-file: petstore-example/oas.json
+2019-10-14 16:45:44.471 [main] INFO  reportexecutor.cli.App - cli-param2: report-file: petstore-example/findPetsByStatus_VIOLATED_CONSTRAINT.json

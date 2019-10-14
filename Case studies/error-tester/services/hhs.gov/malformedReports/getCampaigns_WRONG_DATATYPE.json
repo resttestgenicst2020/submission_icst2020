@@ -1,0 +1,104 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.digitalmedia.hhs.gov/api/v2/resources/campaigns.json?max\u003dPDdExXA\u0026offset\u003d0\u0026sort\u003dname",
+              "responseBody": "{\"meta\":{\"status\":200,\"messages\":[],\"pagination\":{\"max\":20,\"offset\":0,\"count\":7,\"total\":7,\"pageNum\":1,\"totalPages\":1,\"sort\":null,\"currentUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources/campaigns.json?offset\u003d0\u0026max\u003d20\u0026format\u003djson\",\"nextUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources/campaigns.json?offset\u003d20\u0026max\u003d20\u0026format\u003djson\",\"previousUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources/campaigns.json?offset\u003d0\u0026max\u003d20\u0026format\u003djson\"}},\"results\":[{\"id\":1,\"name\":\"CTP Exchange Lab\",\"description\":null,\"startDate\":\"2015-02-13T16:27:00Z\",\"endDate\":null,\"source\":{\"id\":1,\"name\":\"Health and Human Services\",\"acronym\":\"HHS\",\"websiteUrl\":\"http://www.hhs.gov\",\"contactEmail\":null,\"largeLogoUrl\":null,\"smallLogoUrl\":null}},{\"id\":6,\"name\":\"NIH Clinical Research Trials and You\",\"description\":\"Clinical trials are part of clinical research and at the heart of all medical advances. Clinical trials look at new ways to prevent, detect, or treat disease. Treatments might be new drugs or new combinations of drugs, new surgical procedures or devices, or new ways to use existing treatments. The goal of clinical trials is to determine if a new test or treatment works and is safe. Clinical trials can also look at other aspects of care, such as improving the quality of life for people with chronic illnesses.\",\"startDate\":\"2016-01-11T19:44:00Z\",\"endDate\":null,\"source\":{\"id\":4,\"name\":\"National Institutes of Health\",\"acronym\":\"NIH\",\"websiteUrl\":\"http://www.nih.gov\",\"contactEmail\":null,\"largeLogoUrl\":null,\"smallLogoUrl\":null}},{\"id\":4,\"name\":\"NIHSeniorHealth\",\"description\":null,\"startDate\":\"2015-08-31T12:13:00Z\",\"endDate\":null,\"source\":{\"id\":24,\"name\":\"NIH Senior Health\",\"acronym\":\"NIHSH\",\"websiteUrl\":\"http://nihseniorhealth.gov\",\"contactEmail\":null,\"largeLogoUrl\":null,\"smallLogoUrl\":null}},{\"id\":7,\"name\":\"ODS Consumer Fact Sheets\",\"description\":\"Fact sheets published by the Office of Dietary Supplements to provide guidance to consumers regarding dietary supplements and food nutrients.\",\"startDate\":\"2017-01-25T23:26:00Z\",\"endDate\":null,\"source\":{\"id\":33,\"name\":\"Office of Dietary Supplements\",\"acronym\":\"ODS\",\"websiteUrl\":\"https://ods.od.nih.gov\",\"contactEmail\":\"hinklec@od.nih.gov\",\"largeLogoUrl\":null,\"smallLogoUrl\":null}},{\"id\":8,\"name\":\"ODS Health Professional Fact Sheets\",\"description\":\"Fact sheets published by the Office of Dietary Supplements to provide guidance to healh professionals regarding dietary supplements and food nutrients.\",\"startDate\":\"2017-01-25T23:27:00Z\",\"endDate\":null,\"source\":{\"id\":33,\"name\":\"Office of Dietary Supplements\",\"acronym\":\"ODS\",\"websiteUrl\":\"https://ods.od.nih.gov\",\"contactEmail\":\"hinklec@od.nih.gov\",\"largeLogoUrl\":null,\"smallLogoUrl\":null}},{\"id\":3,\"name\":\"OER\",\"description\":null,\"startDate\":\"2015-05-05T12:54:00Z\",\"endDate\":null,\"source\":{\"id\":4,\"name\":\"National Institutes of Health\",\"acronym\":\"NIH\",\"websiteUrl\":\"http://www.nih.gov\",\"contactEmail\":null,\"largeLogoUrl\":null,\"smallLogoUrl\":null}},{\"id\":5,\"name\":\"Pain Promo\",\"description\":\"Added a syndication tutorial page (adapted from NIH page); added link to Health Info Section and added Syndication button to the Chronic Pain publication. TPO letter sent out [Sept 17, 2015].\",\"startDate\":\"2015-09-11T15:17:00Z\",\"endDate\":\"2015-10-15T15:17:00Z\",\"source\":{\"id\":19,\"name\":\"National Center for Complementary and Integrative Health\",\"acronym\":\"NCCIH\",\"websiteUrl\":\"https://nccih.nih.gov/\",\"contactEmail\":\"blainek@mail.nih.gov\",\"largeLogoUrl\":null,\"smallLogoUrl\":null}}]}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "X-Frame-Options": [
+                  "DENY"
+                ],
+                "X-Application-Context": [
+                  "application:production:8000"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Length": [
+                  "3485"
+                ],
+                "Cache-Control": [
+                  "max-age\u003d3600"
+                ],
+                "Expires": [
+                  "Tue, 08 Oct 2019 00:18:24 GMT"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:18:24 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubdomains; preload"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490293619"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490293841"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getCampaigns",
+            "originalParameter": {
+              "parameterName": "max",
+              "sanitizedName": "max",
+              "value": [
+                "12"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "max",
+                "sanitizedName": "max",
+                "value": [
+                  "PDdExXA"
+                ]
+              },
+              {
+                "parameterName": "offset",
+                "sanitizedName": "offset",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "name"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getCampaigns"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "responseCoverage": {
+    "400": [],
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196416"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196558"
+                ]
+              },
+              "statusCode": 200,
+              "validationErrors": []
+            },
+            "httpMethod": "GET",
+            "operationId": "getPets",
+            "parameters": [],
+            "statusCode": 200
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "invocationClassName": "PetApi",
+    "invocationMethodName": "getPetsWithHttpInfo",
+    "operationId": "getPets",
+    "operationPath": "/pet"
+  }
+}

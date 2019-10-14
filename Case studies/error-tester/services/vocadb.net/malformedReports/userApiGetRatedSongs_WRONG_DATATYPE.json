@@ -1,0 +1,3786 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003d13\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693024"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693109"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "query",
+              "sanitizedName": "query",
+              "value": [
+                "CRx"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "13"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003d11\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693112"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693195"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "tagName",
+              "sanitizedName": "tagName",
+              "value": [
+                "concept album"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "11"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d14\u0026tagId\u003d-13\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693196"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693281"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "tagId",
+              "sanitizedName": "tagId",
+              "value": [
+                "341",
+                "6151"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "14",
+                  "-13"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d17\u0026artistId\u003d-79\u0026artistId\u003d78\u0026artistId\u003d-72\u0026artistId\u003d-35\u0026artistId\u003d99\u0026artistId\u003d-53\u0026artistId\u003d-78\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693285"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693377"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "artistId",
+              "sanitizedName": "artistId",
+              "value": [
+                "6096",
+                "879",
+                "9474",
+                "25740",
+                "12297",
+                "3737",
+                "13680",
+                "22598"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "17",
+                  "-79",
+                  "78",
+                  "-72",
+                  "-35",
+                  "99",
+                  "-53",
+                  "-78"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003d20\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693380"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693472"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "childVoicebanks",
+              "sanitizedName": "childVoicebanks",
+              "value": [
+                "false"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "20"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003d18\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693475"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693565"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "artistGrouping",
+              "sanitizedName": "artistGrouping",
+              "value": [
+                "Or"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "18"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003d3\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693569"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693654"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "rating",
+              "sanitizedName": "rating",
+              "value": [
+                "Dislike"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "3"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003dzsWOYhn\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693658"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693777"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "songListId",
+              "sanitizedName": "songListId",
+              "value": [
+                "1193"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "zsWOYhn"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003d9\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693780"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693861"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "groupByRating",
+              "sanitizedName": "groupByRating",
+              "value": [
+                "false"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "9"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003d6\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:23 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693864"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492693959"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "pvServices",
+              "sanitizedName": "pvServices",
+              "value": [
+                "Bilibili"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "6"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d9\u0026advancedFilters\u003d-68\u0026advancedFilters\u003d-46\u0026advancedFilters\u003d21\u0026advancedFilters\u003d32\u0026advancedFilters\u003d95\u0026advancedFilters\u003d-79\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:24 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492693962"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492694051"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "advancedFilters",
+              "sanitizedName": "advancedFilters",
+              "value": [
+                "{}",
+                "{}",
+                "{}",
+                "{}",
+                "{}",
+                "{}",
+                "{}"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "9",
+                  "-68",
+                  "-46",
+                  "21",
+                  "32",
+                  "95",
+                  "-79"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003dKxiSNbt\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:24 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492694055"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492694147"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "start",
+              "sanitizedName": "start",
+              "value": [
+                "83"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "KxiSNbt"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003dTipWNno\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:24 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492694150"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492694225"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "maxResults",
+              "sanitizedName": "maxResults",
+              "value": [
+                "1242202367"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "TipWNno"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003d-3\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:24 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492694229"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492694298"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "getTotalCount",
+              "sanitizedName": "getTotalCount",
+              "value": [
+                "true"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "-3"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003d0\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:24 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492694301"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492694456"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "sort",
+              "sanitizedName": "sort",
+              "value": [
+                "RatingDate"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003d1\u0026fields\u003dReleaseEvent\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:24 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492694459"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492694663"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "nameMatchMode",
+              "sanitizedName": "nameMatchMode",
+              "value": [
+                "StartsWith"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "1"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003d-32\u0026lang\u003dRomaji",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:24 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492694667"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492694737"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "fields",
+              "sanitizedName": "fields",
+              "value": [
+                "ReleaseEvent"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "-32"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Romaji"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/users/12801/ratedSongs?query\u003dCRx\u0026tagName\u003dconcept%20album\u0026tagId\u003d341\u0026tagId\u003d6151\u0026artistId\u003d6096\u0026artistId\u003d879\u0026artistId\u003d9474\u0026artistId\u003d25740\u0026artistId\u003d12297\u0026artistId\u003d3737\u0026artistId\u003d13680\u0026artistId\u003d22598\u0026childVoicebanks\u003dfalse\u0026artistGrouping\u003dOr\u0026rating\u003dDislike\u0026songListId\u003d1193\u0026groupByRating\u003dfalse\u0026pvServices\u003dBilibili\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d83\u0026maxResults\u003d1242202367\u0026getTotalCount\u003dtrue\u0026sort\u003dRatingDate\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dReleaseEvent\u0026lang\u003d-32",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:58:24 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492694741"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492694823"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "userApiGetRatedSongs",
+            "originalParameter": {
+              "parameterName": "lang",
+              "sanitizedName": "lang",
+              "value": [
+                "Romaji"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "12801"
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "CRx"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "concept album"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "341",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "6096",
+                  "879",
+                  "9474",
+                  "25740",
+                  "12297",
+                  "3737",
+                  "13680",
+                  "22598"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistGrouping",
+                "sanitizedName": "artistGrouping",
+                "value": [
+                  "Or"
+                ]
+              },
+              {
+                "parameterName": "rating",
+                "sanitizedName": "rating",
+                "value": [
+                  "Dislike"
+                ]
+              },
+              {
+                "parameterName": "songListId",
+                "sanitizedName": "songListId",
+                "value": [
+                  "1193"
+                ]
+              },
+              {
+                "parameterName": "groupByRating",
+                "sanitizedName": "groupByRating",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "pvServices",
+                "sanitizedName": "pvServices",
+                "value": [
+                  "Bilibili"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "1242202367"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "RatingDate"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ReleaseEvent"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "-32"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "userApiGetRatedSongs"
+  }
+}

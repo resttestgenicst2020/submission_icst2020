@@ -1,0 +1,92 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.mailboxvalidator.com/v1/validation/single?format\u003dK9pOHqc\u0026email\u003dsthJkQDgTgNxqsmAVd\u0026key\u003dixcWbBBwBaROHfZx",
+              "responseBody": "{\"email_address\":\"\",\"domain\":\"\",\"is_free\":\"\",\"is_syntax\":\"\",\"is_domain\":\"\",\"is_smtp\":\"\",\"is_verified\":\"\",\"is_server_down\":\"\",\"is_greylisted\":\"\",\"is_disposable\":\"\",\"is_suppressed\":\"\",\"is_role\":\"\",\"is_high_risk\":\"\",\"is_catchall\":\"\",\"mailboxvalidator_score\":\"\",\"time_taken\":0.0062,\"status\":\"\",\"credits_available\":\"\",\"error_code\":\"101\",\"error_message\":\"API key not found.\"}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:37:38 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Content-Length": [
+                  "369"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d95"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491447934"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491448118"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "v1ValidationSingleGet",
+            "originalParameter": {
+              "parameterName": "format",
+              "sanitizedName": "format",
+              "value": [
+                "json"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "K9pOHqc"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "sthJkQDgTgNxqsmAVd"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "ixcWbBBwBaROHfZx"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "v1ValidationSingleGet"
+  }
+}

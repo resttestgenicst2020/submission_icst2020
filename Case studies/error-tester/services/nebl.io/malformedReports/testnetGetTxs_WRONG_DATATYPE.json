@@ -1,0 +1,210 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://ntp1node.nebl.io//testnet/ins/txs?address\u003d38\u0026block\u003d22cff43bc599cdf1b150e05913ef2375f2166fd49044e6fbff6c2428cc263a72\u0026pageNum\u003d0",
+              "responseBody": "{\"pagesTotal\":1,\"txs\":[{\"txid\":\"ee32ceed1dddf1620243cb9426e3deb9a20befe9c1357ffa37a76cc4aee78f74\",\"version\":1,\"locktime\":0,\"vin\":[{\"coinbase\":\"5b0101\",\"sequence\":4294967295,\"n\":0}],\"vout\":[{\"value\":\"2000.00000000\",\"n\":0,\"scriptPubKey\":{\"hex\":\"76a914cd9bb0e60a51d687f7ede487b1987a15b373d73288ac\",\"asm\":\"OP_DUP OP_HASH160 cd9bb0e60a51d687f7ede487b1987a15b373d732 OP_EQUALVERIFY OP_CHECKSIG\",\"addresses\":[\"TUiN2z6gggz3xyYY9xzwZ4m218cHKhgWko\"],\"type\":\"pubkeyhash\"},\"spentTxId\":\"fe4be1ffb0586256d6af5adf03c000719166df71566217d9ea5089a6a1dd16cc\",\"spentIndex\":0}],\"blockhash\":\"22cff43bc599cdf1b150e05913ef2375f2166fd49044e6fbff6c2428cc263a72\",\"blockheight\":11,\"confirmations\":1535867,\"time\":1520726768,\"blocktime\":1520726768,\"isCoinBase\":true,\"valueOut\":2000,\"size\":92}]}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:42:56 GMT"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "764"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "X-Powered-By": [
+                  "Express"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "Origin, X-Requested-With, Content-Type, Accept"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "ETag": [
+                  "W/\"2fc-r2QTYk/3gWsuLV/eLpHeRJVjee8\""
+                ],
+                "Last-Modified": [
+                  "Monday, 07-Oct-2019 23:42:56 GMT"
+                ],
+                "Cache-Control": [
+                  "no-store, no-cache, must-revalidate, proxy-revalidate, max-age\u003d0"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491765922"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491766034"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "testnetGetTxs",
+            "originalParameter": {
+              "parameterName": "address",
+              "sanitizedName": "address",
+              "value": [
+                "lHXfwNRLmnpizWyVSha"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "address",
+                "sanitizedName": "address",
+                "value": [
+                  "38"
+                ]
+              },
+              {
+                "parameterName": "block",
+                "sanitizedName": "block",
+                "value": [
+                  "22cff43bc599cdf1b150e05913ef2375f2166fd49044e6fbff6c2428cc263a72"
+                ]
+              },
+              {
+                "parameterName": "pageNum",
+                "sanitizedName": "pageNum",
+                "value": [
+                  "0"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://ntp1node.nebl.io//testnet/ins/txs?address\u003dlHXfwNRLmnpizWyVSha\u0026block\u003d22cff43bc599cdf1b150e05913ef2375f2166fd49044e6fbff6c2428cc263a72\u0026pageNum\u003dLVIieDCe",
+              "responseBody": "{\"pagesTotal\":1,\"txs\":[{\"txid\":\"ee32ceed1dddf1620243cb9426e3deb9a20befe9c1357ffa37a76cc4aee78f74\",\"version\":1,\"locktime\":0,\"vin\":[{\"coinbase\":\"5b0101\",\"sequence\":4294967295,\"n\":0}],\"vout\":[{\"value\":\"2000.00000000\",\"n\":0,\"scriptPubKey\":{\"hex\":\"76a914cd9bb0e60a51d687f7ede487b1987a15b373d73288ac\",\"asm\":\"OP_DUP OP_HASH160 cd9bb0e60a51d687f7ede487b1987a15b373d732 OP_EQUALVERIFY OP_CHECKSIG\",\"addresses\":[\"TUiN2z6gggz3xyYY9xzwZ4m218cHKhgWko\"],\"type\":\"pubkeyhash\"},\"spentTxId\":\"fe4be1ffb0586256d6af5adf03c000719166df71566217d9ea5089a6a1dd16cc\",\"spentIndex\":0}],\"blockhash\":\"22cff43bc599cdf1b150e05913ef2375f2166fd49044e6fbff6c2428cc263a72\",\"blockheight\":11,\"confirmations\":1535867,\"time\":1520726768,\"blocktime\":1520726768,\"isCoinBase\":true,\"valueOut\":2000,\"size\":92}]}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:42:56 GMT"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "764"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "X-Powered-By": [
+                  "Express"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "Origin, X-Requested-With, Content-Type, Accept"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "ETag": [
+                  "W/\"2fc-r2QTYk/3gWsuLV/eLpHeRJVjee8\""
+                ],
+                "Last-Modified": [
+                  "Monday, 07-Oct-2019 23:42:56 GMT"
+                ],
+                "Cache-Control": [
+                  "no-store, no-cache, must-revalidate, proxy-revalidate, max-age\u003d0"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491766099"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491766209"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "testnetGetTxs",
+            "originalParameter": {
+              "parameterName": "pageNum",
+              "sanitizedName": "pageNum",
+              "value": [
+                "0"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "address",
+                "sanitizedName": "address",
+                "value": [
+                  "lHXfwNRLmnpizWyVSha"
+                ]
+              },
+              {
+                "parameterName": "block",
+                "sanitizedName": "block",
+                "value": [
+                  "22cff43bc599cdf1b150e05913ef2375f2166fd49044e6fbff6c2428cc263a72"
+                ]
+              },
+              {
+                "parameterName": "pageNum",
+                "sanitizedName": "pageNum",
+                "value": [
+                  "LVIieDCe"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "testnetGetTxs"
+  }
+}

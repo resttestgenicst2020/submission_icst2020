@@ -1,0 +1,565 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/getResourceList?path\u003d30\u0026sortBy\u003dim\u0026sortOrder\u003dBGvVLMog\u0026offset\u003d20\u0026limit\u003d796716952",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d11f562a9dd8b921a"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:54:00 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488830218"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488830515"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getResourceList",
+            "originalParameter": {
+              "parameterName": "path",
+              "sanitizedName": "path",
+              "value": [
+                "flJe"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "30"
+                ]
+              },
+              {
+                "parameterName": "sortBy",
+                "sanitizedName": "sortBy",
+                "value": [
+                  "im"
+                ]
+              },
+              {
+                "parameterName": "sortOrder",
+                "sanitizedName": "sortOrder",
+                "value": [
+                  "BGvVLMog"
+                ]
+              },
+              {
+                "parameterName": "offset",
+                "sanitizedName": "offset",
+                "value": [
+                  "20"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "796716952"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/getResourceList?path\u003dflJe\u0026sortBy\u003d16\u0026sortOrder\u003dBGvVLMog\u0026offset\u003d20\u0026limit\u003d796716952",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003df148f34a57e9c112"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:54:00 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488830519"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488830822"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getResourceList",
+            "originalParameter": {
+              "parameterName": "sortBy",
+              "sanitizedName": "sortBy",
+              "value": [
+                "im"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "flJe"
+                ]
+              },
+              {
+                "parameterName": "sortBy",
+                "sanitizedName": "sortBy",
+                "value": [
+                  "16"
+                ]
+              },
+              {
+                "parameterName": "sortOrder",
+                "sanitizedName": "sortOrder",
+                "value": [
+                  "BGvVLMog"
+                ]
+              },
+              {
+                "parameterName": "offset",
+                "sanitizedName": "offset",
+                "value": [
+                  "20"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "796716952"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/getResourceList?path\u003dflJe\u0026sortBy\u003dim\u0026sortOrder\u003d19\u0026offset\u003d20\u0026limit\u003d796716952",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d55623c28440f3477"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:54:01 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488830827"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488831130"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getResourceList",
+            "originalParameter": {
+              "parameterName": "sortOrder",
+              "sanitizedName": "sortOrder",
+              "value": [
+                "BGvVLMog"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "flJe"
+                ]
+              },
+              {
+                "parameterName": "sortBy",
+                "sanitizedName": "sortBy",
+                "value": [
+                  "im"
+                ]
+              },
+              {
+                "parameterName": "sortOrder",
+                "sanitizedName": "sortOrder",
+                "value": [
+                  "19"
+                ]
+              },
+              {
+                "parameterName": "offset",
+                "sanitizedName": "offset",
+                "value": [
+                  "20"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "796716952"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/getResourceList?path\u003dflJe\u0026sortBy\u003dim\u0026sortOrder\u003dBGvVLMog\u0026offset\u003dLrESSFD\u0026limit\u003d796716952",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d42e9a3128045fbcf"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:54:01 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488831134"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488831438"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getResourceList",
+            "originalParameter": {
+              "parameterName": "offset",
+              "sanitizedName": "offset",
+              "value": [
+                "20"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "flJe"
+                ]
+              },
+              {
+                "parameterName": "sortBy",
+                "sanitizedName": "sortBy",
+                "value": [
+                  "im"
+                ]
+              },
+              {
+                "parameterName": "sortOrder",
+                "sanitizedName": "sortOrder",
+                "value": [
+                  "BGvVLMog"
+                ]
+              },
+              {
+                "parameterName": "offset",
+                "sanitizedName": "offset",
+                "value": [
+                  "LrESSFD"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "796716952"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/getResourceList?path\u003dflJe\u0026sortBy\u003dim\u0026sortOrder\u003dBGvVLMog\u0026offset\u003d20\u0026limit\u003dvECuwxt",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003dc6ef0049777f395b"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:54:01 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488831442"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488831744"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getResourceList",
+            "originalParameter": {
+              "parameterName": "limit",
+              "sanitizedName": "limit",
+              "value": [
+                "796716952"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "flJe"
+                ]
+              },
+              {
+                "parameterName": "sortBy",
+                "sanitizedName": "sortBy",
+                "value": [
+                  "im"
+                ]
+              },
+              {
+                "parameterName": "sortOrder",
+                "sanitizedName": "sortOrder",
+                "value": [
+                  "BGvVLMog"
+                ]
+              },
+              {
+                "parameterName": "offset",
+                "sanitizedName": "offset",
+                "value": [
+                  "20"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "vECuwxt"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getResourceList"
+  }
+}

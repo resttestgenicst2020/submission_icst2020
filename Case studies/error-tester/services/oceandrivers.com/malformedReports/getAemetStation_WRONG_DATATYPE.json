@@ -1,0 +1,166 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.oceandrivers.com/v1.0/getAemetStation/-10/lastdata/",
+              "responseBody": "{\"TEMPERATURE\": 16.0, \"TWD\": 360, \"PRESSURE\": 1018.8, \"RAIN_MONTH\": 0, \"TWS_GUST\": 3.611111111111111, \"RAIN_DAY\": 0, \"RAIN\": 0.0, \"HUMIDITY\": 82.0, \"TWS\": 2.5, \"TIME_STRING\": \"08/10/2019 01:00\", \"TWD_GUST\": 360, \"TIME\": 1570492800000, \"LATITUDE\": 39.5604, \"LONGITUDE\": 2.7417, \"LOCALTIME\": 1}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:44:29 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Content-Length": [
+                  "292"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, DELETE, PUT"
+                ],
+                "Access-Control-Max-Age": [
+                  "1000"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d98"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491858967"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491859092"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getAemetStation",
+            "originalParameter": {
+              "parameterName": "stationName",
+              "sanitizedName": "stationName",
+              "value": "aeropuertopalma"
+            },
+            "parameters": [
+              {
+                "parameterName": "stationName",
+                "sanitizedName": "stationName",
+                "value": "-10"
+              },
+              {
+                "parameterName": "period",
+                "sanitizedName": "period",
+                "value": "lastdata"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.oceandrivers.com/v1.0/getAemetStation/aeropuertopalma/-88/",
+              "responseBody": "{\"TEMPERATURE\": 16.0, \"TWD\": 360, \"PRESSURE\": 1018.8, \"RAIN_MONTH\": 0, \"TWS_GUST\": 3.611111111111111, \"RAIN_DAY\": 0, \"RAIN\": 0.0, \"HUMIDITY\": 82.0, \"TWS\": 2.5, \"TIME_STRING\": \"08/10/2019 01:00\", \"TWD_GUST\": 360, \"TIME\": 1570492800000, \"LATITUDE\": 39.5604, \"LONGITUDE\": 2.7417, \"LOCALTIME\": 1}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:44:29 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Content-Length": [
+                  "292"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, DELETE, PUT"
+                ],
+                "Access-Control-Max-Age": [
+                  "1000"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d97"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491859176"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491859303"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getAemetStation",
+            "originalParameter": {
+              "parameterName": "period",
+              "sanitizedName": "period",
+              "value": "lastdata"
+            },
+            "parameters": [
+              {
+                "parameterName": "stationName",
+                "sanitizedName": "stationName",
+                "value": "aeropuertopalma"
+              },
+              {
+                "parameterName": "period",
+                "sanitizedName": "period",
+                "value": "-88"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getAemetStation"
+  }
+}

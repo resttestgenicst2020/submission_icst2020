@@ -1,0 +1,93 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.flickr.com/services/rest?method\u003dflickr.people.getPhotos\u0026page\u003dcSZCJ",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\" ?\u003e\n\u003crsp stat\u003d\"fail\"\u003e\n\t\u003cerr code\u003d\"100\" msg\u003d\"Invalid API Key (Key has invalid format)\" /\u003e\n\u003c/rsp\u003e\n",
+              "responseHeaders": {
+                "Content-Type": [
+                  "text/xml; charset\u003dutf-8"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:03 GMT"
+                ],
+                "Server": [
+                  "Apache/2.4.41 (Ubuntu)"
+                ],
+                "X-Robots-Tag": [
+                  "noindex"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "X-Cache": [
+                  "Miss from cloudfront"
+                ],
+                "Via": [
+                  "1.1 785863fe1b0961dc0a54153752ab0c4c.cloudfront.net (CloudFront)"
+                ],
+                "X-Amz-Cf-Pop": [
+                  "MXP64-C1"
+                ],
+                "X-Amz-Cf-Id": [
+                  "YJpIPka8Au3jPifPcC_-gHb2z6lzGFedXQXSSDjpvob1HPKsb7i1xA\u003d\u003d"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489612954"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489613104"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "getMediaByPersonID",
+            "originalParameter": {
+              "parameterName": "page",
+              "sanitizedName": "page",
+              "value": [
+                "21.699252573456953"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "cSZCJ"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getMediaByPersonID"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//remove/lock/%7Block%7D?key\u003dpDCoMNljTOfKDR",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key doesn\u0027t fit this lock\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:31:53 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487501749"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487504922"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "lock",
+              "sanitizedName": "lock",
+              "value": "GKsxYBsadGcOfG"
+            },
+            "operationId": "removeLock",
+            "parameters": [
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "pDCoMNljTOfKDR"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//remove/lock/GKsxYBsadGcOfG",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"missing parameter called key\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:31:56 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487505847"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487507686"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "pDCoMNljTOfKDR"
+              ]
+            },
+            "operationId": "removeLock",
+            "parameters": [
+              {
+                "parameterName": "lock",
+                "sanitizedName": "lock",
+                "value": "GKsxYBsadGcOfG"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "removeLock"
+  }
+}

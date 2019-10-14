@@ -1,0 +1,180 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json, text/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://demo.uat.naviplancentral.com/factfinder/api/FrequencyTypes?entity\u003d-46\u0026country\u003dUnitedStates",
+              "responseBody": "{\"frequencyTypes\":[]}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "X-AspNet-Version": [
+                  "4.0.30319"
+                ],
+                "X-Powered-By": [
+                  "ASP.NET",
+                  "ARR/3.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:39:46 GMT"
+                ],
+                "Content-Length": [
+                  "21"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491576952"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491577246"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "frequencyTypesGetByEntityCountry",
+            "originalParameter": {
+              "parameterName": "entity",
+              "sanitizedName": "entity",
+              "value": [
+                "LifeInsurancePolicies"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "entity",
+                "sanitizedName": "entity",
+                "value": [
+                  "-46"
+                ]
+              },
+              {
+                "parameterName": "country",
+                "sanitizedName": "country",
+                "value": [
+                  "UnitedStates"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json, text/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://demo.uat.naviplancentral.com/factfinder/api/FrequencyTypes?entity\u003dLifeInsurancePolicies\u0026country\u003d-38",
+              "responseBody": "{\"frequencyTypes\":[]}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "X-AspNet-Version": [
+                  "4.0.30319"
+                ],
+                "X-Powered-By": [
+                  "ASP.NET",
+                  "ARR/3.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:39:46 GMT"
+                ],
+                "Content-Length": [
+                  "21"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491577250"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491577451"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "frequencyTypesGetByEntityCountry",
+            "originalParameter": {
+              "parameterName": "country",
+              "sanitizedName": "country",
+              "value": [
+                "UnitedStates"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "entity",
+                "sanitizedName": "entity",
+                "value": [
+                  "LifeInsurancePolicies"
+                ]
+              },
+              {
+                "parameterName": "country",
+                "sanitizedName": "country",
+                "value": [
+                  "-38"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "frequencyTypesGetByEntityCountry"
+  }
+}

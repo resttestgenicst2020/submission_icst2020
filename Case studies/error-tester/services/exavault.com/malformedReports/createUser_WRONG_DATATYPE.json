@@ -1,0 +1,1693 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003d-28\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003dGV\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003dlO\u0026locked\u003dfalse\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d05bcae90eba92a63"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:37 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489527264"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489527566"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "username",
+              "sanitizedName": "username",
+              "value": [
+                "LobjcvSobjB"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "-28"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003d-38\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003dGV\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003dlO\u0026locked\u003dfalse\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003dbff3f2d8b12311ff"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:37 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489527568"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489527874"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "destinationFolder",
+              "sanitizedName": "destinationFolder",
+              "value": [
+                "KwjVHoqPtChnsGk"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "-38"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003d-53\u0026password\u003dGV\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003dlO\u0026locked\u003dfalse\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003da93906291946d4f4"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:38 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489527877"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489528181"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "email",
+              "sanitizedName": "email",
+              "value": [
+                "gHRKsBPRjPRWr"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "-53"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003d-48\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003dlO\u0026locked\u003dfalse\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d8877f503ac9162d9"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:38 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489528184"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489528385"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "password",
+              "sanitizedName": "password",
+              "value": [
+                "GV"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "-48"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003dGV\u0026role\u003d11\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003dlO\u0026locked\u003dfalse\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d55d0e9c777db321e"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:38 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489528387"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489528796"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "role",
+              "sanitizedName": "role",
+              "value": [
+                "FyCHuQSKAAXyIxCg"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "11"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003dGV\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003d17\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003dlO\u0026locked\u003dfalse\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003da2765708dc7df9e8"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:39 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489528798"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489529102"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "permissions",
+              "sanitizedName": "permissions",
+              "value": [
+                "iBUIyXGHfaspYv"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "17"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003dGV\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003d7\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003dlO\u0026locked\u003dfalse\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003db25a1dfca4098711"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:39 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489529104"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489529410"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "timeZone",
+              "sanitizedName": "timeZone",
+              "value": [
+                "iYDxLMqCnsDroiQyW"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003dGV\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003d-7\u0026expiration\u003dlO\u0026locked\u003dfalse\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d15dd90e88bc1323d"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:39 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489529412"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489529616"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "nickname",
+              "sanitizedName": "nickname",
+              "value": [
+                "UYcbCdSLYcWiBbj"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "-7"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003dGV\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003d-1\u0026locked\u003dfalse\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003de32e9912ffb1aa20"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:40 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489529618"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489530024"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "expiration",
+              "sanitizedName": "expiration",
+              "value": [
+                "lO"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "-1"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003dGV\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003dlO\u0026locked\u003d-13\u0026welcomeEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d9243bee2adfe305c"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:40 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489530026"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489530332"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "locked",
+              "sanitizedName": "locked",
+              "value": [
+                "false"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "-13"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createUser?username\u003dLobjcvSobjB\u0026destinationFolder\u003dKwjVHoqPtChnsGk\u0026email\u003dgHRKsBPRjPRWr\u0026password\u003dGV\u0026role\u003dFyCHuQSKAAXyIxCg\u0026permissions\u003diBUIyXGHfaspYv\u0026timeZone\u003diYDxLMqCnsDroiQyW\u0026nickname\u003dUYcbCdSLYcWiBbj\u0026expiration\u003dlO\u0026locked\u003dfalse\u0026welcomeEmail\u003d-9",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d1ce6c11302a85f1e"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:40 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489530334"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489530639"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createUser",
+            "originalParameter": {
+              "parameterName": "welcomeEmail",
+              "sanitizedName": "welcomeEmail",
+              "value": [
+                "false"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "username",
+                "sanitizedName": "username",
+                "value": [
+                  "LobjcvSobjB"
+                ]
+              },
+              {
+                "parameterName": "destinationFolder",
+                "sanitizedName": "destinationFolder",
+                "value": [
+                  "KwjVHoqPtChnsGk"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "gHRKsBPRjPRWr"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "GV"
+                ]
+              },
+              {
+                "parameterName": "role",
+                "sanitizedName": "role",
+                "value": [
+                  "FyCHuQSKAAXyIxCg"
+                ]
+              },
+              {
+                "parameterName": "permissions",
+                "sanitizedName": "permissions",
+                "value": [
+                  "iBUIyXGHfaspYv"
+                ]
+              },
+              {
+                "parameterName": "timeZone",
+                "sanitizedName": "timeZone",
+                "value": [
+                  "iYDxLMqCnsDroiQyW"
+                ]
+              },
+              {
+                "parameterName": "nickname",
+                "sanitizedName": "nickname",
+                "value": [
+                  "UYcbCdSLYcWiBbj"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "lO"
+                ]
+              },
+              {
+                "parameterName": "locked",
+                "sanitizedName": "locked",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "welcomeEmail",
+                "sanitizedName": "welcomeEmail",
+                "value": [
+                  "-9"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "createUser"
+  }
+}

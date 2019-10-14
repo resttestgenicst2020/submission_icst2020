@@ -1,0 +1,172 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/names/near?featurePoint\u003dcTMxdSTZkD\u0026distance\u003dpqiRzAQQnUGQF",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresults\u003e\n  \u003clegal\u003e\n    \u003cprivacyURI\u003ehttp://www.gov.bc.ca/com/privacy.html\u003c/privacyURI\u003e\n    \u003cdisclaimerURI\u003ehttp://www.gov.bc.ca/com/disclaimer.html\u003c/disclaimerURI\u003e\n    \u003ccopyrightLicenseURI\u003ehttp://www.gov.bc.ca/com/copyright.html\u003c/copyrightLicenseURI\u003e\n    \u003ccopyrightNotice\u003eCopyright (c) 2019, Province of British Columbia\u003c/copyrightNotice\u003e\n  \u003c/legal\u003e\n  \u003cservice\u003eapps.gov.bc.ca/pub/bcgnws/names/near\u003c/service\u003e\n  \u003ctotalResults\u003e0\u003c/totalResults\u003e\n  \u003cstartIndex\u003e1\u003c/startIndex\u003e\n  \u003citemsPerPage\u003e10\u003c/itemsPerPage\u003e\n  \u003cnames\u003e\n  \u003c/names\u003e\n\u003c/results\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:09:44 GMT"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "Content-Disposition": [
+                  "inline; filename\u003d\"results.xml\""
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d100"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489774459"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489774697"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "outputFormat",
+              "sanitizedName": "outputFormat",
+              "value": [
+                "kml"
+              ]
+            },
+            "operationId": "namesNearGet",
+            "parameters": [
+              {
+                "parameterName": "featurePoint",
+                "sanitizedName": "featurePoint",
+                "value": [
+                  "cTMxdSTZkD"
+                ]
+              },
+              {
+                "parameterName": "distance",
+                "sanitizedName": "distance",
+                "value": [
+                  "pqiRzAQQnUGQF"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/names/near?outputFormat\u003dkml\u0026featurePoint\u003dcTMxdSTZkD",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003ckml xmlns\u003d\"http://www.opengis.net/kml/2.2\"\n     xmlns:atom\u003d\"http://www.w3.org/2005/Atom\"\u003e\n \u003cDocument\u003e\n \u003cname\u003eGeographical Names\u003c/name\u003e\n \u003copen\u003e1\u003c/open\u003e\n \u003csnippet\u003eNo matches\u003c/snippet\u003e\n \u003cExtendedData\u003e\n  \u003cData name\u003d\"service\"\u003e\u003cvalue\u003eapps.gov.bc.ca/pub/bcgnws/names/near\u003c/value\u003e\u003c/Data\u003e\n  \u003cData name\u003d\"disclaimerURI\"\u003e\u003cvalue\u003ehttp://www.gov.bc.ca/com/disclaimer.html\u003c/value\u003e\u003c/Data\u003e\n  \u003cData name\u003d\"privacyURI\"\u003e\u003cvalue\u003ehttp://www.gov.bc.ca/com/privacy.html\u003c/value\u003e\u003c/Data\u003e\n  \u003cData name\u003d\"copyright\"\u003e\u003cvalue\u003eCopyright (c) 2019, Province of British Columbia\u003c/value\u003e\u003c/Data\u003e\n  \u003cData name\u003d\"outputSRS\"\u003e\u003cvalue\u003e4326\u003c/value\u003e\u003c/Data\u003e\n  \u003cData name\u003d\"totalResults\"\u003e\u003cvalue\u003e0\u003c/value\u003e\u003c/Data\u003e\n  \u003cData name\u003d\"startIndex\"\u003e\u003cvalue\u003e1\u003c/value\u003e\u003c/Data\u003e\n  \u003cData name\u003d\"itemsPerPage\"\u003e\u003cvalue\u003e10\u003c/value\u003e\u003c/Data\u003e\n \u003c/ExtendedData\u003e\n\u003c!-- description field - Place Panel and Balloon --\u003e\r\n\r\n\t\u003cSnippet maxLines\u003d\"0\"/\u003e\r\n\t\u003cStyleMap id\u003d\"msn_shaded_dot\"\u003e\r\n\t\t\u003cPair\u003e\r\n\t\t\t\u003ckey\u003enormal\u003c/key\u003e\r\n\t\t\t\u003cstyleUrl\u003e#sn_shaded_dot\u003c/styleUrl\u003e\r\n\t\t\u003c/Pair\u003e\r\n\t\t\u003cPair\u003e\r\n\t\t\t\u003ckey\u003ehighlight\u003c/key\u003e\r\n\t\t\t\u003cstyleUrl\u003e#sh_shaded_dot\u003c/styleUrl\u003e\r\n\t\t\u003c/Pair\u003e\r\n\t\u003c/StyleMap\u003e\r\n\t\u003cStyle id\u003d\"sh_shaded_dot\"\u003e\r\n\t\t\u003cIconStyle\u003e\r\n\t\t\t\u003ccolor\u003effffaaff\u003c/color\u003e\r\n\t\t\t\u003cscale\u003e0.827273\u003c/scale\u003e\r\n\t\t\t\u003cIcon\u003e\r\n\t\t\t\t\u003chref\u003ehttp://maps.google.com/mapfiles/kml/shapes/shaded_dot.png\u003c/href\u003e\r\n\t\t\t\u003c/Icon\u003e\r\n\t\t\u003c/IconStyle\u003e\r\n\t\t\u003cLabelStyle\u003e\r\n\t\t\t\u003cscale\u003e0.7\u003c/scale\u003e\r\n\t\t\u003c/LabelStyle\u003e\r\n\t\t\u003cListStyle\u003e\r\n\t\t\u003c/ListStyle\u003e\r\n\t\u003c/Style\u003e\r\n\t\u003cStyle id\u003d\"sn_shaded_dot\"\u003e\r\n\t\t\u003cIconStyle\u003e\r\n\t\t\t\u003ccolor\u003effffaaff\u003c/color\u003e\r\n\t\t\t\u003cscale\u003e0.7\u003c/scale\u003e\r\n\t\t\t\u003cIcon\u003e\r\n\t\t\t\t\u003chref\u003ehttp://maps.google.com/mapfiles/kml/shapes/shaded_dot.png\u003c/href\u003e\r\n\t\t\t\u003c/Icon\u003e\r\n\t\t\u003c/IconStyle\u003e\r\n\t\t\u003cLabelStyle\u003e\r\n\t\t\t\u003cscale\u003e0.7\u003c/scale\u003e\r\n\t\t\u003c/LabelStyle\u003e\r\n\t\t\u003cListStyle\u003e\r\n\t\t\u003c/ListStyle\u003e \t\t\r\n\t\u003c/Style\u003e\n \u003c/Document\u003e\n\u003c/kml\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:09:46 GMT"
+                ],
+                "Content-Type": [
+                  "application/vnd.google-earth.kml+xml;charset\u003dUTF-8"
+                ],
+                "Content-Length": [
+                  "1759"
+                ],
+                "Content-Disposition": [
+                  "inline; filename\u003d\"results.kml\""
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d100"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489776303"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489776525"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "distance",
+              "sanitizedName": "distance",
+              "value": [
+                "pqiRzAQQnUGQF"
+              ]
+            },
+            "operationId": "namesNearGet",
+            "parameters": [
+              {
+                "parameterName": "outputFormat",
+                "sanitizedName": "outputFormat",
+                "value": [
+                  "kml"
+                ]
+              },
+              {
+                "parameterName": "featurePoint",
+                "sanitizedName": "featurePoint",
+                "value": [
+                  "cTMxdSTZkD"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "namesNearGet"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "responseCoverage": {
+    "500": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.oceandrivers.com/v1.0/compareStation/%7bstationName%7d/",
+              "responseBody": "{\"status\": 500, \"message\": \"Internal Server Error\"}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:44:12 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Content-Length": [
+                  "51"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, DELETE, PUT"
+                ],
+                "Access-Control-Max-Age": [
+                  "1000"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "x-requested-with, Content-Type, origin, authorization, accept, client-security-token"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491842648"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491846445"
+                ]
+              },
+              "statusCode": 500
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "stationName",
+              "sanitizedName": "stationName",
+              "value": "cnarenal"
+            },
+            "operationId": "compareStation",
+            "parameters": [],
+            "statusCode": 500,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "compareStation"
+  }
+}

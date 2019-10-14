@@ -1,0 +1,172 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/names/notOfficial/search?outputFormat\u003d-5\u0026name\u003dCeirxKPbzEy",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresults\u003e\n  \u003clegal\u003e\n    \u003cprivacyURI\u003ehttp://www.gov.bc.ca/com/privacy.html\u003c/privacyURI\u003e\n    \u003cdisclaimerURI\u003ehttp://www.gov.bc.ca/com/disclaimer.html\u003c/disclaimerURI\u003e\n    \u003ccopyrightLicenseURI\u003ehttp://www.gov.bc.ca/com/copyright.html\u003c/copyrightLicenseURI\u003e\n    \u003ccopyrightNotice\u003eCopyright (c) 2019, Province of British Columbia\u003c/copyrightNotice\u003e\n  \u003c/legal\u003e\n  \u003cservice\u003eapps.gov.bc.ca/pub/bcgnws/names/notOfficial/search\u003c/service\u003e\n  \u003ctotalResults\u003e0\u003c/totalResults\u003e\n  \u003cstartIndex\u003e1\u003c/startIndex\u003e\n  \u003citemsPerPage\u003e10\u003c/itemsPerPage\u003e\n  \u003cnames\u003e\n  \u003c/names\u003e\n\u003c/results\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:10:55 GMT"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "Content-Disposition": [
+                  "inline; filename\u003d\"results.xml\""
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d100"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489845085"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489845526"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "namesNotOfficialSearchGet",
+            "originalParameter": {
+              "parameterName": "outputFormat",
+              "sanitizedName": "outputFormat",
+              "value": [
+                "json"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "outputFormat",
+                "sanitizedName": "outputFormat",
+                "value": [
+                  "-5"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "CeirxKPbzEy"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/names/notOfficial/search?outputFormat\u003djson\u0026name\u003d-59",
+              "responseBody": "{\n \"type\": \"FeatureCollection\",\n \"properties\": {\n  \"service\": \"apps.gov.bc.ca/pub/bcgnws/names/notOfficial/search\",\n  \"totalResults\": 43,\n  \"startIndex\": 1,\n  \"itemsPerPage\": 10},\n \"crs\": {\n  \"type\": \"name\",\n  \"properties\": {\n   \"name\": \"EPSG:3005\"}},\n \"features\": [\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/64302\",\n    \"name\": \"Anokswok 59\",\n    \"language\": \"bilingual\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 87.88298,\n    \"feature\": {\n     \"id\": \"993\",\n     \"uuid\": \"2732d2a0baad4ad68cce47f7dcd4f745\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/993\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/993/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/993/names\"},\n    \"changeDate\": \"2012-02-07\",\n    \"decisionDate\": \"1998-09-18\",\n    \"featureCategory\": 6,\n    \"featureCategoryDescription\": \"Geographic\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/6\",\n    \"featureType\": \"Indian Reserve-Réserve indienne\",\n    \"lonAsRecorded\": 1290215,\n    \"latAsRecorded\": 552320,\n    \"datumAsRecorded\": \"NAD27\",\n    \"position\": \"CENTRE\",\n    \"ntsMap\": \"103P/6\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     808064.2431637078,\n     1158757.4366782908]}},\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/53244\",\n    \"name\": \"158 Mile House\",\n    \"language\": \"not defined\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 5.4259615,\n    \"feature\": {\n     \"id\": \"40840\",\n     \"uuid\": \"0c5bf89afff449d483813faef290f61b\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/40840\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/40840/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/40840/names\"},\n    \"changeDate\": \"2001-10-31\",\n    \"decisionDate\": \"1966-06-01\",\n    \"featureCategory\": 2,\n    \"featureCategoryDescription\": \"Unincorporated Rural\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/2\",\n    \"featureType\": \"Locality\",\n    \"lonAsRecorded\": 1215800,\n    \"latAsRecorded\": 521300,\n    \"datumAsRecorded\": \"NAD27\",\n    \"position\": \"POPULATION CENTRE\",\n    \"ntsMap\": \"93A/4\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     1274958.2865305680,\n     808497.0303963745]}},\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/63281\",\n    \"name\": \"Amai 15\",\n    \"language\": \"bilingual\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 0.0,\n    \"feature\": {\n     \"id\": \"1190\",\n     \"uuid\": \"131987bcba3611d892e2080020a0f4c9\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/1190\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/1190/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/1190/names\"},\n    \"changeDate\": \"2011-03-31\",\n    \"decisionDate\": \"2011-04-01\",\n    \"featureCategory\": 6,\n    \"featureCategoryDescription\": \"Geographic\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/6\",\n    \"featureType\": \"Indian Reserve-Réserve indienne\",\n    \"lonAsRecorded\": 1270446,\n    \"latAsRecorded\": 500145,\n    \"datumAsRecorded\": \"NAD83\",\n    \"position\": \"CENTRE\",\n    \"ntsMap\": \"92L/3\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     922660.8828532211,\n     557617.8841847209]}},\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/64141\",\n    \"name\": \"Sumas 5\",\n    \"language\": \"English\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 0.0,\n    \"feature\": {\n     \"id\": \"679\",\n     \"uuid\": \"7da7c697ba3511d892e2080020a0f4c9\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/679\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/679/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/679/names\"},\n    \"changeDate\": \"2012-02-14\",\n    \"decisionDate\": \"1998-09-18\",\n    \"featureCategory\": 6,\n    \"featureCategoryDescription\": \"Geographic\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/6\",\n    \"featureType\": \"Indian Reserve-Réserve indienne\",\n    \"lonAsRecorded\": 1220704,\n    \"latAsRecorded\": 490726,\n    \"datumAsRecorded\": \"NAD83\",\n    \"position\": \"CENTRE\",\n    \"ntsMap\": \"92G/1\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     1283537.4766171220,\n     464171.7669766864]}},\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/64312\",\n    \"name\": \"Amatal 5\",\n    \"language\": \"bilingual\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 0.0,\n    \"feature\": {\n     \"id\": \"985\",\n     \"uuid\": \"1ac0ad21dc974ad8b8c660460617658d\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/985\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/985/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/985/names\"},\n    \"changeDate\": \"2012-02-07\",\n    \"decisionDate\": \"1998-09-18\",\n    \"featureCategory\": 6,\n    \"featureCategoryDescription\": \"Geographic\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/6\",\n    \"featureType\": \"Indian Reserve-Réserve indienne\",\n    \"lonAsRecorded\": 1291105,\n    \"latAsRecorded\": 551215,\n    \"datumAsRecorded\": \"NAD27\",\n    \"position\": \"CENTRE\",\n    \"ntsMap\": \"103P/3\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     797840.2983318854,\n     1138567.8052171900]}},\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/63221\",\n    \"name\": \"Yakats 5\",\n    \"language\": \"bilingual\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 0.0,\n    \"feature\": {\n     \"id\": \"1181\",\n     \"uuid\": \"1018f1e3ba3611d892e2080020a0f4c9\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/1181\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/1181/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/1181/names\"},\n    \"changeDate\": \"2012-02-14\",\n    \"decisionDate\": \"2011-04-01\",\n    \"featureCategory\": 6,\n    \"featureCategoryDescription\": \"Geographic\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/6\",\n    \"featureType\": \"Indian Reserve-Réserve indienne\",\n    \"lonAsRecorded\": 1272408,\n    \"latAsRecorded\": 500215,\n    \"datumAsRecorded\": \"NAD83\",\n    \"position\": \"CENTRE\",\n    \"ntsMap\": \"92L/3\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     899555.8111820745,\n     558949.9998293004]}},\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/62641\",\n    \"name\": \"Dookqua 5\",\n    \"language\": \"bilingual\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 0.0,\n    \"feature\": {\n     \"id\": \"951\",\n     \"uuid\": \"fe553680ba3511d892e2080020a0f4c9\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/951\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/951/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/951/names\"},\n    \"changeDate\": \"2011-04-01\",\n    \"decisionDate\": \"2011-04-01\",\n    \"featureCategory\": 6,\n    \"featureCategoryDescription\": \"Geographic\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/6\",\n    \"featureType\": \"Indian Reserve-Réserve indienne\",\n    \"lonAsRecorded\": 1253028,\n    \"latAsRecorded\": 485525,\n    \"datumAsRecorded\": \"NAD83\",\n    \"position\": \"CENTRE\",\n    \"ntsMap\": \"92C/13\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     1036121.7774315109,\n     434275.7374735435]}},\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/62669\",\n    \"name\": \"Keeshan 9\",\n    \"language\": \"bilingual\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 0.0,\n    \"feature\": {\n     \"id\": \"916\",\n     \"uuid\": \"f532324eba3511d892e2080020a0f4c9\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/916\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/916/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/916/names\"},\n    \"changeDate\": \"2011-03-31\",\n    \"decisionDate\": \"2011-04-01\",\n    \"featureCategory\": 6,\n    \"featureCategoryDescription\": \"Geographic\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/6\",\n    \"featureType\": \"Indian Reserve-Réserve indienne\",\n    \"lonAsRecorded\": 1251020,\n    \"latAsRecorded\": 484842,\n    \"datumAsRecorded\": \"NAD83\",\n    \"position\": \"CENTRE\",\n    \"ntsMap\": \"92C/14\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     1060891.0116144104,\n     422075.4412838977]}},\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/64305\",\n    \"name\": \"Kinyug 57\",\n    \"language\": \"bilingual\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 0.0,\n    \"feature\": {\n     \"id\": \"994\",\n     \"uuid\": \"b6f5862383cd48d7b58bf03db2bcaf13\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/994\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/994/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/994/names\"},\n    \"changeDate\": \"2012-02-07\",\n    \"decisionDate\": \"1998-09-18\",\n    \"featureCategory\": 6,\n    \"featureCategoryDescription\": \"Geographic\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/6\",\n    \"featureType\": \"Indian Reserve-Réserve indienne\",\n    \"lonAsRecorded\": 1285435,\n    \"latAsRecorded\": 553000,\n    \"datumAsRecorded\": \"NAD27\",\n    \"position\": \"CENTRE\",\n    \"ntsMap\": \"103P/7\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     816643.3366565594,\n     1170810.1888165583]}},\n  {\n   \"type\": \"Feature\",\n   \"properties\": {\n    \"uri\": \"apps.gov.bc.ca/pub/bcgnws/names/64294\",\n    \"name\": \"Klaalth 5\",\n    \"language\": \"bilingual\",\n    \"status\": \"rescinded\",\n    \"isOfficial\": 0,\n    \"tags\": [\n],\n    \"score\": 0.0,\n    \"feature\": {\n     \"id\": \"5070\",\n     \"uuid\": \"0b6782a4d05511d892e2080020a0f4c9\",\n     \"uri\": \"apps.gov.bc.ca/pub/bcgnws/features/5070\",\n     \"mapsheets\": \"apps.gov.bc.ca/pub/bcgnws/features/5070/mapsheets\",\n     \"names\": \"apps.gov.bc.ca/pub/bcgnws/features/5070/names\"},\n    \"changeDate\": \"2012-02-07\",\n    \"decisionDate\": \"1998-09-18\",\n    \"featureCategory\": 6,\n    \"featureCategoryDescription\": \"Geographic\",\n    \"featureCategoryURI\": \"apps.gov.bc.ca/pub/bcgnws/featureCategories/6\",\n    \"featureType\": \"Indian Reserve-Réserve indienne\",\n    \"lonAsRecorded\": 1234455,\n    \"latAsRecorded\": 493010,\n    \"datumAsRecorded\": \"NAD27\",\n    \"position\": \"CENTRE\",\n    \"ntsMap\": \"92G/12\"},\n   \"geometry\": {\n    \"type\": \"Point\",\n    \"coordinates\": [\n     1163145.7933273811,\n     501091.9249104706]}}],\n \"legal\": {\n  \"disclaimerURI\": \"http://www.gov.bc.ca/com/disclaimer.html\",\n  \"privacyURI\": \"http://www.gov.bc.ca/com/privacy.html\",\n  \"copyrightNotice\": \"Copyright (c) 2019, Province of British Columbia\",\n  \"copyrightLicenseURI\": \"http://www.gov.bc.ca/com/copyright.html\"}}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:10:55 GMT"
+                ],
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Content-Disposition": [
+                  "inline; filename\u003d\"results.json\""
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d99"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489845529"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489845832"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "namesNotOfficialSearchGet",
+            "originalParameter": {
+              "parameterName": "name",
+              "sanitizedName": "name",
+              "value": [
+                "CeirxKPbzEy"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "outputFormat",
+                "sanitizedName": "outputFormat",
+                "value": [
+                  "json"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "-59"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "namesNotOfficialSearchGet"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/verification/result?format\u003dxml\u0026otp\u003dujBt",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cresult\u003eN\u003c/result\u003e\n\t\u003cerror\u003eInvalid API key.\u003c/error\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:15 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d96"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489624764"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489624951"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "dTz"
+              ]
+            },
+            "operationId": "v1VerificationResultGet",
+            "parameters": [
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "xml"
+                ]
+              },
+              {
+                "parameterName": "otp",
+                "sanitizedName": "otp",
+                "value": [
+                  "ujBt"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/verification/result?key\u003ddTz\u0026format\u003dxml",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cresult\u003eN\u003c/result\u003e\n\t\u003cerror\u003eInvalid transaction ID.\u003c/error\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:15 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d95"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489624957"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489625156"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "otp",
+              "sanitizedName": "otp",
+              "value": [
+                "ujBt"
+              ]
+            },
+            "operationId": "v1VerificationResultGet",
+            "parameters": [
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "dTz"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "xml"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "v1VerificationResultGet"
+  }
+}

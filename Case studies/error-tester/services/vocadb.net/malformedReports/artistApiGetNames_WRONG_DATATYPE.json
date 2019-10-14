@@ -1,0 +1,265 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/artists/names?query\u003d-61\u0026nameMatchMode\u003dWords\u0026maxResults\u003d8",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:48:01 GMT"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492072051"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492072253"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "artistApiGetNames",
+            "originalParameter": {
+              "parameterName": "query",
+              "sanitizedName": "query",
+              "value": [
+                "fBDLlKfjinOm"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "-61"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Words"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "8"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/artists/names?query\u003dfBDLlKfjinOm\u0026nameMatchMode\u003d-57\u0026maxResults\u003d8",
+              "responseBody": "[\"ཕུན་ཚོགས་གྲགས་པ།\",\"--\",\"𝐊 𝐎 𝐊 𝐎 𝐑 𝐎 くコ:彡\",\" ー皮ー\",\" (¦3[▓▓]\",\" 1³(イチノサンジョウ)\",\" 2D Lab\",\" -Alice映画-发奋中的艾酱\"]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:48:01 GMT"
+                ],
+                "Content-Length": [
+                  "207"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492072257"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492072370"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "artistApiGetNames",
+            "originalParameter": {
+              "parameterName": "nameMatchMode",
+              "sanitizedName": "nameMatchMode",
+              "value": [
+                "Words"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "fBDLlKfjinOm"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "-57"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "8"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/artists/names?query\u003dfBDLlKfjinOm\u0026nameMatchMode\u003dWords\u0026maxResults\u003dClGfNL",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:48:02 GMT"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492072374"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492072508"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "artistApiGetNames",
+            "originalParameter": {
+              "parameterName": "maxResults",
+              "sanitizedName": "maxResults",
+              "value": [
+                "8"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "fBDLlKfjinOm"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Words"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "ClGfNL"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "artistApiGetNames"
+  }
+}

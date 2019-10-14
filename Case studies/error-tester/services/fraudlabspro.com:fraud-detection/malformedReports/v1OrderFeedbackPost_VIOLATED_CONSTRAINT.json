@@ -1,0 +1,95 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/feedback?id\u003daDvEjljpHCXycU\u0026key\u003dJEHCIQFcG\u0026action\u003dMxhD",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:11 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d83"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489620977"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489621163"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1OrderFeedbackPost",
+            "originalParameter": {
+              "parameterName": "action",
+              "sanitizedName": "action",
+              "value": [
+                "REJECT"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "aDvEjljpHCXycU"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "JEHCIQFcG"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "MxhD"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "POST",
+    "operationId": "v1OrderFeedbackPost"
+  }
+}

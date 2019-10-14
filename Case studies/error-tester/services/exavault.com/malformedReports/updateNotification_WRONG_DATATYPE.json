@@ -1,0 +1,760 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateNotification?id\u003dpjRoIyzal\u0026path\u003dDxXRNwEabduSFT\u0026action\u003dlLLToNwGqSF\u0026usernames\u003dBPXAL\u0026emails\u003ddAQcQzzarxgjhKMLJf\u0026emails\u003dySulZeIylQWQZTP\u0026emails\u003dHBvv\u0026emails\u003dxPlIsihUeOgNggOHLzF\u0026emails\u003dCRecikrkPmL\u0026emails\u003dQeoTUyvTu\u0026emails\u003dQaKRaTXwkHVd\u0026sendEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003db8812834a0f2fd5b"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:53:32 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488802261"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488802561"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateNotification",
+            "originalParameter": {
+              "parameterName": "id",
+              "sanitizedName": "id",
+              "value": [
+                "57"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "pjRoIyzal"
+                ]
+              },
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "DxXRNwEabduSFT"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "lLLToNwGqSF"
+                ]
+              },
+              {
+                "parameterName": "usernames",
+                "sanitizedName": "usernames",
+                "value": [
+                  "BPXAL"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "dAQcQzzarxgjhKMLJf",
+                  "ySulZeIylQWQZTP",
+                  "HBvv",
+                  "xPlIsihUeOgNggOHLzF",
+                  "CRecikrkPmL",
+                  "QeoTUyvTu",
+                  "QaKRaTXwkHVd"
+                ]
+              },
+              {
+                "parameterName": "sendEmail",
+                "sanitizedName": "sendEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateNotification?id\u003d57\u0026path\u003d72\u0026action\u003dlLLToNwGqSF\u0026usernames\u003dBPXAL\u0026emails\u003ddAQcQzzarxgjhKMLJf\u0026emails\u003dySulZeIylQWQZTP\u0026emails\u003dHBvv\u0026emails\u003dxPlIsihUeOgNggOHLzF\u0026emails\u003dCRecikrkPmL\u0026emails\u003dQeoTUyvTu\u0026emails\u003dQaKRaTXwkHVd\u0026sendEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003da9c2dfedb1aa08c9"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:53:32 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488802566"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488802868"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateNotification",
+            "originalParameter": {
+              "parameterName": "path",
+              "sanitizedName": "path",
+              "value": [
+                "DxXRNwEabduSFT"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "57"
+                ]
+              },
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "72"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "lLLToNwGqSF"
+                ]
+              },
+              {
+                "parameterName": "usernames",
+                "sanitizedName": "usernames",
+                "value": [
+                  "BPXAL"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "dAQcQzzarxgjhKMLJf",
+                  "ySulZeIylQWQZTP",
+                  "HBvv",
+                  "xPlIsihUeOgNggOHLzF",
+                  "CRecikrkPmL",
+                  "QeoTUyvTu",
+                  "QaKRaTXwkHVd"
+                ]
+              },
+              {
+                "parameterName": "sendEmail",
+                "sanitizedName": "sendEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateNotification?id\u003d57\u0026path\u003dDxXRNwEabduSFT\u0026action\u003d58\u0026usernames\u003dBPXAL\u0026emails\u003ddAQcQzzarxgjhKMLJf\u0026emails\u003dySulZeIylQWQZTP\u0026emails\u003dHBvv\u0026emails\u003dxPlIsihUeOgNggOHLzF\u0026emails\u003dCRecikrkPmL\u0026emails\u003dQeoTUyvTu\u0026emails\u003dQaKRaTXwkHVd\u0026sendEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d14b9b6261fa39695"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:53:33 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488802875"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488803175"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateNotification",
+            "originalParameter": {
+              "parameterName": "action",
+              "sanitizedName": "action",
+              "value": [
+                "lLLToNwGqSF"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "57"
+                ]
+              },
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "DxXRNwEabduSFT"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "58"
+                ]
+              },
+              {
+                "parameterName": "usernames",
+                "sanitizedName": "usernames",
+                "value": [
+                  "BPXAL"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "dAQcQzzarxgjhKMLJf",
+                  "ySulZeIylQWQZTP",
+                  "HBvv",
+                  "xPlIsihUeOgNggOHLzF",
+                  "CRecikrkPmL",
+                  "QeoTUyvTu",
+                  "QaKRaTXwkHVd"
+                ]
+              },
+              {
+                "parameterName": "sendEmail",
+                "sanitizedName": "sendEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateNotification?id\u003d57\u0026path\u003dDxXRNwEabduSFT\u0026action\u003dlLLToNwGqSF\u0026usernames\u003d61\u0026emails\u003ddAQcQzzarxgjhKMLJf\u0026emails\u003dySulZeIylQWQZTP\u0026emails\u003dHBvv\u0026emails\u003dxPlIsihUeOgNggOHLzF\u0026emails\u003dCRecikrkPmL\u0026emails\u003dQeoTUyvTu\u0026emails\u003dQaKRaTXwkHVd\u0026sendEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d6fe63e7c34386f0d"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:53:33 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488803179"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488803483"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateNotification",
+            "originalParameter": {
+              "parameterName": "usernames",
+              "sanitizedName": "usernames",
+              "value": [
+                "BPXAL"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "57"
+                ]
+              },
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "DxXRNwEabduSFT"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "lLLToNwGqSF"
+                ]
+              },
+              {
+                "parameterName": "usernames",
+                "sanitizedName": "usernames",
+                "value": [
+                  "61"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "dAQcQzzarxgjhKMLJf",
+                  "ySulZeIylQWQZTP",
+                  "HBvv",
+                  "xPlIsihUeOgNggOHLzF",
+                  "CRecikrkPmL",
+                  "QeoTUyvTu",
+                  "QaKRaTXwkHVd"
+                ]
+              },
+              {
+                "parameterName": "sendEmail",
+                "sanitizedName": "sendEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateNotification?id\u003d57\u0026path\u003dDxXRNwEabduSFT\u0026action\u003dlLLToNwGqSF\u0026usernames\u003dBPXAL\u0026emails\u003d32\u0026emails\u003d26\u0026emails\u003d-53\u0026emails\u003d-6\u0026emails\u003d95\u0026emails\u003d-12\u0026emails\u003d-84\u0026sendEmail\u003dfalse",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d6c7fe450bfa494e9"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:53:33 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488803488"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488803789"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateNotification",
+            "originalParameter": {
+              "parameterName": "emails",
+              "sanitizedName": "emails",
+              "value": [
+                "dAQcQzzarxgjhKMLJf",
+                "ySulZeIylQWQZTP",
+                "HBvv",
+                "xPlIsihUeOgNggOHLzF",
+                "CRecikrkPmL",
+                "QeoTUyvTu",
+                "QaKRaTXwkHVd"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "57"
+                ]
+              },
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "DxXRNwEabduSFT"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "lLLToNwGqSF"
+                ]
+              },
+              {
+                "parameterName": "usernames",
+                "sanitizedName": "usernames",
+                "value": [
+                  "BPXAL"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "32",
+                  "26",
+                  "-53",
+                  "-6",
+                  "95",
+                  "-12",
+                  "-84"
+                ]
+              },
+              {
+                "parameterName": "sendEmail",
+                "sanitizedName": "sendEmail",
+                "value": [
+                  "false"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateNotification?id\u003d57\u0026path\u003dDxXRNwEabduSFT\u0026action\u003dlLLToNwGqSF\u0026usernames\u003dBPXAL\u0026emails\u003ddAQcQzzarxgjhKMLJf\u0026emails\u003dySulZeIylQWQZTP\u0026emails\u003dHBvv\u0026emails\u003dxPlIsihUeOgNggOHLzF\u0026emails\u003dCRecikrkPmL\u0026emails\u003dQeoTUyvTu\u0026emails\u003dQaKRaTXwkHVd\u0026sendEmail\u003d35",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003def1fe20c5ae702ba"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:53:34 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488803794"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488804096"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateNotification",
+            "originalParameter": {
+              "parameterName": "sendEmail",
+              "sanitizedName": "sendEmail",
+              "value": [
+                "false"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "57"
+                ]
+              },
+              {
+                "parameterName": "path",
+                "sanitizedName": "path",
+                "value": [
+                  "DxXRNwEabduSFT"
+                ]
+              },
+              {
+                "parameterName": "action",
+                "sanitizedName": "action",
+                "value": [
+                  "lLLToNwGqSF"
+                ]
+              },
+              {
+                "parameterName": "usernames",
+                "sanitizedName": "usernames",
+                "value": [
+                  "BPXAL"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "dAQcQzzarxgjhKMLJf",
+                  "ySulZeIylQWQZTP",
+                  "HBvv",
+                  "xPlIsihUeOgNggOHLzF",
+                  "CRecikrkPmL",
+                  "QeoTUyvTu",
+                  "QaKRaTXwkHVd"
+                ]
+              },
+              {
+                "parameterName": "sendEmail",
+                "sanitizedName": "sendEmail",
+                "value": [
+                  "35"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "updateNotification"
+  }
+}

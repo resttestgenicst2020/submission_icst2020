@@ -1,0 +1,675 @@
+{
+  "responseCoverage": {
+    "404": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "api_key": [
+                  "RS"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/-116042446451639720",
+              "responseBody": "",
+              "responseHeaders": {
+                "Content-Length": [
+                  "0"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196672"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196676"
+                ]
+              },
+              "statusCode": 404,
+              "validationErrors": []
+            },
+            "httpMethod": "DELETE",
+            "operationId": "deletePet",
+            "parameters": [
+              {
+                "className": "java.lang.Long",
+                "parameterName": "petId",
+                "sanitizedName": "petId",
+                "value": -116042446451639720
+              },
+              {
+                "className": "java.lang.String",
+                "parameterName": "api_key",
+                "sanitizedName": "apiKey",
+                "value": "RS"
+              }
+            ],
+            "statusCode": 404
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/-2476102843477364758",
+              "responseBody": "",
+              "responseHeaders": {
+                "Content-Length": [
+                  "0"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196678"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196680"
+                ]
+              },
+              "statusCode": 404,
+              "validationErrors": []
+            },
+            "httpMethod": "DELETE",
+            "operationId": "deletePet",
+            "parameters": [
+              {
+                "className": "java.lang.Long",
+                "parameterName": "petId",
+                "sanitizedName": "petId",
+                "value": -2476102843477364758
+              }
+            ],
+            "statusCode": 404
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/2062776333319269570",
+              "responseBody": "",
+              "responseHeaders": {
+                "Content-Length": [
+                  "0"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196683"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196685"
+                ]
+              },
+              "statusCode": 404,
+              "validationErrors": []
+            },
+            "httpMethod": "DELETE",
+            "operationId": "deletePet",
+            "parameters": [
+              {
+                "className": "java.lang.Long",
+                "parameterName": "petId",
+                "sanitizedName": "petId",
+                "value": 2062776333319269570
+              }
+            ],
+            "statusCode": 404
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/-7542113354736668156",
+              "responseBody": "",
+              "responseHeaders": {
+                "Content-Length": [
+                  "0"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196688"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196689"
+                ]
+              },
+              "statusCode": 404,
+              "validationErrors": []
+            },
+            "httpMethod": "DELETE",
+            "operationId": "deletePet",
+            "parameters": [
+              {
+                "className": "java.lang.Long",
+                "parameterName": "petId",
+                "sanitizedName": "petId",
+                "value": -7542113354736668156
+              }
+            ],
+            "statusCode": 404
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/3042555789122257774",
+              "responseBody": "",
+              "responseHeaders": {
+                "Content-Length": [
+                  "0"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196692"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196694"
+                ]
+              },
+              "statusCode": 404,
+              "validationErrors": []
+            },
+            "httpMethod": "DELETE",
+            "operationId": "deletePet",
+            "parameters": [
+              {
+                "className": "java.lang.Long",
+                "parameterName": "petId",
+                "sanitizedName": "petId",
+                "value": 3042555789122257774
+              }
+            ],
+            "statusCode": 404
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ],
+    "405": [],
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196416"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196558"
+                ]
+              },
+              "statusCode": 200,
+              "validationErrors": []
+            },
+            "httpMethod": "GET",
+            "operationId": "getPets",
+            "parameters": [],
+            "statusCode": 200
+          },
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/findByStatus?status\u003davailable\u0026status\u003dpending\u0026status\u003dsold\u0026status\u003davailable",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196587"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196593"
+                ]
+              },
+              "statusCode": 200,
+              "validationErrors": []
+            },
+            "httpMethod": "GET",
+            "operationId": "findPetsByStatus",
+            "parameters": [
+              {
+                "className": "java.util.List",
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "available",
+                  "pending",
+                  "sold",
+                  "available"
+                ]
+              }
+            ],
+            "statusCode": 200
+          },
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/findByTags?tags\u003dtOShCf",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196603"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196605"
+                ]
+              },
+              "statusCode": 200,
+              "validationErrors": []
+            },
+            "httpMethod": "GET",
+            "operationId": "findPetsByTags",
+            "parameters": [
+              {
+                "className": "java.util.List",
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "tOShCf"
+                ]
+              }
+            ],
+            "statusCode": 200
+          },
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet",
+              "responseBody": "{\"id\":0,\"category\":{\"id\":-1044756419685828537,\"name\":\"vIGWSyXaUeHW\"},\"name\":\"doggie\",\"photoUrls\":[\"FihxQXJyEkfi\",\"HIhGUWSQjufk\",\"wTaMVNVxGRSG\",\"iGqcaoBqhjWZ\",\"cTVB\",\"NlZKtlJYjRAEfk\"],\"tags\":[{\"id\":-3928863812351958658,\"name\":\"trOQVRLXszLHgvkLhGk\"},{\"id\":-327677751494739256,\"name\":\"FtfczCSl\"},{\"id\":-7400273271666676018,\"name\":\"RnhKwLjvXPE\"},{\"id\":456848481802360402,\"name\":\"IwdLlHWGLqTGXJqYmZ\"},{\"id\":2785912134899724298,\"name\":\"aYqzoGutwwAmY\"},{\"id\":-462630831041320369,\"name\":\"r\"},{\"id\":-1815628445708685612,\"name\":\"shTJi\"}],\"status\":\"pending\"}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196705"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196837"
+                ]
+              },
+              "statusCode": 200,
+              "validationErrors": []
+            },
+            "httpMethod": "POST",
+            "operationId": "addPet",
+            "parameters": [
+              {
+                "className": "io.swagger.client.model.Pet",
+                "parameterName": "body",
+                "sanitizedName": "body",
+                "value": {
+                  "id": 3089703816923003002,
+                  "category": {
+                    "id": -1044756419685828537,
+                    "name": "vIGWSyXaUeHW"
+                  },
+                  "name": "doggie",
+                  "photoUrls": [
+                    "FihxQXJyEkfi",
+                    "HIhGUWSQjufk",
+                    "wTaMVNVxGRSG",
+                    "iGqcaoBqhjWZ",
+                    "cTVB",
+                    "NlZKtlJYjRAEfk"
+                  ],
+                  "tags": [
+                    {
+                      "id": -3928863812351958658,
+                      "name": "trOQVRLXszLHgvkLhGk"
+                    },
+                    {
+                      "id": -327677751494739256,
+                      "name": "FtfczCSl"
+                    },
+                    {
+                      "id": -7400273271666676018,
+                      "name": "RnhKwLjvXPE"
+                    },
+                    {
+                      "id": 456848481802360402,
+                      "name": "IwdLlHWGLqTGXJqYmZ"
+                    },
+                    {
+                      "id": 2785912134899724298,
+                      "name": "aYqzoGutwwAmY"
+                    },
+                    {
+                      "id": -462630831041320369,
+                      "name": "r"
+                    },
+                    {
+                      "id": -1815628445708685612,
+                      "name": "shTJi"
+                    }
+                  ],
+                  "status": "pending"
+                }
+              }
+            ],
+            "statusCode": 200
+          },
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet",
+              "responseBody": "{\"id\":0,\"category\":{\"id\":-1044756419685828480,\"name\":\"vIGWSyXaUeHW\"},\"name\":\"doggie\",\"photoUrls\":[],\"tags\":[{\"id\":-7400273271666675712,\"name\":\"trOQVRLXszLHgvkLhGk\"},{\"id\":-1815628445708685568,\"name\":\"trOQVRLXszLHgvkLhGk\"},{\"id\":-1815628445708685568,\"name\":\"shTJi\"},{\"id\":-7400273271666675712,\"name\":\"trOQVRLXszLHgvkLhGk\"},{\"id\":456848481802360384,\"name\":\"RnhKwLjvXPE\"},{\"id\":-327677751494739264,\"name\":\"r\"}],\"status\":\"sold\"}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039196988"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039196993"
+                ]
+              },
+              "statusCode": 200,
+              "validationErrors": []
+            },
+            "httpMethod": "PUT",
+            "operationId": "updatePet",
+            "parameters": [
+              {
+                "className": "io.swagger.client.model.Pet",
+                "parameterName": "body",
+                "sanitizedName": "body",
+                "value": {
+                  "id": 0,
+                  "category": {
+                    "id": -1044756419685828480,
+                    "name": "vIGWSyXaUeHW"
+                  },
+                  "name": "doggie",
+                  "photoUrls": [],
+                  "tags": [
+                    {
+                      "id": -7400273271666675712,
+                      "name": "trOQVRLXszLHgvkLhGk"
+                    },
+                    {
+                      "id": -1815628445708685568,
+                      "name": "trOQVRLXszLHgvkLhGk"
+                    },
+                    {
+                      "id": -1815628445708685568,
+                      "name": "shTJi"
+                    },
+                    {
+                      "id": -7400273271666675712,
+                      "name": "trOQVRLXszLHgvkLhGk"
+                    },
+                    {
+                      "id": 456848481802360384,
+                      "name": "RnhKwLjvXPE"
+                    },
+                    {
+                      "id": -327677751494739264,
+                      "name": "r"
+                    }
+                  ],
+                  "status": "sold"
+                }
+              }
+            ],
+            "statusCode": 200
+          },
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/0",
+              "responseBody": "{\"id\":0,\"category\":{\"id\":-1044756419685828480,\"name\":\"vIGWSyXaUeHW\"},\"name\":\"doggie\",\"photoUrls\":[],\"tags\":[{\"id\":-7400273271666675712,\"name\":\"trOQVRLXszLHgvkLhGk\"},{\"id\":-1815628445708685568,\"name\":\"trOQVRLXszLHgvkLhGk\"},{\"id\":-1815628445708685568,\"name\":\"shTJi\"},{\"id\":-7400273271666675712,\"name\":\"trOQVRLXszLHgvkLhGk\"},{\"id\":456848481802360384,\"name\":\"RnhKwLjvXPE\"},{\"id\":-327677751494739264,\"name\":\"r\"}],\"status\":\"sold\"}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039197015"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039197019"
+                ]
+              },
+              "statusCode": 200,
+              "validationErrors": []
+            },
+            "httpMethod": "GET",
+            "operationId": "getPetById",
+            "parameters": [
+              {
+                "className": "java.lang.Long",
+                "parameterName": "petId",
+                "sanitizedName": "petId",
+                "value": 0
+              }
+            ],
+            "statusCode": 200
+          },
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Content-Type": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/0",
+              "responseHeaders": {
+                "Content-Length": [
+                  "0"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 07:46:36 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571039197037"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571039197038"
+                ]
+              },
+              "statusCode": 200,
+              "validationErrors": []
+            },
+            "httpMethod": "DELETE",
+            "operationId": "deletePet",
+            "parameters": [
+              {
+                "className": "java.lang.Long",
+                "parameterName": "petId",
+                "sanitizedName": "petId",
+                "value": 0
+              }
+            ],
+            "statusCode": 200
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "DELETE",
+    "invocationClassName": "PetApi",
+    "invocationMethodName": "deletePetWithHttpInfo",
+    "operationId": "deletePet",
+    "operationPath": "/pet/{petId}"
+  }
+}

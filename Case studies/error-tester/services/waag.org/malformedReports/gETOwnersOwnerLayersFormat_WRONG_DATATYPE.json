@@ -1,0 +1,83 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://api.citysdk.waag.org//owners/71/layers",
+              "responseBody": "{\"@context\":{\"@base\":\"http://rdf.citysdk.eu/ams/\",\"@vocab\":\"http://rdf.citysdk.eu/\",\"cdk\":\"http://rdf.citysdk.eu/\",\"dc\":\"http://purl.org/dc/elements/1.1/\",\"rdf\":\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"owl\":\"http://www.w3.org/2002/07/owl#\",\"xsd\":\"http://www.w3.org/2001/XMLSchema#\",\"org\":\"http://www.w3.org/ns/org#\",\"foaf\":\"http://xmlns.com/foaf/0.1/\",\"dcat\":\"http://www.w3.org/ns/dcat#\",\"geos\":\"http://www.opengis.net/ont/geosparql#\",\"dbpedia\":\"http://dbpedia.org/resource/\",\"dbpedia-owl\":\"http://dbpedia.org/ontology/\",\"features\":\"_:features\",\"properties\":\"_:properties\",\"name\":\"rdfs:label\",\"title\":\"dc:title\",\"description\":\"dc:description\",\"geometry\":null,\"type\":null,\"context\":null,\"owner\":{\"@type\":\"@id\"},\"dependsOn\":{\"@type\":\"@id\"},\"category\":{\"@type\":\"@id\"},\"rdf_type\":{\"@id\":\"layerOnObjectType\",\"@type\":\"@id\"},\"data_sources\":\"dataSource\",\"webservice_url\":\"webServiceUrl\",\"fields\":{\"@id\":\"field\",\"@type\":\"@id\"}},\"type\":\"FeatureCollection\",\"features\":[]}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Status": [
+                  "200 OK"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Link": [
+                  "\u003chttp://api.citysdk.waag.org/owners/71/layers?owner\u003d71\u0026page\u003d1\u0026per_page\u003d10\u003e; rel\u003d\"last\""
+                ],
+                "X-Result-Count": [
+                  "0"
+                ],
+                "X-Powered-By": [
+                  "Phusion Passenger"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:05:14 GMT"
+                ],
+                "Server": [
+                  "nginx + Phusion Passenger"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570493104178"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570493104236"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "gETOwnersOwnerLayersFormat",
+            "originalParameter": {
+              "parameterName": "owner",
+              "sanitizedName": "owner",
+              "value": "KzEQeocHTDQjqnnTOp"
+            },
+            "parameters": [
+              {
+                "parameterName": "owner",
+                "sanitizedName": "owner",
+                "value": "71"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "gETOwnersOwnerLayersFormat"
+  }
+}

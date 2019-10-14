@@ -1,0 +1,290 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//alert/%7Bwho%7D/when/UobFKGXFX/pFjE?key\u003dZEwkPiknDqx",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:28:01 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487268192"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487271752"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "who",
+              "sanitizedName": "who",
+              "value": "nuYfpDheTIevbsS"
+            },
+            "operationId": "createAlertGET",
+            "parameters": [
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "UobFKGXFX"
+              },
+              {
+                "parameterName": "condition",
+                "sanitizedName": "condition",
+                "value": "pFjE"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "ZEwkPiknDqx"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//alert/nuYfpDheTIevbsS/when/%7Bthing%7D/pFjE?key\u003dZEwkPiknDqx",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:28:03 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487272368"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487274210"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "thing",
+              "sanitizedName": "thing",
+              "value": "UobFKGXFX"
+            },
+            "operationId": "createAlertGET",
+            "parameters": [
+              {
+                "parameterName": "who",
+                "sanitizedName": "who",
+                "value": "nuYfpDheTIevbsS"
+              },
+              {
+                "parameterName": "condition",
+                "sanitizedName": "condition",
+                "value": "pFjE"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "ZEwkPiknDqx"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//alert/nuYfpDheTIevbsS/when/UobFKGXFX/%7Bcondition%7D?key\u003dZEwkPiknDqx",
+              "responseBody": "{\"this\":\"failed\",\"because\":\"the key you provided doesn\u0027t work with this thing\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:28:06 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487274831"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487276669"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "condition",
+              "sanitizedName": "condition",
+              "value": "pFjE"
+            },
+            "operationId": "createAlertGET",
+            "parameters": [
+              {
+                "parameterName": "who",
+                "sanitizedName": "who",
+                "value": "nuYfpDheTIevbsS"
+              },
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "UobFKGXFX"
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "ZEwkPiknDqx"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//alert/nuYfpDheTIevbsS/when/UobFKGXFX/pFjE",
+              "responseBody": "{\"this\":\"failed\",\"with\":402,\"because\":\"this thing must be locked first. see https://dweet.io/locks\"}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:28:09 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487277593"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487280047"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "ZEwkPiknDqx"
+              ]
+            },
+            "operationId": "createAlertGET",
+            "parameters": [
+              {
+                "parameterName": "who",
+                "sanitizedName": "who",
+                "value": "nuYfpDheTIevbsS"
+              },
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "UobFKGXFX"
+              },
+              {
+                "parameterName": "condition",
+                "sanitizedName": "condition",
+                "value": "pFjE"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "createAlertGET"
+  }
+}

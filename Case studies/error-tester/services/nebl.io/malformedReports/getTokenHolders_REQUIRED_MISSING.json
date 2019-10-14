@@ -1,0 +1,80 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://ntp1node.nebl.io//ntp1/stakeholders/%7Btokenid%7D",
+              "responseBody": "{\"tokenId\":\"{tokenid}\",\"holders\":[]}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:43:32 GMT"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "36"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "X-Powered-By": [
+                  "Express"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "Content-Type, api_key"
+                ],
+                "ETag": [
+                  "W/\"24-1f5f8d5\""
+                ],
+                "Last-Modified": [
+                  "Monday, 07-Oct-2019 23:43:32 GMT"
+                ],
+                "Cache-Control": [
+                  "no-store, no-cache, must-revalidate, proxy-revalidate, max-age\u003d0"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491801783"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491801845"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "tokenid",
+              "sanitizedName": "tokenid",
+              "value": "mJwOTihtiAWKZNONLh"
+            },
+            "operationId": "getTokenHolders",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getTokenHolders"
+  }
+}

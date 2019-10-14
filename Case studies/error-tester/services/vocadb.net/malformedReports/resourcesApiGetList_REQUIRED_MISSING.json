@@ -1,0 +1,148 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json, text/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/resources/%7BcultureCode%7D?setNames\u003dxcHkKWdxXlWVCINcir\u0026setNames\u003dsglA\u0026setNames\u003dCvmaIYrITz\u0026setNames\u003dzKLODDX",
+              "responseBody": "{\"xcHkKWdxXlWVCINcir\":{},\"sglA\":{},\"CvmaIYrITz\":{},\"zKLODDX\":{}}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "max-age\u003d86400"
+                ],
+                "Content-Length": [
+                  "64"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "ETag": [
+                  "\"8de9728e-edbc-4d9a-ba26-4e4ea6a16b70\""
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:56:03 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492554067"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492554200"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "cultureCode",
+              "sanitizedName": "cultureCode",
+              "value": "en"
+            },
+            "operationId": "resourcesApiGetList",
+            "parameters": [
+              {
+                "parameterName": "setNames",
+                "sanitizedName": "setNames",
+                "value": [
+                  "xcHkKWdxXlWVCINcir",
+                  "sglA",
+                  "CvmaIYrITz",
+                  "zKLODDX"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json, text/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/resources/en",
+              "responseBody": "{}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "max-age\u003d86400"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "ETag": [
+                  "\"7f024a72-2f2c-4dc2-95ed-d03fd51c327e\""
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:56:03 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492554202"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492554258"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "setNames",
+              "sanitizedName": "setNames",
+              "value": [
+                "xcHkKWdxXlWVCINcir",
+                "sglA",
+                "CvmaIYrITz",
+                "zKLODDX"
+              ]
+            },
+            "operationId": "resourcesApiGetList",
+            "parameters": [
+              {
+                "parameterName": "cultureCode",
+                "sanitizedName": "cultureCode",
+                "value": "en"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "resourcesApiGetList"
+  }
+}

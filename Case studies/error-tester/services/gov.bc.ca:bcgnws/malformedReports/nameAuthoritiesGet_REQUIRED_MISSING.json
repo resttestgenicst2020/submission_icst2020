@@ -1,0 +1,73 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/nameAuthorities",
+              "responseBody": "\u003cnameAuthorities\u003e\n  \u003clegal\u003e\n    \u003cprivacyURI\u003ehttp://www.gov.bc.ca/com/privacy.html\u003c/privacyURI\u003e\n    \u003cdisclaimerURI\u003ehttp://www.gov.bc.ca/com/disclaimer.html\u003c/disclaimerURI\u003e\n    \u003ccopyrightLicenseURI\u003ehttp://www.gov.bc.ca/com/copyright.html\u003c/copyrightLicenseURI\u003e\n    \u003ccopyrightNotice\u003eCopyright (c) 2019, Province of British Columbia\u003c/copyrightNotice\u003e\n  \u003c/legal\u003e\n  \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities\u003c/resourceUrl\u003e\n  \u003cnameAuthority\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/1\u003c/resourceUrl\u003e\n    \u003cid\u003e1\u003c/id\u003e\n    \u003cnameAuthority\u003eBC Geographical Names Office\u003c/nameAuthority\u003e\n    \u003cwebSiteUrl\u003ehttp://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names\u003c/webSiteUrl\u003e\n  \u003c/nameAuthority\u003e\n  \u003cnameAuthority\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/41\u003c/resourceUrl\u003e\n    \u003cid\u003e41\u003c/id\u003e\n    \u003cnameAuthority\u003eVancouver, City of\u003c/nameAuthority\u003e\n    \u003cwebSiteUrl\u003ehttp://vancouver.ca/\u003c/webSiteUrl\u003e\n  \u003c/nameAuthority\u003e\n  \u003cnameAuthority\u003e\n    \u003cresourceUrl\u003eapps.gov.bc.ca/pub/bcgnws/nameAuthorities/2\u003c/resourceUrl\u003e\n    \u003cid\u003e2\u003c/id\u003e\n    \u003cnameAuthority\u003eBC Register of Historic Places\u003c/nameAuthority\u003e\n    \u003cwebSiteUrl\u003ehttp://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/provincial-federal-registers\u003c/webSiteUrl\u003e\n  \u003c/nameAuthority\u003e\n\u003c/nameAuthorities\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:08:15 GMT"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d15, max\u003d100"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489685061"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489685470"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "outputFormat",
+              "sanitizedName": "outputFormat",
+              "value": [
+                "json"
+              ]
+            },
+            "operationId": "nameAuthoritiesGet",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "nameAuthoritiesGet"
+  }
+}

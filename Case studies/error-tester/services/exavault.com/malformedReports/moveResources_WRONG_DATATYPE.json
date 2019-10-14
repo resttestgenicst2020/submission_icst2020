@@ -1,0 +1,214 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/moveResources?filePaths\u003d18\u0026filePaths\u003d-26\u0026filePaths\u003d6\u0026filePaths\u003d-97\u0026filePaths\u003d70\u0026filePaths\u003d18\u0026filePaths\u003d3\u0026filePaths\u003d-12\u0026filePaths\u003d66\u0026destinationPath\u003daEpwGiry",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d105fd98e27f693ef"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:01:33 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489282936"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489283337"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "moveResources",
+            "originalParameter": {
+              "parameterName": "filePaths",
+              "sanitizedName": "filePaths",
+              "value": [
+                "BTO",
+                "iIFylw",
+                "YnDqdaESEuy",
+                "eowAOzGQWVFfpiw",
+                "tSnCxStgrEOpLe",
+                "fQwCdbBKWewXHXvrWT",
+                "XZJYzNs",
+                "Pf",
+                "iyCTm"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "18",
+                  "-26",
+                  "6",
+                  "-97",
+                  "70",
+                  "18",
+                  "3",
+                  "-12",
+                  "66"
+                ]
+              },
+              {
+                "parameterName": "destinationPath",
+                "sanitizedName": "destinationPath",
+                "value": [
+                  "aEpwGiry"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/moveResources?filePaths\u003dBTO\u0026filePaths\u003diIFylw\u0026filePaths\u003dYnDqdaESEuy\u0026filePaths\u003deowAOzGQWVFfpiw\u0026filePaths\u003dtSnCxStgrEOpLe\u0026filePaths\u003dfQwCdbBKWewXHXvrWT\u0026filePaths\u003dXZJYzNs\u0026filePaths\u003dPf\u0026filePaths\u003diyCTm\u0026destinationPath\u003d10",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d3ca2e7f5e0bb2c51"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:01:33 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489283340"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489283645"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "moveResources",
+            "originalParameter": {
+              "parameterName": "destinationPath",
+              "sanitizedName": "destinationPath",
+              "value": [
+                "aEpwGiry"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "BTO",
+                  "iIFylw",
+                  "YnDqdaESEuy",
+                  "eowAOzGQWVFfpiw",
+                  "tSnCxStgrEOpLe",
+                  "fQwCdbBKWewXHXvrWT",
+                  "XZJYzNs",
+                  "Pf",
+                  "iyCTm"
+                ]
+              },
+              {
+                "parameterName": "destinationPath",
+                "sanitizedName": "destinationPath",
+                "value": [
+                  "10"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "moveResources"
+  }
+}

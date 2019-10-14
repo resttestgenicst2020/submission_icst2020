@@ -1,0 +1,3751 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003d-29\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:49 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492898936"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899089"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "query",
+              "sanitizedName": "query",
+              "value": [
+                "aMJucmxHLnAl"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "-29"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": []
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003d-24\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:49 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899093"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899171"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "nameMatchMode",
+              "sanitizedName": "nameMatchMode",
+              "value": [
+                "Exact"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "-24"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003dVbWYXT\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:49 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899175"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899247"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "seriesId",
+              "sanitizedName": "seriesId",
+              "value": [
+                "187"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "VbWYXT"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d-22\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:49 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899252"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899335"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "afterDate",
+              "sanitizedName": "afterDate",
+              "value": [
+                "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "-22"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d-58\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:49 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899336"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899418"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "beforeDate",
+              "sanitizedName": "beforeDate",
+              "value": [
+                "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "-58"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003d-59\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:49 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899420"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899504"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "category",
+              "sanitizedName": "category",
+              "value": [
+                "Contest"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "-59"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003druaiXM\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:49 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899505"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899581"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "userCollectionId",
+              "sanitizedName": "userCollectionId",
+              "value": [
+                "498"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "ruaiXM"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d-57\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:49 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899584"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899682"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "tagId",
+              "sanitizedName": "tagId",
+              "value": [
+                ""
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "-57"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003d-55\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:49 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899685"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899766"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "childTags",
+              "sanitizedName": "childTags",
+              "value": [
+                "true"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "-55"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003dYQHhPI\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899770"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899853"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "artistId",
+              "sanitizedName": "artistId",
+              "value": [
+                "1326"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "YQHhPI"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003d-68\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899856"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492899947"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "childVoicebanks",
+              "sanitizedName": "childVoicebanks",
+              "value": [
+                "true"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "-68"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003d-69\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492899950"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492900025"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "includeMembers",
+              "sanitizedName": "includeMembers",
+              "value": [
+                "true"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "-69"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003d-65\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492900026"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492900102"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "status",
+              "sanitizedName": "status",
+              "value": [
+                "Locked"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "-65"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003daPPUG\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492900104"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492900190"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "start",
+              "sanitizedName": "start",
+              "value": [
+                "60"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "aPPUG"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003dqGLSl\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492900193"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492900265"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "maxResults",
+              "sanitizedName": "maxResults",
+              "value": [
+                "2094302752"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "qGLSl"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003d-61\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492900268"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492900341"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "getTotalCount",
+              "sanitizedName": "getTotalCount",
+              "value": [
+                "true"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "-61"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003d-62\u0026fields\u003dAdditionalNames\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492900344"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492900427"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "sort",
+              "sanitizedName": "sort",
+              "value": [
+                "None"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "-62"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003d-78\u0026lang\u003dJapanese",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492900430"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492900514"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "fields",
+              "sanitizedName": "fields",
+              "value": [
+                "AdditionalNames"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "-78"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Japanese"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/releaseEvents?query\u003daMJucmxHLnAl\u0026nameMatchMode\u003dExact\u0026seriesId\u003d187\u0026afterDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026beforeDate\u003d{%22dateTime%22:{%22date%22:{%22year%22:2008,%22month%22:6,%22day%22:29},%22time%22:{%22hour%22:0,%22minute%22:0,%22second%22:0,%22nano%22:0}},%22offset%22:{%22totalSeconds%22:0}}\u0026category\u003dContest\u0026userCollectionId\u003d498\u0026tagId\u003d\u0026childTags\u003dtrue\u0026artistId\u003d1326\u0026childVoicebanks\u003dtrue\u0026includeMembers\u003dtrue\u0026status\u003dLocked\u0026start\u003d60\u0026maxResults\u003d2094302752\u0026getTotalCount\u003dtrue\u0026sort\u003dNone\u0026fields\u003dAdditionalNames\u0026lang\u003d-75",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:01:50 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492900517"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492900597"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "releaseEventApiGetList",
+            "originalParameter": {
+              "parameterName": "lang",
+              "sanitizedName": "lang",
+              "value": [
+                "Japanese"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "aMJucmxHLnAl"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Exact"
+                ]
+              },
+              {
+                "parameterName": "seriesId",
+                "sanitizedName": "seriesId",
+                "value": [
+                  "187"
+                ]
+              },
+              {
+                "parameterName": "afterDate",
+                "sanitizedName": "afterDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "beforeDate",
+                "sanitizedName": "beforeDate",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2008,\"month\":6,\"day\":29},\"time\":{\"hour\":0,\"minute\":0,\"second\":0,\"nano\":0}},\"offset\":{\"totalSeconds\":0}}"
+                ]
+              },
+              {
+                "parameterName": "category",
+                "sanitizedName": "category",
+                "value": [
+                  "Contest"
+                ]
+              },
+              {
+                "parameterName": "userCollectionId",
+                "sanitizedName": "userCollectionId",
+                "value": [
+                  "498"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  ""
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "1326"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "60"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2094302752"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "AdditionalNames"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "-75"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "releaseEventApiGetList"
+  }
+}

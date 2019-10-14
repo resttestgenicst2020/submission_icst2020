@@ -1,0 +1,105 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/rss+xml, application/xhtml+xml"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://www.europeana.eu/api/v2/opensearch.rss?searchTerms\u003d57",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\" standalone\u003d\"yes\"?\u003e\n\u003crss xmlns:georss\u003d\"http://www.georss.org/georss\" xmlns:fieldtrip\u003d\"http://www.fieldtripper.com/fieldtrip_rss\" xmlns:europeana\u003d\"http://www.europeana.eu\" xmlns:dcterms\u003d\"http://purl.org/dc/terms/\" xmlns:atom\u003d\"http://www.w3.org/2005/Atom\" xmlns:opensearch\u003d\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:dc\u003d\"http://purl.org/dc/elements/1.1/\" xmlns:enrichment\u003d\"http://www.europeana.eu/schemas/ese/enrichment/\" version\u003d\"2.0\"\u003e\n    \u003cchannel\u003e\n        \u003ctitle\u003eEuropeana Open Search\u003c/title\u003e\n        \u003clink\u003ehttps://www.europeana.eu\u003c/link\u003e\n        \u003cdescription\u003eEuropeana Open Search results\u003c/description\u003e\n        \u003copensearch:totalResults\u003e111596\u003c/opensearch:totalResults\u003e\n        \u003copensearch:startIndex\u003e1\u003c/opensearch:startIndex\u003e\n        \u003copensearch:itemsPerPage\u003e12\u003c/opensearch:itemsPerPage\u003e\n        \u003catom:link href\u003d\"\" rel\u003d\"search\" type\u003d\"application/rss+xml\"/\u003e\n        \u003copensearch:Query role\u003d\"request\" searchTerms\u003d\"57\" startPage\u003d\"1\"/\u003e\n        \u003cimage\u003e\n            \u003ctitle\u003eEuropeana Open Search\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu\u003c/link\u003e\n            \u003curl\u003ehttps://style.europeana.eu/images/europeana-logo-default.png\u003c/url\u003e\n        \u003c/image\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM131744.html\u003c/guid\u003e\n            \u003ctitle\u003e57 mm kartesch m/1895\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM131744.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110010.html\u003c/guid\u003e\n            \u003ctitle\u003e57 mm granatkartesch m/1896\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110010.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110011.html\u003c/guid\u003e\n            \u003ctitle\u003e57 mm granatkartesch m/1896\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110011.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM109954.html\u003c/guid\u003e\n            \u003ctitle\u003e57 mm pansargranat\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM109954.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110007.html\u003c/guid\u003e\n            \u003ctitle\u003e57 mm granatkartesch m/1896\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110007.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM132186.html\u003c/guid\u003e\n            \u003ctitle\u003e57 mm granat m/1895\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM132186.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110002.html\u003c/guid\u003e\n            \u003ctitle\u003e57 mm granat\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110002.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/2020801/dmglib_handler_image_8117023.html\u003c/guid\u003e\n            \u003ctitle\u003eKurbelschwinge mit einer Spitze 57\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/2020801/dmglib_handler_image_8117023.html\u003c/link\u003e\n            \u003cdescription\u003ethinkMOTION\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/2020801/dmglib_handler_image_14967023.html\u003c/guid\u003e\n            \u003ctitle\u003eDurchschnitt der Dampfdreschmaschine, Figur 57\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/2020801/dmglib_handler_image_14967023.html\u003c/link\u003e\n            \u003cdescription\u003ethinkMOTION\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM132470.html\u003c/guid\u003e\n            \u003ctitle\u003e57 mm eldrör m/1895\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM132470.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91653/MILI_object_MILI009703.html\u003c/guid\u003e\n            \u003ctitle\u003eLaddningshylsa till 57 mm luftvärnsautomatkanon\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91653/MILI_object_MILI009703.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem\u003e\n            \u003cguid\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110198.html\u003c/guid\u003e\n            \u003ctitle\u003e57 mm spårljuspansarprojektil m/1962\u003c/title\u003e\n            \u003clink\u003ehttps://www.europeana.eu/portal/record/91616/arme_object_AM110198.html\u003c/link\u003e\n            \u003cdescription\u003eSwedish Open Cultural Heritage | K-samsök\u003c/description\u003e\n        \u003c/item\u003e\n    \u003c/channel\u003e\n\u003c/rss\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 22:51:16 GMT"
+                ],
+                "Content-Type": [
+                  "application/xml;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Set-Cookie": [
+                  "__cfduid\u003dd961efe119876062969cc19f3f2a381621570488676; expires\u003dTue, 06-Oct-20 22:51:16 GMT; path\u003d/; domain\u003d.europeana.eu; HttpOnly"
+                ],
+                "X-Backside-Transport": [
+                  "OK OK,OK OK"
+                ],
+                "Allow": [
+                  "GET, HEAD"
+                ],
+                "Content-Language": [
+                  "en-US"
+                ],
+                "Link": [
+                  "\u003chttp://creativecommons.org/publicdomain/zero/1.0/\u003e;rel\u003dlicense"
+                ],
+                "Vary": [
+                  "Accept-Encoding,User-Agent"
+                ],
+                "X-Global-Transaction-Id": [
+                  "48cd8a595d9bc164f4c32c8d"
+                ],
+                "CF-Cache-Status": [
+                  "DYNAMIC"
+                ],
+                "Expect-CT": [
+                  "max-age\u003d604800, report-uri\u003d\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+                ],
+                "Server": [
+                  "cloudflare"
+                ],
+                "CF-RAY": [
+                  "52237054ca6d6f40-FCO"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570488666285"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570488666776"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "openSearch",
+            "originalParameter": {
+              "parameterName": "searchTerms",
+              "sanitizedName": "searchTerms",
+              "value": [
+                "hUfYQYYMMHfyuSiqs"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "searchTerms",
+                "sanitizedName": "searchTerms",
+                "value": [
+                  "57"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "openSearch"
+  }
+}

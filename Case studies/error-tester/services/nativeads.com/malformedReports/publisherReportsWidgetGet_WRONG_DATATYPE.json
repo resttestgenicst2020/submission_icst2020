@@ -1,0 +1,490 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/widget?token\u003d78\u0026startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:19}\u0026endDate\u003d{%22year%22:2019,%22month%22:8,%22day%22:6}\u0026limit\u003d100\u0026page\u003d1",
+              "responseBody": "{\"success\":false,\"errors\":\"Invalid token\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:37:59 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491469315"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491469520"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "publisherReportsWidgetGet",
+            "originalParameter": {
+              "parameterName": "token",
+              "sanitizedName": "token",
+              "value": [
+                "hRwFKljr"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "token",
+                "sanitizedName": "token",
+                "value": [
+                  "78"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":19}"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":8,\"day\":6}"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "100"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "1"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/widget?token\u003dhRwFKljr\u0026startDate\u003d61\u0026endDate\u003d{%22year%22:2019,%22month%22:8,%22day%22:6}\u0026limit\u003d100\u0026page\u003d1",
+              "responseBody": "{\"success\":false,\"errors\":\"Invalid token\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:00 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491470546"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491470748"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "publisherReportsWidgetGet",
+            "originalParameter": {
+              "parameterName": "startDate",
+              "sanitizedName": "startDate",
+              "value": [
+                "{\"year\":2019,\"month\":9,\"day\":19}"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "token",
+                "sanitizedName": "token",
+                "value": [
+                  "hRwFKljr"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "61"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":8,\"day\":6}"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "100"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "1"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/widget?token\u003dhRwFKljr\u0026startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:19}\u0026endDate\u003d-78\u0026limit\u003d100\u0026page\u003d1",
+              "responseBody": "{\"success\":false,\"errors\":\"Invalid token\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:02 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491471773"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491471977"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "publisherReportsWidgetGet",
+            "originalParameter": {
+              "parameterName": "endDate",
+              "sanitizedName": "endDate",
+              "value": [
+                "{\"year\":2019,\"month\":8,\"day\":6}"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "token",
+                "sanitizedName": "token",
+                "value": [
+                  "hRwFKljr"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":19}"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "-78"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "100"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "1"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/widget?token\u003dhRwFKljr\u0026startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:19}\u0026endDate\u003d{%22year%22:2019,%22month%22:8,%22day%22:6}\u0026limit\u003dsDuzSj\u0026page\u003d1",
+              "responseBody": "{\"success\":false,\"errors\":\"Invalid token\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:03 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491473617"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491473748"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "publisherReportsWidgetGet",
+            "originalParameter": {
+              "parameterName": "limit",
+              "sanitizedName": "limit",
+              "value": [
+                "100"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "token",
+                "sanitizedName": "token",
+                "value": [
+                  "hRwFKljr"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":19}"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":8,\"day\":6}"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "sDuzSj"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "1"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/widget?token\u003dhRwFKljr\u0026startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:19}\u0026endDate\u003d{%22year%22:2019,%22month%22:8,%22day%22:6}\u0026limit\u003d100\u0026page\u003daCKyB",
+              "responseBody": "{\"success\":false,\"errors\":\"Invalid token\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:05 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491474743"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491474947"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "publisherReportsWidgetGet",
+            "originalParameter": {
+              "parameterName": "page",
+              "sanitizedName": "page",
+              "value": [
+                "1"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "token",
+                "sanitizedName": "token",
+                "value": [
+                  "hRwFKljr"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":19}"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":8,\"day\":6}"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "100"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "aCKyB"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "publisherReportsWidgetGet"
+  }
+}

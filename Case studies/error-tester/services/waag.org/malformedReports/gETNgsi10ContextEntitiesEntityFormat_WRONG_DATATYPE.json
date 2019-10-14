@@ -1,0 +1,77 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://api.citysdk.waag.org//ngsi10/contextEntities/64",
+              "responseBody": "{\"contextElement\":{\"attributes\":[{\"name\":\"eind_km\",\"value\":\"0.0\",\"type\":\"unknown\"},{\"name\":\"begin_km\",\"value\":\"0.0\",\"type\":\"unknown\"},{\"name\":\"wegvak_id\",\"value\":\"64183064\",\"type\":\"xsd:integer\"},{\"name\":\"straatnaam\",\"value\":\"Lange Delft\",\"type\":\"xsd:string\"},{\"name\":\"gemeente_id\",\"value\":\"687\",\"type\":\"xsd:string\"},{\"name\":\"geography\",\"value\":\"51.499445820213, 3.61609798742372\",\"type\":\"coords\",\"metadatas\":[{\"name\":\"location\",\"type\":\"string\",\"value\":\"WSG84\"}]}],\"id\":\"http://rdf.citysdk.eu/nwb.64183064\",\"isPattern\":false,\"type\":null},\"statusCode\":{\"code\":\"200\",\"reasonPhrase\":\"OK\"}}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "585"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Status": [
+                  "200 OK"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "X-Powered-By": [
+                  "Phusion Passenger"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:04:39 GMT"
+                ],
+                "Server": [
+                  "nginx + Phusion Passenger"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570493063565"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570493069962"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "gETNgsi10ContextEntitiesEntityFormat",
+            "originalParameter": {
+              "parameterName": "entity",
+              "sanitizedName": "entity",
+              "value": "mwhqZjWJgZBadpGRh"
+            },
+            "parameters": [
+              {
+                "parameterName": "entity",
+                "sanitizedName": "entity",
+                "value": "64"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "gETNgsi10ContextEntitiesEntityFormat"
+  }
+}

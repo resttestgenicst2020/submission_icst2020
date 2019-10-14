@@ -1,0 +1,164 @@
+{
+  "responseCoverage": {
+    "500": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/x-suggestions+json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://nsidc.org/api/dataset/2/suggest?source\u003dADE",
+              "responseBody": "\u003ch1\u003eInternal Server Error\u003c/h1\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:43:49 GMT"
+                ],
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Content-Type": [
+                  "text/html;charset\u003dutf-8"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "*, X-Requested-With, Content-Type, Cache-Control, Accept, AUTHORIZATION"
+                ],
+                "X-XSS-Protection": [
+                  "1; mode\u003dblock"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "Content-Length": [
+                  "30"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491820758"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491820964"
+                ]
+              },
+              "statusCode": 500
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "q",
+              "sanitizedName": "q",
+              "value": [
+                "uu"
+              ]
+            },
+            "operationId": "id",
+            "parameters": [
+              {
+                "parameterName": "source",
+                "sanitizedName": "source",
+                "value": [
+                  "ADE"
+                ]
+              }
+            ],
+            "statusCode": 500,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/x-suggestions+json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://nsidc.org/api/dataset/2/suggest?q\u003duu",
+              "responseBody": "\u003ch1\u003eInternal Server Error\u003c/h1\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:43:50 GMT"
+                ],
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Content-Type": [
+                  "text/html;charset\u003dutf-8"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "*, X-Requested-With, Content-Type, Cache-Control, Accept, AUTHORIZATION"
+                ],
+                "X-XSS-Protection": [
+                  "1; mode\u003dblock"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "Content-Length": [
+                  "30"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491821177"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491821374"
+                ]
+              },
+              "statusCode": 500
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "source",
+              "sanitizedName": "source",
+              "value": [
+                "ADE"
+              ]
+            },
+            "operationId": "id",
+            "parameters": [
+              {
+                "parameterName": "q",
+                "sanitizedName": "q",
+                "value": [
+                  "uu"
+                ]
+              }
+            ],
+            "statusCode": 500,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "id"
+  }
+}

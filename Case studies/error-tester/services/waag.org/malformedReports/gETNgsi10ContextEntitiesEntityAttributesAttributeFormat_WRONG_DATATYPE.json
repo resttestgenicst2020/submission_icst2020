@@ -1,0 +1,154 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://api.citysdk.waag.org//ngsi10/contextEntities/13/attributes/KTyDLwzm",
+              "responseBody": "{\"errorCode\":{\"code\":\"404\",\"reasonPhrase\":\"Attribute not found in context element\"}}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "84"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Status": [
+                  "200 OK"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "X-Powered-By": [
+                  "Phusion Passenger"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:04:28 GMT"
+                ],
+                "Server": [
+                  "nginx + Phusion Passenger"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570493051513"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570493058055"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "gETNgsi10ContextEntitiesEntityAttributesAttributeFormat",
+            "originalParameter": {
+              "parameterName": "entity",
+              "sanitizedName": "entity",
+              "value": "gZkcZcb"
+            },
+            "parameters": [
+              {
+                "parameterName": "entity",
+                "sanitizedName": "entity",
+                "value": "13"
+              },
+              {
+                "parameterName": "attribute",
+                "sanitizedName": "attribute",
+                "value": "KTyDLwzm"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://api.citysdk.waag.org//ngsi10/contextEntities/gZkcZcb/attributes/22",
+              "responseBody": "{\"errorCode\":{\"code\":\"404\",\"reasonPhrase\":\"Attribute not found in context element\"}}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Content-Length": [
+                  "84"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Status": [
+                  "200 OK"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "X-Powered-By": [
+                  "Phusion Passenger"
+                ],
+                "Date": [
+                  "Tue, 08 Oct 2019 00:04:32 GMT"
+                ],
+                "Server": [
+                  "nginx + Phusion Passenger"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570493058059"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570493062896"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "gETNgsi10ContextEntitiesEntityAttributesAttributeFormat",
+            "originalParameter": {
+              "parameterName": "attribute",
+              "sanitizedName": "attribute",
+              "value": "KTyDLwzm"
+            },
+            "parameters": [
+              {
+                "parameterName": "entity",
+                "sanitizedName": "entity",
+                "value": "gZkcZcb"
+              },
+              {
+                "parameterName": "attribute",
+                "sanitizedName": "attribute",
+                "value": "22"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "gETNgsi10ContextEntitiesEntityAttributesAttributeFormat"
+  }
+}

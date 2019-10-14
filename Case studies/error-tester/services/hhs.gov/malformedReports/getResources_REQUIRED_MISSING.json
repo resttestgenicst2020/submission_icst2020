@@ -1,0 +1,82 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.digitalmedia.hhs.gov/api/v2/resources.json",
+              "responseBody": "{\"callback\":null,\"meta\":{\"messages\":[],\"pagination\":{\"count\":20,\"currentUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources.json?offset\u003d0\u0026max\u003d20\u0026format\u003djson\u0026countOverRide\u003d20\u0026totalPageOverride\u003d500\",\"max\":20,\"nextUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources.json?offset\u003d20\u0026max\u003d20\u0026format\u003djson\u0026countOverRide\u003d20\u0026totalPageOverride\u003d500\",\"offset\":0,\"pageNum\":1,\"previousUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources.json?offset\u003d0\u0026max\u003d20\u0026format\u003djson\u0026countOverRide\u003d20\u0026totalPageOverride\u003d500\",\"sort\":null,\"total\":10000,\"totalPages\":500},\"status\":200},\"results\":[{\"htmls\":{\"items\":[{\"id\":84,\"name\":\"Ham Storage Chart\"},{\"id\":105,\"name\":\"Food Safety and Power Outages: When to Save and When to Throw Out\"},{\"id\":571,\"name\":\"Food Safety Tips for your Holiday Turkey | CDC Features\"},{\"id\":572,\"name\":\"Common Colds: Protect Yourself and Others | CDC Features\"},{\"id\":575,\"name\":\"Vaccines: ACIP Vaccine Recommendations Home Page\"},{\"id\":582,\"name\":\"World Stroke Day: We Can Prevent Stroke | CDC Features\"},{\"id\":588,\"name\":\"ALS Registry Turns 6 | CDC Features\"},{\"id\":591,\"name\":\"Spina Bifida Health Risk Behaviors among Young Adults, Arkansas - NCBDDD\"},{\"id\":595,\"name\":\"Hepatitis B: Make Sure Your Child Has Been Fully Vaccinated | CDC Features\"},{\"id\":610,\"name\":\"Antibiotic Resistance Threats in the US | CDC Features\"},{\"id\":613,\"name\":\"Alcohol Screening and Brief Intervention - CDC Features\"},{\"id\":617,\"name\":\"Global Health - Global Immunization\"},{\"id\":618,\"name\":\"Preventing Suicide | CDC Features\"},{\"id\":240,\"name\":\"Delaware Anti-Bullying Laws \u0026 Policies\"},{\"id\":253,\"name\":\"Pennsylvania Anti-Bullying Laws \u0026 Policies\"},{\"id\":254,\"name\":\"Massachusetts Anti-Bullying Laws \u0026 Policies\"},{\"id\":256,\"name\":\"Rhode Island Anti-Bullying Laws \u0026 Policies\"},{\"id\":259,\"name\":\"North Carolina Anti-Bullying Laws \u0026 Policies\"},{\"id\":260,\"name\":\"South Carolina Anti-Bullying Laws \u0026 Policies\"},{\"id\":264,\"name\":\"Vermont Anti-Bullying Laws \u0026 Policies\"}],\"mediaType\":\"Html\"}}]}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "X-Frame-Options": [
+                  "DENY"
+                ],
+                "X-Application-Context": [
+                  "application:production:8000"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Length": [
+                  "1979"
+                ],
+                "Cache-Control": [
+                  "max-age\u003d3600"
+                ],
+                "Expires": [
+                  "Tue, 08 Oct 2019 00:19:05 GMT"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:19:05 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubdomains; preload"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490333494"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490335521"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "q",
+              "sanitizedName": "q",
+              "value": [
+                "lcAUaNnuJznRAneT"
+              ]
+            },
+            "operationId": "getResources",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getResources"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.digitalmedia.hhs.gov/api/v2/resources/tags/%7Bid%7D/media.json?max\u003d100\u0026offset\u003d0\u0026sort\u003dname",
+              "responseBody": "{\"meta\":{\"status\":200,\"messages\":[],\"pagination\":{\"max\":100,\"offset\":0,\"count\":0,\"total\":0,\"pageNum\":1,\"totalPages\":0,\"sort\":\"name\",\"currentUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources/tags.json?offset\u003d0\u0026max\u003d100\u0026sort\u003dname\u0026format\u003djson\u0026id\u003d{id}\u0026tagId\u003d{id}\u0026maxOverride\u003dtrue\",\"nextUrl\":null,\"previousUrl\":null}},\"results\":[]}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "X-Frame-Options": [
+                  "DENY"
+                ],
+                "X-Application-Context": [
+                  "application:production:8000"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Length": [
+                  "331"
+                ],
+                "Cache-Control": [
+                  "max-age\u003d3576"
+                ],
+                "Expires": [
+                  "Tue, 08 Oct 2019 00:19:48 GMT"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:20:12 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubdomains; preload"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490399895"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490402489"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "id",
+              "sanitizedName": "id",
+              "value": "1"
+            },
+            "operationId": "getMediaByTagId",
+            "parameters": [
+              {
+                "parameterName": "max",
+                "sanitizedName": "max",
+                "value": [
+                  "100"
+                ]
+              },
+              {
+                "parameterName": "offset",
+                "sanitizedName": "offset",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "name"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getMediaByTagId"
+  }
+}

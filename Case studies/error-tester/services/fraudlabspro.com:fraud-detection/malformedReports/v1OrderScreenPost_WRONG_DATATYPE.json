@@ -1,0 +1,970 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/screen?ip\u003d81\u0026key\u003dXUcDcjHSANGgnUJmvUM\u0026format\u003dxml\u0026email\u003doPzyOysibcLPjTm\u0026amount\u003d82.24560587307633\u0026quantity\u003d-168802201\u0026currency\u003ddwrrkJTS\u0026department\u003dAQQN",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cis_country_match\u003eNA\u003c/is_country_match\u003e\n\t\u003cis_high_risk_country\u003eN\u003c/is_high_risk_country\u003e\n\t\u003cdistance_in_km\u003e-\u003c/distance_in_km\u003e\n\t\u003cdistance_in_mile\u003e-\u003c/distance_in_mile\u003e\n\t\u003cip_country\u003e\u003c/ip_country\u003e\n\t\u003cip_continent\u003e\u003c/ip_continent\u003e\n\t\u003cip_region\u003e\u003c/ip_region\u003e\n\t\u003cip_city\u003e\u003c/ip_city\u003e\n\t\u003cip_latitude\u003e\u003c/ip_latitude\u003e\n\t\u003cip_longitude\u003e\u003c/ip_longitude\u003e\n\t\u003cip_timezone\u003e\u003c/ip_timezone\u003e\n\t\u003cip_elevation\u003e\u003c/ip_elevation\u003e\n\t\u003cip_domain\u003e\u003c/ip_domain\u003e\n\t\u003cip_mobile_mnc\u003eNA\u003c/ip_mobile_mnc\u003e\n\t\u003cip_mobile_mcc\u003eNA\u003c/ip_mobile_mcc\u003e\n\t\u003cip_mobile_brand\u003eNA\u003c/ip_mobile_brand\u003e\n\t\u003cip_netspeed\u003eNA\u003c/ip_netspeed\u003e\n\t\u003cip_isp_name\u003eNA\u003c/ip_isp_name\u003e\n\t\u003cip_usage_type\u003eNA\u003c/ip_usage_type\u003e\n\t\u003cis_free_email\u003eNA\u003c/is_free_email\u003e\n\t\u003cis_new_domain_name\u003eNA\u003c/is_new_domain_name\u003e\n\t\u003cis_domain_exists\u003eNA\u003c/is_domain_exists\u003e\n\t\u003cis_proxy_ip_address\u003eNA\u003c/is_proxy_ip_address\u003e\n\t\u003cis_bin_found\u003eNA\u003c/is_bin_found\u003e\n\t\u003cis_bin_country_match\u003eNA\u003c/is_bin_country_match\u003e\n\t\u003cis_bin_name_match\u003eNA\u003c/is_bin_name_match\u003e\n\t\u003cis_bin_phone_match\u003eNA\u003c/is_bin_phone_match\u003e\n\t\u003cis_bin_prepaid\u003eNA\u003c/is_bin_prepaid\u003e\n\t\u003cis_address_ship_forward\u003eNA\u003c/is_address_ship_forward\u003e\n\t\u003cis_bill_ship_city_match\u003eNA\u003c/is_bill_ship_city_match\u003e\n\t\u003cis_bill_ship_state_match\u003eNA\u003c/is_bill_ship_state_match\u003e\n\t\u003cis_bill_ship_country_match\u003eNA\u003c/is_bill_ship_country_match\u003e\n\t\u003cis_bill_ship_postal_match\u003eNA\u003c/is_bill_ship_postal_match\u003e\n\t\u003cis_ship_address_blacklist\u003eNA\u003c/is_ship_address_blacklist\u003e\n\t\u003cis_phone_blacklist\u003eNA\u003c/is_phone_blacklist\u003e\n\t\u003cis_ip_blacklist\u003eN\u003c/is_ip_blacklist\u003e\n\t\u003cis_email_blacklist\u003eNA\u003c/is_email_blacklist\u003e\n\t\u003cis_credit_card_blacklist\u003eNA\u003c/is_credit_card_blacklist\u003e\n\t\u003cis_device_blacklist\u003eNA\u003c/is_device_blacklist\u003e\n\t\u003cis_user_blacklist\u003eNA\u003c/is_user_blacklist\u003e\n\t\u003cis_high_risk_username_password\u003eNA\u003c/is_high_risk_username_password\u003e\n\t\u003cis_export_controlled_country\u003eNA\u003c/is_export_controlled_country\u003e\n\t\u003cis_malware_exploit\u003eNA\u003c/is_malware_exploit\u003e\n\t\u003cuser_order_id\u003e\u003c/user_order_id\u003e\n\t\u003cuser_order_memo\u003e\u003c/user_order_memo\u003e\n\t\u003ccard_brand\u003eNA\u003c/card_brand\u003e\n\t\u003ccard_type\u003eNA\u003c/card_type\u003e\n\t\u003ccard_issuing_bank\u003eNA\u003c/card_issuing_bank\u003e\n\t\u003ccard_issuing_country\u003eNA\u003c/card_issuing_country\u003e\n\t\u003cfraudlabspro_score\u003e100\u003c/fraudlabspro_score\u003e\n\t\u003cfraudlabspro_distribution\u003e0\u003c/fraudlabspro_distribution\u003e\n\t\u003cfraudlabspro_status\u003eAPPROVE\u003c/fraudlabspro_status\u003e\n\t\u003cfraudlabspro_id\u003eNA\u003c/fraudlabspro_id\u003e\n\t\u003cfraudlabspro_version\u003e1.5.0\u003c/fraudlabspro_version\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\t\u003cfraudlabspro_credits\u003e0\u003c/fraudlabspro_credits\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:08 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d98"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489617951"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489618090"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1OrderScreenPost",
+            "originalParameter": {
+              "parameterName": "ip",
+              "sanitizedName": "ip",
+              "value": [
+                "BZrGXV"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "81"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "XUcDcjHSANGgnUJmvUM"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "xml"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "oPzyOysibcLPjTm"
+                ]
+              },
+              {
+                "parameterName": "amount",
+                "sanitizedName": "amount",
+                "value": [
+                  "82.24560587307633"
+                ]
+              },
+              {
+                "parameterName": "quantity",
+                "sanitizedName": "quantity",
+                "value": [
+                  "-168802201"
+                ]
+              },
+              {
+                "parameterName": "currency",
+                "sanitizedName": "currency",
+                "value": [
+                  "dwrrkJTS"
+                ]
+              },
+              {
+                "parameterName": "department",
+                "sanitizedName": "department",
+                "value": [
+                  "AQQN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/screen?ip\u003dBZrGXV\u0026key\u003d83\u0026format\u003dxml\u0026email\u003doPzyOysibcLPjTm\u0026amount\u003d82.24560587307633\u0026quantity\u003d-168802201\u0026currency\u003ddwrrkJTS\u0026department\u003dAQQN",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cis_country_match\u003eNA\u003c/is_country_match\u003e\n\t\u003cis_high_risk_country\u003eN\u003c/is_high_risk_country\u003e\n\t\u003cdistance_in_km\u003e-\u003c/distance_in_km\u003e\n\t\u003cdistance_in_mile\u003e-\u003c/distance_in_mile\u003e\n\t\u003cip_country\u003e\u003c/ip_country\u003e\n\t\u003cip_continent\u003e\u003c/ip_continent\u003e\n\t\u003cip_region\u003e\u003c/ip_region\u003e\n\t\u003cip_city\u003e\u003c/ip_city\u003e\n\t\u003cip_latitude\u003e\u003c/ip_latitude\u003e\n\t\u003cip_longitude\u003e\u003c/ip_longitude\u003e\n\t\u003cip_timezone\u003e\u003c/ip_timezone\u003e\n\t\u003cip_elevation\u003e\u003c/ip_elevation\u003e\n\t\u003cip_domain\u003e\u003c/ip_domain\u003e\n\t\u003cip_mobile_mnc\u003eNA\u003c/ip_mobile_mnc\u003e\n\t\u003cip_mobile_mcc\u003eNA\u003c/ip_mobile_mcc\u003e\n\t\u003cip_mobile_brand\u003eNA\u003c/ip_mobile_brand\u003e\n\t\u003cip_netspeed\u003eNA\u003c/ip_netspeed\u003e\n\t\u003cip_isp_name\u003eNA\u003c/ip_isp_name\u003e\n\t\u003cip_usage_type\u003eNA\u003c/ip_usage_type\u003e\n\t\u003cis_free_email\u003eNA\u003c/is_free_email\u003e\n\t\u003cis_new_domain_name\u003eNA\u003c/is_new_domain_name\u003e\n\t\u003cis_domain_exists\u003eNA\u003c/is_domain_exists\u003e\n\t\u003cis_proxy_ip_address\u003eNA\u003c/is_proxy_ip_address\u003e\n\t\u003cis_bin_found\u003eNA\u003c/is_bin_found\u003e\n\t\u003cis_bin_country_match\u003eNA\u003c/is_bin_country_match\u003e\n\t\u003cis_bin_name_match\u003eNA\u003c/is_bin_name_match\u003e\n\t\u003cis_bin_phone_match\u003eNA\u003c/is_bin_phone_match\u003e\n\t\u003cis_bin_prepaid\u003eNA\u003c/is_bin_prepaid\u003e\n\t\u003cis_address_ship_forward\u003eNA\u003c/is_address_ship_forward\u003e\n\t\u003cis_bill_ship_city_match\u003eNA\u003c/is_bill_ship_city_match\u003e\n\t\u003cis_bill_ship_state_match\u003eNA\u003c/is_bill_ship_state_match\u003e\n\t\u003cis_bill_ship_country_match\u003eNA\u003c/is_bill_ship_country_match\u003e\n\t\u003cis_bill_ship_postal_match\u003eNA\u003c/is_bill_ship_postal_match\u003e\n\t\u003cis_ship_address_blacklist\u003eNA\u003c/is_ship_address_blacklist\u003e\n\t\u003cis_phone_blacklist\u003eNA\u003c/is_phone_blacklist\u003e\n\t\u003cis_ip_blacklist\u003eN\u003c/is_ip_blacklist\u003e\n\t\u003cis_email_blacklist\u003eNA\u003c/is_email_blacklist\u003e\n\t\u003cis_credit_card_blacklist\u003eNA\u003c/is_credit_card_blacklist\u003e\n\t\u003cis_device_blacklist\u003eNA\u003c/is_device_blacklist\u003e\n\t\u003cis_user_blacklist\u003eNA\u003c/is_user_blacklist\u003e\n\t\u003cis_high_risk_username_password\u003eNA\u003c/is_high_risk_username_password\u003e\n\t\u003cis_export_controlled_country\u003eNA\u003c/is_export_controlled_country\u003e\n\t\u003cis_malware_exploit\u003eNA\u003c/is_malware_exploit\u003e\n\t\u003cuser_order_id\u003e\u003c/user_order_id\u003e\n\t\u003cuser_order_memo\u003e\u003c/user_order_memo\u003e\n\t\u003ccard_brand\u003eNA\u003c/card_brand\u003e\n\t\u003ccard_type\u003eNA\u003c/card_type\u003e\n\t\u003ccard_issuing_bank\u003eNA\u003c/card_issuing_bank\u003e\n\t\u003ccard_issuing_country\u003eNA\u003c/card_issuing_country\u003e\n\t\u003cfraudlabspro_score\u003e100\u003c/fraudlabspro_score\u003e\n\t\u003cfraudlabspro_distribution\u003e0\u003c/fraudlabspro_distribution\u003e\n\t\u003cfraudlabspro_status\u003eAPPROVE\u003c/fraudlabspro_status\u003e\n\t\u003cfraudlabspro_id\u003eNA\u003c/fraudlabspro_id\u003e\n\t\u003cfraudlabspro_version\u003e1.5.0\u003c/fraudlabspro_version\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\t\u003cfraudlabspro_credits\u003e0\u003c/fraudlabspro_credits\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:08 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d97"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489618102"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489618296"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1OrderScreenPost",
+            "originalParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "XUcDcjHSANGgnUJmvUM"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "BZrGXV"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "83"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "xml"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "oPzyOysibcLPjTm"
+                ]
+              },
+              {
+                "parameterName": "amount",
+                "sanitizedName": "amount",
+                "value": [
+                  "82.24560587307633"
+                ]
+              },
+              {
+                "parameterName": "quantity",
+                "sanitizedName": "quantity",
+                "value": [
+                  "-168802201"
+                ]
+              },
+              {
+                "parameterName": "currency",
+                "sanitizedName": "currency",
+                "value": [
+                  "dwrrkJTS"
+                ]
+              },
+              {
+                "parameterName": "department",
+                "sanitizedName": "department",
+                "value": [
+                  "AQQN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/screen?ip\u003dBZrGXV\u0026key\u003dXUcDcjHSANGgnUJmvUM\u0026format\u003d84\u0026email\u003doPzyOysibcLPjTm\u0026amount\u003d82.24560587307633\u0026quantity\u003d-168802201\u0026currency\u003ddwrrkJTS\u0026department\u003dAQQN",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cis_country_match\u003eNA\u003c/is_country_match\u003e\n\t\u003cis_high_risk_country\u003eN\u003c/is_high_risk_country\u003e\n\t\u003cdistance_in_km\u003e-\u003c/distance_in_km\u003e\n\t\u003cdistance_in_mile\u003e-\u003c/distance_in_mile\u003e\n\t\u003cip_country\u003e\u003c/ip_country\u003e\n\t\u003cip_continent\u003e\u003c/ip_continent\u003e\n\t\u003cip_region\u003e\u003c/ip_region\u003e\n\t\u003cip_city\u003e\u003c/ip_city\u003e\n\t\u003cip_latitude\u003e\u003c/ip_latitude\u003e\n\t\u003cip_longitude\u003e\u003c/ip_longitude\u003e\n\t\u003cip_timezone\u003e\u003c/ip_timezone\u003e\n\t\u003cip_elevation\u003e\u003c/ip_elevation\u003e\n\t\u003cip_domain\u003e\u003c/ip_domain\u003e\n\t\u003cip_mobile_mnc\u003eNA\u003c/ip_mobile_mnc\u003e\n\t\u003cip_mobile_mcc\u003eNA\u003c/ip_mobile_mcc\u003e\n\t\u003cip_mobile_brand\u003eNA\u003c/ip_mobile_brand\u003e\n\t\u003cip_netspeed\u003eNA\u003c/ip_netspeed\u003e\n\t\u003cip_isp_name\u003eNA\u003c/ip_isp_name\u003e\n\t\u003cip_usage_type\u003eNA\u003c/ip_usage_type\u003e\n\t\u003cis_free_email\u003eNA\u003c/is_free_email\u003e\n\t\u003cis_new_domain_name\u003eNA\u003c/is_new_domain_name\u003e\n\t\u003cis_domain_exists\u003eNA\u003c/is_domain_exists\u003e\n\t\u003cis_proxy_ip_address\u003eNA\u003c/is_proxy_ip_address\u003e\n\t\u003cis_bin_found\u003eNA\u003c/is_bin_found\u003e\n\t\u003cis_bin_country_match\u003eNA\u003c/is_bin_country_match\u003e\n\t\u003cis_bin_name_match\u003eNA\u003c/is_bin_name_match\u003e\n\t\u003cis_bin_phone_match\u003eNA\u003c/is_bin_phone_match\u003e\n\t\u003cis_bin_prepaid\u003eNA\u003c/is_bin_prepaid\u003e\n\t\u003cis_address_ship_forward\u003eNA\u003c/is_address_ship_forward\u003e\n\t\u003cis_bill_ship_city_match\u003eNA\u003c/is_bill_ship_city_match\u003e\n\t\u003cis_bill_ship_state_match\u003eNA\u003c/is_bill_ship_state_match\u003e\n\t\u003cis_bill_ship_country_match\u003eNA\u003c/is_bill_ship_country_match\u003e\n\t\u003cis_bill_ship_postal_match\u003eNA\u003c/is_bill_ship_postal_match\u003e\n\t\u003cis_ship_address_blacklist\u003eNA\u003c/is_ship_address_blacklist\u003e\n\t\u003cis_phone_blacklist\u003eNA\u003c/is_phone_blacklist\u003e\n\t\u003cis_ip_blacklist\u003eN\u003c/is_ip_blacklist\u003e\n\t\u003cis_email_blacklist\u003eNA\u003c/is_email_blacklist\u003e\n\t\u003cis_credit_card_blacklist\u003eNA\u003c/is_credit_card_blacklist\u003e\n\t\u003cis_device_blacklist\u003eNA\u003c/is_device_blacklist\u003e\n\t\u003cis_user_blacklist\u003eNA\u003c/is_user_blacklist\u003e\n\t\u003cis_high_risk_username_password\u003eNA\u003c/is_high_risk_username_password\u003e\n\t\u003cis_export_controlled_country\u003eNA\u003c/is_export_controlled_country\u003e\n\t\u003cis_malware_exploit\u003eNA\u003c/is_malware_exploit\u003e\n\t\u003cuser_order_id\u003e\u003c/user_order_id\u003e\n\t\u003cuser_order_memo\u003e\u003c/user_order_memo\u003e\n\t\u003ccard_brand\u003eNA\u003c/card_brand\u003e\n\t\u003ccard_type\u003eNA\u003c/card_type\u003e\n\t\u003ccard_issuing_bank\u003eNA\u003c/card_issuing_bank\u003e\n\t\u003ccard_issuing_country\u003eNA\u003c/card_issuing_country\u003e\n\t\u003cfraudlabspro_score\u003e100\u003c/fraudlabspro_score\u003e\n\t\u003cfraudlabspro_distribution\u003e0\u003c/fraudlabspro_distribution\u003e\n\t\u003cfraudlabspro_status\u003eAPPROVE\u003c/fraudlabspro_status\u003e\n\t\u003cfraudlabspro_id\u003eNA\u003c/fraudlabspro_id\u003e\n\t\u003cfraudlabspro_version\u003e1.5.0\u003c/fraudlabspro_version\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\t\u003cfraudlabspro_credits\u003e0\u003c/fraudlabspro_credits\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:08 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d96"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489618306"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489618500"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1OrderScreenPost",
+            "originalParameter": {
+              "parameterName": "format",
+              "sanitizedName": "format",
+              "value": [
+                "xml"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "BZrGXV"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "XUcDcjHSANGgnUJmvUM"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "84"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "oPzyOysibcLPjTm"
+                ]
+              },
+              {
+                "parameterName": "amount",
+                "sanitizedName": "amount",
+                "value": [
+                  "82.24560587307633"
+                ]
+              },
+              {
+                "parameterName": "quantity",
+                "sanitizedName": "quantity",
+                "value": [
+                  "-168802201"
+                ]
+              },
+              {
+                "parameterName": "currency",
+                "sanitizedName": "currency",
+                "value": [
+                  "dwrrkJTS"
+                ]
+              },
+              {
+                "parameterName": "department",
+                "sanitizedName": "department",
+                "value": [
+                  "AQQN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/screen?ip\u003dBZrGXV\u0026key\u003dXUcDcjHSANGgnUJmvUM\u0026format\u003dxml\u0026email\u003d-55\u0026amount\u003d82.24560587307633\u0026quantity\u003d-168802201\u0026currency\u003ddwrrkJTS\u0026department\u003dAQQN",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cis_country_match\u003eNA\u003c/is_country_match\u003e\n\t\u003cis_high_risk_country\u003eN\u003c/is_high_risk_country\u003e\n\t\u003cdistance_in_km\u003e-\u003c/distance_in_km\u003e\n\t\u003cdistance_in_mile\u003e-\u003c/distance_in_mile\u003e\n\t\u003cip_country\u003e\u003c/ip_country\u003e\n\t\u003cip_continent\u003e\u003c/ip_continent\u003e\n\t\u003cip_region\u003e\u003c/ip_region\u003e\n\t\u003cip_city\u003e\u003c/ip_city\u003e\n\t\u003cip_latitude\u003e\u003c/ip_latitude\u003e\n\t\u003cip_longitude\u003e\u003c/ip_longitude\u003e\n\t\u003cip_timezone\u003e\u003c/ip_timezone\u003e\n\t\u003cip_elevation\u003e\u003c/ip_elevation\u003e\n\t\u003cip_domain\u003e\u003c/ip_domain\u003e\n\t\u003cip_mobile_mnc\u003eNA\u003c/ip_mobile_mnc\u003e\n\t\u003cip_mobile_mcc\u003eNA\u003c/ip_mobile_mcc\u003e\n\t\u003cip_mobile_brand\u003eNA\u003c/ip_mobile_brand\u003e\n\t\u003cip_netspeed\u003eNA\u003c/ip_netspeed\u003e\n\t\u003cip_isp_name\u003eNA\u003c/ip_isp_name\u003e\n\t\u003cip_usage_type\u003eNA\u003c/ip_usage_type\u003e\n\t\u003cis_free_email\u003eNA\u003c/is_free_email\u003e\n\t\u003cis_new_domain_name\u003eNA\u003c/is_new_domain_name\u003e\n\t\u003cis_domain_exists\u003eNA\u003c/is_domain_exists\u003e\n\t\u003cis_proxy_ip_address\u003eNA\u003c/is_proxy_ip_address\u003e\n\t\u003cis_bin_found\u003eNA\u003c/is_bin_found\u003e\n\t\u003cis_bin_country_match\u003eNA\u003c/is_bin_country_match\u003e\n\t\u003cis_bin_name_match\u003eNA\u003c/is_bin_name_match\u003e\n\t\u003cis_bin_phone_match\u003eNA\u003c/is_bin_phone_match\u003e\n\t\u003cis_bin_prepaid\u003eNA\u003c/is_bin_prepaid\u003e\n\t\u003cis_address_ship_forward\u003eNA\u003c/is_address_ship_forward\u003e\n\t\u003cis_bill_ship_city_match\u003eNA\u003c/is_bill_ship_city_match\u003e\n\t\u003cis_bill_ship_state_match\u003eNA\u003c/is_bill_ship_state_match\u003e\n\t\u003cis_bill_ship_country_match\u003eNA\u003c/is_bill_ship_country_match\u003e\n\t\u003cis_bill_ship_postal_match\u003eNA\u003c/is_bill_ship_postal_match\u003e\n\t\u003cis_ship_address_blacklist\u003eNA\u003c/is_ship_address_blacklist\u003e\n\t\u003cis_phone_blacklist\u003eNA\u003c/is_phone_blacklist\u003e\n\t\u003cis_ip_blacklist\u003eN\u003c/is_ip_blacklist\u003e\n\t\u003cis_email_blacklist\u003eNA\u003c/is_email_blacklist\u003e\n\t\u003cis_credit_card_blacklist\u003eNA\u003c/is_credit_card_blacklist\u003e\n\t\u003cis_device_blacklist\u003eNA\u003c/is_device_blacklist\u003e\n\t\u003cis_user_blacklist\u003eNA\u003c/is_user_blacklist\u003e\n\t\u003cis_high_risk_username_password\u003eNA\u003c/is_high_risk_username_password\u003e\n\t\u003cis_export_controlled_country\u003eNA\u003c/is_export_controlled_country\u003e\n\t\u003cis_malware_exploit\u003eNA\u003c/is_malware_exploit\u003e\n\t\u003cuser_order_id\u003e\u003c/user_order_id\u003e\n\t\u003cuser_order_memo\u003e\u003c/user_order_memo\u003e\n\t\u003ccard_brand\u003eNA\u003c/card_brand\u003e\n\t\u003ccard_type\u003eNA\u003c/card_type\u003e\n\t\u003ccard_issuing_bank\u003eNA\u003c/card_issuing_bank\u003e\n\t\u003ccard_issuing_country\u003eNA\u003c/card_issuing_country\u003e\n\t\u003cfraudlabspro_score\u003e100\u003c/fraudlabspro_score\u003e\n\t\u003cfraudlabspro_distribution\u003e0\u003c/fraudlabspro_distribution\u003e\n\t\u003cfraudlabspro_status\u003eAPPROVE\u003c/fraudlabspro_status\u003e\n\t\u003cfraudlabspro_id\u003eNA\u003c/fraudlabspro_id\u003e\n\t\u003cfraudlabspro_version\u003e1.5.0\u003c/fraudlabspro_version\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\t\u003cfraudlabspro_credits\u003e0\u003c/fraudlabspro_credits\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:08 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d95"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489618508"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489618705"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1OrderScreenPost",
+            "originalParameter": {
+              "parameterName": "email",
+              "sanitizedName": "email",
+              "value": [
+                "oPzyOysibcLPjTm"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "BZrGXV"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "XUcDcjHSANGgnUJmvUM"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "xml"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "-55"
+                ]
+              },
+              {
+                "parameterName": "amount",
+                "sanitizedName": "amount",
+                "value": [
+                  "82.24560587307633"
+                ]
+              },
+              {
+                "parameterName": "quantity",
+                "sanitizedName": "quantity",
+                "value": [
+                  "-168802201"
+                ]
+              },
+              {
+                "parameterName": "currency",
+                "sanitizedName": "currency",
+                "value": [
+                  "dwrrkJTS"
+                ]
+              },
+              {
+                "parameterName": "department",
+                "sanitizedName": "department",
+                "value": [
+                  "AQQN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/screen?ip\u003dBZrGXV\u0026key\u003dXUcDcjHSANGgnUJmvUM\u0026format\u003dxml\u0026email\u003doPzyOysibcLPjTm\u0026amount\u003dNGckuj\u0026quantity\u003d-168802201\u0026currency\u003ddwrrkJTS\u0026department\u003dAQQN",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cis_country_match\u003eNA\u003c/is_country_match\u003e\n\t\u003cis_high_risk_country\u003eN\u003c/is_high_risk_country\u003e\n\t\u003cdistance_in_km\u003e-\u003c/distance_in_km\u003e\n\t\u003cdistance_in_mile\u003e-\u003c/distance_in_mile\u003e\n\t\u003cip_country\u003e\u003c/ip_country\u003e\n\t\u003cip_continent\u003e\u003c/ip_continent\u003e\n\t\u003cip_region\u003e\u003c/ip_region\u003e\n\t\u003cip_city\u003e\u003c/ip_city\u003e\n\t\u003cip_latitude\u003e\u003c/ip_latitude\u003e\n\t\u003cip_longitude\u003e\u003c/ip_longitude\u003e\n\t\u003cip_timezone\u003e\u003c/ip_timezone\u003e\n\t\u003cip_elevation\u003e\u003c/ip_elevation\u003e\n\t\u003cip_domain\u003e\u003c/ip_domain\u003e\n\t\u003cip_mobile_mnc\u003eNA\u003c/ip_mobile_mnc\u003e\n\t\u003cip_mobile_mcc\u003eNA\u003c/ip_mobile_mcc\u003e\n\t\u003cip_mobile_brand\u003eNA\u003c/ip_mobile_brand\u003e\n\t\u003cip_netspeed\u003eNA\u003c/ip_netspeed\u003e\n\t\u003cip_isp_name\u003eNA\u003c/ip_isp_name\u003e\n\t\u003cip_usage_type\u003eNA\u003c/ip_usage_type\u003e\n\t\u003cis_free_email\u003eNA\u003c/is_free_email\u003e\n\t\u003cis_new_domain_name\u003eNA\u003c/is_new_domain_name\u003e\n\t\u003cis_domain_exists\u003eNA\u003c/is_domain_exists\u003e\n\t\u003cis_proxy_ip_address\u003eNA\u003c/is_proxy_ip_address\u003e\n\t\u003cis_bin_found\u003eNA\u003c/is_bin_found\u003e\n\t\u003cis_bin_country_match\u003eNA\u003c/is_bin_country_match\u003e\n\t\u003cis_bin_name_match\u003eNA\u003c/is_bin_name_match\u003e\n\t\u003cis_bin_phone_match\u003eNA\u003c/is_bin_phone_match\u003e\n\t\u003cis_bin_prepaid\u003eNA\u003c/is_bin_prepaid\u003e\n\t\u003cis_address_ship_forward\u003eNA\u003c/is_address_ship_forward\u003e\n\t\u003cis_bill_ship_city_match\u003eNA\u003c/is_bill_ship_city_match\u003e\n\t\u003cis_bill_ship_state_match\u003eNA\u003c/is_bill_ship_state_match\u003e\n\t\u003cis_bill_ship_country_match\u003eNA\u003c/is_bill_ship_country_match\u003e\n\t\u003cis_bill_ship_postal_match\u003eNA\u003c/is_bill_ship_postal_match\u003e\n\t\u003cis_ship_address_blacklist\u003eNA\u003c/is_ship_address_blacklist\u003e\n\t\u003cis_phone_blacklist\u003eNA\u003c/is_phone_blacklist\u003e\n\t\u003cis_ip_blacklist\u003eN\u003c/is_ip_blacklist\u003e\n\t\u003cis_email_blacklist\u003eNA\u003c/is_email_blacklist\u003e\n\t\u003cis_credit_card_blacklist\u003eNA\u003c/is_credit_card_blacklist\u003e\n\t\u003cis_device_blacklist\u003eNA\u003c/is_device_blacklist\u003e\n\t\u003cis_user_blacklist\u003eNA\u003c/is_user_blacklist\u003e\n\t\u003cis_high_risk_username_password\u003eNA\u003c/is_high_risk_username_password\u003e\n\t\u003cis_export_controlled_country\u003eNA\u003c/is_export_controlled_country\u003e\n\t\u003cis_malware_exploit\u003eNA\u003c/is_malware_exploit\u003e\n\t\u003cuser_order_id\u003e\u003c/user_order_id\u003e\n\t\u003cuser_order_memo\u003e\u003c/user_order_memo\u003e\n\t\u003ccard_brand\u003eNA\u003c/card_brand\u003e\n\t\u003ccard_type\u003eNA\u003c/card_type\u003e\n\t\u003ccard_issuing_bank\u003eNA\u003c/card_issuing_bank\u003e\n\t\u003ccard_issuing_country\u003eNA\u003c/card_issuing_country\u003e\n\t\u003cfraudlabspro_score\u003e100\u003c/fraudlabspro_score\u003e\n\t\u003cfraudlabspro_distribution\u003e0\u003c/fraudlabspro_distribution\u003e\n\t\u003cfraudlabspro_status\u003eAPPROVE\u003c/fraudlabspro_status\u003e\n\t\u003cfraudlabspro_id\u003eNA\u003c/fraudlabspro_id\u003e\n\t\u003cfraudlabspro_version\u003e1.5.0\u003c/fraudlabspro_version\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\t\u003cfraudlabspro_credits\u003e0\u003c/fraudlabspro_credits\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:09 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d94"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489618712"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489618909"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1OrderScreenPost",
+            "originalParameter": {
+              "parameterName": "amount",
+              "sanitizedName": "amount",
+              "value": [
+                "82.24560587307633"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "BZrGXV"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "XUcDcjHSANGgnUJmvUM"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "xml"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "oPzyOysibcLPjTm"
+                ]
+              },
+              {
+                "parameterName": "amount",
+                "sanitizedName": "amount",
+                "value": [
+                  "NGckuj"
+                ]
+              },
+              {
+                "parameterName": "quantity",
+                "sanitizedName": "quantity",
+                "value": [
+                  "-168802201"
+                ]
+              },
+              {
+                "parameterName": "currency",
+                "sanitizedName": "currency",
+                "value": [
+                  "dwrrkJTS"
+                ]
+              },
+              {
+                "parameterName": "department",
+                "sanitizedName": "department",
+                "value": [
+                  "AQQN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/screen?ip\u003dBZrGXV\u0026key\u003dXUcDcjHSANGgnUJmvUM\u0026format\u003dxml\u0026email\u003doPzyOysibcLPjTm\u0026amount\u003d82.24560587307633\u0026quantity\u003djHUtcK\u0026currency\u003ddwrrkJTS\u0026department\u003dAQQN",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cis_country_match\u003eNA\u003c/is_country_match\u003e\n\t\u003cis_high_risk_country\u003eN\u003c/is_high_risk_country\u003e\n\t\u003cdistance_in_km\u003e-\u003c/distance_in_km\u003e\n\t\u003cdistance_in_mile\u003e-\u003c/distance_in_mile\u003e\n\t\u003cip_country\u003e\u003c/ip_country\u003e\n\t\u003cip_continent\u003e\u003c/ip_continent\u003e\n\t\u003cip_region\u003e\u003c/ip_region\u003e\n\t\u003cip_city\u003e\u003c/ip_city\u003e\n\t\u003cip_latitude\u003e\u003c/ip_latitude\u003e\n\t\u003cip_longitude\u003e\u003c/ip_longitude\u003e\n\t\u003cip_timezone\u003e\u003c/ip_timezone\u003e\n\t\u003cip_elevation\u003e\u003c/ip_elevation\u003e\n\t\u003cip_domain\u003e\u003c/ip_domain\u003e\n\t\u003cip_mobile_mnc\u003eNA\u003c/ip_mobile_mnc\u003e\n\t\u003cip_mobile_mcc\u003eNA\u003c/ip_mobile_mcc\u003e\n\t\u003cip_mobile_brand\u003eNA\u003c/ip_mobile_brand\u003e\n\t\u003cip_netspeed\u003eNA\u003c/ip_netspeed\u003e\n\t\u003cip_isp_name\u003eNA\u003c/ip_isp_name\u003e\n\t\u003cip_usage_type\u003eNA\u003c/ip_usage_type\u003e\n\t\u003cis_free_email\u003eNA\u003c/is_free_email\u003e\n\t\u003cis_new_domain_name\u003eNA\u003c/is_new_domain_name\u003e\n\t\u003cis_domain_exists\u003eNA\u003c/is_domain_exists\u003e\n\t\u003cis_proxy_ip_address\u003eNA\u003c/is_proxy_ip_address\u003e\n\t\u003cis_bin_found\u003eNA\u003c/is_bin_found\u003e\n\t\u003cis_bin_country_match\u003eNA\u003c/is_bin_country_match\u003e\n\t\u003cis_bin_name_match\u003eNA\u003c/is_bin_name_match\u003e\n\t\u003cis_bin_phone_match\u003eNA\u003c/is_bin_phone_match\u003e\n\t\u003cis_bin_prepaid\u003eNA\u003c/is_bin_prepaid\u003e\n\t\u003cis_address_ship_forward\u003eNA\u003c/is_address_ship_forward\u003e\n\t\u003cis_bill_ship_city_match\u003eNA\u003c/is_bill_ship_city_match\u003e\n\t\u003cis_bill_ship_state_match\u003eNA\u003c/is_bill_ship_state_match\u003e\n\t\u003cis_bill_ship_country_match\u003eNA\u003c/is_bill_ship_country_match\u003e\n\t\u003cis_bill_ship_postal_match\u003eNA\u003c/is_bill_ship_postal_match\u003e\n\t\u003cis_ship_address_blacklist\u003eNA\u003c/is_ship_address_blacklist\u003e\n\t\u003cis_phone_blacklist\u003eNA\u003c/is_phone_blacklist\u003e\n\t\u003cis_ip_blacklist\u003eN\u003c/is_ip_blacklist\u003e\n\t\u003cis_email_blacklist\u003eNA\u003c/is_email_blacklist\u003e\n\t\u003cis_credit_card_blacklist\u003eNA\u003c/is_credit_card_blacklist\u003e\n\t\u003cis_device_blacklist\u003eNA\u003c/is_device_blacklist\u003e\n\t\u003cis_user_blacklist\u003eNA\u003c/is_user_blacklist\u003e\n\t\u003cis_high_risk_username_password\u003eNA\u003c/is_high_risk_username_password\u003e\n\t\u003cis_export_controlled_country\u003eNA\u003c/is_export_controlled_country\u003e\n\t\u003cis_malware_exploit\u003eNA\u003c/is_malware_exploit\u003e\n\t\u003cuser_order_id\u003e\u003c/user_order_id\u003e\n\t\u003cuser_order_memo\u003e\u003c/user_order_memo\u003e\n\t\u003ccard_brand\u003eNA\u003c/card_brand\u003e\n\t\u003ccard_type\u003eNA\u003c/card_type\u003e\n\t\u003ccard_issuing_bank\u003eNA\u003c/card_issuing_bank\u003e\n\t\u003ccard_issuing_country\u003eNA\u003c/card_issuing_country\u003e\n\t\u003cfraudlabspro_score\u003e100\u003c/fraudlabspro_score\u003e\n\t\u003cfraudlabspro_distribution\u003e0\u003c/fraudlabspro_distribution\u003e\n\t\u003cfraudlabspro_status\u003eAPPROVE\u003c/fraudlabspro_status\u003e\n\t\u003cfraudlabspro_id\u003eNA\u003c/fraudlabspro_id\u003e\n\t\u003cfraudlabspro_version\u003e1.5.0\u003c/fraudlabspro_version\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\t\u003cfraudlabspro_credits\u003e0\u003c/fraudlabspro_credits\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:09 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d93"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489618919"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489619114"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1OrderScreenPost",
+            "originalParameter": {
+              "parameterName": "quantity",
+              "sanitizedName": "quantity",
+              "value": [
+                "-168802201"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "BZrGXV"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "XUcDcjHSANGgnUJmvUM"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "xml"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "oPzyOysibcLPjTm"
+                ]
+              },
+              {
+                "parameterName": "amount",
+                "sanitizedName": "amount",
+                "value": [
+                  "82.24560587307633"
+                ]
+              },
+              {
+                "parameterName": "quantity",
+                "sanitizedName": "quantity",
+                "value": [
+                  "jHUtcK"
+                ]
+              },
+              {
+                "parameterName": "currency",
+                "sanitizedName": "currency",
+                "value": [
+                  "dwrrkJTS"
+                ]
+              },
+              {
+                "parameterName": "department",
+                "sanitizedName": "department",
+                "value": [
+                  "AQQN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/screen?ip\u003dBZrGXV\u0026key\u003dXUcDcjHSANGgnUJmvUM\u0026format\u003dxml\u0026email\u003doPzyOysibcLPjTm\u0026amount\u003d82.24560587307633\u0026quantity\u003d-168802201\u0026currency\u003d-61\u0026department\u003dAQQN",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cis_country_match\u003eNA\u003c/is_country_match\u003e\n\t\u003cis_high_risk_country\u003eN\u003c/is_high_risk_country\u003e\n\t\u003cdistance_in_km\u003e-\u003c/distance_in_km\u003e\n\t\u003cdistance_in_mile\u003e-\u003c/distance_in_mile\u003e\n\t\u003cip_country\u003e\u003c/ip_country\u003e\n\t\u003cip_continent\u003e\u003c/ip_continent\u003e\n\t\u003cip_region\u003e\u003c/ip_region\u003e\n\t\u003cip_city\u003e\u003c/ip_city\u003e\n\t\u003cip_latitude\u003e\u003c/ip_latitude\u003e\n\t\u003cip_longitude\u003e\u003c/ip_longitude\u003e\n\t\u003cip_timezone\u003e\u003c/ip_timezone\u003e\n\t\u003cip_elevation\u003e\u003c/ip_elevation\u003e\n\t\u003cip_domain\u003e\u003c/ip_domain\u003e\n\t\u003cip_mobile_mnc\u003eNA\u003c/ip_mobile_mnc\u003e\n\t\u003cip_mobile_mcc\u003eNA\u003c/ip_mobile_mcc\u003e\n\t\u003cip_mobile_brand\u003eNA\u003c/ip_mobile_brand\u003e\n\t\u003cip_netspeed\u003eNA\u003c/ip_netspeed\u003e\n\t\u003cip_isp_name\u003eNA\u003c/ip_isp_name\u003e\n\t\u003cip_usage_type\u003eNA\u003c/ip_usage_type\u003e\n\t\u003cis_free_email\u003eNA\u003c/is_free_email\u003e\n\t\u003cis_new_domain_name\u003eNA\u003c/is_new_domain_name\u003e\n\t\u003cis_domain_exists\u003eNA\u003c/is_domain_exists\u003e\n\t\u003cis_proxy_ip_address\u003eNA\u003c/is_proxy_ip_address\u003e\n\t\u003cis_bin_found\u003eNA\u003c/is_bin_found\u003e\n\t\u003cis_bin_country_match\u003eNA\u003c/is_bin_country_match\u003e\n\t\u003cis_bin_name_match\u003eNA\u003c/is_bin_name_match\u003e\n\t\u003cis_bin_phone_match\u003eNA\u003c/is_bin_phone_match\u003e\n\t\u003cis_bin_prepaid\u003eNA\u003c/is_bin_prepaid\u003e\n\t\u003cis_address_ship_forward\u003eNA\u003c/is_address_ship_forward\u003e\n\t\u003cis_bill_ship_city_match\u003eNA\u003c/is_bill_ship_city_match\u003e\n\t\u003cis_bill_ship_state_match\u003eNA\u003c/is_bill_ship_state_match\u003e\n\t\u003cis_bill_ship_country_match\u003eNA\u003c/is_bill_ship_country_match\u003e\n\t\u003cis_bill_ship_postal_match\u003eNA\u003c/is_bill_ship_postal_match\u003e\n\t\u003cis_ship_address_blacklist\u003eNA\u003c/is_ship_address_blacklist\u003e\n\t\u003cis_phone_blacklist\u003eNA\u003c/is_phone_blacklist\u003e\n\t\u003cis_ip_blacklist\u003eN\u003c/is_ip_blacklist\u003e\n\t\u003cis_email_blacklist\u003eNA\u003c/is_email_blacklist\u003e\n\t\u003cis_credit_card_blacklist\u003eNA\u003c/is_credit_card_blacklist\u003e\n\t\u003cis_device_blacklist\u003eNA\u003c/is_device_blacklist\u003e\n\t\u003cis_user_blacklist\u003eNA\u003c/is_user_blacklist\u003e\n\t\u003cis_high_risk_username_password\u003eNA\u003c/is_high_risk_username_password\u003e\n\t\u003cis_export_controlled_country\u003eNA\u003c/is_export_controlled_country\u003e\n\t\u003cis_malware_exploit\u003eNA\u003c/is_malware_exploit\u003e\n\t\u003cuser_order_id\u003e\u003c/user_order_id\u003e\n\t\u003cuser_order_memo\u003e\u003c/user_order_memo\u003e\n\t\u003ccard_brand\u003eNA\u003c/card_brand\u003e\n\t\u003ccard_type\u003eNA\u003c/card_type\u003e\n\t\u003ccard_issuing_bank\u003eNA\u003c/card_issuing_bank\u003e\n\t\u003ccard_issuing_country\u003eNA\u003c/card_issuing_country\u003e\n\t\u003cfraudlabspro_score\u003e100\u003c/fraudlabspro_score\u003e\n\t\u003cfraudlabspro_distribution\u003e0\u003c/fraudlabspro_distribution\u003e\n\t\u003cfraudlabspro_status\u003eAPPROVE\u003c/fraudlabspro_status\u003e\n\t\u003cfraudlabspro_id\u003eNA\u003c/fraudlabspro_id\u003e\n\t\u003cfraudlabspro_version\u003e1.5.0\u003c/fraudlabspro_version\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\t\u003cfraudlabspro_credits\u003e0\u003c/fraudlabspro_credits\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:09 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d92"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489619124"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489619318"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1OrderScreenPost",
+            "originalParameter": {
+              "parameterName": "currency",
+              "sanitizedName": "currency",
+              "value": [
+                "dwrrkJTS"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "BZrGXV"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "XUcDcjHSANGgnUJmvUM"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "xml"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "oPzyOysibcLPjTm"
+                ]
+              },
+              {
+                "parameterName": "amount",
+                "sanitizedName": "amount",
+                "value": [
+                  "82.24560587307633"
+                ]
+              },
+              {
+                "parameterName": "quantity",
+                "sanitizedName": "quantity",
+                "value": [
+                  "-168802201"
+                ]
+              },
+              {
+                "parameterName": "currency",
+                "sanitizedName": "currency",
+                "value": [
+                  "-61"
+                ]
+              },
+              {
+                "parameterName": "department",
+                "sanitizedName": "department",
+                "value": [
+                  "AQQN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://api.fraudlabspro.com/v1/order/screen?ip\u003dBZrGXV\u0026key\u003dXUcDcjHSANGgnUJmvUM\u0026format\u003dxml\u0026email\u003doPzyOysibcLPjTm\u0026amount\u003d82.24560587307633\u0026quantity\u003d-168802201\u0026currency\u003ddwrrkJTS\u0026department\u003d-60",
+              "responseBody": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cresponse\u003e\n\t\u003cis_country_match\u003eNA\u003c/is_country_match\u003e\n\t\u003cis_high_risk_country\u003eN\u003c/is_high_risk_country\u003e\n\t\u003cdistance_in_km\u003e-\u003c/distance_in_km\u003e\n\t\u003cdistance_in_mile\u003e-\u003c/distance_in_mile\u003e\n\t\u003cip_country\u003e\u003c/ip_country\u003e\n\t\u003cip_continent\u003e\u003c/ip_continent\u003e\n\t\u003cip_region\u003e\u003c/ip_region\u003e\n\t\u003cip_city\u003e\u003c/ip_city\u003e\n\t\u003cip_latitude\u003e\u003c/ip_latitude\u003e\n\t\u003cip_longitude\u003e\u003c/ip_longitude\u003e\n\t\u003cip_timezone\u003e\u003c/ip_timezone\u003e\n\t\u003cip_elevation\u003e\u003c/ip_elevation\u003e\n\t\u003cip_domain\u003e\u003c/ip_domain\u003e\n\t\u003cip_mobile_mnc\u003eNA\u003c/ip_mobile_mnc\u003e\n\t\u003cip_mobile_mcc\u003eNA\u003c/ip_mobile_mcc\u003e\n\t\u003cip_mobile_brand\u003eNA\u003c/ip_mobile_brand\u003e\n\t\u003cip_netspeed\u003eNA\u003c/ip_netspeed\u003e\n\t\u003cip_isp_name\u003eNA\u003c/ip_isp_name\u003e\n\t\u003cip_usage_type\u003eNA\u003c/ip_usage_type\u003e\n\t\u003cis_free_email\u003eNA\u003c/is_free_email\u003e\n\t\u003cis_new_domain_name\u003eNA\u003c/is_new_domain_name\u003e\n\t\u003cis_domain_exists\u003eNA\u003c/is_domain_exists\u003e\n\t\u003cis_proxy_ip_address\u003eNA\u003c/is_proxy_ip_address\u003e\n\t\u003cis_bin_found\u003eNA\u003c/is_bin_found\u003e\n\t\u003cis_bin_country_match\u003eNA\u003c/is_bin_country_match\u003e\n\t\u003cis_bin_name_match\u003eNA\u003c/is_bin_name_match\u003e\n\t\u003cis_bin_phone_match\u003eNA\u003c/is_bin_phone_match\u003e\n\t\u003cis_bin_prepaid\u003eNA\u003c/is_bin_prepaid\u003e\n\t\u003cis_address_ship_forward\u003eNA\u003c/is_address_ship_forward\u003e\n\t\u003cis_bill_ship_city_match\u003eNA\u003c/is_bill_ship_city_match\u003e\n\t\u003cis_bill_ship_state_match\u003eNA\u003c/is_bill_ship_state_match\u003e\n\t\u003cis_bill_ship_country_match\u003eNA\u003c/is_bill_ship_country_match\u003e\n\t\u003cis_bill_ship_postal_match\u003eNA\u003c/is_bill_ship_postal_match\u003e\n\t\u003cis_ship_address_blacklist\u003eNA\u003c/is_ship_address_blacklist\u003e\n\t\u003cis_phone_blacklist\u003eNA\u003c/is_phone_blacklist\u003e\n\t\u003cis_ip_blacklist\u003eN\u003c/is_ip_blacklist\u003e\n\t\u003cis_email_blacklist\u003eNA\u003c/is_email_blacklist\u003e\n\t\u003cis_credit_card_blacklist\u003eNA\u003c/is_credit_card_blacklist\u003e\n\t\u003cis_device_blacklist\u003eNA\u003c/is_device_blacklist\u003e\n\t\u003cis_user_blacklist\u003eNA\u003c/is_user_blacklist\u003e\n\t\u003cis_high_risk_username_password\u003eNA\u003c/is_high_risk_username_password\u003e\n\t\u003cis_export_controlled_country\u003eNA\u003c/is_export_controlled_country\u003e\n\t\u003cis_malware_exploit\u003eNA\u003c/is_malware_exploit\u003e\n\t\u003cuser_order_id\u003e\u003c/user_order_id\u003e\n\t\u003cuser_order_memo\u003e\u003c/user_order_memo\u003e\n\t\u003ccard_brand\u003eNA\u003c/card_brand\u003e\n\t\u003ccard_type\u003eNA\u003c/card_type\u003e\n\t\u003ccard_issuing_bank\u003eNA\u003c/card_issuing_bank\u003e\n\t\u003ccard_issuing_country\u003eNA\u003c/card_issuing_country\u003e\n\t\u003cfraudlabspro_score\u003e100\u003c/fraudlabspro_score\u003e\n\t\u003cfraudlabspro_distribution\u003e0\u003c/fraudlabspro_distribution\u003e\n\t\u003cfraudlabspro_status\u003eAPPROVE\u003c/fraudlabspro_status\u003e\n\t\u003cfraudlabspro_id\u003eNA\u003c/fraudlabspro_id\u003e\n\t\u003cfraudlabspro_version\u003e1.5.0\u003c/fraudlabspro_version\u003e\n\t\u003cfraudlabspro_error_code\u003e101\u003c/fraudlabspro_error_code\u003e\n\t\u003cfraudlabspro_message\u003eINVALID API KEY\u003c/fraudlabspro_message\u003e\n\t\u003cfraudlabspro_credits\u003e0\u003c/fraudlabspro_credits\u003e\n\u003c/response\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:07:09 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d91"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "text/xml;charset\u003dUTF-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489619325"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489619525"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "v1OrderScreenPost",
+            "originalParameter": {
+              "parameterName": "department",
+              "sanitizedName": "department",
+              "value": [
+                "AQQN"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "ip",
+                "sanitizedName": "ip",
+                "value": [
+                  "BZrGXV"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "XUcDcjHSANGgnUJmvUM"
+                ]
+              },
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "xml"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "oPzyOysibcLPjTm"
+                ]
+              },
+              {
+                "parameterName": "amount",
+                "sanitizedName": "amount",
+                "value": [
+                  "82.24560587307633"
+                ]
+              },
+              {
+                "parameterName": "quantity",
+                "sanitizedName": "quantity",
+                "value": [
+                  "-168802201"
+                ]
+              },
+              {
+                "parameterName": "currency",
+                "sanitizedName": "currency",
+                "value": [
+                  "dwrrkJTS"
+                ]
+              },
+              {
+                "parameterName": "department",
+                "sanitizedName": "department",
+                "value": [
+                  "-60"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "POST",
+    "operationId": "v1OrderScreenPost"
+  }
+}

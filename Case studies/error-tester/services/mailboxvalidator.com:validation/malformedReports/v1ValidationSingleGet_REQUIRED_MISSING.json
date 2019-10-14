@@ -1,0 +1,160 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.mailboxvalidator.com/v1/validation/single?format\u003djson\u0026key\u003dixcWbBBwBaROHfZx",
+              "responseBody": "{\"email_address\":\"\",\"domain\":\"\",\"is_free\":\"\",\"is_syntax\":\"\",\"is_domain\":\"\",\"is_smtp\":\"\",\"is_verified\":\"\",\"is_server_down\":\"\",\"is_greylisted\":\"\",\"is_disposable\":\"\",\"is_suppressed\":\"\",\"is_role\":\"\",\"is_high_risk\":\"\",\"is_catchall\":\"\",\"mailboxvalidator_score\":\"\",\"time_taken\":0,\"status\":\"\",\"credits_available\":\"\",\"error_code\":\"100\",\"error_message\":\"Missing parameter.\"}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:37:37 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Content-Length": [
+                  "364"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d100"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491446735"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491446878"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "email",
+              "sanitizedName": "email",
+              "value": [
+                "sthJkQDgTgNxqsmAVd"
+              ]
+            },
+            "operationId": "v1ValidationSingleGet",
+            "parameters": [
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "json"
+                ]
+              },
+              {
+                "parameterName": "key",
+                "sanitizedName": "key",
+                "value": [
+                  "ixcWbBBwBaROHfZx"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.mailboxvalidator.com/v1/validation/single?format\u003djson\u0026email\u003dsthJkQDgTgNxqsmAVd",
+              "responseBody": "{\"email_address\":\"\",\"domain\":\"\",\"is_free\":\"\",\"is_syntax\":\"\",\"is_domain\":\"\",\"is_smtp\":\"\",\"is_verified\":\"\",\"is_server_down\":\"\",\"is_greylisted\":\"\",\"is_disposable\":\"\",\"is_suppressed\":\"\",\"is_role\":\"\",\"is_high_risk\":\"\",\"is_catchall\":\"\",\"mailboxvalidator_score\":\"\",\"time_taken\":0,\"status\":\"\",\"credits_available\":\"\",\"error_code\":\"100\",\"error_message\":\"Missing parameter.\"}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:37:37 GMT"
+                ],
+                "Server": [
+                  "Apache"
+                ],
+                "Content-Length": [
+                  "364"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d5, max\u003d99"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491446898"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491447095"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "key",
+              "sanitizedName": "key",
+              "value": [
+                "ixcWbBBwBaROHfZx"
+              ]
+            },
+            "operationId": "v1ValidationSingleGet",
+            "parameters": [
+              {
+                "parameterName": "format",
+                "sanitizedName": "format",
+                "value": [
+                  "json"
+                ]
+              },
+              {
+                "parameterName": "email",
+                "sanitizedName": "email",
+                "value": [
+                  "sthJkQDgTgNxqsmAVd"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "v1ValidationSingleGet"
+  }
+}

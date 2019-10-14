@@ -1,0 +1,275 @@
+{
+  "responseCoverage": {
+    "500": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/atom+xml"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://nsidc.org/api/dataset/2/OpenSearch?searchTerms\u003dKXJhRMlf\u0026count\u003d25\u0026startIndex\u003d1\u0026spatial\u003d-180.0,-90.0,180.0,90.0\u0026sortKeys\u003dtemporal_duration,,desc\u0026startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:16}\u0026endDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:4}\u0026facetFilters\u003dFwqGiCCXzglCk\u0026source\u003dhbH",
+              "responseBody": "\u003ch1\u003eInternal Server Error\u003c/h1\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:43:58 GMT"
+                ],
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Content-Type": [
+                  "text/html;charset\u003dutf-8"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "*, X-Requested-With, Content-Type, Cache-Control, Accept, AUTHORIZATION"
+                ],
+                "X-XSS-Protection": [
+                  "1; mode\u003dblock"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "Content-Length": [
+                  "30"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491829902"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491830384"
+                ]
+              },
+              "statusCode": 500
+            },
+            "httpMethod": "GET",
+            "operationId": "openSearch",
+            "originalParameter": {
+              "parameterName": "source",
+              "sanitizedName": "source",
+              "value": [
+                "ADE"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "searchTerms",
+                "sanitizedName": "searchTerms",
+                "value": [
+                  "KXJhRMlf"
+                ]
+              },
+              {
+                "parameterName": "count",
+                "sanitizedName": "count",
+                "value": [
+                  "25"
+                ]
+              },
+              {
+                "parameterName": "startIndex",
+                "sanitizedName": "startIndex",
+                "value": [
+                  "1"
+                ]
+              },
+              {
+                "parameterName": "spatial",
+                "sanitizedName": "spatial",
+                "value": [
+                  "-180.0,-90.0,180.0,90.0"
+                ]
+              },
+              {
+                "parameterName": "sortKeys",
+                "sanitizedName": "sortKeys",
+                "value": [
+                  "temporal_duration,,desc"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":16}"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":4}"
+                ]
+              },
+              {
+                "parameterName": "facetFilters",
+                "sanitizedName": "facetFilters",
+                "value": [
+                  "FwqGiCCXzglCk"
+                ]
+              },
+              {
+                "parameterName": "source",
+                "sanitizedName": "source",
+                "value": [
+                  "hbH"
+                ]
+              }
+            ],
+            "statusCode": 500,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ],
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/atom+xml"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://nsidc.org/api/dataset/2/OpenSearch?searchTerms\u003dKXJhRMlf\u0026count\u003d25\u0026startIndex\u003d1\u0026spatial\u003d-180.0,-90.0,180.0,90.0\u0026sortKeys\u003dHws\u0026startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:16}\u0026endDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:4}\u0026facetFilters\u003dFwqGiCCXzglCk\u0026source\u003dADE",
+              "responseBody": "\u003cfeed xmlns\u003d\"http://www.w3.org/2005/Atom\" xmlns:os\u003d\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:dif\u003d\"http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/\" xmlns:dc\u003d\"http://purl.org/dc/elements/1.1/\" xmlns:nsidc\u003d\"http://nsidc.org/ns/opensearch/1.1/\" xmlns:time\u003d\"http://a9.com/-/opensearch/extensions/time/1.0/\" xmlns:geo\u003d\"http://a9.com/-/opensearch/extensions/geo/1.0/\" xmlns:georss\u003d\"http://www.georss.org/georss\"\u003e\n  \u003ctitle\u003eNSIDC dataset search results\u003c/title\u003e\n  \u003cupdated\u003e2019-10-07T17:43:58.608-06:00\u003c/updated\u003e\n  \u003cauthor\u003e\n    \u003cname\u003ensidc.org\u003c/name\u003e\n    \u003cemail\u003ensidc@nsidc.org\u003c/email\u003e\n    \u003curi\u003ehttp://nsidc.org\u003c/uri\u003e\n  \u003c/author\u003e\n  \u003cid\u003ehttp://nsidc.org/api/dataset/2/OpenSearch?searchTerms\u003dKXJhRMlf\u0026amp;count\u003d25\u0026amp;startIndex\u003d1\u0026amp;spatial\u003d-180.0,-90.0,180.0,90.0\u0026amp;sortKeys\u003dHws\u0026amp;startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:16}\u0026amp;endDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:4}\u0026amp;facetFilters\u003dFwqGiCCXzglCk\u0026amp;source\u003dADE\u003c/id\u003e\n  \u003clink href\u003d\"http://nsidc.org/api/dataset/2/OpenSearch?searchTerms\u003dKXJhRMlf\u0026amp;count\u003d25\u0026amp;startIndex\u003d1\u0026amp;spatial\u003d-180.0,-90.0,180.0,90.0\u0026amp;sortKeys\u003dHws\u0026amp;startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:16}\u0026amp;endDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:4}\u0026amp;facetFilters\u003dFwqGiCCXzglCk\u0026amp;source\u003dADE\" rel\u003d\"self\"/\u003e\n  \u003clink href\u003d\"http://nsidc.org/api/dataset/2/OpenSearchDescription\" rel\u003d\"search\" type\u003d\"application/opensearchdescription+xml\"/\u003e\n  \u003clink href\u003d\"http://nsidc.org/api/dataset/2/OpenSearch?searchTerms\u003dKXJhRMlf\u0026amp;count\u003d25\u0026amp;startIndex\u003d1\u0026amp;spatial\u003d-180.0,-90.0,180.0,90.0\u0026amp;sortKeys\u003dHws\u0026amp;startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:16}\u0026amp;endDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:4}\u0026amp;facetFilters\u003dFwqGiCCXzglCk\u0026amp;source\u003dADE\" rel\u003d\"first\"/\u003e\n  \u003clink href\u003d\"\" rel\u003d\"last\"/\u003e\n  \u003cos:totalResults\u003e0\u003c/os:totalResults\u003e\n  \u003cos:startIndex\u003e1\u003c/os:startIndex\u003e\n  \u003cos:itemsPerPage\u003e25\u003c/os:itemsPerPage\u003e\n  \u003cos:query role\u003d\"request\" nsidc:source\u003d\"ADE\" count\u003d\"25\" startIndex\u003d\"1\" searchTerms\u003d\"KXJhRMlf\" geo:box\u003d\"-180.0,-90.0,180.0,90.0\" sortKeys\u003d\"Hws\" time:start\u003d\"{\u0026quot;year\u0026quot;:2019,\u0026quot;month\u0026quot;:9,\u0026quot;day\u0026quot;:16}\" time:end\u003d\"{\u0026quot;year\u0026quot;:2019,\u0026quot;month\u0026quot;:9,\u0026quot;day\u0026quot;:4}\" nsidc:facetFilters\u003d\"FwqGiCCXzglCk\"/\u003e\n\u003c/feed\u003e\n",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:43:58 GMT"
+                ],
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Content-Type": [
+                  "application/atom+xml"
+                ],
+                "Content-Length": [
+                  "2216"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "*, X-Requested-With, Content-Type, Cache-Control, Accept, AUTHORIZATION"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d3, max\u003d100"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491829675"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491829877"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "openSearch",
+            "originalParameter": {
+              "parameterName": "sortKeys",
+              "sanitizedName": "sortKeys",
+              "value": [
+                "temporal_duration,,desc"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "searchTerms",
+                "sanitizedName": "searchTerms",
+                "value": [
+                  "KXJhRMlf"
+                ]
+              },
+              {
+                "parameterName": "count",
+                "sanitizedName": "count",
+                "value": [
+                  "25"
+                ]
+              },
+              {
+                "parameterName": "startIndex",
+                "sanitizedName": "startIndex",
+                "value": [
+                  "1"
+                ]
+              },
+              {
+                "parameterName": "spatial",
+                "sanitizedName": "spatial",
+                "value": [
+                  "-180.0,-90.0,180.0,90.0"
+                ]
+              },
+              {
+                "parameterName": "sortKeys",
+                "sanitizedName": "sortKeys",
+                "value": [
+                  "Hws"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":16}"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":4}"
+                ]
+              },
+              {
+                "parameterName": "facetFilters",
+                "sanitizedName": "facetFilters",
+                "value": [
+                  "FwqGiCCXzglCk"
+                ]
+              },
+              {
+                "parameterName": "source",
+                "sanitizedName": "source",
+                "value": [
+                  "ADE"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "openSearch"
+  }
+}

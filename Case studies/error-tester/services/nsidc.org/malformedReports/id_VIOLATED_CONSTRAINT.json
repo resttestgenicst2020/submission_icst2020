@@ -1,0 +1,91 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/x-suggestions+json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://nsidc.org/api/dataset/2/suggest?q\u003duu\u0026source\u003dbKh",
+              "responseBody": "[\"uu\",[]]",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:43:51 GMT"
+                ],
+                "Server": [
+                  "nginx/1.10.3 (Ubuntu)"
+                ],
+                "Content-Type": [
+                  "application/x-suggestions+json"
+                ],
+                "Content-Length": [
+                  "9"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "*, X-Requested-With, Content-Type, Cache-Control, Accept, AUTHORIZATION"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "Keep-Alive": [
+                  "timeout\u003d3, max\u003d98"
+                ],
+                "Connection": [
+                  "Keep-Alive"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491822103"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491822397"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "id",
+            "originalParameter": {
+              "parameterName": "source",
+              "sanitizedName": "source",
+              "value": [
+                "ADE"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "q",
+                "sanitizedName": "q",
+                "value": [
+                  "uu"
+                ]
+              },
+              {
+                "parameterName": "source",
+                "sanitizedName": "source",
+                "value": [
+                  "bKh"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "id"
+  }
+}

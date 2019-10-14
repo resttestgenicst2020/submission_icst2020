@@ -1,0 +1,142 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://www.refugerestrooms.org/api/v1/restrooms/search.json?page\u003d25\u0026offset\u003d7\u0026ada\u003dfalse\u0026unisex\u003dtrue\u0026query\u003d31",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Server": [
+                  "Cowboy"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:46:05 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "X-Total": [
+                  "59"
+                ],
+                "X-Total-Pages": [
+                  "6"
+                ],
+                "X-Per-Page": [
+                  "10"
+                ],
+                "X-Page": [
+                  "25"
+                ],
+                "X-Next-Page": [
+                  ""
+                ],
+                "X-Prev-Page": [
+                  ""
+                ],
+                "X-Offset": [
+                  "7"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Etag": [
+                  "W/\"4f53cda18c2baa0c0354bb5f9a3ecbe5\""
+                ],
+                "Cache-Control": [
+                  "max-age\u003d0, private, must-revalidate"
+                ],
+                "X-Request-Id": [
+                  "bd981f54-1748-41f2-bae1-c65d9fea8b7f"
+                ],
+                "X-Runtime": [
+                  "5.804782"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains"
+                ],
+                "Vary": [
+                  "Origin"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "Via": [
+                  "1.1 vegur"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491950508"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491956646"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "gETVersionRestroomsSearchFormat",
+            "originalParameter": {
+              "parameterName": "query",
+              "sanitizedName": "query",
+              "value": [
+                "wVhsjODWd"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "25"
+                ]
+              },
+              {
+                "parameterName": "offset",
+                "sanitizedName": "offset",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "ada",
+                "sanitizedName": "ada",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "unisex",
+                "sanitizedName": "unisex",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "31"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "gETVersionRestroomsSearchFormat"
+  }
+}

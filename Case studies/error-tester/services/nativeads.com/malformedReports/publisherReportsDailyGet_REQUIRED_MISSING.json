@@ -1,0 +1,454 @@
+{
+  "responseCoverage": {
+    "500": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/daily?startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:4}\u0026endDate\u003d{%22year%22:2019,%22month%22:8,%22day%22:27}\u0026limit\u003d2\u0026page\u003d24",
+              "responseBody": "\u003c!DOCTYPE html PUBLIC\n\t\"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\t\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"\u003e\n\u003chtml xmlns\u003d\"http://www.w3.org/1999/xhtml\" xml:lang\u003d\"en\" lang\u003d\"en\"\u003e\n\u003chead\u003e\n\u003cmeta http-equiv\u003d\"Content-Type\" content\u003d\"text/html; charset\u003dutf-8\"/\u003e\n\u003ctitle\u003ePHP notice\u003c/title\u003e\n\n\u003cstyle type\u003d\"text/css\"\u003e\n/*\u003c![CDATA[*/\nhtml,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}\nbody{line-height:1;}\nol,ul{list-style:none;}\nblockquote,q{quotes:none;}\nblockquote:before,blockquote:after,q:before,q:after{content:none;}\n:focus{outline:0;}\nins{text-decoration:none;}\ndel{text-decoration:line-through;}\ntable{border-collapse:collapse;border-spacing:0;}\n\nbody {\n\tfont: normal 9pt \"Verdana\";\n\tcolor: #000;\n\tbackground: #fff;\n}\n\nh1 {\n\tfont: normal 18pt \"Verdana\";\n\tcolor: #f00;\n\tmargin-bottom: .5em;\n}\n\nh2 {\n\tfont: normal 14pt \"Verdana\";\n\tcolor: #800000;\n\tmargin-bottom: .5em;\n}\n\nh3 {\n\tfont: bold 11pt \"Verdana\";\n}\n\npre {\n\tfont: normal 11pt Menlo, Consolas, \"Lucida Console\", Monospace;\n}\n\npre span.error {\n\tdisplay: block;\n\tbackground: #fce3e3;\n}\n\npre span.ln {\n\tcolor: #999;\n\tpadding-right: 0.5em;\n\tborder-right: 1px solid #ccc;\n}\n\npre span.error-ln {\n\tfont-weight: bold;\n}\n\n.container {\n\tmargin: 1em 4em;\n}\n\n.version {\n\tcolor: gray;\n\tfont-size: 8pt;\n\tborder-top: 1px solid #aaa;\n\tpadding-top: 1em;\n\tmargin-bottom: 1em;\n}\n\n.message {\n\tcolor: #000;\n\tpadding: 1em;\n\tfont-size: 11pt;\n\tbackground: #f3f3f3;\n\t-webkit-border-radius: 10px;\n\t-moz-border-radius: 10px;\n\tborder-radius: 10px;\n\tmargin-bottom: 1em;\n\tline-height: 160%;\n}\n\n.source {\n\tmargin-bottom: 1em;\n}\n\n.code pre {\n\tbackground-color: #ffe;\n\tmargin: 0.5em 0;\n\tpadding: 0.5em;\n\tline-height: 125%;\n\tborder: 1px solid #eee;\n}\n\n.source .file {\n\tmargin-bottom: 1em;\n\tfont-weight: bold;\n}\n\n.traces {\n\tmargin: 2em 0;\n}\n\n.trace {\n\tmargin: 0.5em 0;\n\tpadding: 0.5em;\n}\n\n.trace.app {\n\tborder: 1px dashed #c00;\n}\n\n.trace .number {\n\ttext-align: right;\n\twidth: 2em;\n\tpadding: 0.5em;\n}\n\n.trace .content {\n\tpadding: 0.5em;\n}\n\n.trace .plus,\n.trace .minus {\n\tdisplay:inline;\n\tvertical-align:middle;\n\ttext-align:center;\n\tborder:1px solid #000;\n\tcolor:#000;\n\tfont-size:10px;\n\tline-height:10px;\n\tmargin:0;\n\tpadding:0 1px;\n\twidth:10px;\n\theight:10px;\n}\n\n.trace.collapsed .minus,\n.trace.expanded .plus,\n.trace.collapsed pre {\n\tdisplay: none;\n}\n\n.trace-file {\n\tcursor: pointer;\n\tpadding: 0.2em;\n}\n\n.trace-file:hover {\n\tbackground: #f0ffff;\n}\n/*]]\u003e*/\n\u003c/style\u003e\n\u003c/head\u003e\n\n\u003cbody\u003e\n\u003cdiv class\u003d\"container\"\u003e\n\t\u003ch1\u003ePHP notice\u003c/h1\u003e\n\n\t\u003cp class\u003d\"message\"\u003e\n\t\tUndefined index: token\t\u003c/p\u003e\n\n\t\u003cdiv class\u003d\"source\"\u003e\n\t\t\u003cp class\u003d\"file\"\u003e/storage/nativeads/api.nativeads.com/html/protected/modules/publisher/controllers/ReportsController.php(18)\u003c/p\u003e\n\t\t\u003cdiv class\u003d\"code\"\u003e\u003cpre\u003e\u003cspan class\u003d\"ln\"\u003e06\u003c/span\u003e  * and open the template in the editor.\r\n\u003cspan class\u003d\"ln\"\u003e07\u003c/span\u003e  */\r\n\u003cspan class\u003d\"ln\"\u003e08\u003c/span\u003e \r\n\u003cspan class\u003d\"ln\"\u003e09\u003c/span\u003e class ReportsController extends CController {\r\n\u003cspan class\u003d\"ln\"\u003e10\u003c/span\u003e \r\n\u003cspan class\u003d\"ln\"\u003e11\u003c/span\u003e     protected static $_REPORTING_URL;\r\n\u003cspan class\u003d\"ln\"\u003e12\u003c/span\u003e     protected static $_PUB_ID;\r\n\u003cspan class\u003d\"ln\"\u003e13\u003c/span\u003e \r\n\u003cspan class\u003d\"ln\"\u003e14\u003c/span\u003e     public function init() {\r\n\u003cspan class\u003d\"ln\"\u003e15\u003c/span\u003e         parent::init();\r\n\u003cspan class\u003d\"ln\"\u003e16\u003c/span\u003e \r\n\u003cspan class\u003d\"ln\"\u003e17\u003c/span\u003e         $token \u003d AuthToken::model()-\u0026gt;find(\u0026#039;token \u003d :token\u0026#039;, [\r\n\u003cspan class\u003d\"error\"\u003e\u003cspan class\u003d\"ln error-ln\"\u003e18\u003c/span\u003e             \u0026#039;token\u0026#039; \u003d\u0026gt; $_REQUEST[\u0026#039;token\u0026#039;]\r\n\u003c/span\u003e\u003cspan class\u003d\"ln\"\u003e19\u003c/span\u003e         ]);\r\n\u003cspan class\u003d\"ln\"\u003e20\u003c/span\u003e \r\n\u003cspan class\u003d\"ln\"\u003e21\u003c/span\u003e         if (!$token) {\r\n\u003cspan class\u003d\"ln\"\u003e22\u003c/span\u003e             self::response([\r\n\u003cspan class\u003d\"ln\"\u003e23\u003c/span\u003e                 \u0026#039;success\u0026#039; \u003d\u0026gt; false,\r\n\u003cspan class\u003d\"ln\"\u003e24\u003c/span\u003e                 \u0026#039;errors\u0026#039; \u003d\u0026gt; \u0026#039;Invalid token\u0026#039;\r\n\u003cspan class\u003d\"ln\"\u003e25\u003c/span\u003e                     ], false);\r\n\u003cspan class\u003d\"ln\"\u003e26\u003c/span\u003e         }\r\n\u003cspan class\u003d\"ln\"\u003e27\u003c/span\u003e \r\n\u003cspan class\u003d\"ln\"\u003e28\u003c/span\u003e         self::$_REPORTING_URL \u003d Yii::app()-\u0026gt;params[\u0026#039;reporting_url\u0026#039;];\r\n\u003cspan class\u003d\"ln\"\u003e29\u003c/span\u003e         self::$_PUB_ID \u003d $token-\u0026gt;user-\u0026gt;id;\r\n\u003cspan class\u003d\"ln\"\u003e30\u003c/span\u003e \r\n\u003c/pre\u003e\u003c/div\u003e\t\u003c/div\u003e\n\n\t\u003cdiv class\u003d\"traces\"\u003e\n\t\t\u003ch2\u003eStack Trace\u003c/h2\u003e\n\t\t\t\t\u003ctable style\u003d\"width:100%;\"\u003e\n\t\t\t\t\t\t\u003ctr class\u003d\"trace core collapsed\"\u003e\n\t\t\t\u003ctd class\u003d\"number\"\u003e\n\t\t\t\t#0\t\t\t\u003c/td\u003e\n\t\t\t\u003ctd class\u003d\"content\"\u003e\n\t\t\t\t\u003cdiv class\u003d\"trace-file\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\u003cdiv class\u003d\"plus\"\u003e+\u003c/div\u003e\n\t\t\t\t\t\t\u003cdiv class\u003d\"minus\"\u003e–\u003c/div\u003e\n\t\t\t\t\t\t\t\t\t\t\u0026nbsp;/storage/nativeads/api.nativeads.com/html/framework/web/CWebApplication.php(281): \u003cstrong\u003eReportsController\u003c/strong\u003e-\u003e\u003cstrong\u003einit\u003c/strong\u003e()\t\t\t\t\u003c/div\u003e\n\n\t\t\t\t\u003cdiv class\u003d\"code\"\u003e\u003cpre\u003e\u003cspan class\u003d\"ln\"\u003e276\u003c/span\u003e         if(($ca\u003d$this-\u0026gt;createController($route))!\u003d\u003dnull)\n\u003cspan class\u003d\"ln\"\u003e277\u003c/span\u003e         {\n\u003cspan class\u003d\"ln\"\u003e278\u003c/span\u003e             list($controller,$actionID)\u003d$ca;\n\u003cspan class\u003d\"ln\"\u003e279\u003c/span\u003e             $oldController\u003d$this-\u0026gt;_controller;\n\u003cspan class\u003d\"ln\"\u003e280\u003c/span\u003e             $this-\u0026gt;_controller\u003d$controller;\n\u003cspan class\u003d\"error\"\u003e\u003cspan class\u003d\"ln error-ln\"\u003e281\u003c/span\u003e             $controller-\u0026gt;init();\n\u003c/span\u003e\u003cspan class\u003d\"ln\"\u003e282\u003c/span\u003e             $controller-\u0026gt;run($actionID);\n\u003cspan class\u003d\"ln\"\u003e283\u003c/span\u003e             $this-\u0026gt;_controller\u003d$oldController;\n\u003cspan class\u003d\"ln\"\u003e284\u003c/span\u003e         }\n\u003cspan class\u003d\"ln\"\u003e285\u003c/span\u003e         else\n\u003cspan class\u003d\"ln\"\u003e286\u003c/span\u003e             throw new CHttpException(404,Yii::t(\u0026#039;yii\u0026#039;,\u0026#039;Unable to resolve the request \u0026quot;{route}\u0026quot;.\u0026#039;,\n\u003c/pre\u003e\u003c/div\u003e\t\t\t\u003c/td\u003e\n\t\t\u003c/tr\u003e\n\t\t\t\t\t\t\u003ctr class\u003d\"trace core collapsed\"\u003e\n\t\t\t\u003ctd class\u003d\"number\"\u003e\n\t\t\t\t#1\t\t\t\u003c/td\u003e\n\t\t\t\u003ctd class\u003d\"content\"\u003e\n\t\t\t\t\u003cdiv class\u003d\"trace-file\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\u003cdiv class\u003d\"plus\"\u003e+\u003c/div\u003e\n\t\t\t\t\t\t\u003cdiv class\u003d\"minus\"\u003e–\u003c/div\u003e\n\t\t\t\t\t\t\t\t\t\t\u0026nbsp;/storage/nativeads/api.nativeads.com/html/framework/web/CWebApplication.php(141): \u003cstrong\u003eCWebApplication\u003c/strong\u003e-\u003e\u003cstrong\u003erunController\u003c/strong\u003e(\u0026quot;publisher/reports/daily\u0026quot;)\t\t\t\t\u003c/div\u003e\n\n\t\t\t\t\u003cdiv class\u003d\"code\"\u003e\u003cpre\u003e\u003cspan class\u003d\"ln\"\u003e136\u003c/span\u003e             foreach(array_splice($this-\u0026gt;catchAllRequest,1) as $name\u003d\u0026gt;$value)\n\u003cspan class\u003d\"ln\"\u003e137\u003c/span\u003e                 $_GET[$name]\u003d$value;\n\u003cspan class\u003d\"ln\"\u003e138\u003c/span\u003e         }\n\u003cspan class\u003d\"ln\"\u003e139\u003c/span\u003e         else\n\u003cspan class\u003d\"ln\"\u003e140\u003c/span\u003e             $route\u003d$this-\u0026gt;getUrlManager()-\u0026gt;parseUrl($this-\u0026gt;getRequest());\n\u003cspan class\u003d\"error\"\u003e\u003cspan class\u003d\"ln error-ln\"\u003e141\u003c/span\u003e         $this-\u0026gt;runController($route);\n\u003c/span\u003e\u003cspan class\u003d\"ln\"\u003e142\u003c/span\u003e     }\n\u003cspan class\u003d\"ln\"\u003e143\u003c/span\u003e \n\u003cspan class\u003d\"ln\"\u003e144\u003c/span\u003e     /**\n\u003cspan class\u003d\"ln\"\u003e145\u003c/span\u003e      * Registers the core application components.\n\u003cspan class\u003d\"ln\"\u003e146\u003c/span\u003e      * This method overrides the parent implementation by registering additional core components.\n\u003c/pre\u003e\u003c/div\u003e\t\t\t\u003c/td\u003e\n\t\t\u003c/tr\u003e\n\t\t\t\t\t\t\u003ctr class\u003d\"trace core collapsed\"\u003e\n\t\t\t\u003ctd class\u003d\"number\"\u003e\n\t\t\t\t#2\t\t\t\u003c/td\u003e\n\t\t\t\u003ctd class\u003d\"content\"\u003e\n\t\t\t\t\u003cdiv class\u003d\"trace-file\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\u003cdiv class\u003d\"plus\"\u003e+\u003c/div\u003e\n\t\t\t\t\t\t\u003cdiv class\u003d\"minus\"\u003e–\u003c/div\u003e\n\t\t\t\t\t\t\t\t\t\t\u0026nbsp;/storage/nativeads/api.nativeads.com/html/framework/base/CApplication.php(180): \u003cstrong\u003eCWebApplication\u003c/strong\u003e-\u003e\u003cstrong\u003eprocessRequest\u003c/strong\u003e()\t\t\t\t\u003c/div\u003e\n\n\t\t\t\t\u003cdiv class\u003d\"code\"\u003e\u003cpre\u003e\u003cspan class\u003d\"ln\"\u003e175\u003c/span\u003e     public function run()\n\u003cspan class\u003d\"ln\"\u003e176\u003c/span\u003e     {\n\u003cspan class\u003d\"ln\"\u003e177\u003c/span\u003e         if($this-\u0026gt;hasEventHandler(\u0026#039;onBeginRequest\u0026#039;))\n\u003cspan class\u003d\"ln\"\u003e178\u003c/span\u003e             $this-\u0026gt;onBeginRequest(new CEvent($this));\n\u003cspan class\u003d\"ln\"\u003e179\u003c/span\u003e         register_shutdown_function(array($this,\u0026#039;end\u0026#039;),0,false);\n\u003cspan class\u003d\"error\"\u003e\u003cspan class\u003d\"ln error-ln\"\u003e180\u003c/span\u003e         $this-\u0026gt;processRequest();\n\u003c/span\u003e\u003cspan class\u003d\"ln\"\u003e181\u003c/span\u003e         if($this-\u0026gt;hasEventHandler(\u0026#039;onEndRequest\u0026#039;))\n\u003cspan class\u003d\"ln\"\u003e182\u003c/span\u003e             $this-\u0026gt;onEndRequest(new CEvent($this));\n\u003cspan class\u003d\"ln\"\u003e183\u003c/span\u003e     }\n\u003cspan class\u003d\"ln\"\u003e184\u003c/span\u003e \n\u003cspan class\u003d\"ln\"\u003e185\u003c/span\u003e     /**\n\u003c/pre\u003e\u003c/div\u003e\t\t\t\u003c/td\u003e\n\t\t\u003c/tr\u003e\n\t\t\t\t\t\t\u003ctr class\u003d\"trace app expanded\"\u003e\n\t\t\t\u003ctd class\u003d\"number\"\u003e\n\t\t\t\t#3\t\t\t\u003c/td\u003e\n\t\t\t\u003ctd class\u003d\"content\"\u003e\n\t\t\t\t\u003cdiv class\u003d\"trace-file\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\u003cdiv class\u003d\"plus\"\u003e+\u003c/div\u003e\n\t\t\t\t\t\t\u003cdiv class\u003d\"minus\"\u003e–\u003c/div\u003e\n\t\t\t\t\t\t\t\t\t\t\u0026nbsp;/storage/nativeads/api.nativeads.com/html/web/index.php(24): \u003cstrong\u003eCApplication\u003c/strong\u003e-\u003e\u003cstrong\u003erun\u003c/strong\u003e()\t\t\t\t\u003c/div\u003e\n\n\t\t\t\t\u003cdiv class\u003d\"code\"\u003e\u003cpre\u003e\u003cspan class\u003d\"ln\"\u003e19\u003c/span\u003e \n\u003cspan class\u003d\"ln\"\u003e20\u003c/span\u003e require_once($yii);\n\u003cspan class\u003d\"ln\"\u003e21\u003c/span\u003e if (YII_DEBUG){\n\u003cspan class\u003d\"ln\"\u003e22\u003c/span\u003e     //require_once (dirname(__FILE__).\u0026#039;/../protected/components/FirePHPCore/fb.php\u0026#039;);\n\u003cspan class\u003d\"ln\"\u003e23\u003c/span\u003e }\n\u003cspan class\u003d\"error\"\u003e\u003cspan class\u003d\"ln error-ln\"\u003e24\u003c/span\u003e Yii::createWebApplication($config)-\u0026gt;run();\n\u003c/span\u003e\u003c/pre\u003e\u003c/div\u003e\t\t\t\u003c/td\u003e\n\t\t\u003c/tr\u003e\n\t\t\t\t\u003c/table\u003e\n\t\u003c/div\u003e\n\n\t\u003cdiv class\u003d\"version\"\u003e\n\t\t2019-10-07 16:38:07 nginx/1.2.1 \u003ca href\u003d\"http://www.yiiframework.com/\"\u003eYii Framework\u003c/a\u003e/1.1.14\t\u003c/div\u003e\n\u003c/div\u003e\n\n\u003cscript type\u003d\"text/javascript\"\u003e\n/*\u003c![CDATA[*/\nvar traceReg \u003d new RegExp(\"(^|\\\\s)trace-file(\\\\s|$)\");\nvar collapsedReg \u003d new RegExp(\"(^|\\\\s)collapsed(\\\\s|$)\");\n\nvar e \u003d document.getElementsByTagName(\"div\");\nfor(var j\u003d0,len\u003de.length;j\u003clen;j++){\n\tif(traceReg.test(e[j].className)){\n\t\te[j].onclick \u003d function(){\n\t\t\tvar trace \u003d this.parentNode.parentNode;\n\t\t\tif(collapsedReg.test(trace.className))\n\t\t\t\ttrace.className \u003d trace.className.replace(\"collapsed\", \"expanded\");\n\t\t\telse\n\t\t\t\ttrace.className \u003d trace.className.replace(\"expanded\", \"collapsed\");\n\t\t}\n\t}\n}\n/*]]\u003e*/\n\u003c/script\u003e\n\n\u003c/body\u003e\n\u003c/html\u003e\n",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:07 GMT"
+                ],
+                "Content-Type": [
+                  "text/html; charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491476996"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491477203"
+                ]
+              },
+              "statusCode": 500
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "token",
+              "sanitizedName": "token",
+              "value": [
+                "oyzsESyxDpq"
+              ]
+            },
+            "operationId": "publisherReportsDailyGet",
+            "parameters": [
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":4}"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":8,\"day\":27}"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "24"
+                ]
+              }
+            ],
+            "statusCode": 500,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ],
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/daily?token\u003doyzsESyxDpq\u0026endDate\u003d{%22year%22:2019,%22month%22:8,%22day%22:27}\u0026limit\u003d2\u0026page\u003d24",
+              "responseBody": "{\"success\":false,\"errors\":\"Invalid token\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:08 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491478123"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491478326"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "startDate",
+              "sanitizedName": "startDate",
+              "value": [
+                "{\"year\":2019,\"month\":9,\"day\":4}"
+              ]
+            },
+            "operationId": "publisherReportsDailyGet",
+            "parameters": [
+              {
+                "parameterName": "token",
+                "sanitizedName": "token",
+                "value": [
+                  "oyzsESyxDpq"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":8,\"day\":27}"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "24"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/daily?token\u003doyzsESyxDpq\u0026startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:4}\u0026limit\u003d2\u0026page\u003d24",
+              "responseBody": "{\"success\":false,\"errors\":\"Invalid token\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:09 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491479351"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491479555"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "endDate",
+              "sanitizedName": "endDate",
+              "value": [
+                "{\"year\":2019,\"month\":8,\"day\":27}"
+              ]
+            },
+            "operationId": "publisherReportsDailyGet",
+            "parameters": [
+              {
+                "parameterName": "token",
+                "sanitizedName": "token",
+                "value": [
+                  "oyzsESyxDpq"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":4}"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "24"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/daily?token\u003doyzsESyxDpq\u0026startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:4}\u0026endDate\u003d{%22year%22:2019,%22month%22:8,%22day%22:27}\u0026page\u003d24",
+              "responseBody": "{\"success\":false,\"errors\":\"Invalid token\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:10 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491480478"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491480682"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "limit",
+              "sanitizedName": "limit",
+              "value": [
+                "2"
+              ]
+            },
+            "operationId": "publisherReportsDailyGet",
+            "parameters": [
+              {
+                "parameterName": "token",
+                "sanitizedName": "token",
+                "value": [
+                  "oyzsESyxDpq"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":4}"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":8,\"day\":27}"
+                ]
+              },
+              {
+                "parameterName": "page",
+                "sanitizedName": "page",
+                "value": [
+                  "24"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.nativeads.com//publisher/reports/daily?token\u003doyzsESyxDpq\u0026startDate\u003d{%22year%22:2019,%22month%22:9,%22day%22:4}\u0026endDate\u003d{%22year%22:2019,%22month%22:8,%22day%22:27}\u0026limit\u003d2",
+              "responseBody": "{\"success\":false,\"errors\":\"Invalid token\"}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.2.1"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:38:12 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491481707"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491481910"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "page",
+              "sanitizedName": "page",
+              "value": [
+                "24"
+              ]
+            },
+            "operationId": "publisherReportsDailyGet",
+            "parameters": [
+              {
+                "parameterName": "token",
+                "sanitizedName": "token",
+                "value": [
+                  "oyzsESyxDpq"
+                ]
+              },
+              {
+                "parameterName": "startDate",
+                "sanitizedName": "startDate",
+                "value": [
+                  "{\"year\":2019,\"month\":9,\"day\":4}"
+                ]
+              },
+              {
+                "parameterName": "endDate",
+                "sanitizedName": "endDate",
+                "value": [
+                  "{\"year\":2019,\"month\":8,\"day\":27}"
+                ]
+              },
+              {
+                "parameterName": "limit",
+                "sanitizedName": "limit",
+                "value": [
+                  "2"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "publisherReportsDailyGet"
+  }
+}

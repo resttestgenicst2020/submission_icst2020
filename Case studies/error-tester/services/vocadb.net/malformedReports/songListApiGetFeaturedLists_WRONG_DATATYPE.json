@@ -1,0 +1,801 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/songLists/featured?query\u003d-50\u0026nameMatchMode\u003dStartsWith\u0026featuredCategory\u003dVocaloidRanking\u0026start\u003d0\u0026maxResults\u003d37\u0026getTotalCount\u003dtrue\u0026sort\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:49:05 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492134671"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492134835"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "songListApiGetFeaturedLists",
+            "originalParameter": {
+              "parameterName": "query",
+              "sanitizedName": "query",
+              "value": [
+                "ZYVKfcidxAVaaYkxI"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "-50"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "featuredCategory",
+                "sanitizedName": "featuredCategory",
+                "value": [
+                  "VocaloidRanking"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "37"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/songLists/featured?query\u003dZYVKfcidxAVaaYkxI\u0026nameMatchMode\u003d-45\u0026featuredCategory\u003dVocaloidRanking\u0026start\u003d0\u0026maxResults\u003d37\u0026getTotalCount\u003dtrue\u0026sort\u003dNone",
+              "responseBody": "{\"items\":[{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2341,\"name\":\"Weekly Vocaloid Ranking #322\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2342,\"name\":\"Weekly Vocaloid Ranking #329\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2345,\"name\":\"Weekly Vocaloid Ranking #247\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2347,\"name\":\"Weekly Vocaloid Ranking #248\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2349,\"name\":\"Weekly Vocaloid Ranking #330\"},{\"author\":{\"active\":true,\"groupId\":\"Admin\",\"memberSince\":\"2011-07-10T18:17:44\",\"verifiedArtist\":false,\"id\":12,\"name\":\"riipah\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":7,\"name\":\"Weekly Vocaloid ranking #224\"},{\"author\":{\"active\":true,\"groupId\":\"Admin\",\"memberSince\":\"2011-07-10T18:17:44\",\"verifiedArtist\":false,\"id\":12,\"name\":\"riipah\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":17,\"name\":\"Weekly Vocaloid ranking #236\"},{\"author\":{\"active\":true,\"groupId\":\"Admin\",\"memberSince\":\"2011-07-10T18:17:44\",\"verifiedArtist\":false,\"id\":12,\"name\":\"riipah\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":23,\"name\":\"Weekly Vocaloid ranking #244\"},{\"author\":{\"active\":true,\"groupId\":\"Admin\",\"memberSince\":\"2011-07-10T18:17:44\",\"verifiedArtist\":false,\"id\":12,\"name\":\"riipah\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":24,\"name\":\"Weekly Vocaloid ranking #245\"},{\"author\":{\"active\":true,\"groupId\":\"Admin\",\"memberSince\":\"2011-07-10T18:17:44\",\"verifiedArtist\":false,\"id\":12,\"name\":\"riipah\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":25,\"name\":\"Weekly Vocaloid ranking #246\"},{\"author\":{\"active\":true,\"groupId\":\"Moderator\",\"memberSince\":\"2013-08-19T18:03:08\",\"verifiedArtist\":true,\"id\":765,\"name\":\"faerimagic\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":137,\"name\":\"Weekly Vocaloid Ranking #281\"},{\"author\":{\"active\":true,\"groupId\":\"Moderator\",\"memberSince\":\"2013-08-19T18:03:08\",\"verifiedArtist\":true,\"id\":765,\"name\":\"faerimagic\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":1234,\"name\":\"Weekly Vocaloid Ranking #349\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":1284,\"name\":\"Weekly Vocaloid Ranking #327\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":1286,\"name\":\"Weekly Vocaloid Ranking #326\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":1287,\"name\":\"Weekly Vocaloid Ranking #325\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":1288,\"name\":\"Weekly Vocaloid Ranking #324\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":1292,\"name\":\"Weekly Vocaloid Ranking #323\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2412,\"name\":\"Weekly Vocaloid Ranking #331\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2425,\"name\":\"Weekly Vocaloid Ranking #332\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2429,\"name\":\"Weekly Vocaloid Ranking #333\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2472,\"name\":\"Weekly Vocaloid Ranking #342\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2473,\"name\":\"Weekly Vocaloid Ranking #343\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2497,\"name\":\"Weekly Vocaloid Ranking #344\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2535,\"name\":\"Weekly Vocaloid Ranking #345\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2599,\"name\":\"Weekly Vocaloid Ranking #347\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2602,\"name\":\"Weekly Vocaloid Ranking #348\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2603,\"name\":\"Weekly Vocaloid Ranking #350\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2604,\"name\":\"Weekly Vocaloid Ranking #351\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2613,\"name\":\"Weekly Vocaloid Ranking #352\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2615,\"name\":\"Weekly Vocaloid Ranking #353\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2618,\"name\":\"Weekly Vocaloid Ranking #354\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2620,\"name\":\"Weekly Vocaloid Ranking #355\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2623,\"name\":\"Weekly Vocaloid Ranking #356\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2629,\"name\":\"Weekly Vocaloid Ranking #394\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2649,\"name\":\"Weekly Vocaloid Ranking #395\"},{\"author\":{\"active\":true,\"groupId\":\"Moderator\",\"memberSince\":\"2013-08-19T18:03:08\",\"verifiedArtist\":true,\"id\":765,\"name\":\"faerimagic\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2668,\"name\":\"Weekly Vocaloid Ranking #366\"},{\"author\":{\"active\":true,\"groupId\":\"Trusted\",\"memberSince\":\"2014-03-13T18:26:53\",\"verifiedArtist\":false,\"id\":1333,\"name\":\"Vocannelle\"},\"featuredCategory\":\"VocaloidRanking\",\"id\":2671,\"name\":\"Weekly Vocaloid Ranking #396\"}],\"totalCount\":70}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:49:05 GMT"
+                ],
+                "Content-Length": [
+                  "8152"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492134838"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492134921"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "songListApiGetFeaturedLists",
+            "originalParameter": {
+              "parameterName": "nameMatchMode",
+              "sanitizedName": "nameMatchMode",
+              "value": [
+                "StartsWith"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ZYVKfcidxAVaaYkxI"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "-45"
+                ]
+              },
+              {
+                "parameterName": "featuredCategory",
+                "sanitizedName": "featuredCategory",
+                "value": [
+                  "VocaloidRanking"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "37"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/songLists/featured?query\u003dZYVKfcidxAVaaYkxI\u0026nameMatchMode\u003dStartsWith\u0026featuredCategory\u003d-61\u0026start\u003d0\u0026maxResults\u003d37\u0026getTotalCount\u003dtrue\u0026sort\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:49:05 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492134924"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492134994"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "songListApiGetFeaturedLists",
+            "originalParameter": {
+              "parameterName": "featuredCategory",
+              "sanitizedName": "featuredCategory",
+              "value": [
+                "VocaloidRanking"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ZYVKfcidxAVaaYkxI"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "featuredCategory",
+                "sanitizedName": "featuredCategory",
+                "value": [
+                  "-61"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "37"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/songLists/featured?query\u003dZYVKfcidxAVaaYkxI\u0026nameMatchMode\u003dStartsWith\u0026featuredCategory\u003dVocaloidRanking\u0026start\u003ddDKRL\u0026maxResults\u003d37\u0026getTotalCount\u003dtrue\u0026sort\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:49:05 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492134997"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492135070"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "songListApiGetFeaturedLists",
+            "originalParameter": {
+              "parameterName": "start",
+              "sanitizedName": "start",
+              "value": [
+                "0"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ZYVKfcidxAVaaYkxI"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "featuredCategory",
+                "sanitizedName": "featuredCategory",
+                "value": [
+                  "VocaloidRanking"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "dDKRL"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "37"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/songLists/featured?query\u003dZYVKfcidxAVaaYkxI\u0026nameMatchMode\u003dStartsWith\u0026featuredCategory\u003dVocaloidRanking\u0026start\u003d0\u0026maxResults\u003dGtMvwQ\u0026getTotalCount\u003dtrue\u0026sort\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:49:05 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492135073"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492135144"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "songListApiGetFeaturedLists",
+            "originalParameter": {
+              "parameterName": "maxResults",
+              "sanitizedName": "maxResults",
+              "value": [
+                "37"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ZYVKfcidxAVaaYkxI"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "featuredCategory",
+                "sanitizedName": "featuredCategory",
+                "value": [
+                  "VocaloidRanking"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "GtMvwQ"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/songLists/featured?query\u003dZYVKfcidxAVaaYkxI\u0026nameMatchMode\u003dStartsWith\u0026featuredCategory\u003dVocaloidRanking\u0026start\u003d0\u0026maxResults\u003d37\u0026getTotalCount\u003d-60\u0026sort\u003dNone",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:49:05 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492135148"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492135215"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "songListApiGetFeaturedLists",
+            "originalParameter": {
+              "parameterName": "getTotalCount",
+              "sanitizedName": "getTotalCount",
+              "value": [
+                "true"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ZYVKfcidxAVaaYkxI"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "featuredCategory",
+                "sanitizedName": "featuredCategory",
+                "value": [
+                  "VocaloidRanking"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "37"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "-60"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "None"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/songLists/featured?query\u003dZYVKfcidxAVaaYkxI\u0026nameMatchMode\u003dStartsWith\u0026featuredCategory\u003dVocaloidRanking\u0026start\u003d0\u0026maxResults\u003d37\u0026getTotalCount\u003dtrue\u0026sort\u003d-57",
+              "responseBody": "{\"items\":[],\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:49:05 GMT"
+                ],
+                "Content-Length": [
+                  "27"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492135218"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492135290"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "songListApiGetFeaturedLists",
+            "originalParameter": {
+              "parameterName": "sort",
+              "sanitizedName": "sort",
+              "value": [
+                "None"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "ZYVKfcidxAVaaYkxI"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "featuredCategory",
+                "sanitizedName": "featuredCategory",
+                "value": [
+                  "VocaloidRanking"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "0"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "37"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "-57"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "songListApiGetFeaturedLists"
+  }
+}

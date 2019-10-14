@@ -1,0 +1,313 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createShare?type\u003d-9\u0026name\u003dzqkDYLuzlA\u0026filePaths\u003diIdUTHPIgenM\u0026filePaths\u003dxTCAwr\u0026filePaths\u003dHliKjFnhZ\u0026filePaths\u003dHvN",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d3aef5bab75a5898c"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:01:07 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489257537"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489257840"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createShare",
+            "originalParameter": {
+              "parameterName": "type",
+              "sanitizedName": "type",
+              "value": [
+                "gxLBwCvbOrJdlBxB"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "type",
+                "sanitizedName": "type",
+                "value": [
+                  "-9"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "zqkDYLuzlA"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "iIdUTHPIgenM",
+                  "xTCAwr",
+                  "HliKjFnhZ",
+                  "HvN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createShare?type\u003dgxLBwCvbOrJdlBxB\u0026name\u003d-5\u0026filePaths\u003diIdUTHPIgenM\u0026filePaths\u003dxTCAwr\u0026filePaths\u003dHliKjFnhZ\u0026filePaths\u003dHvN",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d5ecfd8ef56f84922"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:01:08 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489257842"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489258038"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createShare",
+            "originalParameter": {
+              "parameterName": "name",
+              "sanitizedName": "name",
+              "value": [
+                "zqkDYLuzlA"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "type",
+                "sanitizedName": "type",
+                "value": [
+                  "gxLBwCvbOrJdlBxB"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "-5"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "iIdUTHPIgenM",
+                  "xTCAwr",
+                  "HliKjFnhZ",
+                  "HvN"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/createShare?type\u003dgxLBwCvbOrJdlBxB\u0026name\u003dzqkDYLuzlA\u0026filePaths\u003d55\u0026filePaths\u003d-91\u0026filePaths\u003d-49\u0026filePaths\u003d61",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d49a1453d126475b8"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:01:08 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489258041"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489258454"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "createShare",
+            "originalParameter": {
+              "parameterName": "filePaths",
+              "sanitizedName": "filePaths",
+              "value": [
+                "iIdUTHPIgenM",
+                "xTCAwr",
+                "HliKjFnhZ",
+                "HvN"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "type",
+                "sanitizedName": "type",
+                "value": [
+                  "gxLBwCvbOrJdlBxB"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "zqkDYLuzlA"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "55",
+                  "-91",
+                  "-49",
+                  "61"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "createShare"
+  }
+}

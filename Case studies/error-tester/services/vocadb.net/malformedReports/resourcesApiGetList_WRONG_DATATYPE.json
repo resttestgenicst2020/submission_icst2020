@@ -1,0 +1,163 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json, text/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/resources/-3?setNames\u003dxcHkKWdxXlWVCINcir\u0026setNames\u003dsglA\u0026setNames\u003dCvmaIYrITz\u0026setNames\u003dzKLODDX",
+              "responseBody": "{\"xcHkKWdxXlWVCINcir\":{},\"sglA\":{},\"CvmaIYrITz\":{},\"zKLODDX\":{}}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "max-age\u003d86400"
+                ],
+                "Content-Length": [
+                  "64"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "ETag": [
+                  "\"1b756f6f-42f6-4916-b497-609e0321e0f3\""
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:56:03 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492554263"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492554322"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "resourcesApiGetList",
+            "originalParameter": {
+              "parameterName": "cultureCode",
+              "sanitizedName": "cultureCode",
+              "value": "en"
+            },
+            "parameters": [
+              {
+                "parameterName": "cultureCode",
+                "sanitizedName": "cultureCode",
+                "value": "-3"
+              },
+              {
+                "parameterName": "setNames",
+                "sanitizedName": "setNames",
+                "value": [
+                  "xcHkKWdxXlWVCINcir",
+                  "sglA",
+                  "CvmaIYrITz",
+                  "zKLODDX"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json, text/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/resources/en?setNames\u003d-4\u0026setNames\u003d9\u0026setNames\u003d-88\u0026setNames\u003d95",
+              "responseBody": "{\"-4\":{},\"9\":{},\"-88\":{},\"95\":{}}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "max-age\u003d86400"
+                ],
+                "Content-Length": [
+                  "33"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "ETag": [
+                  "\"e9449525-10c5-4265-ac4d-633980878bc5\""
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:56:03 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492554324"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492554380"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "resourcesApiGetList",
+            "originalParameter": {
+              "parameterName": "setNames",
+              "sanitizedName": "setNames",
+              "value": [
+                "xcHkKWdxXlWVCINcir",
+                "sglA",
+                "CvmaIYrITz",
+                "zKLODDX"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "cultureCode",
+                "sanitizedName": "cultureCode",
+                "value": "en"
+              },
+              {
+                "parameterName": "setNames",
+                "sanitizedName": "setNames",
+                "value": [
+                  "-4",
+                  "9",
+                  "-88",
+                  "95"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "resourcesApiGetList"
+  }
+}

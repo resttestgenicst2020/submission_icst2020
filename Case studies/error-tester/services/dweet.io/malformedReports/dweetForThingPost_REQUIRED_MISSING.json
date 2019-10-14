@@ -1,0 +1,65 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//dweet/for/%7Bthing%7D",
+              "responseBody": "{\"this\":\"succeeded\",\"by\":\"dweeting\",\"the\":\"dweet\",\"with\":{\"thing\":\"{thing}\",\"created\":\"2019-10-07T22:25:51.316Z\",\"content\":{},\"transaction\":\"bdc11708-6484-4b79-8c93-0cc890b1a48b\"}}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:25:51 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487136906"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487142419"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "missingParameter": {
+              "parameterName": "thing",
+              "sanitizedName": "thing",
+              "value": "RpAFspNF"
+            },
+            "operationId": "dweetForThingPost",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "POST",
+    "operationId": "dweetForThingPost"
+  }
+}

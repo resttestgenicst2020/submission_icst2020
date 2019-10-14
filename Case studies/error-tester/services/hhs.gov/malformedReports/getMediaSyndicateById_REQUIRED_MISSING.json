@@ -1,0 +1,80 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "text/html, application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.digitalmedia.hhs.gov/api/v2/resources/media/%7Bid%7D/syndicate.json",
+              "responseBody": "{\"callback\":null,\"meta\":{\"messages\":[],\"pagination\":{\"count\":1,\"currentUrl\":\"https://api.digitalmedia.hhs.gov/api/v2/resources/media.json?offset\u003d0\u0026max\u003d1\u0026format\u003djson\u0026id\u003d{id}\",\"max\":1,\"nextUrl\":null,\"offset\":0,\"pageNum\":1,\"previousUrl\":null,\"sort\":null,\"total\":1,\"totalPages\":1},\"status\":200},\"results\":[{\"content\":\"\u003chead\u003e\\n    \u003cmeta http-equiv\u003d\\\"Content-Type\\\" content\u003d\\\"text/html; charset\u003dutf-8\\\"/\u003e\\n    \u003cmeta name\u003d\\\"viewport\\\" content\u003d\\\"width\u003ddevice-width, initial-scale\u003d1.0\\\"/\u003e\\n    \u003ctitle\u003eHHS Microsite Registration Request\u003c\\u002ftitle\u003e\\n    \u003cstyle\u003e\\n    body{\\n        margin:0px;\\n        padding:0px;\\n        font-family:Arial;\\n    }\\n\\n    .banner{\\n        font-size:48px;\\n        padding-left:10px;\\n        color:#3b3137;\\n    }\\n\\n    .banner span{\\n        display: inline;\\n    }\\n\\n    .logo{\\n        display: inline;\\n        margin-right:15px;\\n    }\\n\\n    .message_body{\\n        padding:0px 10px 0px 10px;\\n        background-color:#f9f9f9;\\n        border-top:1px solid #dddddd;\\n        border-bottom:1px solid #dddddd;\\n    }\\n\\n    .footer_links{\\n        padding:10px;\\n    }\\n\\n    a:link, a:visited{\\n        color:#0a589f;\\n        text-decoration: none;\\n    }\\n\\n    a:hover, a:active{\\n        color:#f89840;\\n        text-decoration: underline;\\n    }\\n\\n    .footer_links a:link, .footer_links a:visited{\\n        color:#3b3137;\\n        text-decoration: none;\\n    }\\n\\n    .footer_links a:hover, .footer_links a:active{\\n        color:#f89840;\\n    }\\n    \u003c\\u002fstyle\u003e\\n\u003c\\u002fhead\u003e\\n\u003cbody\u003e\\n\u003cdiv\u003e\\n    \u003cdiv class\u003d\\\"clearfix\\\"\u003e\u003c\\u002fdiv\u003e\\n    \u003cdiv class\u003d\\\"banner\\\"\u003e\u003cdiv class\u003d\\\"logo\\\"\u003e\u003cimg src\u003d\\\"https://api.digitalmedia.hhs.gov/assets/smallSyndicationLogo-37ceb73c010b5674f7711270d5324ac7.png\\\" alt\u003d\\\"syndication logo\\\"/\u003e\u003c\\u002fdiv\u003e\u003cspan\u003eHHS Media Services\u003c\\u002fspan\u003e\u003c\\u002fdiv\u003e\\n    \u003cdiv class\u003d\\\"clearfix\\\"\u003e\u003c\\u002fdiv\u003e\\n    \u003cdiv class\u003d\\\"message_body\\\"\u003e\\n        \u003cp\u003eThis item has been removed from the syndication system.\u003c\\u002fp\u003e\\n        \u003cp\u003eYou may search for similar content at the \u003ca href\u003d\\\"\\\"\u003eHHS Storefront Homepage.\u003c\\u002fa\u003e\u003c\\u002fp\u003e\\n    \u003c\\u002fdiv\u003e\\n\u003c\\u002fdiv\u003e\\n\u003c\\u002fbody\u003e\\n\",\"description\":null,\"id\":null,\"mediaType\":null,\"name\":null,\"sourceUrl\":null}]}",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "X-Frame-Options": [
+                  "DENY"
+                ],
+                "X-Application-Context": [
+                  "application:production:8000"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Length": [
+                  "2207"
+                ],
+                "Cache-Control": [
+                  "max-age\u003d3600"
+                ],
+                "Expires": [
+                  "Tue, 08 Oct 2019 00:19:51 GMT"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:19:51 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubdomains; preload"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490380974"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490381146"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "id",
+              "sanitizedName": "id",
+              "value": "1"
+            },
+            "operationId": "getMediaSyndicateById",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getMediaSyndicateById"
+  }
+}

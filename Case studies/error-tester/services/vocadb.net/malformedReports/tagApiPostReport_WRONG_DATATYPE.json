@@ -1,0 +1,262 @@
+{
+  "responseCoverage": {
+    "204": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/7217/reports?reportType\u003d-15\u0026notes\u003dohRUafJ\u0026versionNumber\u003d16",
+              "responseBody": "",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:50:44 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492234571"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492234636"
+                ]
+              },
+              "statusCode": 204
+            },
+            "httpMethod": "POST",
+            "operationId": "tagApiPostReport",
+            "originalParameter": {
+              "parameterName": "reportType",
+              "sanitizedName": "reportType",
+              "value": [
+                "Other"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": "7217"
+              },
+              {
+                "parameterName": "reportType",
+                "sanitizedName": "reportType",
+                "value": [
+                  "-15"
+                ]
+              },
+              {
+                "parameterName": "notes",
+                "sanitizedName": "notes",
+                "value": [
+                  "ohRUafJ"
+                ]
+              },
+              {
+                "parameterName": "versionNumber",
+                "sanitizedName": "versionNumber",
+                "value": [
+                  "16"
+                ]
+              }
+            ],
+            "statusCode": 204,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/7217/reports?reportType\u003dOther\u0026notes\u003d-12\u0026versionNumber\u003d16",
+              "responseBody": "",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:50:44 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492234640"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492234705"
+                ]
+              },
+              "statusCode": 204
+            },
+            "httpMethod": "POST",
+            "operationId": "tagApiPostReport",
+            "originalParameter": {
+              "parameterName": "notes",
+              "sanitizedName": "notes",
+              "value": [
+                "ohRUafJ"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": "7217"
+              },
+              {
+                "parameterName": "reportType",
+                "sanitizedName": "reportType",
+                "value": [
+                  "Other"
+                ]
+              },
+              {
+                "parameterName": "notes",
+                "sanitizedName": "notes",
+                "value": [
+                  "-12"
+                ]
+              },
+              {
+                "parameterName": "versionNumber",
+                "sanitizedName": "versionNumber",
+                "value": [
+                  "16"
+                ]
+              }
+            ],
+            "statusCode": 204,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/tags/7217/reports?reportType\u003dOther\u0026notes\u003dohRUafJ\u0026versionNumber\u003dachKabb",
+              "responseBody": "",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:50:44 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492234709"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492234775"
+                ]
+              },
+              "statusCode": 204
+            },
+            "httpMethod": "POST",
+            "operationId": "tagApiPostReport",
+            "originalParameter": {
+              "parameterName": "versionNumber",
+              "sanitizedName": "versionNumber",
+              "value": [
+                "16"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": "7217"
+              },
+              {
+                "parameterName": "reportType",
+                "sanitizedName": "reportType",
+                "value": [
+                  "Other"
+                ]
+              },
+              {
+                "parameterName": "notes",
+                "sanitizedName": "notes",
+                "value": [
+                  "ohRUafJ"
+                ]
+              },
+              {
+                "parameterName": "versionNumber",
+                "sanitizedName": "versionNumber",
+                "value": [
+                  "achKabb"
+                ]
+              }
+            ],
+            "statusCode": 204,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "POST",
+    "operationId": "tagApiPostReport"
+  }
+}

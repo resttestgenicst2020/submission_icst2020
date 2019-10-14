@@ -1,0 +1,71 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//dweet/for/82",
+              "responseBody": "{\"this\":\"succeeded\",\"by\":\"dweeting\",\"the\":\"dweet\",\"with\":{\"thing\":\"82\",\"created\":\"2019-10-07T22:25:57.882Z\",\"content\":{},\"transaction\":\"fc7e314f-a857-4833-80d6-509cefd023b9\"}}",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:25:58 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487143349"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487148870"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "POST",
+            "operationId": "dweetForThingPost",
+            "originalParameter": {
+              "parameterName": "thing",
+              "sanitizedName": "thing",
+              "value": "RpAFspNF"
+            },
+            "parameters": [
+              {
+                "parameterName": "thing",
+                "sanitizedName": "thing",
+                "value": "82"
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "POST",
+    "operationId": "dweetForThingPost"
+  }
+}

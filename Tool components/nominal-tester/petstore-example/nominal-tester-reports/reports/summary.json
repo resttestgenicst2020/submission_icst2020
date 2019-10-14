@@ -1,0 +1,188 @@
+{
+  "numberOfDocumentedOperations": 7,
+  "numberOfProcessedOperations": 7,
+  "numberOfOperationsWithValidationErrors": 0,
+  "numberOfOperationsWithTestedErrorStatusCode": 0,
+  "numberOfOperationsWithTestedSuccessfulStatusCode": 7,
+  "numberOfOperationsWithTestedFailureStatusCode": 2,
+  "numberOfOperationsWhichRequireAuthorization": 0,
+  "numberOfOperationsWithExceptions": 2,
+  "successfulOperationsRatio": 100.0,
+  "operationsResults": {
+    "findPetsByTags": {
+      "exceptions": [],
+      "operationId": "findPetsByTags",
+      "responseCoverage": {
+        "operationId": "findPetsByTags",
+        "operationPath": "/pet/findByTags",
+        "numberOfDocumentedStatusCodes": 3,
+        "numberOfTestedStatusCodes": 1,
+        "statusCodeCoverageRatio": 33.33333333333333,
+        "validationErrors": 0,
+        "numberOfTimeouts": 0,
+        "listOfDocumentedStatusCodes": [
+          "200",
+          "400",
+          "405"
+        ],
+        "listOfTestedStatusCodes": [
+          "200"
+        ],
+        "numberOfTestedSuccessfulStatusCodes": 1,
+        "numberOfTestedFailureStatusCodes": 0,
+        "numberOfTestedErrorStatusCodes": 0
+      }
+    },
+    "updatePet": {
+      "exceptions": [],
+      "operationId": "updatePet",
+      "responseCoverage": {
+        "operationId": "updatePet",
+        "operationPath": "/pet",
+        "numberOfDocumentedStatusCodes": 4,
+        "numberOfTestedStatusCodes": 1,
+        "statusCodeCoverageRatio": 25.0,
+        "validationErrors": 0,
+        "numberOfTimeouts": 0,
+        "listOfDocumentedStatusCodes": [
+          "200",
+          "400",
+          "404",
+          "405"
+        ],
+        "listOfTestedStatusCodes": [
+          "200"
+        ],
+        "numberOfTestedSuccessfulStatusCodes": 1,
+        "numberOfTestedFailureStatusCodes": 0,
+        "numberOfTestedErrorStatusCodes": 0
+      }
+    },
+    "getPetById": {
+      "exceptions": [
+        "com.bpr.resttestgen.helper.exceptions.ResponseValidationException:Cannot validate response for OperationInfo: getPetById with status code 404: no response schema defined"
+      ],
+      "operationId": "getPetById",
+      "responseCoverage": {
+        "operationId": "getPetById",
+        "operationPath": "/pet/{petId}",
+        "numberOfDocumentedStatusCodes": 4,
+        "numberOfTestedStatusCodes": 2,
+        "statusCodeCoverageRatio": 50.0,
+        "validationErrors": 0,
+        "numberOfTimeouts": 0,
+        "listOfDocumentedStatusCodes": [
+          "200",
+          "400",
+          "404",
+          "405"
+        ],
+        "listOfTestedStatusCodes": [
+          "404",
+          "200"
+        ],
+        "numberOfTestedSuccessfulStatusCodes": 1,
+        "numberOfTestedFailureStatusCodes": 1,
+        "numberOfTestedErrorStatusCodes": 0
+      }
+    },
+    "getPets": {
+      "exceptions": [],
+      "operationId": "getPets",
+      "responseCoverage": {
+        "operationId": "getPets",
+        "operationPath": "/pet",
+        "numberOfDocumentedStatusCodes": 2,
+        "numberOfTestedStatusCodes": 1,
+        "statusCodeCoverageRatio": 50.0,
+        "validationErrors": 0,
+        "numberOfTimeouts": 0,
+        "listOfDocumentedStatusCodes": [
+          "200",
+          "400"
+        ],
+        "listOfTestedStatusCodes": [
+          "200"
+        ],
+        "numberOfTestedSuccessfulStatusCodes": 1,
+        "numberOfTestedFailureStatusCodes": 0,
+        "numberOfTestedErrorStatusCodes": 0
+      }
+    },
+    "deletePet": {
+      "exceptions": [
+        "com.bpr.resttestgen.helper.exceptions.ResponseValidationException:Cannot validate response for OperationInfo: deletePet with status code 404: no response schema defined"
+      ],
+      "operationId": "deletePet",
+      "responseCoverage": {
+        "operationId": "deletePet",
+        "operationPath": "/pet/{petId}",
+        "numberOfDocumentedStatusCodes": 3,
+        "numberOfTestedStatusCodes": 2,
+        "statusCodeCoverageRatio": 66.66666666666666,
+        "validationErrors": 0,
+        "numberOfTimeouts": 0,
+        "listOfDocumentedStatusCodes": [
+          "200",
+          "404",
+          "405"
+        ],
+        "listOfTestedStatusCodes": [
+          "404",
+          "200"
+        ],
+        "numberOfTestedSuccessfulStatusCodes": 1,
+        "numberOfTestedFailureStatusCodes": 1,
+        "numberOfTestedErrorStatusCodes": 0
+      }
+    },
+    "findPetsByStatus": {
+      "exceptions": [],
+      "operationId": "findPetsByStatus",
+      "responseCoverage": {
+        "operationId": "findPetsByStatus",
+        "operationPath": "/pet/findByStatus",
+        "numberOfDocumentedStatusCodes": 3,
+        "numberOfTestedStatusCodes": 1,
+        "statusCodeCoverageRatio": 33.33333333333333,
+        "validationErrors": 0,
+        "numberOfTimeouts": 0,
+        "listOfDocumentedStatusCodes": [
+          "200",
+          "400",
+          "405"
+        ],
+        "listOfTestedStatusCodes": [
+          "200"
+        ],
+        "numberOfTestedSuccessfulStatusCodes": 1,
+        "numberOfTestedFailureStatusCodes": 0,
+        "numberOfTestedErrorStatusCodes": 0
+      }
+    },
+    "addPet": {
+      "exceptions": [],
+      "operationId": "addPet",
+      "responseCoverage": {
+        "operationId": "addPet",
+        "operationPath": "/pet",
+        "numberOfDocumentedStatusCodes": 3,
+        "numberOfTestedStatusCodes": 1,
+        "statusCodeCoverageRatio": 33.33333333333333,
+        "validationErrors": 0,
+        "numberOfTimeouts": 0,
+        "listOfDocumentedStatusCodes": [
+          "200",
+          "400",
+          "405"
+        ],
+        "listOfTestedStatusCodes": [
+          "200"
+        ],
+        "numberOfTestedSuccessfulStatusCodes": 1,
+        "numberOfTestedFailureStatusCodes": 0,
+        "numberOfTestedErrorStatusCodes": 0
+      }
+    }
+  }
+}

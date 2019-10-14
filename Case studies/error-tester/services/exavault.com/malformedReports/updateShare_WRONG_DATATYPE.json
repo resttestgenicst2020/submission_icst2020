@@ -1,0 +1,3188 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003dqEiQldcT\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d20bad9d8e5232aa4"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:18 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489508423"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489508828"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "id",
+              "sanitizedName": "id",
+              "value": [
+                "2"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "qEiQldcT"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003d28\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d3321359adbd02412"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:19 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489508832"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489509033"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "name",
+              "sanitizedName": "name",
+              "value": [
+                "BAnCxUHuqckMJWJOh"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "28"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003d15\u0026filePaths\u003d-81\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003db7012366b3368fb0"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:19 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489509036"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489509240"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "filePaths",
+              "sanitizedName": "filePaths",
+              "value": [
+                "vCCorbnFiQINkU",
+                "RFJLqXBO"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "15",
+                  "-81"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003d17\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003dc7d30e5bc7d4f0f9"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:19 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489509244"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489509748"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "subject",
+              "sanitizedName": "subject",
+              "value": [
+                "LbcqTbuKQ"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "17"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003d7\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d275748b455a894a0"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:20 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489509751"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489509953"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "message",
+              "sanitizedName": "message",
+              "value": [
+                "Access token encqtfFJbxp not found"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003d67\u0026emails\u003d-95\u0026emails\u003d26\u0026emails\u003d-98\u0026emails\u003d68\u0026emails\u003d-34\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d32683685977e508e"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:20 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489509957"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489510363"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "emails",
+              "sanitizedName": "emails",
+              "value": [
+                "gGQlCAaYNScjapPPqNh",
+                "HgnCKK",
+                "aoOuc",
+                "GtFsfgLb",
+                "Ri",
+                "PPqIiw"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "67",
+                  "-95",
+                  "26",
+                  "-98",
+                  "68",
+                  "-34"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003d74\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d5ef72659402d4673"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:20 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489510367"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489510672"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "ccEmail",
+              "sanitizedName": "ccEmail",
+              "value": [
+                "VJXzJnEDzHhcLmxnVlj"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "74"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003d64\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d00610375a35cadb7"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:21 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489510676"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489510977"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "requireEmail",
+              "sanitizedName": "requireEmail",
+              "value": [
+                "true"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "64"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003d49\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d3189cf830e89f130"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:21 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489510980"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489511284"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "accessMode",
+              "sanitizedName": "accessMode",
+              "value": [
+                "DRFzpcTjQXYkBAKbc"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "49"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003d53\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d8e5620bc956d5586"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:21 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489511287"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489511491"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "embed",
+              "sanitizedName": "embed",
+              "value": [
+                "true"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "53"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003d40\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003dc15e95f98c59d68d"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:21 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489511502"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489511899"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "isPublic",
+              "sanitizedName": "isPublic",
+              "value": [
+                "false"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "40"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003d46\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d3d7231a48dbc7c72"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:22 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489511916"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489512118"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "password",
+              "sanitizedName": "password",
+              "value": [
+                "hwRVYzpSX"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "46"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003d-92\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d0be57de3fe1d15c3"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:22 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489512169"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489512514"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "expiration",
+              "sanitizedName": "expiration",
+              "value": [
+                "mtUqhCuXqvoEoIdxB"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "-92"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003d95\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003df75c4543685e6407"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:22 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489512517"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489512754"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "hasNotification",
+              "sanitizedName": "hasNotification",
+              "value": [
+                "false"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "95"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003d-99\u0026notificationEmails\u003d-84\u0026notificationEmails\u003d41\u0026notificationEmails\u003d-39\u0026notificationEmails\u003d75\u0026fileDropCreateFolders\u003dtrue",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003d2ad563ffb141383e"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:23 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489512759"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489512960"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "notificationEmails",
+              "sanitizedName": "notificationEmails",
+              "value": [
+                "UXDHqFPqqvIS",
+                "oFTkUByWND",
+                "VXwmMxAWpPz",
+                "JL",
+                "lOjRSDQSTVqWJR"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "-99",
+                  "-84",
+                  "41",
+                  "-39",
+                  "75"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "true"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "*/*"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.exavault.com//v1/updateShare?id\u003d2\u0026name\u003dBAnCxUHuqckMJWJOh\u0026filePaths\u003dvCCorbnFiQINkU\u0026filePaths\u003dRFJLqXBO\u0026subject\u003dLbcqTbuKQ\u0026message\u003dAccess%20token%20encqtfFJbxp%20not%20found\u0026emails\u003dgGQlCAaYNScjapPPqNh\u0026emails\u003dHgnCKK\u0026emails\u003daoOuc\u0026emails\u003dGtFsfgLb\u0026emails\u003dRi\u0026emails\u003dPPqIiw\u0026ccEmail\u003dVJXzJnEDzHhcLmxnVlj\u0026requireEmail\u003dtrue\u0026accessMode\u003dDRFzpcTjQXYkBAKbc\u0026embed\u003dtrue\u0026isPublic\u003dfalse\u0026password\u003dhwRVYzpSX\u0026expiration\u003dmtUqhCuXqvoEoIdxB\u0026hasNotification\u003dfalse\u0026notificationEmails\u003dUXDHqFPqqvIS\u0026notificationEmails\u003doFTkUByWND\u0026notificationEmails\u003dVXwmMxAWpPz\u0026notificationEmails\u003dJL\u0026notificationEmails\u003dlOjRSDQSTVqWJR\u0026fileDropCreateFolders\u003d87",
+              "responseBody": "{\"success\":0,\"error\":{\"message\":\"API key is required\",\"code\":250},\"results\":null}",
+              "responseHeaders": {
+                "Server": [
+                  "nginx"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "X-Powered-By": [
+                  "PHP/7.3.10"
+                ],
+                "Server-Timing": [
+                  "intid;desc\u003dc27fa3de263b5c2e"
+                ],
+                "Cache-Control": [
+                  "no-cache, private"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:05:23 GMT"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "POST, GET, OPTIONS, PUT, DELETE"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "api_key, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d31536000; includeSubDomains; preload;"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489512963"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489513164"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "updateShare",
+            "originalParameter": {
+              "parameterName": "fileDropCreateFolders",
+              "sanitizedName": "fileDropCreateFolders",
+              "value": [
+                "true"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "name",
+                "sanitizedName": "name",
+                "value": [
+                  "BAnCxUHuqckMJWJOh"
+                ]
+              },
+              {
+                "parameterName": "filePaths",
+                "sanitizedName": "filePaths",
+                "value": [
+                  "vCCorbnFiQINkU",
+                  "RFJLqXBO"
+                ]
+              },
+              {
+                "parameterName": "subject",
+                "sanitizedName": "subject",
+                "value": [
+                  "LbcqTbuKQ"
+                ]
+              },
+              {
+                "parameterName": "message",
+                "sanitizedName": "message",
+                "value": [
+                  "Access token encqtfFJbxp not found"
+                ]
+              },
+              {
+                "parameterName": "emails",
+                "sanitizedName": "emails",
+                "value": [
+                  "gGQlCAaYNScjapPPqNh",
+                  "HgnCKK",
+                  "aoOuc",
+                  "GtFsfgLb",
+                  "Ri",
+                  "PPqIiw"
+                ]
+              },
+              {
+                "parameterName": "ccEmail",
+                "sanitizedName": "ccEmail",
+                "value": [
+                  "VJXzJnEDzHhcLmxnVlj"
+                ]
+              },
+              {
+                "parameterName": "requireEmail",
+                "sanitizedName": "requireEmail",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "accessMode",
+                "sanitizedName": "accessMode",
+                "value": [
+                  "DRFzpcTjQXYkBAKbc"
+                ]
+              },
+              {
+                "parameterName": "embed",
+                "sanitizedName": "embed",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "isPublic",
+                "sanitizedName": "isPublic",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "password",
+                "sanitizedName": "password",
+                "value": [
+                  "hwRVYzpSX"
+                ]
+              },
+              {
+                "parameterName": "expiration",
+                "sanitizedName": "expiration",
+                "value": [
+                  "mtUqhCuXqvoEoIdxB"
+                ]
+              },
+              {
+                "parameterName": "hasNotification",
+                "sanitizedName": "hasNotification",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "notificationEmails",
+                "sanitizedName": "notificationEmails",
+                "value": [
+                  "UXDHqFPqqvIS",
+                  "oFTkUByWND",
+                  "VXwmMxAWpPz",
+                  "JL",
+                  "lOjRSDQSTVqWJR"
+                ]
+              },
+              {
+                "parameterName": "fileDropCreateFolders",
+                "sanitizedName": "fileDropCreateFolders",
+                "value": [
+                  "87"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "updateShare"
+  }
+}

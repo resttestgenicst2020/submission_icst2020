@@ -1,0 +1,78 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://sheetlabs.com/IND/rv/sungby?sungby\u003d52",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.14.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:46:22 GMT"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Vary": [
+                  "Accept-Encoding"
+                ],
+                "X-Powered-By": [
+                  "PHP/5.6.37"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570491972229"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570491972326"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "sungbyGet",
+            "originalParameter": {
+              "parameterName": "sungby",
+              "sanitizedName": "sungby",
+              "value": [
+                "HJoEAUqCxuFrc"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "sungby",
+                "sanitizedName": "sungby",
+                "value": [
+                  "52"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "sungbyGet"
+  }
+}

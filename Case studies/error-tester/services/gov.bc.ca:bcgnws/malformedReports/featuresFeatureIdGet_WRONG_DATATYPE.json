@@ -1,0 +1,77 @@
+{
+  "responseCoverage": {
+    "500": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://apps.gov.bc.ca/pub/bcgnws/features/aKniP",
+              "responseBody": "\u003c!doctype html\u003e\u003chtml lang\u003d\"en\"\u003e\u003chead\u003e\u003ctitle\u003eHTTP Status 500 – Internal Server Error\u003c/title\u003e\u003cstyle type\u003d\"text/css\"\u003eh1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#525D76;border:none;}\u003c/style\u003e\u003c/head\u003e\u003cbody\u003e\u003ch1\u003eHTTP Status 500 – Internal Server Error\u003c/h1\u003e\u003chr class\u003d\"line\" /\u003e\u003cp\u003e\u003cb\u003eType\u003c/b\u003e Status Report\u003c/p\u003e\u003cp\u003e\u003cb\u003eDescription\u003c/b\u003e The server encountered an unexpected condition that prevented it from fulfilling the request.\u003c/p\u003e\u003chr class\u003d\"line\" /\u003e\u003ch3\u003eApache Tomcat/8.5.20\u003c/h3\u003e\u003c/body\u003e\u003c/html\u003e",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:08:58 GMT"
+                ],
+                "Content-Type": [
+                  "text/html;charset\u003dUTF-8"
+                ],
+                "Content-Length": [
+                  "1038"
+                ],
+                "Cache-control": [
+                  "no-cache"
+                ],
+                "Content-Language": [
+                  "en"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Expose-Headers": [
+                  "Origin,Access-Control-Allow-Origin,Access-Control-Allow-Methods"
+                ],
+                "Connection": [
+                  "close"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570489728692"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570489729401"
+                ]
+              },
+              "statusCode": 500
+            },
+            "httpMethod": "GET",
+            "operationId": "featuresFeatureIdGet",
+            "originalParameter": {
+              "parameterName": "featureId",
+              "sanitizedName": "featureId",
+              "value": "85"
+            },
+            "parameters": [
+              {
+                "parameterName": "featureId",
+                "sanitizedName": "featureId",
+                "value": "aKniP"
+              }
+            ],
+            "statusCode": 500,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "featuresFeatureIdGet"
+  }
+}

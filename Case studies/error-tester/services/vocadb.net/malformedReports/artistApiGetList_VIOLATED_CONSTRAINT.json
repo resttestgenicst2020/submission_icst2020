@@ -1,0 +1,975 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/artists?query\u003dTwTzppWhKEdQr\u0026artistTypes\u003dIllustrator\u0026allowBaseVoicebanks\u003dtrue\u0026tagName\u003dstore%20exclusive\u0026tagName\u003d%E6%84%9B\u0026tagName\u003d%E3%82%A8%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AD%E3%83%9D%E3%83%83%E3%83%97\u0026tagId\u003d337\u0026tagId\u003d208\u0026tagId\u003d208\u0026tagId\u003d1552\u0026tagId\u003d3282\u0026tagId\u003d3421\u0026tagId\u003d423\u0026tagId\u003d203\u0026childTags\u003dtrue\u0026followedByUserId\u003d26601\u0026status\u003dTtxmmMD\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d5\u0026maxResults\u003d52\u0026getTotalCount\u003dfalse\u0026sort\u003dSongCount\u0026preferAccurateMatches\u003dfalse\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dArtistLinks\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"TwTzppWhKEdQr\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:48:42 GMT"
+                ],
+                "Content-Length": [
+                  "50"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492112040"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492112143"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "artistApiGetList",
+            "originalParameter": {
+              "parameterName": "status",
+              "sanitizedName": "status",
+              "value": [
+                "Finished"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "TwTzppWhKEdQr"
+                ]
+              },
+              {
+                "parameterName": "artistTypes",
+                "sanitizedName": "artistTypes",
+                "value": [
+                  "Illustrator"
+                ]
+              },
+              {
+                "parameterName": "allowBaseVoicebanks",
+                "sanitizedName": "allowBaseVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "store exclusive",
+                  "愛",
+                  "エレクトロポップ"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "337",
+                  "208",
+                  "208",
+                  "1552",
+                  "3282",
+                  "3421",
+                  "423",
+                  "203"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "followedByUserId",
+                "sanitizedName": "followedByUserId",
+                "value": [
+                  "26601"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "TtxmmMD"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "5"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "52"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SongCount"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ArtistLinks"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/artists?query\u003dTwTzppWhKEdQr\u0026artistTypes\u003dIllustrator\u0026allowBaseVoicebanks\u003dtrue\u0026tagName\u003dstore%20exclusive\u0026tagName\u003d%E6%84%9B\u0026tagName\u003d%E3%82%A8%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AD%E3%83%9D%E3%83%83%E3%83%97\u0026tagId\u003d337\u0026tagId\u003d208\u0026tagId\u003d208\u0026tagId\u003d1552\u0026tagId\u003d3282\u0026tagId\u003d3421\u0026tagId\u003d423\u0026tagId\u003d203\u0026childTags\u003dtrue\u0026followedByUserId\u003d26601\u0026status\u003dFinished\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d5\u0026maxResults\u003d52\u0026getTotalCount\u003dfalse\u0026sort\u003d14c7EK3\u0026preferAccurateMatches\u003dfalse\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dArtistLinks\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"TwTzppWhKEdQr\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:48:42 GMT"
+                ],
+                "Content-Length": [
+                  "50"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492112165"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492112250"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "artistApiGetList",
+            "originalParameter": {
+              "parameterName": "sort",
+              "sanitizedName": "sort",
+              "value": [
+                "SongCount"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "TwTzppWhKEdQr"
+                ]
+              },
+              {
+                "parameterName": "artistTypes",
+                "sanitizedName": "artistTypes",
+                "value": [
+                  "Illustrator"
+                ]
+              },
+              {
+                "parameterName": "allowBaseVoicebanks",
+                "sanitizedName": "allowBaseVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "store exclusive",
+                  "愛",
+                  "エレクトロポップ"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "337",
+                  "208",
+                  "208",
+                  "1552",
+                  "3282",
+                  "3421",
+                  "423",
+                  "203"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "followedByUserId",
+                "sanitizedName": "followedByUserId",
+                "value": [
+                  "26601"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Finished"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "5"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "52"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "14c7EK3"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ArtistLinks"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/artists?query\u003dTwTzppWhKEdQr\u0026artistTypes\u003dIllustrator\u0026allowBaseVoicebanks\u003dtrue\u0026tagName\u003dstore%20exclusive\u0026tagName\u003d%E6%84%9B\u0026tagName\u003d%E3%82%A8%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AD%E3%83%9D%E3%83%83%E3%83%97\u0026tagId\u003d337\u0026tagId\u003d208\u0026tagId\u003d208\u0026tagId\u003d1552\u0026tagId\u003d3282\u0026tagId\u003d3421\u0026tagId\u003d423\u0026tagId\u003d203\u0026childTags\u003dtrue\u0026followedByUserId\u003d26601\u0026status\u003dFinished\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d5\u0026maxResults\u003d52\u0026getTotalCount\u003dfalse\u0026sort\u003dSongCount\u0026preferAccurateMatches\u003dfalse\u0026nameMatchMode\u003d0bQyTke\u0026fields\u003dArtistLinks\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"TwTzppWhKEdQr\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:48:42 GMT"
+                ],
+                "Content-Length": [
+                  "50"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492112262"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492112345"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "artistApiGetList",
+            "originalParameter": {
+              "parameterName": "nameMatchMode",
+              "sanitizedName": "nameMatchMode",
+              "value": [
+                "StartsWith"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "TwTzppWhKEdQr"
+                ]
+              },
+              {
+                "parameterName": "artistTypes",
+                "sanitizedName": "artistTypes",
+                "value": [
+                  "Illustrator"
+                ]
+              },
+              {
+                "parameterName": "allowBaseVoicebanks",
+                "sanitizedName": "allowBaseVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "store exclusive",
+                  "愛",
+                  "エレクトロポップ"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "337",
+                  "208",
+                  "208",
+                  "1552",
+                  "3282",
+                  "3421",
+                  "423",
+                  "203"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "followedByUserId",
+                "sanitizedName": "followedByUserId",
+                "value": [
+                  "26601"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Finished"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "5"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "52"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SongCount"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "0bQyTke"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ArtistLinks"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/artists?query\u003dTwTzppWhKEdQr\u0026artistTypes\u003dIllustrator\u0026allowBaseVoicebanks\u003dtrue\u0026tagName\u003dstore%20exclusive\u0026tagName\u003d%E6%84%9B\u0026tagName\u003d%E3%82%A8%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AD%E3%83%9D%E3%83%83%E3%83%97\u0026tagId\u003d337\u0026tagId\u003d208\u0026tagId\u003d208\u0026tagId\u003d1552\u0026tagId\u003d3282\u0026tagId\u003d3421\u0026tagId\u003d423\u0026tagId\u003d203\u0026childTags\u003dtrue\u0026followedByUserId\u003d26601\u0026status\u003dFinished\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d5\u0026maxResults\u003d52\u0026getTotalCount\u003dfalse\u0026sort\u003dSongCount\u0026preferAccurateMatches\u003dfalse\u0026nameMatchMode\u003dStartsWith\u0026fields\u003ddXxw8QV\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"TwTzppWhKEdQr\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:48:42 GMT"
+                ],
+                "Content-Length": [
+                  "50"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492112351"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492112427"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "artistApiGetList",
+            "originalParameter": {
+              "parameterName": "fields",
+              "sanitizedName": "fields",
+              "value": [
+                "ArtistLinks"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "TwTzppWhKEdQr"
+                ]
+              },
+              {
+                "parameterName": "artistTypes",
+                "sanitizedName": "artistTypes",
+                "value": [
+                  "Illustrator"
+                ]
+              },
+              {
+                "parameterName": "allowBaseVoicebanks",
+                "sanitizedName": "allowBaseVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "store exclusive",
+                  "愛",
+                  "エレクトロポップ"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "337",
+                  "208",
+                  "208",
+                  "1552",
+                  "3282",
+                  "3421",
+                  "423",
+                  "203"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "followedByUserId",
+                "sanitizedName": "followedByUserId",
+                "value": [
+                  "26601"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Finished"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "5"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "52"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SongCount"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "dXxw8QV"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/artists?query\u003dTwTzppWhKEdQr\u0026artistTypes\u003dIllustrator\u0026allowBaseVoicebanks\u003dtrue\u0026tagName\u003dstore%20exclusive\u0026tagName\u003d%E6%84%9B\u0026tagName\u003d%E3%82%A8%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AD%E3%83%9D%E3%83%83%E3%83%97\u0026tagId\u003d337\u0026tagId\u003d208\u0026tagId\u003d208\u0026tagId\u003d1552\u0026tagId\u003d3282\u0026tagId\u003d3421\u0026tagId\u003d423\u0026tagId\u003d203\u0026childTags\u003dtrue\u0026followedByUserId\u003d26601\u0026status\u003dFinished\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d5\u0026maxResults\u003d52\u0026getTotalCount\u003dfalse\u0026sort\u003dSongCount\u0026preferAccurateMatches\u003dfalse\u0026nameMatchMode\u003dStartsWith\u0026fields\u003dArtistLinks\u0026lang\u003dWMA8jF",
+              "responseBody": "{\"items\":[],\"term\":\"TwTzppWhKEdQr\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:48:42 GMT"
+                ],
+                "Content-Length": [
+                  "50"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492112432"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492112529"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "artistApiGetList",
+            "originalParameter": {
+              "parameterName": "lang",
+              "sanitizedName": "lang",
+              "value": [
+                "Default"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "TwTzppWhKEdQr"
+                ]
+              },
+              {
+                "parameterName": "artistTypes",
+                "sanitizedName": "artistTypes",
+                "value": [
+                  "Illustrator"
+                ]
+              },
+              {
+                "parameterName": "allowBaseVoicebanks",
+                "sanitizedName": "allowBaseVoicebanks",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "store exclusive",
+                  "愛",
+                  "エレクトロポップ"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "337",
+                  "208",
+                  "208",
+                  "1552",
+                  "3282",
+                  "3421",
+                  "423",
+                  "203"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "followedByUserId",
+                "sanitizedName": "followedByUserId",
+                "value": [
+                  "26601"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Finished"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "5"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "52"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "SongCount"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "StartsWith"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "ArtistLinks"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "WMA8jF"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "artistApiGetList"
+  }
+}

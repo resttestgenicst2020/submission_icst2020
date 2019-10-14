@@ -1,0 +1,86 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums/17/reviews?languageCode\u003d-85",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:47:45 GMT"
+                ],
+                "Content-Length": [
+                  "2"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492055263"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492055323"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetReviews",
+            "originalParameter": {
+              "parameterName": "languageCode",
+              "sanitizedName": "languageCode",
+              "value": [
+                "surWkrnMpzx"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "id",
+                "sanitizedName": "id",
+                "value": "17"
+              },
+              {
+                "parameterName": "languageCode",
+                "sanitizedName": "languageCode",
+                "value": [
+                  "-85"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "albumApiGetReviews"
+  }
+}

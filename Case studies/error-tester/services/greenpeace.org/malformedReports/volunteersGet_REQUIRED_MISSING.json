@@ -1,0 +1,112 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://greenwire.greenpeace.org/api/public/volunteers",
+              "responseBody": "{\"header\":{\"id\":1570490184,\"code\":400,\"status\":\"Bad Request\",\"error\":\"no domain provided\",\"resources\":\"volunteers\",\"pagination\":null},\"body\":[]}",
+              "responseHeaders": {
+                "Date": [
+                  "Mon, 07 Oct 2019 23:16:24 GMT"
+                ],
+                "Content-Type": [
+                  "application/json"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Set-Cookie": [
+                  "__cfduid\u003dd49c0e3a85f07a56517f89d9a1ca8066e1570490183; expires\u003dTue, 06-Oct-20 23:16:23 GMT; path\u003d/; domain\u003d.greenpeace.org; HttpOnly"
+                ],
+                "X-Powered-By": [
+                  "PHP/5.6.25"
+                ],
+                "X-LB-Server": [
+                  "gw-prod-web-01.greenpeace.org"
+                ],
+                "X-Drupal-Cache": [
+                  "MISS"
+                ],
+                "Expires": [
+                  "Sun, 19 Nov 1978 05:00:00 GMT"
+                ],
+                "Cache-Control": [
+                  "no-cache, must-revalidate"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Access-Control-Allow-Credentials": [
+                  "true"
+                ],
+                "Access-Control-Allow-Methods": [
+                  "GET, POST, OPTIONS"
+                ],
+                "Access-Control-Allow-Headers": [
+                  "X-Requested-With"
+                ],
+                "Access-Control-Max-Age": [
+                  "86400"
+                ],
+                "CF-Cache-Status": [
+                  "DYNAMIC"
+                ],
+                "Expect-CT": [
+                  "max-age\u003d604800, report-uri\u003d\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+                ],
+                "Server": [
+                  "cloudflare"
+                ],
+                "CF-RAY": [
+                  "5223951ecb736f28-FCO"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570490173100"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570490173928"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "domain",
+              "sanitizedName": "domain",
+              "value": [
+                "TjOEEhwqnj"
+              ]
+            },
+            "operationId": "volunteersGet",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "volunteersGet"
+  }
+}

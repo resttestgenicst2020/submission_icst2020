@@ -1,0 +1,1690 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums?query\u003dlzkWkHJ\u0026discTypes\u003d8PEKEfb\u0026tagName\u003d%E8%8A%B1\u0026tagName\u003dtracklist%20missing%20vocalists\u0026tagName\u003d8%E3%83%93%E3%83%83%E3%83%88\u0026tagName\u003d%E3%83%88%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A4%E3%83%89\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97\u0026tagName\u003dStir%20Up%20Club%20Edition\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97%E3%83%BB%E3%83%AD%E3%83%83%E3%82%AF\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagId\u003d3421\u0026tagId\u003d5\u0026tagId\u003d6151\u0026childTags\u003dfalse\u0026artistId\u003d252078\u0026artistId\u003d12297\u0026artistId\u003d1\u0026artistId\u003d22563\u0026artistParticipationStatus\u003dOnlyCollaborations\u0026childVoicebanks\u003dfalse\u0026includeMembers\u003dtrue\u0026barcode\u003dkbvkGtt\u0026status\u003dLocked\u0026releaseDateAfter\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:278000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026releaseDateBefore\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:282000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d7\u0026maxResults\u003d2\u0026getTotalCount\u003dtrue\u0026sort\u003dReleaseDateWithNulls\u0026preferAccurateMatches\u003dtrue\u0026deleted\u003dfalse\u0026nameMatchMode\u003dWords\u0026fields\u003dMainPicture\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"lzkWkHJ\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:53:52 GMT"
+                ],
+                "Content-Length": [
+                  "44"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492423357"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492423484"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetList",
+            "originalParameter": {
+              "parameterName": "discTypes",
+              "sanitizedName": "discTypes",
+              "value": [
+                "Artbook"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "lzkWkHJ"
+                ]
+              },
+              {
+                "parameterName": "discTypes",
+                "sanitizedName": "discTypes",
+                "value": [
+                  "8PEKEfb"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "花",
+                  "tracklist missing vocalists",
+                  "8ビット",
+                  "トークロイド",
+                  "ポップ",
+                  "Stir Up Club Edition",
+                  "アニソンカバー曲",
+                  "ポップ・ロック",
+                  "アニソンカバー曲"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "3421",
+                  "5",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "252078",
+                  "12297",
+                  "1",
+                  "22563"
+                ]
+              },
+              {
+                "parameterName": "artistParticipationStatus",
+                "sanitizedName": "artistParticipationStatus",
+                "value": [
+                  "OnlyCollaborations"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "barcode",
+                "sanitizedName": "barcode",
+                "value": [
+                  "kbvkGtt"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "releaseDateAfter",
+                "sanitizedName": "releaseDateAfter",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":278000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "releaseDateBefore",
+                "sanitizedName": "releaseDateBefore",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":282000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "ReleaseDateWithNulls"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "deleted",
+                "sanitizedName": "deleted",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Words"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums?query\u003dlzkWkHJ\u0026discTypes\u003dArtbook\u0026tagName\u003d%E8%8A%B1\u0026tagName\u003dtracklist%20missing%20vocalists\u0026tagName\u003d8%E3%83%93%E3%83%83%E3%83%88\u0026tagName\u003d%E3%83%88%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A4%E3%83%89\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97\u0026tagName\u003dStir%20Up%20Club%20Edition\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97%E3%83%BB%E3%83%AD%E3%83%83%E3%82%AF\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagId\u003d3421\u0026tagId\u003d5\u0026tagId\u003d6151\u0026childTags\u003dfalse\u0026artistId\u003d252078\u0026artistId\u003d12297\u0026artistId\u003d1\u0026artistId\u003d22563\u0026artistParticipationStatus\u003dtYZ4QFT\u0026childVoicebanks\u003dfalse\u0026includeMembers\u003dtrue\u0026barcode\u003dkbvkGtt\u0026status\u003dLocked\u0026releaseDateAfter\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:278000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026releaseDateBefore\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:282000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d7\u0026maxResults\u003d2\u0026getTotalCount\u003dtrue\u0026sort\u003dReleaseDateWithNulls\u0026preferAccurateMatches\u003dtrue\u0026deleted\u003dfalse\u0026nameMatchMode\u003dWords\u0026fields\u003dMainPicture\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"lzkWkHJ\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:53:53 GMT"
+                ],
+                "Content-Length": [
+                  "44"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492423517"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492423633"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetList",
+            "originalParameter": {
+              "parameterName": "artistParticipationStatus",
+              "sanitizedName": "artistParticipationStatus",
+              "value": [
+                "OnlyCollaborations"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "lzkWkHJ"
+                ]
+              },
+              {
+                "parameterName": "discTypes",
+                "sanitizedName": "discTypes",
+                "value": [
+                  "Artbook"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "花",
+                  "tracklist missing vocalists",
+                  "8ビット",
+                  "トークロイド",
+                  "ポップ",
+                  "Stir Up Club Edition",
+                  "アニソンカバー曲",
+                  "ポップ・ロック",
+                  "アニソンカバー曲"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "3421",
+                  "5",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "252078",
+                  "12297",
+                  "1",
+                  "22563"
+                ]
+              },
+              {
+                "parameterName": "artistParticipationStatus",
+                "sanitizedName": "artistParticipationStatus",
+                "value": [
+                  "tYZ4QFT"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "barcode",
+                "sanitizedName": "barcode",
+                "value": [
+                  "kbvkGtt"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "releaseDateAfter",
+                "sanitizedName": "releaseDateAfter",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":278000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "releaseDateBefore",
+                "sanitizedName": "releaseDateBefore",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":282000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "ReleaseDateWithNulls"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "deleted",
+                "sanitizedName": "deleted",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Words"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums?query\u003dlzkWkHJ\u0026discTypes\u003dArtbook\u0026tagName\u003d%E8%8A%B1\u0026tagName\u003dtracklist%20missing%20vocalists\u0026tagName\u003d8%E3%83%93%E3%83%83%E3%83%88\u0026tagName\u003d%E3%83%88%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A4%E3%83%89\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97\u0026tagName\u003dStir%20Up%20Club%20Edition\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97%E3%83%BB%E3%83%AD%E3%83%83%E3%82%AF\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagId\u003d3421\u0026tagId\u003d5\u0026tagId\u003d6151\u0026childTags\u003dfalse\u0026artistId\u003d252078\u0026artistId\u003d12297\u0026artistId\u003d1\u0026artistId\u003d22563\u0026artistParticipationStatus\u003dOnlyCollaborations\u0026childVoicebanks\u003dfalse\u0026includeMembers\u003dtrue\u0026barcode\u003dkbvkGtt\u0026status\u003dN1TcPZS\u0026releaseDateAfter\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:278000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026releaseDateBefore\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:282000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d7\u0026maxResults\u003d2\u0026getTotalCount\u003dtrue\u0026sort\u003dReleaseDateWithNulls\u0026preferAccurateMatches\u003dtrue\u0026deleted\u003dfalse\u0026nameMatchMode\u003dWords\u0026fields\u003dMainPicture\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"lzkWkHJ\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:53:53 GMT"
+                ],
+                "Content-Length": [
+                  "44"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492423636"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492424118"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetList",
+            "originalParameter": {
+              "parameterName": "status",
+              "sanitizedName": "status",
+              "value": [
+                "Locked"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "lzkWkHJ"
+                ]
+              },
+              {
+                "parameterName": "discTypes",
+                "sanitizedName": "discTypes",
+                "value": [
+                  "Artbook"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "花",
+                  "tracklist missing vocalists",
+                  "8ビット",
+                  "トークロイド",
+                  "ポップ",
+                  "Stir Up Club Edition",
+                  "アニソンカバー曲",
+                  "ポップ・ロック",
+                  "アニソンカバー曲"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "3421",
+                  "5",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "252078",
+                  "12297",
+                  "1",
+                  "22563"
+                ]
+              },
+              {
+                "parameterName": "artistParticipationStatus",
+                "sanitizedName": "artistParticipationStatus",
+                "value": [
+                  "OnlyCollaborations"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "barcode",
+                "sanitizedName": "barcode",
+                "value": [
+                  "kbvkGtt"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "N1TcPZS"
+                ]
+              },
+              {
+                "parameterName": "releaseDateAfter",
+                "sanitizedName": "releaseDateAfter",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":278000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "releaseDateBefore",
+                "sanitizedName": "releaseDateBefore",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":282000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "ReleaseDateWithNulls"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "deleted",
+                "sanitizedName": "deleted",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Words"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums?query\u003dlzkWkHJ\u0026discTypes\u003dArtbook\u0026tagName\u003d%E8%8A%B1\u0026tagName\u003dtracklist%20missing%20vocalists\u0026tagName\u003d8%E3%83%93%E3%83%83%E3%83%88\u0026tagName\u003d%E3%83%88%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A4%E3%83%89\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97\u0026tagName\u003dStir%20Up%20Club%20Edition\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97%E3%83%BB%E3%83%AD%E3%83%83%E3%82%AF\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagId\u003d3421\u0026tagId\u003d5\u0026tagId\u003d6151\u0026childTags\u003dfalse\u0026artistId\u003d252078\u0026artistId\u003d12297\u0026artistId\u003d1\u0026artistId\u003d22563\u0026artistParticipationStatus\u003dOnlyCollaborations\u0026childVoicebanks\u003dfalse\u0026includeMembers\u003dtrue\u0026barcode\u003dkbvkGtt\u0026status\u003dLocked\u0026releaseDateAfter\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:278000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026releaseDateBefore\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:282000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d7\u0026maxResults\u003d2\u0026getTotalCount\u003dtrue\u0026sort\u003dheQIxjM\u0026preferAccurateMatches\u003dtrue\u0026deleted\u003dfalse\u0026nameMatchMode\u003dWords\u0026fields\u003dMainPicture\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"lzkWkHJ\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:53:53 GMT"
+                ],
+                "Content-Length": [
+                  "44"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492424123"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492424246"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetList",
+            "originalParameter": {
+              "parameterName": "sort",
+              "sanitizedName": "sort",
+              "value": [
+                "ReleaseDateWithNulls"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "lzkWkHJ"
+                ]
+              },
+              {
+                "parameterName": "discTypes",
+                "sanitizedName": "discTypes",
+                "value": [
+                  "Artbook"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "花",
+                  "tracklist missing vocalists",
+                  "8ビット",
+                  "トークロイド",
+                  "ポップ",
+                  "Stir Up Club Edition",
+                  "アニソンカバー曲",
+                  "ポップ・ロック",
+                  "アニソンカバー曲"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "3421",
+                  "5",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "252078",
+                  "12297",
+                  "1",
+                  "22563"
+                ]
+              },
+              {
+                "parameterName": "artistParticipationStatus",
+                "sanitizedName": "artistParticipationStatus",
+                "value": [
+                  "OnlyCollaborations"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "barcode",
+                "sanitizedName": "barcode",
+                "value": [
+                  "kbvkGtt"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "releaseDateAfter",
+                "sanitizedName": "releaseDateAfter",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":278000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "releaseDateBefore",
+                "sanitizedName": "releaseDateBefore",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":282000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "heQIxjM"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "deleted",
+                "sanitizedName": "deleted",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Words"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums?query\u003dlzkWkHJ\u0026discTypes\u003dArtbook\u0026tagName\u003d%E8%8A%B1\u0026tagName\u003dtracklist%20missing%20vocalists\u0026tagName\u003d8%E3%83%93%E3%83%83%E3%83%88\u0026tagName\u003d%E3%83%88%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A4%E3%83%89\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97\u0026tagName\u003dStir%20Up%20Club%20Edition\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97%E3%83%BB%E3%83%AD%E3%83%83%E3%82%AF\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagId\u003d3421\u0026tagId\u003d5\u0026tagId\u003d6151\u0026childTags\u003dfalse\u0026artistId\u003d252078\u0026artistId\u003d12297\u0026artistId\u003d1\u0026artistId\u003d22563\u0026artistParticipationStatus\u003dOnlyCollaborations\u0026childVoicebanks\u003dfalse\u0026includeMembers\u003dtrue\u0026barcode\u003dkbvkGtt\u0026status\u003dLocked\u0026releaseDateAfter\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:278000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026releaseDateBefore\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:282000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d7\u0026maxResults\u003d2\u0026getTotalCount\u003dtrue\u0026sort\u003dReleaseDateWithNulls\u0026preferAccurateMatches\u003dtrue\u0026deleted\u003dfalse\u0026nameMatchMode\u003dMJsA8\u0026fields\u003dMainPicture\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"lzkWkHJ\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:53:53 GMT"
+                ],
+                "Content-Length": [
+                  "44"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492424254"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492424385"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetList",
+            "originalParameter": {
+              "parameterName": "nameMatchMode",
+              "sanitizedName": "nameMatchMode",
+              "value": [
+                "Words"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "lzkWkHJ"
+                ]
+              },
+              {
+                "parameterName": "discTypes",
+                "sanitizedName": "discTypes",
+                "value": [
+                  "Artbook"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "花",
+                  "tracklist missing vocalists",
+                  "8ビット",
+                  "トークロイド",
+                  "ポップ",
+                  "Stir Up Club Edition",
+                  "アニソンカバー曲",
+                  "ポップ・ロック",
+                  "アニソンカバー曲"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "3421",
+                  "5",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "252078",
+                  "12297",
+                  "1",
+                  "22563"
+                ]
+              },
+              {
+                "parameterName": "artistParticipationStatus",
+                "sanitizedName": "artistParticipationStatus",
+                "value": [
+                  "OnlyCollaborations"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "barcode",
+                "sanitizedName": "barcode",
+                "value": [
+                  "kbvkGtt"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "releaseDateAfter",
+                "sanitizedName": "releaseDateAfter",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":278000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "releaseDateBefore",
+                "sanitizedName": "releaseDateBefore",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":282000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "ReleaseDateWithNulls"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "deleted",
+                "sanitizedName": "deleted",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "MJsA8"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums?query\u003dlzkWkHJ\u0026discTypes\u003dArtbook\u0026tagName\u003d%E8%8A%B1\u0026tagName\u003dtracklist%20missing%20vocalists\u0026tagName\u003d8%E3%83%93%E3%83%83%E3%83%88\u0026tagName\u003d%E3%83%88%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A4%E3%83%89\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97\u0026tagName\u003dStir%20Up%20Club%20Edition\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97%E3%83%BB%E3%83%AD%E3%83%83%E3%82%AF\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagId\u003d3421\u0026tagId\u003d5\u0026tagId\u003d6151\u0026childTags\u003dfalse\u0026artistId\u003d252078\u0026artistId\u003d12297\u0026artistId\u003d1\u0026artistId\u003d22563\u0026artistParticipationStatus\u003dOnlyCollaborations\u0026childVoicebanks\u003dfalse\u0026includeMembers\u003dtrue\u0026barcode\u003dkbvkGtt\u0026status\u003dLocked\u0026releaseDateAfter\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:278000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026releaseDateBefore\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:282000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d7\u0026maxResults\u003d2\u0026getTotalCount\u003dtrue\u0026sort\u003dReleaseDateWithNulls\u0026preferAccurateMatches\u003dtrue\u0026deleted\u003dfalse\u0026nameMatchMode\u003dWords\u0026fields\u003dLk5uW\u0026lang\u003dDefault",
+              "responseBody": "{\"items\":[],\"term\":\"lzkWkHJ\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:53:53 GMT"
+                ],
+                "Content-Length": [
+                  "44"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492424392"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492424503"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetList",
+            "originalParameter": {
+              "parameterName": "fields",
+              "sanitizedName": "fields",
+              "value": [
+                "MainPicture"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "lzkWkHJ"
+                ]
+              },
+              {
+                "parameterName": "discTypes",
+                "sanitizedName": "discTypes",
+                "value": [
+                  "Artbook"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "花",
+                  "tracklist missing vocalists",
+                  "8ビット",
+                  "トークロイド",
+                  "ポップ",
+                  "Stir Up Club Edition",
+                  "アニソンカバー曲",
+                  "ポップ・ロック",
+                  "アニソンカバー曲"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "3421",
+                  "5",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "252078",
+                  "12297",
+                  "1",
+                  "22563"
+                ]
+              },
+              {
+                "parameterName": "artistParticipationStatus",
+                "sanitizedName": "artistParticipationStatus",
+                "value": [
+                  "OnlyCollaborations"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "barcode",
+                "sanitizedName": "barcode",
+                "value": [
+                  "kbvkGtt"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "releaseDateAfter",
+                "sanitizedName": "releaseDateAfter",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":278000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "releaseDateBefore",
+                "sanitizedName": "releaseDateBefore",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":282000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "ReleaseDateWithNulls"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "deleted",
+                "sanitizedName": "deleted",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Words"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "Lk5uW"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "Default"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      },
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/xml, application/json-p, application/json, text/json, application/javascript, text/xml, text/javascript"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://vocadb.net//api/albums?query\u003dlzkWkHJ\u0026discTypes\u003dArtbook\u0026tagName\u003d%E8%8A%B1\u0026tagName\u003dtracklist%20missing%20vocalists\u0026tagName\u003d8%E3%83%93%E3%83%83%E3%83%88\u0026tagName\u003d%E3%83%88%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%A4%E3%83%89\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97\u0026tagName\u003dStir%20Up%20Club%20Edition\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagName\u003d%E3%83%9D%E3%83%83%E3%83%97%E3%83%BB%E3%83%AD%E3%83%83%E3%82%AF\u0026tagName\u003d%E3%82%A2%E3%83%8B%E3%82%BD%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC%E6%9B%B2\u0026tagId\u003d3421\u0026tagId\u003d5\u0026tagId\u003d6151\u0026childTags\u003dfalse\u0026artistId\u003d252078\u0026artistId\u003d12297\u0026artistId\u003d1\u0026artistId\u003d22563\u0026artistParticipationStatus\u003dOnlyCollaborations\u0026childVoicebanks\u003dfalse\u0026includeMembers\u003dtrue\u0026barcode\u003dkbvkGtt\u0026status\u003dLocked\u0026releaseDateAfter\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:278000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026releaseDateBefore\u003d{%22dateTime%22:{%22date%22:{%22year%22:2019,%22month%22:9,%22day%22:4},%22time%22:{%22hour%22:20,%22minute%22:30,%22second%22:41,%22nano%22:282000000}},%22offset%22:{%22totalSeconds%22:7200}}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026advancedFilters\u003d{}\u0026start\u003d7\u0026maxResults\u003d2\u0026getTotalCount\u003dtrue\u0026sort\u003dReleaseDateWithNulls\u0026preferAccurateMatches\u003dtrue\u0026deleted\u003dfalse\u0026nameMatchMode\u003dWords\u0026fields\u003dMainPicture\u0026lang\u003dhC0ICd",
+              "responseBody": "{\"items\":[],\"term\":\"lzkWkHJ\",\"totalCount\":0}",
+              "responseHeaders": {
+                "Cache-Control": [
+                  "no-cache"
+                ],
+                "Pragma": [
+                  "no-cache"
+                ],
+                "Content-Type": [
+                  "application/json; charset\u003dutf-8"
+                ],
+                "Expires": [
+                  "-1"
+                ],
+                "Server": [
+                  "Microsoft-IIS/10.0"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 23:53:53 GMT"
+                ],
+                "Content-Length": [
+                  "44"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570492424509"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570492424615"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "albumApiGetList",
+            "originalParameter": {
+              "parameterName": "lang",
+              "sanitizedName": "lang",
+              "value": [
+                "Default"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "query",
+                "sanitizedName": "query",
+                "value": [
+                  "lzkWkHJ"
+                ]
+              },
+              {
+                "parameterName": "discTypes",
+                "sanitizedName": "discTypes",
+                "value": [
+                  "Artbook"
+                ]
+              },
+              {
+                "parameterName": "tagName",
+                "sanitizedName": "tagName",
+                "value": [
+                  "花",
+                  "tracklist missing vocalists",
+                  "8ビット",
+                  "トークロイド",
+                  "ポップ",
+                  "Stir Up Club Edition",
+                  "アニソンカバー曲",
+                  "ポップ・ロック",
+                  "アニソンカバー曲"
+                ]
+              },
+              {
+                "parameterName": "tagId",
+                "sanitizedName": "tagId",
+                "value": [
+                  "3421",
+                  "5",
+                  "6151"
+                ]
+              },
+              {
+                "parameterName": "childTags",
+                "sanitizedName": "childTags",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "artistId",
+                "sanitizedName": "artistId",
+                "value": [
+                  "252078",
+                  "12297",
+                  "1",
+                  "22563"
+                ]
+              },
+              {
+                "parameterName": "artistParticipationStatus",
+                "sanitizedName": "artistParticipationStatus",
+                "value": [
+                  "OnlyCollaborations"
+                ]
+              },
+              {
+                "parameterName": "childVoicebanks",
+                "sanitizedName": "childVoicebanks",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "includeMembers",
+                "sanitizedName": "includeMembers",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "barcode",
+                "sanitizedName": "barcode",
+                "value": [
+                  "kbvkGtt"
+                ]
+              },
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "Locked"
+                ]
+              },
+              {
+                "parameterName": "releaseDateAfter",
+                "sanitizedName": "releaseDateAfter",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":278000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "releaseDateBefore",
+                "sanitizedName": "releaseDateBefore",
+                "value": [
+                  "{\"dateTime\":{\"date\":{\"year\":2019,\"month\":9,\"day\":4},\"time\":{\"hour\":20,\"minute\":30,\"second\":41,\"nano\":282000000}},\"offset\":{\"totalSeconds\":7200}}"
+                ]
+              },
+              {
+                "parameterName": "advancedFilters",
+                "sanitizedName": "advancedFilters",
+                "value": [
+                  "{}",
+                  "{}",
+                  "{}"
+                ]
+              },
+              {
+                "parameterName": "start",
+                "sanitizedName": "start",
+                "value": [
+                  "7"
+                ]
+              },
+              {
+                "parameterName": "maxResults",
+                "sanitizedName": "maxResults",
+                "value": [
+                  "2"
+                ]
+              },
+              {
+                "parameterName": "getTotalCount",
+                "sanitizedName": "getTotalCount",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "sort",
+                "sanitizedName": "sort",
+                "value": [
+                  "ReleaseDateWithNulls"
+                ]
+              },
+              {
+                "parameterName": "preferAccurateMatches",
+                "sanitizedName": "preferAccurateMatches",
+                "value": [
+                  "true"
+                ]
+              },
+              {
+                "parameterName": "deleted",
+                "sanitizedName": "deleted",
+                "value": [
+                  "false"
+                ]
+              },
+              {
+                "parameterName": "nameMatchMode",
+                "sanitizedName": "nameMatchMode",
+                "value": [
+                  "Words"
+                ]
+              },
+              {
+                "parameterName": "fields",
+                "sanitizedName": "fields",
+                "value": [
+                  "MainPicture"
+                ]
+              },
+              {
+                "parameterName": "lang",
+                "sanitizedName": "lang",
+                "value": [
+                  "hC0ICd"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Violated enum constraint"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "albumApiGetList"
+  }
+}

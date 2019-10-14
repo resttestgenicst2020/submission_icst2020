@@ -1,0 +1,69 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/findByTags?tags\u003d44",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 14:01:46 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571061706346"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571061706349"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "findPetsByTags",
+            "originalParameter": {
+              "parameterName": "tags",
+              "sanitizedName": "tags",
+              "value": [
+                "tOShCf"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "tags",
+                "sanitizedName": "tags",
+                "value": [
+                  "44"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "findPetsByTags"
+  }
+}

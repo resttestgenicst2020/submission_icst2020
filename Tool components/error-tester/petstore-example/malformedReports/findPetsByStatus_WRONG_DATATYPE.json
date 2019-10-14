@@ -1,0 +1,75 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "http://localhost:8081/v2/pet/findByStatus?status\u003d53\u0026status\u003d-91\u0026status\u003d49\u0026status\u003d43",
+              "responseBody": "[]",
+              "responseHeaders": {
+                "Content-Type": [
+                  "application/json;charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Date": [
+                  "Mon, 14 Oct 2019 14:01:46 GMT"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1571061706635"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1571061706637"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "operationId": "findPetsByStatus",
+            "originalParameter": {
+              "parameterName": "status",
+              "sanitizedName": "status",
+              "value": [
+                "available",
+                "pending",
+                "sold",
+                "available"
+              ]
+            },
+            "parameters": [
+              {
+                "parameterName": "status",
+                "sanitizedName": "status",
+                "value": [
+                  "53",
+                  "-91",
+                  "49",
+                  "43"
+                ]
+              }
+            ],
+            "statusCode": 200,
+            "violatedConstraint": "Wrong data type"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "findPetsByStatus"
+  }
+}

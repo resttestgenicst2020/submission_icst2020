@@ -1,0 +1,59 @@
+{
+  "responseCoverage": {
+    "204": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ],
+                "Content-Length": [
+                  "0"
+                ]
+              },
+              "requestUrl": "https://dweet.io//dweet/quietly/for/%7Bthing%7D",
+              "responseBody": "",
+              "responseHeaders": {
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:26:07 GMT"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570487152272"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570487157779"
+                ]
+              },
+              "statusCode": 204
+            },
+            "httpMethod": "POST",
+            "missingParameter": {
+              "parameterName": "thing",
+              "sanitizedName": "thing",
+              "value": "RsrBaAOsROzbK"
+            },
+            "operationId": "dweetQuietlyForThingPost",
+            "parameters": [],
+            "statusCode": 204,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "POST",
+    "operationId": "dweetQuietlyForThingPost"
+  }
+}

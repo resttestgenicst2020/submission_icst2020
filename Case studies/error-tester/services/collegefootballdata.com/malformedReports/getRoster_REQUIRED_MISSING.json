@@ -1,0 +1,97 @@
+{
+  "responseCoverage": {
+    "200": [
+      {
+        "testSteps": [
+          {
+            "executionResult": {
+              "requestHeaders": {
+                "Accept": [
+                  "application/json"
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0"
+                ]
+              },
+              "requestUrl": "https://api.collegefootballdata.com/api/docs/?url\u003d/api-docs.json",
+              "responseBody": "\u003c!-- HTML for static distribution bundle build --\u003e\n\u003c!DOCTYPE html\u003e\n\u003chtml lang\u003d\"en\"\u003e\n  \u003chead\u003e\n    \u003cmeta charset\u003d\"UTF-8\"\u003e\n    \u003ctitle\u003eSwagger UI\u003c/title\u003e\n    \u003clink rel\u003d\"stylesheet\" type\u003d\"text/css\" href\u003d\"./swagger-ui.css\" \u003e\n    \u003clink rel\u003d\"icon\" type\u003d\"image/png\" href\u003d\"./favicon-32x32.png\" sizes\u003d\"32x32\" /\u003e\n    \u003clink rel\u003d\"icon\" type\u003d\"image/png\" href\u003d\"./favicon-16x16.png\" sizes\u003d\"16x16\" /\u003e\n    \u003cstyle\u003e\n      html\n      {\n        box-sizing: border-box;\n        overflow: -moz-scrollbars-vertical;\n        overflow-y: scroll;\n      }\n\n      *,\n      *:before,\n      *:after\n      {\n        box-sizing: inherit;\n      }\n\n      body\n      {\n        margin:0;\n        background: #fafafa;\n      }\n    \u003c/style\u003e\n  \u003c/head\u003e\n\n  \u003cbody\u003e\n    \u003cdiv id\u003d\"swagger-ui\"\u003e\u003c/div\u003e\n\n    \u003cscript src\u003d\"./swagger-ui-bundle.js\"\u003e \u003c/script\u003e\n    \u003cscript src\u003d\"./swagger-ui-standalone-preset.js\"\u003e \u003c/script\u003e\n    \u003cscript\u003e\n    window.onload \u003d function() {\n      // Begin Swagger UI call region\n      const ui \u003d SwaggerUIBundle({\n        url: \"https://petstore.swagger.io/v2/swagger.json\",\n        dom_id: \u0027#swagger-ui\u0027,\n        deepLinking: true,\n        presets: [\n          SwaggerUIBundle.presets.apis,\n          SwaggerUIStandalonePreset\n        ],\n        plugins: [\n          SwaggerUIBundle.plugins.DownloadUrl\n        ],\n        layout: \"StandaloneLayout\"\n      })\n      // End Swagger UI call region\n\n      window.ui \u003d ui\n    }\n  \u003c/script\u003e\n  \u003c/body\u003e\n\u003c/html\u003e\n",
+              "responseHeaders": {
+                "Server": [
+                  "nginx/1.14.0 (Ubuntu)"
+                ],
+                "Date": [
+                  "Mon, 07 Oct 2019 22:22:43 GMT"
+                ],
+                "Content-Type": [
+                  "text/html; charset\u003dUTF-8"
+                ],
+                "Transfer-Encoding": [
+                  "chunked"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "X-DNS-Prefetch-Control": [
+                  "off"
+                ],
+                "X-Frame-Options": [
+                  "SAMEORIGIN"
+                ],
+                "Strict-Transport-Security": [
+                  "max-age\u003d15552000; includeSubDomains"
+                ],
+                "X-Download-Options": [
+                  "noopen"
+                ],
+                "X-Content-Type-Options": [
+                  "nosniff"
+                ],
+                "X-XSS-Protection": [
+                  "1; mode\u003dblock"
+                ],
+                "Access-Control-Allow-Origin": [
+                  "*"
+                ],
+                "Cache-Control": [
+                  "public, max-age\u003d0"
+                ],
+                "Last-Modified": [
+                  "Sat, 26 Oct 1985 08:15:00 GMT"
+                ],
+                "ETag": [
+                  "W/\"590-7438674ba0\""
+                ],
+                "OkHttp-Sent-Millis": [
+                  "1570486952770"
+                ],
+                "OkHttp-Received-Millis": [
+                  "1570486952975"
+                ]
+              },
+              "statusCode": 200
+            },
+            "httpMethod": "GET",
+            "missingParameter": {
+              "parameterName": "team",
+              "sanitizedName": "team",
+              "value": [
+                "XjFKOgje"
+              ]
+            },
+            "operationId": "getRoster",
+            "parameters": [],
+            "statusCode": 200,
+            "violatedConstraint": "Missing required parameter"
+          }
+        ],
+        "authentication": {
+          "authenticated": false
+        }
+      }
+    ]
+  },
+  "target": {
+    "httpMethod": "GET",
+    "operationId": "getRoster"
+  }
+}
