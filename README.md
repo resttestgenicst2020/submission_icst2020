@@ -1,3 +1,7 @@
+# RestTestGen
+
+A new version of the tool, including its source code, is available at this repository: [https://github.com/SeUniVr/RestTestGen](https://github.com/SeUniVr/RestTestGen).
+
 # ICST Submission - RestTestGen
 
 This is the companion repo for the paper **RESTTESTGEN: Automated Black-Box Testing of RESTful APIs** submitted to ICST 2020.
